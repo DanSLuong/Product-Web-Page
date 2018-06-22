@@ -7,7 +7,7 @@ from flask import (Flask,
                     g)
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
-from database_setup import Base, Team, Player, User
+from database_setup import Base, Product, User
 from flask import session as login_session
 import random
 import string
