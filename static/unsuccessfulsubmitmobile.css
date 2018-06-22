@@ -1,0 +1,2267 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+@font-face {
+  font-family: "BlackHanSans-Regular";
+  src: url('../fonts/BlackHanSans-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url('../fonts/MyriadPro-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "TimesNewRomanPS-BoldMT";
+  src: url('../fonts/Times New Roman Bold.ttf') format("truetype");
+}
+
+.bp1-unsuccessfulsubmitdesktop {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 2028px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-forumbanner {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1122px;
+  height              : 619px;
+  width               : 608px;
+  position            : absolute;
+  margin              : 0;
+  left                : -26px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-forumbanner .bp1-banner {
+  background-color    : rgba(144, 146, 147, 1.0);
+  top                 : 73px;
+  height              : 546px;
+  width               : 453px;
+  position            : absolute;
+  margin              : 0;
+  left                : 152px;
+  border-radius       : 60px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-forumbanner .bp1-parachute {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 76px;
+  height              : 389px;
+  width               : 502px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(21deg); /* IE 9 */
+  -webkit-transform   : rotate(21deg); /* Chrome, Safari, Opera */
+  transform           : rotate(21deg);
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-forumbanner .bp1-text {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 419px;
+  height              : auto;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 153px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-messageforum {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1803px;
+  height              : 44px;
+  width               : 401px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1209px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-messageforum .bp1-textcopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 401px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 165px;
+  width               : 1044px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-banner2 {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : 0px;
+  height              : 165px;
+  width               : 1044px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 117px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 372px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-box {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-logo .bp1-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-banner1 .bp1-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 429px;
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 139px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 223px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-product {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 139px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 324px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 139px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 139px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 512px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 139px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 577px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-contact {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 139px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 738px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-box2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1224px;
+  height              : 547px;
+  width               : 470px;
+  position            : absolute;
+  margin              : 0;
+  left                : 403px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-path {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 1228px;
+  height              : 535px;
+  width               : 458px;
+  position            : absolute;
+  margin              : 0;
+  left                : 409px;
+  border-radius       : 31px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-map {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 708px;
+  height              : 475px;
+  width               : 786px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 891px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 591px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-group .bp1-oval4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 26px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-group .bp1-oval3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
+  height              : 2px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-group .bp1-rectangle1 {
+  background-color    : rgba(170, 171, 174, 1.0);
+  top                 : 13px;
+  height              : 23px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-group .bp1-oval1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-group .bp1-oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-box3 {
+  background-color    : rgba(94, 91, 91, 1.0);
+  top                 : 706px;
+  height              : 56px;
+  width               : 786px;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-mapheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 720px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1613px;
+  height              : auto;
+  width               : 401px;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-thankyouheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1473px;
+  height              : auto;
+  width               : 495px;
+  position            : absolute;
+  margin              : 0;
+  left                : 395px;
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 34.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 43.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1697px;
+  height              : 41px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 555px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-group1 .bp1-rectangle5 {
+  background-color    : rgba(189, 189, 189, 1.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-group1 .bp1-tryagain {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-notsentmailenvelope2copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1273px;
+  height              : 200px;
+  width               : 207px;
+  position            : absolute;
+  margin              : 0;
+  left                : 532px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-contactheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 489px;
+  height              : auto;
+  width               : 293px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 60.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-map1 {
+  background-color    : rgba(110, 103, 103, 1.0);
+  top                 : 498px;
+  height              : 54px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : 358px;
+  border-radius       : 7px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-productbutton {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 502px;
+  height              : auto;
+  width               : 136px;
+  position            : absolute;
+  margin              : 0;
+  left                : 361px;
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 25.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-text15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 570px;
+  height              : auto;
+  width               : 329px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 29.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-girl {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 164px;
+  height              : 322px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-girl .bp1-mask {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 322px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-girl .bp1-girl1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : -12px;
+  height              : 342px;
+  width               : 1046px;
+  position            : absolute;
+  margin              : 0;
+  left                : -18px;
+  overflow            : hidden;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-girl .bp1-girl1 .bp1-mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 342px;
+  width               : 1046px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-girl .bp1-girl1 .bp1-girl2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -309px;
+  height              : 1568px;
+  width               : 1046px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-path1 {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 1911px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 705px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1803px;
+  height              : 244px;
+  width               : 1052px;
+  position            : absolute;
+  margin              : 0;
+  left                : -14px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-facebook {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1965px;
+  height              : 27px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 408px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-facebook .bp1-facebook1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 14px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-instagramicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1965px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 449px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1965px;
+  height              : 27px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 500px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-youtube .bp1-youtube1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 38px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1831px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 265px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1831px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-blog1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1853px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 265px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1875px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 265px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-rectangle2copy {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 1963px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 705px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-rectangle2copy2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 1914px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 705px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1966px;
+  height              : auto;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 721px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-textyouremailaddress {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1915px;
+  height              : 30px;
+  width               : 264px;
+  position            : absolute;
+  margin              : 0;
+  left                : 721px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+  border              : 0;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-textyouremailaddress::placeholder {
+  color               : rgba(122, 122, 122, 0.6);
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-a1630oaklandrdsuit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1831px;
+  height              : auto;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 455px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-subscribetoournew {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1833px;
+  height              : auto;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 707px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-services1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1853px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-coursetraining1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1875px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1897px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-clientcare {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1919px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1941px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1897px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 264px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-unsuccessfulsubmitdesktop .bp1-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1919px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 264px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp2-unsuccessfulsubmitmobile {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 2238px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-sublinks1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2051px;
+  height              : auto;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-sublinks1 .bp2-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 82px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-sublinks1 .bp2-stackedgroup .bp2-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 69px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-sublinks1 .bp2-stackedgroup .bp2-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-sublinks1 .bp2-stackedgroup .bp2-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-sublinks1 .bp2-stackedgroup .bp2-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-sublinks1 .bp2-stackedgroup .bp2-clientcare {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-sublinks1 .bp2-stackedgroup .bp2-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-footer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 194px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-footer .bp2-path {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 58px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-footer .bp2-footer1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-footer .bp2-footer1 .bp2-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 325px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-footer .bp2-box {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 162px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp2-unsuccessfulsubmitmobile .bp2-footer .bp2-box1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 135px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp2-unsuccessfulsubmitmobile .bp2-footer .bp2-emailaddress {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 135px;
+  height              : auto;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-footer .bp2-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 165px;
+  height              : auto;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-footer .bp2-text {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 90px;
+  height              : auto;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-contactheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 413px;
+  height              : auto;
+  width               : 309px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 45.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-text1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 458px;
+  height              : auto;
+  width               : 365px;
+  position            : absolute;
+  margin              : 0;
+  left                : -20px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-girl {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 190px;
+  height              : 213px;
+  width               : 323px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-girl .bp2-mask {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 213px;
+  width               : 323px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-girl .bp2-girl1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 210px;
+  width               : 640px;
+  position            : absolute;
+  margin              : 0;
+  left                : -154px;
+  overflow            : hidden;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-girl .bp2-girl1 .bp2-mask1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 210px;
+  width               : 640px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-girl .bp2-girl1 .bp2-girl2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -176px;
+  height              : 961px;
+  width               : 636px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-productbutton {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 548px;
+  height              : 39px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-productbutton .bp2-box2 {
+  background-color    : rgba(110, 103, 103, 1.0);
+  width               : 102px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  border-radius       : 7px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp2-unsuccessfulsubmitmobile .bp2-productbutton .bp2-box2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 39px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-productbutton .bp2-productbutton1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-productbutton .bp2-productbutton1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 7px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-banner {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : -8px;
+  height              : 199px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 149px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-linkscopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 149px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-linkscopy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 149px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 174px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-linkscopy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 149px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 263px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-linkscopy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 164px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 178px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-linkscopy6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 164px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-linkscopy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 164px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 130px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 117px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-box3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 106px;
+  height              : 11px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 210px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-box4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 106px;
+  height              : 11px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 23px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 179px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : 19px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-logotext .bp2-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : 18px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-logo .bp2-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 103px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-aboutus1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2050px;
+  height              : auto;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-shipping1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2087px;
+  height              : auto;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-clientcare1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2100px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-qaeducational1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2113px;
+  height              : auto;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-services1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2062px;
+  height              : auto;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-coursetraining1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2074px;
+  height              : auto;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2050px;
+  height              : auto;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2062px;
+  height              : auto;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2074px;
+  height              : auto;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2087px;
+  height              : auto;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2100px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-a1630oaklandrdsuit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2050px;
+  height              : auto;
+  width               : 95px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-mapbox {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 683px;
+  height              : 311px;
+  width               : 330px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp2-unsuccessfulsubmitmobile .bp2-map {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 682px;
+  height              : 315px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-map .bp2-map1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : 290px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-map .bp2-box5 {
+  background-color    : rgba(94, 91, 91, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-mapheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 690px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-forumbanner {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1011px;
+  height              : 407px;
+  width               : 405px;
+  position            : absolute;
+  margin              : 0;
+  left                : -83px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-forumbanner .bp2-box6 {
+  background-color    : rgba(144, 146, 147, 1.0);
+  top                 : 32px;
+  height              : 375px;
+  width               : 332px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  border-radius       : 60px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp2-unsuccessfulsubmitmobile .bp2-forumbanner .bp2-parachute {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 47px;
+  height              : 218px;
+  width               : 301px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(21deg); /* IE 9 */
+  -webkit-transform   : rotate(21deg); /* Chrome, Safari, Opera */
+  transform           : rotate(21deg);
+}
+.bp2-unsuccessfulsubmitmobile .bp2-forumbanner .bp2-text15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 235px;
+  height              : auto;
+  width               : 219px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-messageforum {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1335px;
+  height              : 688px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-messageforum .bp2-forumbox {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 688px;
+  width               : 325px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 809px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 207px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-group .bp2-oval4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 26px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-group .bp2-oval3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
+  height              : 2px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-group .bp2-rectangle1 {
+  background-color    : rgba(170, 171, 174, 1.0);
+  top                 : 13px;
+  height              : 23px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-group .bp2-oval1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-group .bp2-oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1829px;
+  height              : 41px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-group1 .bp2-rectangle5copy {
+  background-color    : rgba(189, 189, 189, 1.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp2-unsuccessfulsubmitmobile .bp2-group1 .bp2-tryagaincopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-text16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1760px;
+  height              : auto;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-thankyouheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1591px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 40.0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-notsentmailenvelope2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1418px;
+  height              : 183px;
+  width               : 189px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-socialicons {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2186px;
+  height              : 25px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 192px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-socialicons .bp2-facebook {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-socialicons .bp2-instagramicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-socialicons .bp2-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+}
+.bp2-unsuccessfulsubmitmobile .bp2-mapheader1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 690px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 1023px) {
+  .bp2-unsuccessfulsubmitmobile {
+    display             : block;
+  }
+  .bp1-unsuccessfulsubmitdesktop {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bp2-unsuccessfulsubmitmobile {
+    display             : none;
+  }
+  .bp1-unsuccessfulsubmitdesktop {
+    display             : block;
+  }
+}

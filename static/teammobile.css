@@ -1,0 +1,2389 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+@font-face {
+  font-family: "BlackHanSans-Regular";
+  src: url('../fonts/BlackHanSans-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url('../fonts/MyriadPro-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "TimesNewRomanPS-BoldMT";
+  src: url('../fonts/Times New Roman Bold.ttf') format("truetype");
+}
+
+.anima-overlay {
+  position            : absolute;
+  opacity             : 0;
+  display             : none;
+  top                 : 0;
+  width               : 100%;
+  height              : 100%;
+}
+.bp1-teamdesktop {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 2446px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-an-animation-enter16 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp1-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp1-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp1-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp1-an-animation-enter17 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp1-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp1-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp1-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp1-an-animation-enter18 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp1-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp1-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp1-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp1-teamdesktop .bp1-line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 526px;
+  height              : 3px;
+  width               : 556px;
+  position            : absolute;
+  margin              : 0;
+  left                : 425px;
+}
+.bp1-teamdesktop .bp1-teamheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 496px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp1-teamdesktop .bp1-lashing2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 159px;
+  height              : 320px;
+  width               : 1027px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  overflow            : hidden;
+}
+.bp1-teamdesktop .bp1-lashing2 .bp1-mask {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 320px;
+  width               : 1027px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-lashing2 .bp1-lashing21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -358px;
+  height              : 811px;
+  width               : 1203px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.bp1-teamdesktop .bp1-subheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 560px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-teamdesktop .bp1-sherin {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 618px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  overflow            : hidden;
+}
+.bp1-teamdesktop .bp1-sherin .bp1-mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-sherin .bp1-sherinportrait {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -7px;
+  height              : 241px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : -114px;
+}
+.bp1-teamdesktop .bp1-linaportrait {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 881px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  overflow            : hidden;
+}
+.bp1-teamdesktop .bp1-linaportrait .bp1-mask2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-linaportrait .bp1-lina1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -2px;
+  height              : 248px;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+}
+.bp1-teamdesktop .bp1-text {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 618px;
+  height              : auto;
+  width               : 644px;
+  position            : absolute;
+  margin              : 0;
+  left                : 265px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-text1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 882px;
+  height              : auto;
+  width               : 644px;
+  position            : absolute;
+  margin              : 0;
+  left                : 265px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1419px;
+  height              : auto;
+  width               : 644px;
+  position            : absolute;
+  margin              : 0;
+  left                : 265px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1152px;
+  height              : auto;
+  width               : 644px;
+  position            : absolute;
+  margin              : 0;
+  left                : 264px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1700px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 280px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-barryportrait {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 1689px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  overflow            : hidden;
+}
+.bp1-teamdesktop .bp1-barryportrait .bp1-mask3 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-barryportrait .bp1-barryportrait1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -16px;
+  height              : 295px;
+  width               : 234px;
+  position            : absolute;
+  margin              : 0;
+  left                : -41px;
+}
+.bp1-teamdesktop .bp1-cynthiaportrait {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 1150px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  overflow            : hidden;
+}
+.bp1-teamdesktop .bp1-cynthiaportrait .bp1-mask4 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-cynthiaportrait .bp1-cynthiaportrait1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -7px;
+  height              : 246px;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : -13px;
+}
+.bp1-teamdesktop .bp1-christineportrait {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 1418px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  overflow            : hidden;
+}
+.bp1-teamdesktop .bp1-christineportrait .bp1-mask5 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-christineportrait .bp1-christineportrait1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -9px;
+  height              : 244px;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+}
+.bp1-teamdesktop .bp1-banner {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -4px;
+  height              : 165px;
+  width               : 1044px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-banner1 {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : 0px;
+  height              : 165px;
+  width               : 1044px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 117px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 372px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-box {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-logo .bp1-text16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+}
+.bp1-teamdesktop .bp1-banner .bp1-text17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 429px;
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-teamdesktop .bp1-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 139px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 229px;
+}
+.bp1-teamdesktop .bp1-stackedgroup .bp1-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-teamdesktop .bp1-stackedgroup .bp1-product {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-teamdesktop .bp1-stackedgroup .bp1-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-teamdesktop .bp1-stackedgroup .bp1-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-teamdesktop .bp1-stackedgroup .bp1-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-teamdesktop .bp1-stackedgroup .bp1-contact {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-teamdesktop .bp1-footer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 244px;
+  width               : 1052px;
+  position            : absolute;
+  margin              : 0;
+  left                : -16px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-path {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 109px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-footer1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 244px;
+  width               : 1052px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-footer1 .bp1-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 244px;
+  width               : 1052px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-footer1 .bp1-socialicons {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 162px;
+  height              : 29px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 421px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-facebook {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-instagramicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-rectangle2copy {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 161px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp1-teamdesktop .bp1-footer .bp1-rectangle2copy2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 112px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp1-teamdesktop .bp1-footer .bp1-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 164px;
+  height              : auto;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 735px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-textyouremailaddress {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 113px;
+  height              : 30px;
+  width               : 223px;
+  position            : absolute;
+  margin              : 0;
+  left                : 735px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+  border              : 0;
+}
+.bp1-teamdesktop .bp1-footer .bp1-textyouremailaddress::placeholder {
+  color               : rgba(122, 122, 122, 0.6);
+}
+.bp1-teamdesktop .bp1-footer .bp1-address {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 29px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 469px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-address .bp1-a1630oaklandrdsuit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 168px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-subscribeinfo {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 278px;
+  position            : absolute;
+  margin              : 0;
+  left                : 721px;
+}
+.bp1-teamdesktop .bp1-footer .bp1-subscribeinfo .bp1-subscribetoournew {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 280px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footerlinks {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2234px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.bp1-teamdesktop .bp1-footerlinks .bp1-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 162px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footerlinks .bp1-services1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footerlinks .bp1-coursetraining1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footerlinks .bp1-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footerlinks .bp1-clientcare {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footerlinks .bp1-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footerlinks2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2234px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 216px;
+}
+.bp1-teamdesktop .bp1-footerlinks2 .bp1-products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 162px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footerlinks2 .bp1-blog1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footerlinks2 .bp1-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footerlinks2 .bp1-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-teamdesktop .bp1-footerlinks2 .bp1-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp2-teammobile {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 3200px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-an-animation-enter8 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp2-an-animation-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp2-an-animation-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp2-an-animation-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp2-teammobile .bp2-teamheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 406px;
+  height              : auto;
+  width               : 309px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 43.0px;
+}
+.bp2-teammobile .bp2-text {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 751px;
+  height              : auto;
+  width               : 273px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.bp2-teammobile .bp2-text1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1183px;
+  height              : auto;
+  width               : 273px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.bp2-teammobile .bp2-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1629px;
+  height              : auto;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-teammobile .bp2-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 23px;
+  bottom              : 250px;
+  height              : auto;
+  width               : 273px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-teammobile .bp2-subhead {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 452px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp2-teammobile .bp2-lashing2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 187px;
+  height              : 214px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.bp2-teammobile .bp2-lashing2 .bp2-mask {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 214px;
+  width               : 322px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-lashing2 .bp2-lashing2copy {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : -16px;
+  height              : 245px;
+  width               : 787px;
+  position            : absolute;
+  margin              : 0;
+  left                : -272px;
+  overflow            : hidden;
+}
+.bp2-teammobile .bp2-lashing2 .bp2-lashing2copy .bp2-mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 245px;
+  width               : 787px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-lashing2 .bp2-lashing2copy .bp2-lashing21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -274px;
+  height              : 621px;
+  width               : 921px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.bp2-teammobile .bp2-sherinportrait {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 516px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  overflow            : hidden;
+}
+.bp2-teammobile .bp2-sherinportrait .bp2-mask2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-sherinportrait .bp2-sherinportrait1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -7px;
+  height              : 241px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : -114px;
+}
+.bp2-teammobile .bp2-linaportrait {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 915px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  overflow            : hidden;
+}
+.bp2-teammobile .bp2-linaportrait .bp2-mask3 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-linaportrait .bp2-linaportrait1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -2px;
+  height              : 248px;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+}
+.bp2-teammobile .bp2-cynthiaportrait {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 1373px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  overflow            : hidden;
+}
+.bp2-teammobile .bp2-cynthiaportrait .bp2-mask4 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-cynthiaportrait .bp2-cynthiaportrait1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -7px;
+  height              : 246px;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : -13px;
+}
+.bp2-teammobile .bp2-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2150px;
+  height              : auto;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-teammobile .bp2-barryportrait {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 2337px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  overflow            : hidden;
+}
+.bp2-teammobile .bp2-barryportrait .bp2-mask5 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-barryportrait .bp2-barryportrait1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -16px;
+  height              : 295px;
+  width               : 234px;
+  position            : absolute;
+  margin              : 0;
+  left                : -41px;
+}
+.bp2-teammobile .bp2-christineportrait {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 1886px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  overflow            : hidden;
+}
+.bp2-teammobile .bp2-christineportrait .bp2-mask6 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 236px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-christineportrait .bp2-christineportrait1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -7px;
+  height              : 255px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : -14px;
+}
+.bp2-teammobile .bp2-banner {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : -8px;
+  height              : 199px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 130px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 117px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-box {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 106px;
+  height              : 11px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 210px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 106px;
+  height              : 11px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 23px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 179px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : 19px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : 18px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+}
+.bp2-teammobile .bp2-logo .bp2-text17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 103px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-teammobile .bp2-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 155px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+}
+.bp2-teammobile .bp2-stackedgroup .bp2-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-teammobile .bp2-stackedgroup .bp2-linkscopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 27px;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-teammobile .bp2-stackedgroup .bp2-linkscopy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 27px;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-teammobile .bp2-stackedgroup .bp2-linkscopy3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 27px;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-teammobile .bp2-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 170px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+}
+.bp2-teammobile .bp2-stackedgroup2 .bp2-linkscopy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-teammobile .bp2-stackedgroup2 .bp2-linkscopy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-teammobile .bp2-stackedgroup2 .bp2-linkscopy6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-teammobile .bp2-footer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 194px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : -5px;
+}
+.bp2-teammobile .bp2-footer .bp2-path {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 58px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+}
+.bp2-teammobile .bp2-footer .bp2-footer1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-footer .bp2-footer1 .bp2-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 325px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-footer .bp2-box2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 162px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp2-teammobile .bp2-footer .bp2-box3 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 135px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.bp2-teammobile .bp2-footer .bp2-textyouremail {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 130px;
+  height              : 30px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+  border              : 0;
+}
+.bp2-teammobile .bp2-footer .bp2-textyouremail::placeholder {
+  color               : rgba(122, 122, 122, 0.6);
+}
+.bp2-teammobile .bp2-footer .bp2-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 165px;
+  height              : auto;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-teammobile .bp2-footer .bp2-subscribeinformation {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 92px;
+  height              : auto;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.bp2-teammobile .bp2-footer .bp2-subscribeinformation .bp2-text18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-socialicons {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3157px;
+  height              : 25px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 190px;
+}
+.bp2-teammobile .bp2-socialicons .bp2-facebook {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-teammobile .bp2-socialicons .bp2-instagramicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+}
+.bp2-teammobile .bp2-socialicons .bp2-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+}
+.bp2-teammobile .bp2-sublinks1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3013px;
+  height              : auto;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 82px;
+}
+.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 69px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-clientcare {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-sublinks2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3013px;
+  height              : auto;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 118px;
+}
+.bp2-teammobile .bp2-sublinks2 .bp2-products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-sublinks2 .bp2-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-sublinks2 .bp2-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-sublinks2 .bp2-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-sublinks2 .bp2-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-teammobile .bp2-address {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3013px;
+  height              : auto;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 202px;
+}
+.bp2-teammobile .bp2-address .bp2-a1630oaklandrdsuit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 1023px) {
+  .bp2-teammobile {
+    display             : block;
+  }
+  .bp1-teamdesktop {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bp2-teammobile {
+    display             : none;
+  }
+  .bp1-teamdesktop {
+    display             : block;
+  }
+}
