@@ -39,23 +39,44 @@ def showAboutUs():
 def showContact():
     return render_template('contactmobile.html')
 
-# Products page
+# Product pages
 @app.route('/product/products')
 def showProducts():
     return render_template('productmobile.html')
 
-# Courses page
+@app.route('/product/shipping')
+def showShipping():
+    return render_template('shippingmobile.html')
+
+# Under the services tab.
+@app.route('/services/services')
+def showServices():
+    return render_template('servicesmobile.html')
+
+@app.route('/services/team')
+def showTeam():
+    return render_template('teammoobile.html')
+
+@app.route('/services/clientcare')
+def showClientCare():
+    return render_template('clientcaremobile.html')
+
+# Course pages
 @app.route('/course_training/course')
 def showCourse():
     return render_template('coursemobile.html')
 
+@app.route('/course_training/success_stories')
+def showSuccessStories():
+    return render_template('successstoriesmobile.html')
+
+@app.route('/course_training/QandA')
+def showQandA():
+    return render_template('screen1.html')
+
 @app.route('/blog')
 def showBlog():
     return render_template('blogmobile.html')
-
-@app.route('/product/shipping')
-def showShipping():
-    return render_template('shippingmobile.html')
 
 
 if __name__ == '__main__':
