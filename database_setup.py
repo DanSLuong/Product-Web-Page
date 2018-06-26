@@ -47,8 +47,38 @@ class Product(Base):
         }
 
 
-#InventoryItems fields: InventoryItemId, Name, CurrentInventoryLevel, IdealInventoryLevel
-#InventoryChangeRecords fields: InventoryChangeId, InventoryItemId, Change (int)
+class Inventory(Base):
+    __tablename__ = 'inventory'
+
+    id = Column(Integer, primary_key=True)
+    stockCount = Column(Integer, nullable=False)
+
+    product_id = Column(Integer,ForeignKey('product.id'))
+    product = relationship(Product, backref='inventory')
+
+
+    @property
+    def serialize(self):
+        """Return object data in easily serializeable format"""
+        return{
+            'stockCount': self.stockCount,
+            'id': self.id,
+        }
+
+
+class ProductReviews(Base):
+    __tablename__ = 'productReviews'
+
+    id = Column(Integer, primary_key=True)
+    rating = Column(Integer, nullable=False)
+
+    @property
+    def serialize(self):
+        """Return object data in easily serializeable format"""
+        return{
+            'rating': self.rating,
+            'id': self.id,
+        }
 
 
 class Sale(Base):
@@ -56,13 +86,11 @@ class Sale(Base):
 
     # SaleTransactionId
     id = Column(Integer, primary_key=True)
-    dateTime = Column(date_trunc(text, timestamp), nullable=False)
+    # dateTime = Column(datetime(), nullable=False)
     totalSale = Column(Integer, nullable=False)
     
-    team_id = Column(Integer, ForeignKey('team.id'))
-    team = relationship(Product, backref=backref('sale', cascade='all, delete'))
     user_id = Column(Integer, ForeignKey('user.id'))
-    user = relationship(User, backref='items')
+    user = relationship(User, backref='sale')
 
 
     @property
@@ -84,13 +112,13 @@ class SaleItem(Base):
     
     # SaleTransactionId
     sale_id = Column(Integer, ForeignKey('sale.id'))
-    sale = relationship(Product, backref=backref('saleItem', cascade='all, delete'))
+    sale = relationship(Sale, backref=backref('saleItem', cascade='all, delete'))
     # ProductID
     product_id = Column(Integer, ForeignKey('product.id'))
     product = relationship(Product, backref=backref('saleItem', cascade='all, delete'))
     
     user_id = Column(Integer, ForeignKey('user.id'))
-    user = relationship(User, backref='items')
+    user = relationship(User, backref='saleItem')
 
 
     @property
