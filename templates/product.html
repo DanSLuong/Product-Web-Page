@@ -7,7 +7,7 @@
         <link href="{{ url_for('static', filename='productOverlay.css') }}" rel="stylesheet" type="text/css"/>
         <link href="{{ url_for('static', filename='serviceOverlay.css') }}" rel="stylesheet" type="text/css"/>
         <link href="{{ url_for('static', filename='courseOverlay.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ url_for('static', filename='blueLash.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='products.css') }}" rel="stylesheet" type="text/css"/>
         <meta content="Launchpad by Anima" name="author">
         </meta>
     </head>
@@ -16,11 +16,12 @@
         <input id="anPageName" name="page" type="hidden" value="bluelash"/>
         <div class="bluelash">
             <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
+                {% for i in products}
                 <div class="bluelashheader">
-                    Blue Lash
+                    {{i.name}}
                 </div>
                 <div class="price">
-                    $23.00
+                    {{i.cost}}
                 </div>
                 <img anima-src="{{url_for('static', filename='img/vetustweezer-star@2x.png')}}" class="star" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <img anima-src="{{url_for('static', filename='img/vetustweezer-star@2x.png')}}" class="star1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
@@ -34,7 +35,7 @@
                     SKU:
                 </div>
                 <div class="text1">
-                    754697343789
+                    {{i.sku}}
                 </div>
                 <div class="text2">
                     Gives your lashes a new color boost and see immediate results.
@@ -152,6 +153,7 @@
                         <img anima-src="{{url_for('static', filename='img/vetustweezer-text 11@2x.png')}}" class="text21" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                 </a>
+                {% endfor %}
             </div>
         </div>
         <script>

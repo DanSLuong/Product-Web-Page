@@ -4,6 +4,8 @@ from sqlalchemy import Column, ForeignKey, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship, backref
 from sqlalchemy import create_engine
+from sqlalchemy.dialects import postgresql
+from sqlalchemy.dialects.postgresql import *
 
 Base = declarative_base()
 
@@ -20,18 +22,13 @@ class Product(Base):
     __tablename__ = 'product'
 
     id = Column(Integer, primary_key=True)
-    sku = Column(Integer, nullable=False)
+    sku = Column(FLOAT, nullable=False)
     name = Column(String(250), nullable=False)
     URL = Column(String(250), nullable=False)
-    cost = Column(Integer, nullable=False)
-    reviews = Column(Integer)
-    stockCount = Column(Integer, nullable=False)
+    cost = Column(NUMERIC(12,2), nullable=False)
     category = Column(String(250), nullable=False)
 
-    user_id = Column(Integer, ForeignKey('user.id'))
-    user = relationship(User, backref='product')
-
-
+    
     @property
     def serialize(self):
         """Return object data in easily serializeable format"""
@@ -53,9 +50,9 @@ class Inventory(Base):
     id = Column(Integer, primary_key=True)
     stockCount = Column(Integer, nullable=False)
 
-    product_id = Column(Integer,ForeignKey('product.id'))
-    product = relationship(Product, backref='inventory')
-
+    product_id = Column(Integer, ForeignKey('product.id'))
+    product = relationship(Product, backref=backref('inventory', cascade='all, delete'))
+    
 
     @property
     def serialize(self):
@@ -130,6 +127,6 @@ class SaleItem(Base):
             'quantity': self.quantity,
         }
 
-engine = create_engine('sqlite:///products.db')
-
+# engine = create_engine('sqlite:///products.db')
+engine = create_engine('postgresql://catalog:password@localhost/catalog')
 Base.metadata.create_all(engine)

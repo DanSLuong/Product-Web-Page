@@ -22,6 +22,13 @@ from functools import wraps
 app = Flask(__name__)
 APPLICATION_NAME = "Website for a client"
 
+# Connect to the Database and creates a session
+engine = create_engine('sqlite:///products.db')
+Base.metadata.bind = engine
+
+DBSession = sessionmaker(bind=engine)
+session = DBSession()
+
 
 # Homepage
 @app.route('/')
@@ -43,6 +50,18 @@ def showContact():
 @app.route('/product/products')
 def showProducts():
     return render_template('productmobile.html')
+"""
+@app.route('/product/products')
+def showProducts():
+    return render_template('products.html')
+
+# Shows infromation about the selected player
+@app.route('/product/products/<int:product_id>/productinfo/')
+@app.route('/product/products/<int:product_id>/')
+def showProductInfo(team_id, player_id):
+    product = session.query(Product).filter_by(id=product_id).one()
+    return render_template('product.html', product=product)
+"""
 
 @app.route('/product/shipping')
 def showShipping():

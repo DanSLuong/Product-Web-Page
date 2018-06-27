@@ -1,0 +1,12 @@
+<div class='pane'>
+   {% for product in products %}
+
+   <p>
+       {{product.name}}
+       <br>
+       {{product.sku}}
+       <br>
+       ${{product.cost}}
+
+    {% endfor %}
+</div>
