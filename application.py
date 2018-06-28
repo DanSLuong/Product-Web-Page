@@ -7,7 +7,7 @@ from flask import (Flask,
                     g)
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
-from database_setup import Base, Product, User
+from database_setup import Base, Product, Inventory, Sale, SaleItem, Employee, User
 from flask import session as login_session
 import random
 import string
