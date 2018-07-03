@@ -1,0 +1,9 @@
+<html>
+    <body>
+        <h1> You want to delete {{blog.title}} from the blog posting list? </h1>
+        <form action='#' method='post'>
+            <input type='submit', value='Delete'>
+        </form>
+        <a href="{{url_for('showBlog')}}"> Cancel </a>
+    </body>
+</html>

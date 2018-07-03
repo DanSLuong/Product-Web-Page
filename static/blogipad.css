@@ -1245,10 +1245,10 @@ div {
 }
 .bp1-blogdesktop .bp1-blogdate {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1739px;
+  /*top                 : 1739px;
   height              : 29px;
-  width               : 169px;
-  position            : absolute;
+  width               : 169px;*/
+  position            : relative;/*absolute;*/
   margin              : 0;
   left                : 52px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -1256,64 +1256,6 @@ div {
   transform           : rotate(0deg);
 }
 .bp1-blogdesktop .bp1-blogdate .bp1-date {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 29.0px;
-}
-.bp1-blogdesktop .bp1-blogdate1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1178px;
-  height              : 29px;
-  width               : 173px;
-  position            : absolute;
-  margin              : 0;
-  left                : 52px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-blogdate1 .bp1-date1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 29.0px;
-}
-.bp1-blogdesktop .bp1-blogdate2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 646px;
-  height              : 29px;
-  width               : 173px;
-  position            : absolute;
-  margin              : 0;
-  left                : 52px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-blogdate2 .bp1-date2 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : auto;
@@ -1347,79 +1289,11 @@ div {
   text-align          : left;
   line-height         : 43.0px;
 }
-.bp1-blogdesktop .bp1-blogheader1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1133px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 51px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 36.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 43.0px;
-}
-.bp1-blogdesktop .bp1-blogheader2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 601px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 51px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 36.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 43.0px;
-}
 .bp1-blogdesktop .bp1-howlashextensions {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 1904px;
   height              : auto;
   width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 531px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-thankyouforthose {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 773px;
-  height              : auto;
-  width               : 389px;
-  position            : absolute;
-  margin              : 0;
-  left                : 531px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-markonyourcalenda {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1247px;
-  height              : auto;
-  width               : 387px;
   position            : absolute;
   margin              : 0;
   left                : 531px;
@@ -1657,10 +1531,10 @@ div {
 }
 .bp3-blogmobile .bp3-blogheader {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 415px;
+  /*top                 : 415px;*/
   height              : auto;
   width               : 126px;
-  position            : absolute;
+  position            : relative;/*absolute;*/
   margin              : 0;
   left                : 97px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -2724,52 +2598,6 @@ div {
   text-align          : left;
   line-height         : 12.0px;
 }
-.bp3-blogmobile .bp3-blogdatecopy2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 765px;
-  height              : 16px;
-  width               : 102px;
-  position            : absolute;
-  margin              : 0;
-  left                : 42px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-blogmobile .bp3-blogdatecopy2 .bp3-date {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 102px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.bp3-blogmobile .bp3-blogheadercopy2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 737px;
-  height              : auto;
-  width               : 252px;
-  position            : absolute;
-  margin              : 0;
-  left                : 42px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
-}
 .bp3-blogmobile .bp3-vegasbooth {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 792px;
@@ -2781,69 +2609,6 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-}
-.bp3-blogmobile .bp3-thankyouforthosecopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1010px;
-  height              : auto;
-  width               : 252px;
-  position            : absolute;
-  margin              : 0;
-  left                : 27px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp3-blogmobile .bp3-blogdatecopy3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1194px;
-  height              : 16px;
-  width               : 94px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-blogmobile .bp3-blogdatecopy3 .bp3-date1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 94px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.bp3-blogmobile .bp3-blogheadercopy3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1166px;
-  height              : auto;
-  width               : 252px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
 }
 .bp3-blogmobile .bp3-vegascopy {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -2859,10 +2624,10 @@ div {
 }
 .bp3-blogmobile .bp3-blogdate {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1851px;
+  /*top                 : 1851px;*/
   height              : 16px;
   width               : 92px;
-  position            : absolute;
+  position            : relative;/*absolute;*/
   margin              : 0;
   left                : 18px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -2888,10 +2653,10 @@ div {
 }
 .bp3-blogmobile .bp3-blogheader1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1825px;
+  /*top                 : 1825px;*/
   height              : auto;
   width               : 174px;
-  position            : absolute;
+  position            : relative;/*absolute;*/
   margin              : 0;
   left                : 18px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -2914,40 +2679,6 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-}
-.bp3-blogmobile .bp3-markonyourcalenda {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1483px;
-  height              : auto;
-  width               : 252px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp3-blogmobile .bp3-howlashextensionscopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2191px;
-  height              : auto;
-  width               : 278px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
 }
 .bp3-blogmobile .bp3-line3 {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -4270,132 +4001,6 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-blogdatecopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 818px;
-  height              : 16px;
-  width               : 94px;
-  position            : absolute;
-  margin              : 0;
-  left                : 48px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-blogdatecopy .bp2-date {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 94px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.bp2-blogipad .bp2-blogdatecopy2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 490px;
-  height              : 16px;
-  width               : 102px;
-  position            : absolute;
-  margin              : 0;
-  left                : 42px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-blogdatecopy2 .bp2-date1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 102px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.bp2-blogipad .bp2-blogheadercopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 790px;
-  height              : auto;
-  width               : 252px;
-  position            : absolute;
-  margin              : 0;
-  left                : 48px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
-}
-.bp2-blogipad .bp2-blogheadercopy2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 462px;
-  height              : auto;
-  width               : 252px;
-  position            : absolute;
-  margin              : 0;
-  left                : 42px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
-}
-.bp2-blogipad .bp2-thankyouforthose {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 563px;
-  height              : auto;
-  width               : 252px;
-  position            : absolute;
-  margin              : 0;
-  left                : 352px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-blogipad .bp2-markonyourcalenda {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 856px;
-  height              : auto;
-  width               : 252px;
-  position            : absolute;
-  margin              : 0;
-  left                : 352px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
 .bp2-blogipad .bp2-line2 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 1137px;
@@ -4446,10 +4051,10 @@ div {
 }
 .bp2-blogipad .bp2-blogdate {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1192px;
+  /*top                 : 1192px;*/
   height              : 16px;
   width               : 92px;
-  position            : absolute;
+  position            : relative;/*absolute;*/
   margin              : 0;
   left                : 42px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -4504,10 +4109,10 @@ div {
 }
 .bp2-blogipad .bp2-howlashextensions {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1304px;
+  /*top                 : 1304px;*/
   height              : auto;
   width               : 278px;
-  position            : absolute;
+  position            : relative;/*absolute;*/
   margin              : 0;
   left                : 352px;
   -ms-transform       : rotate(0deg); /* IE 9 */

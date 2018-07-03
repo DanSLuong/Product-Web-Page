@@ -1,0 +1,21 @@
+<html>
+
+<body>
+    <div class="entryForm">
+        <h1> New Blog Post </h1>
+        <form action="#" method='post'>
+            <p> Title: </p>
+            <input type='text' size='30' name='title'>
+            <p> Date: </p>
+            <input type='text' size='30' name='dateValue' placeholder='EX: Jun 17, 2018'>
+            <p> Event Description: </p>
+            <input type='text' size='30' name='story'>
+            <p> pictureURL: </p>
+            <input type='text' size='30' name='dateValue' placeholder='EX: img/blog-desktop-vegas.png'>
+            <input type='submit' value='Create'>
+            <a href="{{url_for('showBlog')}}"> Cancel </a>
+        </form>
+    </div>
+</body>
+
+</html>
