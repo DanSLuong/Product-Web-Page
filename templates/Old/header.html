@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="{{ url_for('static', filename='img/favicon.png') }}" rel="shortcut icon" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
+    <link href="{{ url_for('static', filename='overlay.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url_for('static', filename='productOverlay.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url_for('static', filename='serviceOverlay.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url_for('static', filename='courseOverlay.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url_for('static', filename='aboutusmobile.css') }}" rel="stylesheet" type="text/css" />
+    <meta content="Launchpad by Anima" name="author">
+    </meta>
+</head>
+
+<body style="margin: 0;
+background: rgba(255, 255, 255, 1.0);">
+    <div class="bp1-banner">
+        <div class="bp1-banner1">
+        </div>
+        <div class="bp1-stackedgroup">
+            <a href="{{url_for('showAboutUs')}}">
+                <div class="bp1-links">
+                    About Us
+                </div>
+            </a>
+            <a href="javascript:animaShowOverlay('productoverlay', 'bp1-an-animation-enter1'); anima_loadAsyncSrc(); ">
+                <div class="bp1-product">
+                    Product
+                </div>
+            </a>
+            <a href="javascript:animaShowOverlay('serviceoverlay', 'bp1-an-animation-enter2'); anima_loadAsyncSrc(); ">
+                <div class="bp1-services">
+                    Services
+                </div>
+            </a>
+            <a href="{{url_for('showBlog')}}">
+                <div class="bp1-blog">
+                    Blog
+                </div>
+            </a>
+            <a href="javascript:animaShowOverlay('courseoverlay', 'bp1-an-animation-enter3'); anima_loadAsyncSrc(); ">
+                <div class="bp1-coursetraining">
+                    Course Training
+                </div>
+            </a>
+            <a href="{{url_for('showContact')}}">
+                <div class="bp1-contact">
+                    Contact
+                </div>
+            </a>
+        </div>
+        <div class="bp1-group4">
+            <div class="bp1-group5">
+                <a href="{{url_for('showHome')}}">
+                    <div class="bp1-logo">
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-logo@2x.png')}}" class="bp1-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-spoolie@2x.png')}}" class="bp1-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-box@2x.png')}}" class="bp1-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-spoolie 1@2x.png')}}" class="bp1-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-box@2x.png')}}" class="bp1-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text@2x.png')}}" class="bp1-text" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text 1@2x.png')}}" class="bp1-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text 2@2x.png')}}" class="bp1-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text 3@2x.png')}}" class="bp1-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text 4@2x.png')}}" class="bp1-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text 5@2x.png')}}" class="bp1-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text 6@2x.png')}}" class="bp1-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text 7@2x.png')}}" class="bp1-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text 8@2x.png')}}" class="bp1-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text 9@2x.png')}}" class="bp1-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text 10@2x.png')}}" class="bp1-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                        <img anima-src="{{url_for('static', filename='img/vetustweezer-text 11@2x.png')}}" class="bp1-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                        />
+                    </div>
+                </a>
+                <div class="bp1-text12">
+                    LASH EXTENSIONS
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

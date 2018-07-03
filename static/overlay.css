@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 @font-face {
-  font-family: "BlackHanSans-Regular";
-  src: url('../fonts/BlackHanSans-Regular.ttf') format("truetype");
-}
-@font-face {
   font-family: "MyriadPro-Regular";
   src: url('../fonts/MyriadPro-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "BlackHanSans-Regular";
+  src: url('../fonts/BlackHanSans-Regular.ttf') format("truetype");
 }
 @font-face {
   font-family: "TimesNewRomanPS-BoldMT";
@@ -15,9 +15,9 @@
 
 .overlay {
   width               : 100%;
-  min-width           : 154px;
+  min-width           : 320px;
   height              : 100vh;
-  min-height          : 180px;
+  min-height          : 6497px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -32,14 +32,17 @@ div {
 .overlay .rollover {
   background-color    : rgba(130, 125, 125, 1.0);
   top                 : 0px;
-  height              : 182px;
-  width               : 155px;
+  height              : 6497px;
+  width               : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   border-style        : solid;
   border-width        : 1px;
   border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   opacity             : 0.56;
 }
 .overlay .overlaystackedlinks {
@@ -54,6 +57,9 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
 .overlay .overlaystackedlinks .shipping {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -61,6 +67,9 @@ div {
   height              : auto;
   margin              : 0;
   width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
   font-size           : 18.0px;
   color               : rgba(255, 255, 255, 1.0);
@@ -73,6 +82,9 @@ div {
   height              : auto;
   margin              : 7px 0 0 0;
   width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
   font-size           : 18.0px;
   color               : rgba(255, 255, 255, 1.0);
@@ -85,6 +97,9 @@ div {
   height              : auto;
   margin              : 7px 0 0 0;
   width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
   font-size           : 18.0px;
   color               : rgba(255, 255, 255, 1.0);
@@ -97,6 +112,9 @@ div {
   height              : auto;
   margin              : 7px 0 0 0;
   width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
   font-size           : 18.0px;
   color               : rgba(255, 255, 255, 1.0);
@@ -109,6 +127,9 @@ div {
   height              : auto;
   margin              : 7px 0 0 0;
   width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
   font-size           : 18.0px;
   color               : rgba(255, 255, 255, 1.0);

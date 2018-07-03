@@ -1,0 +1,5039 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url('../fonts/MyriadPro-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "BlackHanSans-Regular";
+  src: url('../fonts/BlackHanSans-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "TimesNewRomanPS-BoldMT";
+  src: url('../fonts/Times New Roman Bold.ttf') format("truetype");
+}
+
+.anima-overlay {
+  position            : absolute;
+  opacity             : 0;
+  display             : none;
+  top                 : 0;
+  width               : 100%;
+  height              : 100%;
+}
+.bp3-clientcareipad {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 2409px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-an-animation-enter10 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp3-an-animation-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp3-an-animation-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp3-an-animation-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp3-an-animation-enter11 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp3-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp3-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp3-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp3-an-animation-enter12 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp3-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp3-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp3-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp3-clientcareipad .bp3-banner {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 114px;
+  width               : 774px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-banner1 {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : 0px;
+  height              : 114px;
+  width               : 774px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 73px;
+  width               : 165px;
+  position            : absolute;
+  margin              : 0;
+  left                : 293px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : 8px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-box {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 67px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 133px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : 8px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 67px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 13px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 11px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 13px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 11px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 49px;
+  height              : 11px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-logo .bp3-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 49px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 136px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-banner .bp3-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : auto;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 92px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup .bp3-linkscopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup .bp3-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup .bp3-product {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup .bp3-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup .bp3-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup .bp3-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup .bp3-contact {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  bottom              : calc(0.00% - 2px);
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : -14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footer .bp3-path {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 80px;
+  height              : 27px;
+  width               : 219px;
+  position            : absolute;
+  margin              : 0;
+  left                : 543px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footer .bp3-footer1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footer .bp3-footer1 .bp3-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footer .bp3-footer1 .bp3-socialicons {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : 21px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 318px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-facebook {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-instagramicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footer .bp3-rectangle2copy {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 118px;
+  height              : 28px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footer .bp3-rectangle2copy2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 82px;
+  height              : 28px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footer .bp3-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 121px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 555px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footer .bp3-textyouremailaddress {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 30px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 555px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+  border              : 0;
+}
+.bp3-clientcareipad .bp3-footer .bp3-textyouremailaddress::placeholder {
+  color               : rgba(122, 122, 122, 0.6);
+}
+.bp3-clientcareipad .bp3-address {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2246px;
+  height              : 72px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 318px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-address .bp3-a1630oaklandrdsuit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-subscribeinfo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2246px;
+  height              : 36px;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 531px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-subscribeinfo .bp3-subscribetoournew {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2243px;
+  height              : auto;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footerlinks .bp3-home {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks .bp3-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks .bp3-services1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks .bp3-coursetraining1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks .bp3-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks .bp3-clientcare {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks .bp3-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2246px;
+  height              : auto;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-footerlinks2 .bp3-products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks2 .bp3-blog1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks2 .bp3-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks2 .bp3-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-footerlinks2 .bp3-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-spoolie2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 143px;
+  height              : 181px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-spoolie2 .bp3-mask {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 181px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-spoolie2 .bp3-spoolie3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -6px;
+  height              : 314px;
+  width               : 707px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-clientcareheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 383px;
+  height              : auto;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 38.0px;
+}
+.bp3-clientcareipad .bp3-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 396px;
+  height              : 2px;
+  width               : 374px;
+  position            : absolute;
+  margin              : 0;
+  left                : 301px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-quote {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 338px;
+  height              : auto;
+  width               : 388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.49;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 452px;
+  height              : auto;
+  width               : 566px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 496px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 15px 0 0 0;
+  width               : 566px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-text21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-teardropicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 546px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-text22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 533px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-spoolieicond {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-text15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 546px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-fingericon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-text16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-line2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 546px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-brushicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 78px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-text17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 566px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-line3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 546px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-eyelinericon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-text18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-line4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 546px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-qtipicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-text19 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-line5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 546px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-hairdryericon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 65px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-text20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp3-clientcareipad .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-line6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 546px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-qaheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 143px;
+  height              : auto;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 488px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 38.0px;
+}
+.bp3-clientcareipad .bp3-text23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 202px;
+  height              : auto;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 520px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-clientcareipad .bp3-services2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 325px;
+  height              : 25px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 565px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-services2 .bp3-button {
+  background-color    : rgba(215, 215, 215, 1.0);
+  width               : 80px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  border-radius       : 7px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-clientcareipad .bp3-services2 .bp3-button-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 25px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-clientcareipad .bp3-services2 .bp3-servicesbutton {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 12.0px;
+}
+.bp3-clientcareipad .bp3-services2 .bp3-servicesbutton-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 4px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp2-clientcaremobile {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 2496px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-an-animation-enter11 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp2-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes bp2-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes bp2-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes bp2-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.bp2-clientcaremobile .bp2-clientcareheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 649px;
+  height              : auto;
+  width               : 204px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.bp2-clientcaremobile .bp2-line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 660px;
+  height              : 2px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-text {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 679px;
+  height              : auto;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.bp2-clientcaremobile .bp2-aftercareheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1105px;
+  height              : auto;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.bp2-clientcaremobile .bp2-line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1118px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1206px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1357px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 242px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1464px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 241px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1589px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 247px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1748px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 242px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1870px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2027px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 243px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1119px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1207px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1358px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1465px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1590px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1749px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1871px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-line16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2028px;
+  height              : 3px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-spoolie {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 191px;
+  height              : 177px;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-spoolie .bp2-mask {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 177px;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-spoolie .bp2-spooliecopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 263px;
+  width               : 595px;
+  position            : absolute;
+  margin              : 0;
+  left                : -10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-banner {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : calc(0.00% - 8px);
+  height              : 199px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 152px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-stackedgroup .bp2-linkscopy7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-clientcaremobile .bp2-stackedgroup .bp2-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 27px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-clientcaremobile .bp2-stackedgroup .bp2-linkscopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 27px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-clientcaremobile .bp2-stackedgroup .bp2-linkscopy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 27px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-clientcaremobile .bp2-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 170px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-stackedgroup2 .bp2-linkscopy8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-clientcaremobile .bp2-stackedgroup2 .bp2-linkscopy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-clientcaremobile .bp2-stackedgroup2 .bp2-linkscopy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-clientcaremobile .bp2-stackedgroup2 .bp2-linkscopy6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-clientcaremobile .bp2-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 130px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 117px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-box {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-spoolie2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-logotext .bp2-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-logo .bp2-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 103px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-clientcaremobile .bp2-quote {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 368px;
+  height              : auto;
+  width               : 277px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.49;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-clientcaremobile .bp2-socialicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2978px;
+  height              : 25px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 197px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-socialicon .bp2-facebook {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-socialicon .bp2-instagram {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-socialicon .bp2-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 497px;
+  height              : auto;
+  width               : 204px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp2-clientcaremobile .bp2-productbutton {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 606px;
+  height              : 30px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-productbutton .bp2-rectangle2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  width               : 130px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-productbutton .bp2-rectangle2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 30px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-clientcaremobile .bp2-productbutton .bp2-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.bp2-clientcaremobile .bp2-productbutton .bp2-services-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 7px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-clientcaremobile .bp2-qatext {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 417px;
+  height              : auto;
+  width               : 264px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 45.0px;
+}
+.bp2-clientcaremobile .bp2-spoolieicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1323px;
+  height              : 70px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 117px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-teardropicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1170px;
+  height              : 71px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-fingericon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1429px;
+  height              : 70px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-brushicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1544px;
+  height              : 72px;
+  width               : 65px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-eyelinericon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1698px;
+  height              : 71px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 118px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-qtipicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1836px;
+  height              : 65px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-hairdryericon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1992px;
+  height              : 68px;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-text15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1255px;
+  height              : auto;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.bp2-clientcaremobile .bp2-text16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1396px;
+  height              : auto;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 13.0px;
+}
+.bp2-clientcaremobile .bp2-text17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1515px;
+  height              : auto;
+  width               : 204px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.bp2-clientcaremobile .bp2-text18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1639px;
+  height              : auto;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.bp2-clientcaremobile .bp2-text19 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1775px;
+  height              : auto;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.bp2-clientcaremobile .bp2-text20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1912px;
+  height              : auto;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.bp2-clientcaremobile .bp2-text21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2079px;
+  height              : auto;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.bp2-clientcaremobile .bp2-footer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  bottom              : 0%;
+  height              : 194px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-footer .bp2-path {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 58px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-footer .bp2-footer1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-footer .bp2-footer1 .bp2-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 325px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-footer .bp2-box2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 162px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-footer .bp2-box3 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 135px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-footer .bp2-textyouremail {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 130px;
+  height              : 30px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+  border              : 0;
+}
+.bp2-clientcaremobile .bp2-footer .bp2-textyouremail::placeholder {
+  color               : rgba(122, 122, 122, 0.6);
+}
+.bp2-clientcaremobile .bp2-footer .bp2-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 165px;
+  height              : auto;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-clientcaremobile .bp2-sublinks1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2307px;
+  height              : auto;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-sublinks1 .bp2-stackedgroup1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 82px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-home {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 69px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : 69px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-services1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-clientcare {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-socialicons {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2453px;
+  height              : 25px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 192px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-socialicons .bp2-facebook1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-socialicons .bp2-instagramicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-socialicons .bp2-youtube1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-sublinks2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2309px;
+  height              : auto;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-sublinks2 .bp2-products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-sublinks2 .bp2-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-sublinks2 .bp2-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-sublinks2 .bp2-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-sublinks2 .bp2-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-address {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2309px;
+  height              : auto;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-address .bp2-a1630oaklandrdsuit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-clientcaremobile .bp2-subscribeinformation {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2402px;
+  height              : auto;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-clientcaremobile .bp2-subscribeinformation .bp2-text22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp1-clientcare {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 2521px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-an-animation-enter27 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter27-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter27-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter27-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter27-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp1-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp1-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp1-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp1-an-animation-enter28 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp1-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp1-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp1-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp1-an-animation-enter29 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter29-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter29-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter29-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter29-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp1-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp1-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp1-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp1-clientcare .bp1-spoolie {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 160px;
+  height              : 262px;
+  width               : 637px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-spoolie .bp1-mask {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 262px;
+  width               : 637px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-spoolie .bp1-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -8px;
+  height              : 454px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : -5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-clientcareheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 501px;
+  height              : auto;
+  width               : 811px;
+  position            : absolute;
+  margin              : 0;
+  left                : -188px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 60.0px;
+}
+.bp1-clientcare .bp1-qaheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 188px;
+  height              : auto;
+  width               : 421px;
+  position            : absolute;
+  margin              : 0;
+  left                : 608px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 60.0px;
+}
+.bp1-clientcare .bp1-text {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 276px;
+  height              : auto;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 678px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-text1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 526px;
+  height              : 3px;
+  width               : 541px;
+  position            : absolute;
+  margin              : 0;
+  left                : 440px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 447px;
+  height              : 36px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 763px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-services .bp1-button {
+  background-color    : rgba(215, 215, 215, 1.0);
+  width               : 115px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  border-radius       : 7px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-services .bp1-button-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 36px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-clientcare .bp1-services .bp1-servicesbutton {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : auto;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.bp1-clientcare .bp1-services .bp1-servicesbutton-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 11px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-clientcare .bp1-quote {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 435px;
+  height              : auto;
+  width               : 625px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.49;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-clientcare .bp1-banner {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -2px;
+  height              : 165px;
+  width               : 1044px;
+  position            : absolute;
+  margin              : 0;
+  left                : -15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-banner1 {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : 0px;
+  height              : 165px;
+  width               : 1044px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 117px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 372px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-spoolie2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-box {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-spoolie3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-logo .bp1-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-banner .bp1-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 429px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-clientcare .bp1-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 139px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup .bp1-linkscopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-clientcare .bp1-stackedgroup .bp1-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-clientcare .bp1-stackedgroup .bp1-product {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-clientcare .bp1-stackedgroup .bp1-services1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-clientcare .bp1-stackedgroup .bp1-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-clientcare .bp1-stackedgroup .bp1-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-clientcare .bp1-stackedgroup .bp1-contact {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-clientcare .bp1-footer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  bottom              : calc(0.00% - 3px);
+  height              : 244px;
+  width               : 1052px;
+  position            : absolute;
+  margin              : 0;
+  left                : -15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-path {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 109px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-footer1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 244px;
+  width               : 1052px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-footer1 .bp1-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 244px;
+  width               : 1052px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-footer1 .bp1-socialicons {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 163px;
+  height              : 28px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 422px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-facebook {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-instagramicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-rectangle2copy {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 161px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-rectangle2copy2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 112px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 164px;
+  height              : auto;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 735px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footer .bp1-textyouremailaddress {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 113px;
+  height              : 30px;
+  width               : 223px;
+  position            : absolute;
+  margin              : 0;
+  left                : 735px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+  border              : 0;
+}
+.bp1-clientcare .bp1-footer .bp1-textyouremailaddress::placeholder {
+  color               : rgba(122, 122, 122, 0.6);
+}
+.bp1-clientcare .bp1-footer .bp1-address {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 29px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 469px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-address .bp1-a1630oaklandrdsuit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footer .bp1-subscribeinfo {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 278px;
+  position            : absolute;
+  margin              : 0;
+  left                : 721px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footer .bp1-subscribeinfo .bp1-subscribetoournew {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 280px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2311px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footerlinks .bp1-home {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks .bp1-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks .bp1-services2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks .bp1-coursetraining1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks .bp1-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks .bp1-clientcare1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks .bp1-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2312px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 217px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-footerlinks2 .bp1-products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks2 .bp1-blog1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks2 .bp1-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks2 .bp1-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-footerlinks2 .bp1-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-stackedgroup1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 564px;
+  height              : auto;
+  width               : 909px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-text15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 824px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 29.0px;
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 15px 0 0 0;
+  width               : 909px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-text22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 29.0px;
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-teardropicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 909px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-text23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 886px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-spoolieicond {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 909px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-text16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-fingericon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-line2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 909px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-text17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-brushicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 65px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-line3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 909px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-text18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-eyelinericon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-line4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 909px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-text19 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-qtipicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-line5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 909px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-text20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-hairdryericon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-line6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : 909px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-clientcare .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-text21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 5px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 767px) {
+  .bp2-clientcaremobile {
+    display             : block;
+  }
+  .bp3-clientcareipad {
+    display             : none;
+  }
+  .bp1-clientcare {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp2-clientcaremobile {
+    display             : none;
+  }
+  .bp3-clientcareipad {
+    display             : block;
+  }
+  .bp1-clientcare {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bp2-clientcaremobile {
+    display             : none;
+  }
+  .bp3-clientcareipad {
+    display             : none;
+  }
+  .bp1-clientcare {
+    display             : block;
+  }
+}

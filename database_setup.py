@@ -23,20 +23,45 @@ class Employee(Base):
 
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
-    description = Column(String(250), nullable=False),
+    description = Column(String(250), nullable=False)
     extra = Column(String(250), nullable=False)
     picture = Column(String(250))
 
     
     @property
     def serialize(self):
-        """Return object data in easily serializeable format"""
+        # Return object data in easily serializable format
         return{
             'name': self.name,
             'description': self.description,
             'extra': self.extra,
             'picture': self.picture,
             'id': self.id,
+        }
+
+
+class Blog(Base):
+    __tablename__ = 'blog'
+
+    id = Column(Integer, primary_key=True)
+    title = Column(String(250), nullable=False)
+    dateValue = Column(String(250), nullable=False)
+    pictureURL = Column(String(250), nullable=False)
+    story = Column(String(750), nullable=False)
+    
+    #user_id = Column(Integer, ForeignKey('user.id'))
+    #user = relationship(User, backref='blog')
+
+
+    @property
+    def serialize(self):
+        # Return object data in easily serializable format
+        return{
+            'id': self.id,
+            'title': self.title,
+            'dateValue': self.date,
+            'pictureURL': self.pictureURL,
+            'story': self.story,
         }
 
 
@@ -53,7 +78,7 @@ class Product(Base):
     
     @property
     def serialize(self):
-        """Return object data in easily serializeable format"""
+        # Return object data in easily serializable format
         return{
             'sku': self.sku,
             'name': self.name,
@@ -78,7 +103,7 @@ class Inventory(Base):
 
     @property
     def serialize(self):
-        """Return object data in easily serializeable format"""
+        # Return object data in easily serializable format
         return{
             'stockCount': self.stockCount,
             'id': self.id,
@@ -93,7 +118,7 @@ class ProductReviews(Base):
 
     @property
     def serialize(self):
-        """Return object data in easily serializeable format"""
+        # Return object data in easily serializable format
         return{
             'rating': self.rating,
             'id': self.id,
@@ -114,7 +139,7 @@ class Sale(Base):
 
     @property
     def serialize(self):
-        """Return object data in easily serializable format"""
+        # Return object data in easily serializable format
         return{
             'id': self.id,
             'dateTime': self.dateTime,
@@ -142,12 +167,13 @@ class SaleItem(Base):
 
     @property
     def serialize(self):
-        """Return object data in easily serializable format"""
+        # Return object data in easily serializable format
         return{
             'id': self.id,
             'itemSold': self.itemSold,
             'quantity': self.quantity,
         }
+
 
 
 # engine = create_engine('sqlite:///products.db')

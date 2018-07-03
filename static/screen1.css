@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 @font-face {
-  font-family: "BlackHanSans-Regular";
-  src: url('../fonts/BlackHanSans-Regular.ttf') format("truetype");
-}
-@font-face {
   font-family: "MyriadPro-Regular";
   src: url('../fonts/MyriadPro-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "BlackHanSans-Regular";
+  src: url('../fonts/BlackHanSans-Regular.ttf') format("truetype");
 }
 @font-face {
   font-family: "TimesNewRomanPS-BoldMT";
@@ -21,11 +21,11 @@
   width               : 100%;
   height              : 100%;
 }
-.bp1-educationaldesktop {
+.screen1 {
   width               : 100%;
   min-width           : 1024px;
   height              : 100vh;
-  min-height          : 1743px;
+  min-height          : 860px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -37,20 +37,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp1-an-animation-enter22 {
+.an-animation-enter51 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter51-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter51-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter51-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter51-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter22-frames {
+@-webkit-keyframes an-animation-enter51-frames {
   0%
    
   {
@@ -66,7 +66,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter22-frames {
+@-moz-keyframes an-animation-enter51-frames {
   0%
    
   {
@@ -82,7 +82,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter22-frames {
+@-o-keyframes an-animation-enter51-frames {
   0%
    
   {
@@ -98,7 +98,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter22-frames {
+@keyframes an-animation-enter51-frames {
   0%
    
   {
@@ -114,20 +114,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter23 {
+.an-animation-enter52 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter52-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter52-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter52-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter52-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter23-frames {
+@-webkit-keyframes an-animation-enter52-frames {
   0%
    
   {
@@ -143,7 +143,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter23-frames {
+@-moz-keyframes an-animation-enter52-frames {
   0%
    
   {
@@ -159,7 +159,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter23-frames {
+@-o-keyframes an-animation-enter52-frames {
   0%
    
   {
@@ -175,7 +175,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter23-frames {
+@keyframes an-animation-enter52-frames {
   0%
    
   {
@@ -191,20 +191,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter24 {
+.an-animation-enter53 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter24-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter24-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter24-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter24-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter53-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter53-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter53-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter53-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter24-frames {
+@-webkit-keyframes an-animation-enter53-frames {
   0%
    
   {
@@ -220,7 +220,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter24-frames {
+@-moz-keyframes an-animation-enter53-frames {
   0%
    
   {
@@ -236,7 +236,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter24-frames {
+@-o-keyframes an-animation-enter53-frames {
   0%
    
   {
@@ -252,7 +252,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter24-frames {
+@keyframes an-animation-enter53-frames {
   0%
    
   {
@@ -268,174 +268,594 @@ div {
   transform: scale(1);
     }
 }
-.bp1-educationaldesktop .bp1-educationalheader {
+.screen1 .originalminkfiber {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 506px;
+  top                 : 183px;
   height              : auto;
-  width               : 338px;
+  width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 27px;
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 48.0px;
+  left                : 498px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
   color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 60.0px;
+  text-align          : left;
+  line-height         : 30.0px;
 }
-.bp1-educationaldesktop .bp1-qaheader {
+.screen1 .price {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 207px;
+  top                 : 231px;
   height              : auto;
-  width               : 421px;
+  width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 584px;
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 48.0px;
+  left                : 500px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
   color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 60.0px;
+  text-align          : left;
+  line-height         : 24.0px;
 }
-.bp1-educationaldesktop .bp1-text {
+.screen1 .star {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 312px;
-  height              : auto;
-  width               : 288px;
+  top                 : 274px;
+  height              : 14px;
+  width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 649px;
+  left                : 500px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .star1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 274px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 516px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .star2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 274px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 531px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .star3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 274px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 548px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .star4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 274px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 564px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .noreviewsyet {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 275px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 590px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : center;
-  line-height         : 22.0px;
+  font-size           : 11.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
 }
-.bp1-educationaldesktop .bp1-line {
+.screen1 .text {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 526px;
-  height              : 3px;
-  width               : 590px;
+  top                 : 309px;
+  height              : auto;
+  width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 391px;
+  left                : 499px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
 }
-.bp1-educationaldesktop .bp1-ourblogbutton {
+.screen1 .text1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 454px;
-  height              : 36px;
-  width               : 115px;
+  top                 : 330px;
+  height              : auto;
+  width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 745px;
+  left                : 499px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
 }
-.bp1-educationaldesktop .bp1-ourblogbutton .bp1-button {
+.screen1 .text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 705px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 499px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.screen1 .text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 274px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 682px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+  text-decoration     : underline;
+}
+.screen1 .type {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 361px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 499px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.screen1 .text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 409px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 500px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.screen1 .button {
   background-color    : rgba(215, 215, 215, 1.0);
-  width               : 115px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  border-radius       : 7px;
+  top                 : 492px;
+  height              : 36px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 630px;
+  border-radius       : 10px;
   border-style        : solid;
   border-width        : 1px;
   border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp1-educationaldesktop .bp1-ourblogbutton .bp1-button-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 0px;
-  align-items         : center;
+.screen1 .button1 {
+  background-color    : rgba(250, 150, 122, 1.0);
+  top                 : 492px;
   height              : 36px;
-  width               : 100%;
+  width               : 120px;
   position            : absolute;
   margin              : 0;
-  display             : flex;
-  left                : 0;
+  left                : 500px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp1-educationaldesktop .bp1-ourblogbutton .bp1-blogbutton {
+.screen1 .text5 {
   background-color    : rgba(255, 255, 255, 0.0);
-  width               : auto;
+  top                 : 504px;
   height              : auto;
-  pointer-events      : auto;
-  position            : relative;
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 529px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(66, 65, 65, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.screen1 .text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 655px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 518px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.screen1 .text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 503px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 660px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(67, 65, 65, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.screen1 .text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 437px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 538px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "TimesNewRomanPS-BoldMT", Helvetica, Arial, serif;
   font-size           : 12.0px;
   color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
+  text-align          : left;
   line-height         : 15.0px;
 }
-.bp1-educationaldesktop .bp1-ourblogbutton .bp1-blogbutton-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 13px;
-  align-items         : center;
-  height              : auto;
-  width               : 100%;
+.screen1 .scrollbox {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 359px;
+  height              : 27px;
+  width               : 199px;
   position            : absolute;
   margin              : 0;
-  display             : flex;
-  left                : 0;
+  left                : 530px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp1-educationaldesktop .bp1-text1 {
+.screen1 .downarrow {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 574px;
-  height              : auto;
-  width               : 930px;
+  top                 : 365px;
+  height              : 11px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 701px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.screen1 .downarrow1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 506px;
+  height              : 8px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 754px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.screen1 .button2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 435px;
+  height              : 20px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 499px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .downarrow2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 442px;
+  height              : 6px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 507px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.screen1 .button3 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 435px;
+  height              : 20px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 555px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .uparrow {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 442px;
+  height              : 6px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 563px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.screen1 .box {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 641px;
+  height              : 41px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 500px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 680px;
+  height              : 3px;
+  width               : 471px;
+  position            : absolute;
+  margin              : 0;
+  left                : 500px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 396px;
+  height              : 3px;
+  width               : 466px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .originalfront {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 619px;
+  height              : 105px;
+  width               : 105px;
   position            : absolute;
   margin              : 0;
   left                : 27px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-tape1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 175px;
-  height              : 323px;
-  width               : 581px;
-  position            : absolute;
-  margin              : 0;
-  left                : 3px;
-}
-.bp1-educationaldesktop .bp1-tape1 .bp1-tape11 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 323px;
-  width               : 581px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
   overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp1-educationaldesktop .bp1-tape1 .bp1-tape11 .bp1-mask {
-  background-color    : rgba(255, 255, 255, 1.0);
+.screen1 .originalfront .mask {
+  background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 323px;
-  width               : 581px;
+  height              : 105px;
+  width               : 105px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp1-educationaldesktop .bp1-tape1 .bp1-tape11 .bp1-tape12 {
+.screen1 .originalfront .originalfront1 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : -7px;
-  height              : 368px;
-  width               : 978px;
+  height              : 146px;
+  width               : 197px;
   position            : absolute;
   margin              : 0;
-  left                : -175px;
+  left                : -50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp1-educationaldesktop .bp1-banner {
+.screen1 .originalminkside {
+  background-color    : rgba(252, 250, 250, 1.0);
+  top                 : 288px;
+  height              : 309px;
+  width               : 439px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .originalminkside .mask1 {
+  background-color    : rgba(252, 250, 250, 1.0);
+  top                 : 0px;
+  height              : 309px;
+  width               : 439px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .originalminkside .originalminkside1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 344px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .originalminkside .originalminkside1 .mask2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 344px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .originalminkside .originalminkside1 .originalminkside2 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -1px;
+  top                 : -7px;
+  height              : 391px;
+  width               : 560px;
+  position            : absolute;
+  margin              : 0;
+  left                : -117px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .originalminkfiberfront {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 618px;
+  height              : 105px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .originalminkfiberfront .mask3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .originalminkfiberfront .originalminkfiberfront1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 101px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : -23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .banner {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -4px;
   height              : 165px;
   width               : 1044px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp1-educationaldesktop .bp1-banner .bp1-banner1 {
+.screen1 .banner .banner1 {
   background-color    : rgba(102, 103, 103, 1.0);
   top                 : 0px;
   height              : 165px;
@@ -443,267 +863,11 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp1-educationaldesktop .bp1-banner .bp1-logo {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 16px;
-  height              : 117px;
-  width               : 262px;
-  position            : absolute;
-  margin              : 0;
-  left                : 372px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-logo1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 66px;
-  width               : 107px;
-  position            : absolute;
-  margin              : 0;
-  left                : 81px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-spoolie {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 104px;
-  height              : 13px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 222px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-box {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 107px;
-  height              : 9px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-spoolie1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 104px;
-  height              : 13px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-box1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 107px;
-  height              : 9px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 38px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 21px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 48px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 17px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text5 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 74px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text6 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 92px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text7 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 21px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 115px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text8 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 132px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text9 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 148px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text10 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 17px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text11 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text12 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 18px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 203px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-logo .bp1-text13 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 17px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 215px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-stackedgroup {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 140px;
-  height              : 15px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 229px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-stackedgroup .bp1-links {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 21.0px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-stackedgroup .bp1-product {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 21.0px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-stackedgroup .bp1-services {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 21.0px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-stackedgroup .bp1-blog {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 21.0px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-stackedgroup .bp1-coursetraining {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 21.0px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-stackedgroup .bp1-contact {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 21.0px;
-}
-.bp1-educationaldesktop .bp1-banner .bp1-text14 {
+.screen1 .banner .text9 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 119px;
   height              : auto;
@@ -711,1396 +875,365 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 429px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
   font-size           : 19.0px;
   color               : rgba(254, 255, 254, 1.0);
   text-align          : left;
   line-height         : 23.0px;
 }
-.bp1-educationaldesktop .bp1-footer {
-  background-color    : rgba(255, 255, 255, 0.0);
-  bottom              : 0px;
-  height              : 244px;
-  width               : 1052px;
-  position            : absolute;
-  margin              : 0;
-  left                : -14px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-path {
-  background-color    : rgba(254, 255, 254, 1.0);
-  top                 : 109px;
-  height              : 37px;
-  width               : 290px;
-  position            : absolute;
-  margin              : 0;
-  left                : 719px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-footer1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 244px;
-  width               : 1052px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-footer1 .bp1-rectangle {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 244px;
-  width               : 1052px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-footer1 .bp1-socialicons {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 162px;
-  height              : 29px;
-  width               : 131px;
-  position            : absolute;
-  margin              : 0;
-  left                : 421px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-facebook {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-instagramicon {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 29px;
-  width               : 30px;
-  position            : absolute;
-  margin              : 0;
-  left                : 40px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-youtube {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 91px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-rectangle2copy {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 161px;
-  height              : 37px;
-  width               : 290px;
-  position            : absolute;
-  margin              : 0;
-  left                : 719px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-}
-.bp1-educationaldesktop .bp1-footer .bp1-rectangle2copy2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 112px;
-  height              : 37px;
-  width               : 290px;
-  position            : absolute;
-  margin              : 0;
-  left                : 719px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-}
-.bp1-educationaldesktop .bp1-footer .bp1-subscribe {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 164px;
-  height              : auto;
-  width               : 81px;
-  position            : absolute;
-  margin              : 0;
-  left                : 735px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-textyouremailaddress {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 113px;
-  height              : 30px;
-  width               : 223px;
-  position            : absolute;
-  margin              : 0;
-  left                : 735px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-  border              : 0;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-textyouremailaddress::placeholder {
-  color               : rgba(122, 122, 122, 0.6);
-}
-.bp1-educationaldesktop .bp1-footer .bp1-address {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 29px;
-  height              : auto;
-  width               : 166px;
-  position            : absolute;
-  margin              : 0;
-  left                : 469px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-address .bp1-a1630oaklandrdsuit {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 166px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-subscribeinfo {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 31px;
-  height              : auto;
-  width               : 278px;
-  position            : absolute;
-  margin              : 0;
-  left                : 721px;
-}
-.bp1-educationaldesktop .bp1-footer .bp1-subscribeinfo .bp1-subscribetoournew {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 280px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footerlinks {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1531px;
-  height              : auto;
-  width               : 162px;
-  position            : absolute;
-  margin              : 0;
-  left                : 28px;
-}
-.bp1-educationaldesktop .bp1-footerlinks .bp1-aboutus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 162px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footerlinks .bp1-services1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footerlinks .bp1-coursetraining1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footerlinks .bp1-shipping {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footerlinks .bp1-clientcare {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footerlinks .bp1-qaeducational {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footerlinks2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1531px;
-  height              : auto;
-  width               : 162px;
-  position            : absolute;
-  margin              : 0;
-  left                : 218px;
-}
-.bp1-educationaldesktop .bp1-footerlinks2 .bp1-products {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 162px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footerlinks2 .bp1-blog1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footerlinks2 .bp1-contactus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footerlinks2 .bp1-team {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-educationaldesktop .bp1-footerlinks2 .bp1-successstories {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-.bp2-screen1 {
-  width               : 100%;
-  min-width           : 320px;
-  height              : 100vh;
-  min-height          : 1850px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  background-color    : rgba(255, 255, 255, 1.0);
-}
-a {
-  text-decoration     : none;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp2-an-animation-enter10 {
-  opacity             : 0;
-  transform           : scale(1.1);
-  display             : block;
-  -webkit-animation   : bp2-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp2-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
-}
-@-webkit-keyframes bp2-an-animation-enter10-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-moz-keyframes bp2-an-animation-enter10-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-o-keyframes bp2-an-animation-enter10-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@keyframes bp2-an-animation-enter10-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-.bp2-screen1 .bp2-text {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 468px;
-  height              : auto;
-  width               : 232px;
-  position            : absolute;
-  margin              : 0;
-  left                : 44px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.bp2-screen1 .bp2-educationalheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 647px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 14px;
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 30.0px;
-}
-.bp2-screen1 .bp2-line {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 660px;
-  height              : 2px;
-  width               : 138px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-}
-.bp2-screen1 .bp2-button {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 591px;
-  height              : 30px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 97px;
-}
-.bp2-screen1 .bp2-button .bp2-button1 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  width               : 130px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-}
-.bp2-screen1 .bp2-button .bp2-button1-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 0px;
-  align-items         : center;
-  height              : 30px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp2-screen1 .bp2-button .bp2-blogbutton {
-  background-color    : rgba(255, 255, 255, 0.0);
-  width               : auto;
-  height              : auto;
-  pointer-events      : auto;
-  position            : relative;
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 14.0px;
-}
-.bp2-screen1 .bp2-button .bp2-blogbutton-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 8px;
-  align-items         : center;
-  height              : auto;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp2-screen1 .bp2-socialicons {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2978px;
-  height              : 25px;
-  width               : 105px;
-  position            : absolute;
-  margin              : 0;
-  left                : 197px;
-}
-.bp2-screen1 .bp2-socialicons .bp2-facebook {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-screen1 .bp2-socialicons .bp2-instagram {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 23px;
-  position            : absolute;
-  margin              : 0;
-  left                : 33px;
-}
-.bp2-screen1 .bp2-socialicons .bp2-youtube {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 31px;
-  position            : absolute;
-  margin              : 0;
-  left                : 74px;
-}
-.bp2-screen1 .bp2-tapeset {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 194px;
-  height              : 205px;
-  width               : 328px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  overflow            : hidden;
-}
-.bp2-screen1 .bp2-tapeset .bp2-mask {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 205px;
-  width               : 328px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-screen1 .bp2-tapeset .bp2-tapeset1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 7px;
-  height              : 206px;
-  width               : 371px;
-  position            : absolute;
-  margin              : 0;
-  left                : -23px;
-}
-.bp2-screen1 .bp2-tapeset .bp2-tapeset1 .bp2-tapeset2 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 206px;
-  width               : 371px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-}
-.bp2-screen1 .bp2-tapeset .bp2-tapeset1 .bp2-tapeset2 .bp2-mask1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 206px;
-  width               : 371px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-screen1 .bp2-tapeset .bp2-tapeset1 .bp2-tapeset2 .bp2-tapeset3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -5px;
-  height              : 236px;
-  width               : 625px;
-  position            : absolute;
-  margin              : 0;
-  left                : -112px;
-}
-.bp2-screen1 .bp2-qaheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 385px;
-  height              : auto;
-  width               : 516px;
-  position            : absolute;
-  margin              : 0;
-  left                : -92px;
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 36.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 45.0px;
-}
-.bp2-screen1 .bp2-text1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 679px;
-  height              : auto;
-  width               : 270px;
-  position            : absolute;
-  margin              : 0;
-  left                : 27px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp2-screen1 .bp2-banner {
-  background-color    : rgba(102, 103, 103, 1.0);
-  top                 : -8px;
-  height              : 199px;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-screen1 .bp2-logo {
+.screen1 .banner .logo {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 16px;
-  height              : 130px;
-  width               : 262px;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-}
-.bp2-screen1 .bp2-logo .bp2-logotext {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
   height              : 117px;
   width               : 262px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 372px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-logo1 {
+.screen1 .banner .logo .logo1 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 66px;
-  width               : 108px;
+  width               : 107px;
   position            : absolute;
   margin              : 0;
   left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-spoolie {
+.screen1 .banner .logo .spoolie {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 104px;
   height              : 13px;
-  width               : 41px;
+  width               : 40px;
   position            : absolute;
   margin              : 0;
-  left                : 221px;
+  left                : 222px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-box {
+.screen1 .banner .logo .box1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 106px;
-  height              : 11px;
-  width               : 14px;
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
   position            : absolute;
   margin              : 0;
-  left                : 210px;
+  left                : 211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-spoolie1 {
+.screen1 .banner .logo .spoolie1 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 104px;
   height              : 13px;
-  width               : 41px;
+  width               : 40px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-box1 {
+.screen1 .banner .logo .box2 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 106px;
-  height              : 11px;
-  width               : 14px;
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
   position            : absolute;
   margin              : 0;
   left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text2 {
+.screen1 .banner .logo .text10 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
-  height              : 22px;
-  width               : 16px;
+  height              : 21px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
-  left                : 28px;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text3 {
+.screen1 .banner .logo .text11 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 17px;
-  width               : 7px;
+  top                 : 80px;
+  height              : 16px;
+  width               : 6px;
   position            : absolute;
   margin              : 0;
   left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text4 {
+.screen1 .banner .logo .text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .banner .logo .text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .banner .logo .text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .banner .logo .text15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .banner .logo .text16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .banner .logo .text17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .banner .logo .text18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .banner .logo .text19 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .banner .logo .text20 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 79px;
   height              : 18px;
-  width               : 16px;
+  width               : 11px;
   position            : absolute;
   margin              : 0;
-  left                : 56px;
+  left                : 203px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text5 {
+.screen1 .banner .logo .text21 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 79px;
   height              : 17px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
-  left                : 73px;
-}
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text6 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 17px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 92px;
-}
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text7 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 22px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 114px;
-}
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text8 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 17px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 132px;
-}
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text9 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 17px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 148px;
-}
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text10 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 18px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-}
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text11 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 23px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 179px;
-}
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text12 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 78px;
-  height              : 19px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 203px;
-}
-.bp2-screen1 .bp2-logo .bp2-logotext .bp2-text13 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 78px;
-  height              : 18px;
-  width               : 19px;
-  position            : absolute;
-  margin              : 0;
   left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp2-screen1 .bp2-logo .bp2-text14 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 103px;
-  height              : auto;
-  width               : 164px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
-  font-size           : 19.0px;
-  color               : rgba(254, 255, 254, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.bp2-screen1 .bp2-stackedgroup {
+.screen1 .stackedgroup {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : row;
   align-items         : center;
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 155px;
+  top                 : 139px;
   height              : 15px;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 29px;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
-.bp2-screen1 .bp2-stackedgroup .bp2-links {
+.screen1 .stackedgroup .linkscopy {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
   margin              : 0;
   width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
-  font-size           : 13.0px;
+  font-size           : 15.0px;
   color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
+  text-align          : left;
+  line-height         : 18.0px;
 }
-.bp2-screen1 .bp2-stackedgroup .bp2-linkscopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 27px;
-  width               : auto;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-screen1 .bp2-stackedgroup .bp2-linkscopy2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 27px;
-  width               : auto;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-screen1 .bp2-stackedgroup .bp2-linkscopy3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 27px;
-  width               : auto;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-screen1 .bp2-stackedgroup2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 170px;
-  height              : 15px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 54px;
-}
-.bp2-screen1 .bp2-stackedgroup2 .bp2-linkscopy4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-screen1 .bp2-stackedgroup2 .bp2-linkscopy5 {
+.screen1 .stackedgroup .links {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
   margin              : 0 0 0 20px;
   width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
-  font-size           : 13.0px;
+  font-size           : 15.0px;
   color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
+  text-align          : left;
+  line-height         : 18.0px;
 }
-.bp2-screen1 .bp2-stackedgroup2 .bp2-linkscopy6 {
+.screen1 .stackedgroup .product {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
   margin              : 0 0 0 20px;
   width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
-  font-size           : 13.0px;
+  font-size           : 15.0px;
   color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-screen1 .bp2-footer {
-  background-color    : rgba(255, 255, 255, 0.0);
-  bottom              : 0px;
-  height              : 194px;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : -3px;
-}
-.bp2-screen1 .bp2-footer .bp2-path {
-  background-color    : rgba(254, 255, 254, 1.0);
-  top                 : 58px;
-  height              : 18px;
-  width               : 139px;
-  position            : absolute;
-  margin              : 0;
-  left                : 128px;
-}
-.bp2-screen1 .bp2-footer .bp2-footer1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 194px;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-screen1 .bp2-footer .bp2-footer1 .bp2-rectangle {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 194px;
-  width               : 325px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-screen1 .bp2-footer .bp2-box2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 162px;
-  height              : 18px;
-  width               : 139px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-}
-.bp2-screen1 .bp2-footer .bp2-box3 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 135px;
-  height              : 18px;
-  width               : 139px;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-}
-.bp2-screen1 .bp2-footer .bp2-textyouremail {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 130px;
-  height              : 30px;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 41px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
   text-align          : left;
-  line-height         : 16.0px;
-  border              : 0;
+  line-height         : 18.0px;
 }
-.bp2-screen1 .bp2-footer .bp2-textyouremail::placeholder {
-  color               : rgba(122, 122, 122, 0.6);
-}
-.bp2-screen1 .bp2-footer .bp2-subscribe {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 165px;
-  height              : auto;
-  width               : 75px;
-  position            : absolute;
-  margin              : 0;
-  left                : 41px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-screen1 .bp2-footer .bp2-subscribeinformation {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 92px;
-  height              : auto;
-  width               : 124px;
-  position            : absolute;
-  margin              : 0;
-  left                : 24px;
-}
-.bp2-screen1 .bp2-footer .bp2-subscribeinformation .bp2-text15 {
+.screen1 .stackedgroup .services {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
-  margin              : 0;
+  margin              : 0 0 0 20px;
   width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
   text-align          : left;
-  line-height         : 12.0px;
+  line-height         : 18.0px;
 }
-.bp2-screen1 .bp2-socialicons1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1807px;
-  height              : 25px;
-  width               : 115px;
-  position            : absolute;
-  margin              : 0;
-  left                : 192px;
-}
-.bp2-screen1 .bp2-socialicons1 .bp2-facebook1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-screen1 .bp2-socialicons1 .bp2-instagramicon {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-}
-.bp2-screen1 .bp2-socialicons1 .bp2-youtube1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 81px;
-}
-.bp2-screen1 .bp2-sublinks1 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1663px;
-  height              : auto;
-  width               : 82px;
-  position            : absolute;
-  margin              : 0;
-  left                : 22px;
-}
-.bp2-screen1 .bp2-sublinks1 .bp2-stackedgroup1 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
+.screen1 .stackedgroup .blog {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
-  margin              : 0;
-  width               : 82px;
-}
-.bp2-screen1 .bp2-sublinks1 .bp2-stackedgroup1 .bp2-aboutus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 69px;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-screen1 .bp2-sublinks1 .bp2-stackedgroup1 .bp2-services {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
+  margin              : 0 0 0 20px;
   width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
   text-align          : left;
-  line-height         : 12.0px;
+  line-height         : 18.0px;
 }
-.bp2-screen1 .bp2-sublinks1 .bp2-stackedgroup1 .bp2-coursetraining {
+.screen1 .stackedgroup .coursetraining {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
-  margin              : 1px 0 0 0;
+  margin              : 0 0 0 20px;
   width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
   text-align          : left;
-  line-height         : 12.0px;
+  line-height         : 18.0px;
 }
-.bp2-screen1 .bp2-sublinks1 .bp2-stackedgroup1 .bp2-shipping {
+.screen1 .stackedgroup .contact {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
-  margin              : 1px 0 0 0;
+  margin              : 0 0 0 20px;
   width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
   text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-screen1 .bp2-sublinks1 .bp2-stackedgroup1 .bp2-clientcare {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-screen1 .bp2-sublinks1 .bp2-stackedgroup1 .bp2-qaeducational {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-screen1 .bp2-sublinks2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1663px;
-  height              : auto;
-  width               : 72px;
-  position            : absolute;
-  margin              : 0;
-  left                : 121px;
-}
-.bp2-screen1 .bp2-sublinks2 .bp2-products {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-screen1 .bp2-sublinks2 .bp2-blog {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-screen1 .bp2-sublinks2 .bp2-contactus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-screen1 .bp2-sublinks2 .bp2-team {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-screen1 .bp2-sublinks2 .bp2-successstories {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-screen1 .bp2-address {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1663px;
-  height              : auto;
-  width               : 92px;
-  position            : absolute;
-  margin              : 0;
-  left                : 204px;
-}
-.bp2-screen1 .bp2-address .bp2-a1630oaklandrdsuit {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
+  line-height         : 18.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
@@ -2180,20 +1313,4 @@ div {
   {
       opacity: 1;
     }
-}
-@media screen and (max-width: 1023px) {
-  .bp2-screen1 {
-    display             : block;
-  }
-  .bp1-educationaldesktop {
-    display             : none;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .bp2-screen1 {
-    display             : none;
-  }
-  .bp1-educationaldesktop {
-    display             : block;
-  }
 }

@@ -6,61 +6,89 @@ from squareconnect.apis.catalog_api import CatalogApi
 from squareconnect.apis.locations_api import LocationsApi
 
 # setup authorization
-# squareconnect.configuration.access_token = 'sandbox-sq0atb-qx31rXzSRO7qdDYJcZXH0g'
-squareconnect.configuration.access_token = 'sq0atp-Jnd1NosIJD8tzPhVbaDBlw'
+squareconnect.configuration.access_token = 'access token goes here'
 # create an instance of the Location API class
 # api_instance = LocationsApi()
 api_instance = CatalogApi()
+
+
+def __getitem__(self, index):
+    return self.api_response.objects[index]
+
+
+def __setitem__(self, index):
+    self.api_response.objects[index] = value
+
 
 api_instances = []
 api_instances2 = []
 try:
     # ListLocations
     # api_response = api_instance.list_locations()
+    # print (api_response.locations)
     # api_instances.append(api_response.locations)
     # List catalog list
     api_response = api_instance.list_catalog()
     api_instances.append(api_response.objects)
-    i = 1
-    for i in range(100):
-          api_instances2.append(api_instances[0][i])
+    # print (api_instances[0][90])
 
-    # print (api_response)
 except ApiException as e:
     print ('Exception when calling CatalogApi->list_catalog: %s\n' % e)
 
-value = 2
+# Pull product values
+value = 1
+count = 1
+squaredata = []
+squaredata2 = {}
+while value<len(api_instances[0]):
+      if api_instances[0][value].item_data:
+            if api_instances[0][value].item_data.variations[0].item_variation_data.sku:
+                cost = float(
+                        api_instances[0][value].item_data.variations[0].item_variation_data.price_money.amount)
+                """
+                squaredata.append([{'name': api_instances[0][value].item_data.name},
+                                  {'description': api_instances[0][value].item_data.description},
+                                  {'category_id': api_instances[0][value].item_data.category_id},
+                                  {'product_type': api_instances[0][value].item_data.product_type},
+                                  {'product_id': api_instances[0][value].item_data.variations[0].id},
+                                  {'other_id': api_instances[0][value].item_data.variations[0].item_variation_data.item_id},
+                                  {'image_url': api_instances[0][value].item_data.image_url},
+                                  {'product_sku': api_instances[0][value].item_data.variations[0].item_variation_data.sku},
+                                  {'cost': cost/100},
+                                  {'stock_count_alert': api_instances[0][value].item_data.variations[0].item_variation_data.inventory_alert_type}])
+                """
+                squaredata.append([api_instances[0][value].item_data.name,
+                                  api_instances[0][value].item_data.description,
+                                  api_instances[0][value].item_data.category_id,
+                                  api_instances[0][value].item_data.product_type,
+                                  api_instances[0][value].item_data.variations[0].id,
+                                  api_instances[0][value].item_data.variations[0].item_variation_data.item_id,
+                                  api_instances[0][value].item_data.image_url,
+                                  api_instances[0][value].item_data.variations[0].item_variation_data.sku,
+                                  cost/100,
+                                  api_instances[0][value].item_data.variations[0].item_variation_data.inventory_alert_type])
+                
+                squaredata2 = {'name': api_instances[0][value].item_data.name,
+                                  'description': api_instances[0][value].item_data.description,
+                                  'category_id': api_instances[0][value].item_data.category_id,
+                                  'product_type': api_instances[0][value].item_data.product_type,
+                                  'product_id': api_instances[0][value].item_data.variations[0].id,
+                                  'other_id': api_instances[0][value].item_data.variations[0].item_variation_data.item_id,
+                                  'image_url': api_instances[0][value].item_data.image_url,
+                                  'product_sku': api_instances[0][value].item_data.variations[0].item_variation_data.sku,
+                                  'cost': cost/100,
+                                  'stock_count_alert': api_instances[0][value].item_data.variations[0].item_variation_data.inventory_alert_type}
+      value+=1
+i = 0
+j = 0
+for i in range(len(squaredata)):
+      for j in range(len(squaredata[i])):
+            print (squaredata[i][j])      
+      print ('---------------------------------------------------------------------------------------------------------------------')
 
-print (api_instances[0][value].item_data)
-
-print ('category ID:')
-print (api_instances[0][value].item_data.category_id)
-print ('Product Type:')
-print (api_instances[0][value].item_data.product_type)
-print ('Product ID:')
-print (api_instances[0][value].item_data.variations[0].id)
-print (api_instances[0][value].item_data.variations[0].item_variation_data.item_id)
-print ('Product Description:')
-print (api_instances[0][value].item_data.description)
-print ('Image URL:')
-print (api_instances[0][value].item_data.image_url)
-print ('Product SKU:')
-print (api_instances[0][value].item_data.variations[0].item_variation_data.sku)
-print ('Product Name:')
-print (api_instances[0][value].item_data.name)
-print ('Product Cost:')
-if api_instances[0][value].item_data.variations[0].item_variation_data.price_money:
-      cost = float(api_instances[0][value].item_data.variations[0].item_variation_data.price_money.amount)
-      print (cost/100)
-else:
-      print ('No set cost')
-print ('Stock Count Alert')
-print (api_instances[0][value].item_data.variations[0].item_variation_data.inventory_alert_type)
-
-
-
+#print (squaredata2['name'])
 """
-# Setup authorization.
+# Setup authorization
 squareconnect.configuration.access_token = sqdemo-CiVzYW5kYm94LXNxMGF0Yi12ZzNfbEZVTjUxbWRsZWZTUGpEVmxBEhtDQkFTRUxPV1pLY0xSY0w2N2N4OHFqaThBLVU=
 
 

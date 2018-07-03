@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="{{ url_for('static', filename='img/favicon.png') }}" rel="shortcut icon"/>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
         <meta charset="utf-8"/>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
-        <link href="{{ url_for('static', filename='overlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="./css/overlay.css" rel="stylesheet" type="text/css"/>
         <meta content="Launchpad by Anima" name="author">
         </meta>
     </head>
@@ -12,26 +12,26 @@
  background: rgba(255, 255, 255, 1.0);">
         <input id="anPageName" name="page" type="hidden" value="overlay"/>
         <div class="overlay">
-            <div style="width: 154px; height: 100%; position:relative; margin:auto;">
+            <div style="width: 320px; height: 100%; position:relative; margin:auto;">
                 <div class="rollover">
                 </div>
                 <div class="overlaystackedlinks">
-                    <a href="{{url_for('showShipping')}}">
+                    <a href="shipping.html">
                         <div class="shipping">
                             Shipping
                         </div>
                     </a>
-                    <a href="{{url_for('showTeam')}}">
+                    <a href="team.html">
                         <div class="team">
                             Team
                         </div>
                     </a>
-                    <a href="{{url_for('showClientCare')}}">
+                    <a href="clientcare.html">
                         <div class="clientcare">
                             Client Care
                         </div>
                     </a>
-                    <a href="{{url_for('showSuccessStories')}}">
+                    <a href="successstoriesipad.html">
                         <div class="successstories">
                             Success Stories
                         </div>
