@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <link href="{{ url_for('static', filename='img/favicon.png') }}" rel="shortcut icon"/>
         <meta charset="utf-8"/>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
-        <link href="./css/serviceoverlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/productoverlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/overlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/courseoverlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/aboutus.css" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='serviceoverlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='productoverlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='overlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='courseoverlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='aboutus.css') }}" rel="stylesheet" type="text/css"/>
         <meta content="Launchpad by Anima" name="author">
         </meta>
     </head>
@@ -21,16 +21,16 @@
                     <div class="bp1-path">
                     </div>
                     <div class="bp1-footer1">
-                        <img anima-src="./img/unsuccessful-submit-ipad-rectangle.png" class="bp1-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-rectangle.png')}}" class="bp1-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-socialicons">
                             <a href="https://www.facebook.com/Lighteyes.USA/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-ipad-facebook@2x.png" class="bp1-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-facebook@2x.png')}}" class="bp1-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.instagram.com/lighteyes.usa/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-ipad-instagram-icon@2x.png" class="bp1-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-instagram-icon@2x.png')}}" class="bp1-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.youtube.com/channel/UCDFChI-zAiMXhpJMvM1ADrw" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-ipad-youtube@2x.png" class="bp1-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-youtube@2x.png')}}" class="bp1-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                         </div>
                     </div>
@@ -125,28 +125,28 @@
                         </div>
                     </a>
                 </div>
-                <img anima-src="./img/home-line@2x.png" class="bp1-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/home-line@2x.png')}}" class="bp1-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="bp1-banner">
                     <div class="bp1-banner1">
                     </div>
                     <div class="bp1-logo">
-                        <img anima-src="./img/unsuccessful-submit-ipad-logo@2x.png" class="bp1-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-spoolie@2x.png" class="bp1-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-box@2x.png" class="bp1-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-spoolie 1@2x.png" class="bp1-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-box@2x.png" class="bp1-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text@2x.png" class="bp1-text" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 1@2x.png" class="bp1-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 2@2x.png" class="bp1-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 3@2x.png" class="bp1-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 4@2x.png" class="bp1-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 5@2x.png" class="bp1-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 6@2x.png" class="bp1-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 7@2x.png" class="bp1-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 8@2x.png" class="bp1-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 9@2x.png" class="bp1-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 10@2x.png" class="bp1-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 11@2x.png" class="bp1-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-logo@2x.png')}}" class="bp1-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-spoolie@2x.png')}}" class="bp1-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-box@2x.png')}}" class="bp1-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-spoolie 1@2x.png')}}" class="bp1-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-box@2x.png')}}" class="bp1-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text@2x.png')}}" class="bp1-text" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 1@2x.png')}}" class="bp1-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 2@2x.png')}}" class="bp1-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 3@2x.png')}}" class="bp1-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 4@2x.png')}}" class="bp1-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 5@2x.png')}}" class="bp1-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 6@2x.png')}}" class="bp1-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 7@2x.png')}}" class="bp1-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 8@2x.png')}}" class="bp1-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 9@2x.png')}}" class="bp1-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 10@2x.png')}}" class="bp1-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 11@2x.png')}}" class="bp1-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                     <div class="bp1-text12">
                         LASH EXTENSIONS
@@ -192,7 +192,7 @@
                 <div class="bp1-storyheader">
                     Our Story
                 </div>
-                <img anima-src="./img/about-us-ipad-line 1.png" class="bp1-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/about-us-ipad-line 1.png')}}" class="bp1-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="bp1-toptext">
                     <div class="bp1-mask">
                     </div>
@@ -200,9 +200,9 @@
                         <div class="bp1-homepagelashbanner">
                             <div class="bp1-mask1">
                             </div>
-                            <img anima-src="./img/about-us-ipad-homepagelashbanner.png" class="bp1-homepagelashbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/about-us-ipad-homepagelashbanner.png')}}" class="bp1-homepagelashbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         </div>
-                        <img anima-src="./img/about-us-ipad-tweezerset.png" class="bp1-tweezerset" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/about-us-ipad-tweezerset.png')}}" class="bp1-tweezerset" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-toptext2">
                             Check out all our products,
                             <br/>
@@ -255,7 +255,7 @@
                     <br/>
                 </div>
                 <div class="bp1-group2">
-                    <img anima-src="./img/about-us-ipad-line 2@2x.png" class="bp1-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-ipad-line 2@2x.png')}}" class="bp1-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     <div class="bp1-founderheader">
                         Our Founder
                     </div>
@@ -274,17 +274,17 @@
                         Light Eyes Brand is available in United States, China, Hong Kong, Macao, Japan, Singapore, and Malaysia.
                         <br/>
                     </div>
-                    <img anima-src="./img/about-us-ipad-line 3@2x.png" class="bp1-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-ipad-line 3@2x.png')}}" class="bp1-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     <div class="bp1-convention">
                         <div class="bp1-mask2">
                         </div>
-                        <img anima-src="./img/about-us-ipad-convention.png" class="bp1-convention1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/about-us-ipad-convention.png')}}" class="bp1-convention1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                 </div>
                 <div class="bp1-girl">
                     <div class="bp1-mask3">
                     </div>
-                    <img anima-src="./img/about-us-ipad-girl.png" class="bp1-girl1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-ipad-girl.png')}}" class="bp1-girl1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp1-group">
                     <div class="bp1-foundertext">
@@ -303,7 +303,7 @@
                     <div class="bp1-sherin">
                         <div class="bp1-mask4">
                         </div>
-                        <img anima-src="./img/about-us-ipad-img1646edited.png" class="bp1-img1646edited" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/about-us-ipad-img1646edited.png')}}" class="bp1-img1646edited" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                 </div>
             </div>
@@ -333,7 +333,7 @@
                 <div class="bp2-storyheader">
                     Our Story
                 </div>
-                <img anima-src="./img/about-us-mobile-line@2x.png" class="bp2-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/about-us-mobile-line@2x.png')}}" class="bp2-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <a href="{{url_for('showProducts')}}">
                     <div class="bp2-productbutton">
                         <div class="bp2-box">
@@ -346,7 +346,7 @@
                 <div class="bp2-girl">
                     <div class="bp2-mask">
                     </div>
-                    <img anima-src="./img/about-us-mobile-girl.png" class="bp2-girl1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-mobile-girl.png')}}" class="bp2-girl1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp2-storytext">
                     Light Eyes USA is the only exclusive distributer of the Light Eyes Brand in United States. Our products are a beauty combination of being fashionable and looking natural; we specialize in manufacturing eyelash extension products, and beauty related products.
@@ -366,12 +366,12 @@
                 <div class="bp2-founderheader">
                     Our Founder
                 </div>
-                <img anima-src="./img/home-mobile-line 2@2x.png" class="bp2-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/about-us-mobile-line 2@2x.png" class="bp2-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/home-mobile-line 2@2x.png')}}" class="bp2-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/about-us-mobile-line 2@2x.png')}}" class="bp2-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="bp2-convention">
                     <div class="bp2-mask1">
                     </div>
-                    <img anima-src="./img/about-us-mobile-convention.png" class="bp2-convention1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-mobile-convention.png')}}" class="bp2-convention1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp2-history">
                     Light Eyes USA helps expands the brand to the United States since 2016. During 2016 Light Eyes Brand collaborated with our founder, Sherin Lee and started Light Eyes USA in San Jose, with the assistance of their staffs, establishment, and their marketing enabled us to build relationships and rapport with the public and build on becoming a more reputable company.
@@ -386,7 +386,7 @@
                 <div class="bp2-sherin">
                     <div class="bp2-mask2">
                     </div>
-                    <img anima-src="./img/about-us-mobile-sherin.png" class="bp2-sherin1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-mobile-sherin.png')}}" class="bp2-sherin1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp2-textbottom">
                     Sherin Lee is the founder of Light Eyes USA established Face-N-body since 2012, which is consistently rated 5 stars on yelp. She started Light Eyes USA in 2016, she brought the Light Eyes Brand over to the United States, and making the impossible, possible building the brand in United States.
@@ -452,23 +452,23 @@
                         <div class="bp2-group">
                             <div class="bp2-group2">
                                 <div class="bp2-logotext">
-                                    <img anima-src="./img/unsuccessful-submit-mobile-logo@2x.png" class="bp2-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-spoolie@2x.png" class="bp2-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-box@2x.png" class="bp2-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-spoolie 1@2x.png" class="bp2-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-box@2x.png" class="bp2-box2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text@2x.png" class="bp2-text" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text 1@2x.png" class="bp2-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text 2@2x.png" class="bp2-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text 3@2x.png" class="bp2-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text 4@2x.png" class="bp2-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text 5@2x.png" class="bp2-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text 6@2x.png" class="bp2-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text 7@2x.png" class="bp2-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text 8@2x.png" class="bp2-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text 9@2x.png" class="bp2-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text 10@2x.png" class="bp2-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/unsuccessful-submit-mobile-text 11@2x.png" class="bp2-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-logo@2x.png')}}" class="bp2-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-spoolie@2x.png')}}" class="bp2-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-box@2x.png')}}" class="bp2-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-spoolie 1@2x.png')}}" class="bp2-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-box@2x.png')}}" class="bp2-box2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text@2x.png')}}" class="bp2-text" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 1@2x.png')}}" class="bp2-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 2@2x.png')}}" class="bp2-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 3@2x.png')}}" class="bp2-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 4@2x.png')}}" class="bp2-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 5@2x.png')}}" class="bp2-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 6@2x.png')}}" class="bp2-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 7@2x.png')}}" class="bp2-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 8@2x.png')}}" class="bp2-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 9@2x.png')}}" class="bp2-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 10@2x.png')}}" class="bp2-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 11@2x.png')}}" class="bp2-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                                 </div>
                                 <div class="bp2-text12">
                                     LASH EXTENSIONS
@@ -483,9 +483,9 @@
                     <div class="bp2-homepagelashbanner">
                         <div class="bp2-mask4">
                         </div>
-                        <img anima-src="./img/about-us-mobile-homepagelashbanner.png" class="bp2-homepagelashbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/about-us-mobile-homepagelashbanner.png')}}" class="bp2-homepagelashbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
-                    <img anima-src="./img/about-us-mobile-tweezerset.png" class="bp2-tweezerset" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-mobile-tweezerset.png')}}" class="bp2-tweezerset" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     <div class="bp2-toptext1">
                         F tool
                     </div>
@@ -500,7 +500,7 @@
                     <div class="bp2-path">
                     </div>
                     <div class="bp2-footer1">
-                        <img anima-src="./img/unsuccessful-submit-mobile-rectangle.png" class="bp2-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-rectangle.png')}}" class="bp2-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                     <div class="bp2-box3">
                     </div>
@@ -522,13 +522,13 @@
                 </div>
                 <div class="bp2-socialicons">
                     <a href="https://www.facebook.com/Lighteyes.USA/" target="_blank">
-                        <img anima-src="./img/unsuccessful-submit-mobile-facebook@2x.png" class="bp2-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-facebook@2x.png')}}" class="bp2-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </a>
                     <a href="https://www.instagram.com/lighteyes.usa/" target="_blank">
-                        <img anima-src="./img/unsuccessful-submit-mobile-instagram-icon@2x.png" class="bp2-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-instagram-icon@2x.png')}}" class="bp2-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </a>
                     <a href="https://www.youtube.com/channel/UCDFChI-zAiMXhpJMvM1ADrw" target="_blank">
-                        <img anima-src="./img/unsuccessful-submit-mobile-youtube@2x.png" class="bp2-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-youtube@2x.png')}}" class="bp2-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </a>
                 </div>
                 <div class="bp2-sublinks1">
@@ -616,7 +616,7 @@
                 <div class="bp3-storyheader">
                     Our Story
                 </div>
-                <img anima-src="./img/about-us-line.png" class="bp3-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/about-us-line.png')}}" class="bp3-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="bp3-toptext">
                     <div class="bp3-mask">
                     </div>
@@ -624,9 +624,9 @@
                         <div class="bp3-homepagelashbanner">
                             <div class="bp3-mask1">
                             </div>
-                            <img anima-src="./img/about-us-homepagelashbanner.png" class="bp3-homepagelashbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/about-us-homepagelashbanner.png')}}" class="bp3-homepagelashbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         </div>
-                        <img anima-src="./img/about-us-tweezerset.png" class="bp3-tweezerset" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/about-us-tweezerset.png')}}" class="bp3-tweezerset" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-toptext2">
                             Check out all our products,
                             <br/>
@@ -674,23 +674,23 @@
                         <div class="bp3-group5">
                             <a href="{{url_for('showHome')}}">
                                 <div class="bp3-logo">
-                                    <img anima-src="./img/vetustweezer-logo@2x.png" class="bp3-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-spoolie@2x.png" class="bp3-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-box@2x.png" class="bp3-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-spoolie 1@2x.png" class="bp3-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-box@2x.png" class="bp3-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text@2x.png" class="bp3-text" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text 1@2x.png" class="bp3-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text 2@2x.png" class="bp3-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text 3@2x.png" class="bp3-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text 4@2x.png" class="bp3-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text 5@2x.png" class="bp3-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text 6@2x.png" class="bp3-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text 7@2x.png" class="bp3-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text 8@2x.png" class="bp3-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text 9@2x.png" class="bp3-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text 10@2x.png" class="bp3-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                    <img anima-src="./img/vetustweezer-text 11@2x.png" class="bp3-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-logo@2x.png')}}" class="bp3-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-spoolie@2x.png')}}" class="bp3-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-box@2x.png')}}" class="bp3-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-spoolie 1@2x.png')}}" class="bp3-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-box@2x.png')}}" class="bp3-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text@2x.png')}}" class="bp3-text" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text 1@2x.png')}}" class="bp3-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text 2@2x.png')}}" class="bp3-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text 3@2x.png')}}" class="bp3-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text 4@2x.png')}}" class="bp3-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text 5@2x.png')}}" class="bp3-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text 6@2x.png')}}" class="bp3-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text 7@2x.png')}}" class="bp3-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text 8@2x.png')}}" class="bp3-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text 9@2x.png')}}" class="bp3-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text 10@2x.png')}}" class="bp3-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="{{url_for('static', filename='img/vetustweezer-text 11@2x.png')}}" class="bp3-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                                 </div>
                             </a>
                             <div class="bp3-text12">
@@ -752,7 +752,7 @@
                     <div class="bp3-founderheader">
                         Our Founder
                     </div>
-                    <img anima-src="./img/about-us-line 4@2x.png" class="bp3-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-line 4@2x.png')}}" class="bp3-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp3-group">
                     <div class="bp3-foundertext">
@@ -771,7 +771,7 @@
                     <div class="bp3-sherin">
                         <div class="bp3-mask2">
                         </div>
-                        <img anima-src="./img/about-us-img1646edited.png" class="bp3-img1646edited" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/about-us-img1646edited.png')}}" class="bp3-img1646edited" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                 </div>
                 <div class="bp3-group3">
@@ -788,22 +788,22 @@
                         Light Eyes Brand is available in United States, China, Hong Kong, Macao, Japan, Singapore, and Malaysia.
                         <br/>
                     </div>
-                    <img anima-src="./img/about-us-line 5@2x.png" class="bp3-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-line 5@2x.png')}}" class="bp3-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     <div class="bp3-convention">
                         <div class="bp3-mask3">
                         </div>
-                        <img anima-src="./img/about-us-convention.png" class="bp3-convention1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/about-us-convention.png')}}" class="bp3-convention1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                 </div>
                 <div class="bp3-girl">
                     <div class="bp3-mask4">
                     </div>
-                    <img anima-src="./img/about-us-girl.png" class="bp3-girl1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-girl.png')}}" class="bp3-girl1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp3-storyheader1">
                     Our Story
                 </div>
-                <img anima-src="./img/about-us-line.png" class="bp3-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/about-us-line.png')}}" class="bp3-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="bp3-toptext3">
                     <div class="bp3-mask5">
                     </div>
@@ -811,9 +811,9 @@
                         <div class="bp3-homepagelashbanner2">
                             <div class="bp3-mask6">
                             </div>
-                            <img anima-src="./img/about-us-homepagelashbanner.png" class="bp3-homepagelashbanner3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/about-us-homepagelashbanner.png')}}" class="bp3-homepagelashbanner3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         </div>
-                        <img anima-src="./img/about-us-tweezerset.png" class="bp3-tweezerset1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/about-us-tweezerset.png')}}" class="bp3-tweezerset1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-toptext5">
                             Check out all our products,
                             <br/>
@@ -870,7 +870,7 @@
                     <div class="bp3-founderheader1">
                         Our Founder
                     </div>
-                    <img anima-src="./img/about-us-line 4@2x.png" class="bp3-line4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-line 4@2x.png')}}" class="bp3-line4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp3-group1">
                     <div class="bp3-foundertext1">
@@ -889,7 +889,7 @@
                     <div class="bp3-sherin1">
                         <div class="bp3-mask7">
                         </div>
-                        <img anima-src="./img/about-us-img1646edited.png" class="bp3-img1646edited1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/about-us-img1646edited.png')}}" class="bp3-img1646edited1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                 </div>
                 <div class="bp3-group31">
@@ -906,32 +906,32 @@
                         Light Eyes Brand is available in United States, China, Hong Kong, Macao, Japan, Singapore, and Malaysia.
                         <br/>
                     </div>
-                    <img anima-src="./img/about-us-line 5@2x.png" class="bp3-line5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-line 5@2x.png')}}" class="bp3-line5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     <div class="bp3-convention2">
                         <div class="bp3-mask8">
                         </div>
-                        <img anima-src="./img/about-us-convention.png" class="bp3-convention3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/about-us-convention.png')}}" class="bp3-convention3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                 </div>
                 <div class="bp3-girl2">
                     <div class="bp3-mask9">
                     </div>
-                    <img anima-src="./img/about-us-girl.png" class="bp3-girl3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/about-us-girl.png')}}" class="bp3-girl3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp3-footer">
                     <div class="bp3-path">
                     </div>
                     <div class="bp3-footer1">
-                        <img anima-src="./img/unsuccessful-submit-rectangle.png" class="bp3-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-rectangle.png')}}" class="bp3-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-socialicons">
                             <a href="https://www.facebook.com/Lighteyes.USA/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-facebook@2x.png" class="bp3-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-facebook@2x.png')}}" class="bp3-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.instagram.com/lighteyes.usa/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-instagram-icon@2x.png" class="bp3-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-instagram-icon@2x.png')}}" class="bp3-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.youtube.com/channel/UCDFChI-zAiMXhpJMvM1ADrw" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-youtube@2x.png" class="bp3-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-youtube@2x.png')}}" class="bp3-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                         </div>
                     </div>
@@ -1038,7 +1038,7 @@
             <div class="anima-overlay" id="overlay-productoverlay" style="min-height:2279px;">
                 <div class="bp1-productoverlay">
                     <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/product-overlay-product.png" class="bp1-product" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/product-overlay-product.png')}}" class="bp1-product" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-rollover-layout-container">
                             <div class="bp1-rollover">
                             </div>
@@ -1061,7 +1061,7 @@
                 </div>
                 <div class="bp2-productoverlayipad">
                     <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/productoverlayipad-product-ipad.png" class="bp2-productipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/productoverlayipad-product-ipad.png')}}" class="bp2-productipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp2-rollovercopy">
                         </div>
                         <div class="bp2-stackedgroupcopy-layout-container">
@@ -1094,7 +1094,7 @@
             <div class="anima-overlay" id="overlay-courseoverlay" style="min-height:2279px;">
                 <div class="bp2-courseoverlayipad">
                     <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/courseoverlayipad-course-training-ipad.png" class="bp2-coursetrainingipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/courseoverlayipad-course-training-ipad.png')}}" class="bp2-coursetrainingipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp2-rollovercopy">
                         </div>
                         <div class="bp2-stackedgroupcopy">
@@ -1118,7 +1118,7 @@
                 </div>
                 <div class="bp1-courseoverlay">
                     <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/course-overlay-course-training-desktop.png" class="bp1-coursetrainingdesktop" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/course-overlay-course-training-desktop.png')}}" class="bp1-coursetrainingdesktop" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-rollover">
                         </div>
                         <div class="bp1-stackedgroup">
@@ -1154,7 +1154,7 @@
             <div class="anima-overlay" id="overlay-serviceoverlay" style="min-height:2279px;">
                 <div class="bp1-serviceoverlay">
                     <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/service-overlay-services.png" class="bp1-services" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/service-overlay-services.png')}}" class="bp1-services" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-rollover">
                         </div>
                         <div class="bp1-stackedgroup">
@@ -1178,7 +1178,7 @@
                 </div>
                 <div class="bp2-serviceoverlayipad">
                     <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/serviceoverlayipad-services-ipad.png" class="bp2-servicesipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/serviceoverlayipad-services-ipad.png')}}" class="bp2-servicesipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp2-rollovercopy">
                         </div>
                         <div class="bp2-stackedgroupcopy">

@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h1> Checkout Cart </h1>
+        <form action="#" method='post'>
+            <div>
+                {{cart.name}}   {{cart.count}}      {{cart.cost}}
+            </div>
+            {{cart.taxes}}
+            {{cart.shipping}}
+            {{cart.total}}
+            <a href="{{url_for('showHome')}}"> Cancel </a>
+        </form>
+    </body>
+</html>

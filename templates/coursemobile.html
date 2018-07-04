@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <link href="{{ url_for('static', filename='img/favicon.png') }}" rel="shortcut icon"/>
         <meta charset="utf-8"/>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
-        <link href="./css/overlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/serviceoverlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/productoverlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/courseoverlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/coursemobile.css" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='overlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='serviceoverlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='productoverlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='courseoverlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='coursemobile.css') }}" rel="stylesheet" type="text/css"/>
         <meta content="Launchpad by Anima" name="author">
         </meta>
     </head>
@@ -25,7 +25,7 @@
                 <div class="bp2-courseheader">
                     About Course
                 </div>
-                <img anima-src="./img/course-mobile-line@2x.png" class="bp2-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-mobile-line@2x.png')}}" class="bp2-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <a href="mailto:lighteyesusa@gmail.com" target="_blank">
                     <div class="bp2-registerbutton">
                         <div class="bp2-button">
@@ -61,11 +61,11 @@
                 <div class="bp2-pricingheader">
                     Pricing
                 </div>
-                <img anima-src="./img/course-mobile-line 1@2x.png" class="bp2-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/course-mobile-line 3@2x.png" class="bp2-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/course-mobile-line 3@2x.png" class="bp2-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/course-mobile-line 4@2x.png" class="bp2-line4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/course-mobile-line 5@2x.png" class="bp2-line5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-mobile-line 1@2x.png')}}" class="bp2-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-mobile-line 3@2x.png')}}" class="bp2-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-mobile-line 3@2x.png')}}" class="bp2-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-mobile-line 4@2x.png')}}" class="bp2-line4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-mobile-line 5@2x.png')}}" class="bp2-line5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="bp2-text1">
                     Topics Covered:
                     <br/>
@@ -111,10 +111,10 @@
                     <div class="bp2-toolkit1">
                         <div class="bp2-mask1">
                         </div>
-                        <img anima-src="./img/course-mobile-toolkit.png" class="bp2-toolkit2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/course-mobile-toolkit.png')}}" class="bp2-toolkit2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                 </div>
-                <a href="successstoriesipad.html">
+                <a href="{{url_for('showSuccessStories')}}">
                     <div class="bp2-sucessstorybutton">
                         <div class="bp2-button1">
                         </div>
@@ -156,50 +156,50 @@
                     <div class="bp2-isolation">
                         <div class="bp2-mask3">
                         </div>
-                        <img anima-src="./img/course-mobile-isolation.png" class="bp2-isolation1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/course-mobile-isolation.png')}}" class="bp2-isolation1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                 </div>
                 <div class="bp2-classbanner">
                     <div class="bp2-mask4">
                     </div>
-                    <img anima-src="./img/course-mobile-classbanner.png" class="bp2-classbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/course-mobile-classbanner.png')}}" class="bp2-classbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp2-banner">
                 </div>
                 <div class="bp2-stackedgroup">
-                    <a href="home.html">
+                    <a href="{{url_for('showHome')}}">
                         <div class="bp2-linkscopy7">
                             Home
                         </div>
                     </a>
-                    <a href="aboutus.html">
+                    <a href="{{url_for('showAboutUs')}}">
                         <div class="bp2-links">
                             About Us
                         </div>
                     </a>
-                    <a href="product.html">
+                    <a href="{{url_for('showProducts')}}">
                         <div class="bp2-linkscopy">
                             Product
                         </div>
                     </a>
-                    <a href="services.html">
+                    <a href="{{url_for('showServices')}}">
                         <div class="bp2-linkscopy2">
                             Services
                         </div>
                     </a>
                 </div>
                 <div class="bp2-stackedgroup2">
-                    <a href="blogipad.html">
+                    <a href="{{url_for('showBlog')}}">
                         <div class="bp2-linkscopy8">
                             Blog
                         </div>
                     </a>
-                    <a href="coursemobile.html">
+                    <a href="{{url_for('showCourse')}}">
                         <div class="bp2-linkscopy4">
                             Course Training
                         </div>
                     </a>
-                    <a href="contactipad.html">
+                    <a href="{{url_for('showContact')}}">
                         <div class="bp2-linkscopy5">
                             Contact
                         </div>
@@ -210,26 +210,26 @@
                         </div>
                     </a>
                 </div>
-                <a href="home.html">
+                <a href="{{url_for('showHome')}}">
                     <div class="bp2-logo">
                         <div class="bp2-logotext">
-                            <img anima-src="./img/unsuccessful-submit-mobile-logo@2x.png" class="bp2-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-spoolie@2x.png" class="bp2-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-box@2x.png" class="bp2-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-spoolie 1@2x.png" class="bp2-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-box@2x.png" class="bp2-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text@2x.png" class="bp2-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 1@2x.png" class="bp2-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 2@2x.png" class="bp2-text12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 3@2x.png" class="bp2-text13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 4@2x.png" class="bp2-text14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 5@2x.png" class="bp2-text15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 6@2x.png" class="bp2-text16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 7@2x.png" class="bp2-text17" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 8@2x.png" class="bp2-text18" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 9@2x.png" class="bp2-text19" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 10@2x.png" class="bp2-text20" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 11@2x.png" class="bp2-text21" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-logo@2x.png')}}" class="bp2-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-spoolie@2x.png')}}" class="bp2-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-box@2x.png')}}" class="bp2-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-spoolie 1@2x.png')}}" class="bp2-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-box@2x.png')}}" class="bp2-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text@2x.png')}}" class="bp2-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 1@2x.png')}}" class="bp2-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 2@2x.png')}}" class="bp2-text12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 3@2x.png')}}" class="bp2-text13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 4@2x.png')}}" class="bp2-text14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 5@2x.png')}}" class="bp2-text15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 6@2x.png')}}" class="bp2-text16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 7@2x.png')}}" class="bp2-text17" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 8@2x.png')}}" class="bp2-text18" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 9@2x.png')}}" class="bp2-text19" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 10@2x.png')}}" class="bp2-text20" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 11@2x.png')}}" class="bp2-text21" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         </div>
                         <div class="bp2-text22">
                             LASH EXTENSIONS
@@ -240,7 +240,7 @@
                     <div class="bp2-path">
                     </div>
                     <div class="bp2-footer1">
-                        <img anima-src="./img/unsuccessful-submit-mobile-rectangle.png" class="bp2-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-rectangle.png')}}" class="bp2-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                     <div class="bp2-box2">
                     </div>
@@ -255,37 +255,37 @@
                 </div>
                 <div class="bp2-sublinks1">
                     <div class="bp2-stackedgroup1">
-                        <a href="home.html">
+                        <a href="{{url_for('showHome')}}">
                             <div class="bp2-home">
                                 Home
                             </div>
                         </a>
-                        <a href="aboutus.html">
+                        <a href="{{url_for('showAboutUs')}}">
                             <div class="bp2-aboutus">
                                 About Us
                             </div>
                         </a>
-                        <a href="services.html">
+                        <a href="{{url_for('showServices')}}">
                             <div class="bp2-services">
                                 Services
                             </div>
                         </a>
-                        <a href="coursemobile.html">
+                        <a href="{{url_for('showCourse')}}">
                             <div class="bp2-coursetraining">
                                 Course Training
                             </div>
                         </a>
-                        <a href="shipping.html">
+                        <a href="{{url_for('showShipping')}}">
                             <div class="bp2-shipping">
                                 Shipping
                             </div>
                         </a>
-                        <a href="clientcare.html">
+                        <a href="{{url_for('showClientCare')}}">
                             <div class="bp2-clientcare">
                                 Client Care
                             </div>
                         </a>
-                        <a href="educational.html">
+                        <a href="{{url_for('showEducational')}}">
                             <div class="bp2-qaeducational">
                                 Q&amp;A - Educational
                             </div>
@@ -301,37 +301,37 @@
                 </div>
                 <div class="bp2-socialicons">
                     <a href="https://www.facebook.com/Lighteyes.USA/" target="_blank">
-                        <img anima-src="./img/unsuccessful-submit-mobile-facebook@2x.png" class="bp2-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-facebook@2x.png')}}" class="bp2-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </a>
                     <a href="https://www.instagram.com/lighteyes.usa/" target="_blank">
-                        <img anima-src="./img/unsuccessful-submit-mobile-instagram-icon@2x.png" class="bp2-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-instagram-icon@2x.png')}}" class="bp2-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </a>
                     <a href="https://www.youtube.com/channel/UCDFChI-zAiMXhpJMvM1ADrw" target="_blank">
-                        <img anima-src="./img/unsuccessful-submit-mobile-youtube@2x.png" class="bp2-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-youtube@2x.png')}}" class="bp2-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </a>
                 </div>
                 <div class="bp2-sublinks2">
-                    <a href="product.html">
+                    <a href="{{url_for('showProducts')}}">
                         <div class="bp2-products">
                             Products
                         </div>
                     </a>
-                    <a href="blogipad.html">
+                    <a href="{{url_for('showBlog')}}">
                         <div class="bp2-blog">
                             Blog
                         </div>
                     </a>
-                    <a href="contactipad.html">
+                    <a href="{{url_for('showContact')}}">
                         <div class="bp2-contactus">
                             Contact Us
                         </div>
                     </a>
-                    <a href="team.html">
+                    <a href="{{url_for('showTeam')}}">
                         <div class="bp2-team">
                             Team
                         </div>
                     </a>
-                    <a href="successstoriesipad.html">
+                    <a href="{{url_for('showSuccessStories')}}">
                         <div class="bp2-successstories">
                             Success Stories
                         </div>
@@ -354,7 +354,7 @@
                 <div class="bp1-classbanner">
                     <div class="bp1-mask">
                     </div>
-                    <img anima-src="./img/course-training-desktop-classbanner.png" class="bp1-classbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/course-training-desktop-classbanner.png')}}" class="bp1-classbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp1-courseheader">
                     About Course
@@ -389,10 +389,10 @@
                     class. We offer it all here.
                     <br/>
                 </div>
-                <img anima-src="./img/course-training-desktop-line.png" class="bp1-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/course-training-desktop-line 1.png" class="bp1-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/course-training-desktop-line 2@2x.png" class="bp1-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/course-training-desktop-line 3.png" class="bp1-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-training-desktop-line.png')}}" class="bp1-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-training-desktop-line 1.png')}}" class="bp1-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-training-desktop-line 2@2x.png')}}" class="bp1-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-training-desktop-line 3.png')}}" class="bp1-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <a href="mailto:lighteyesusa@gmail.com" target="_blank">
                     <div class="bp1-button">
                     </div>
@@ -412,7 +412,7 @@
                 <div class="bp1-toolkit">
                     <div class="bp1-mask1">
                     </div>
-                    <img anima-src="./img/course-training-desktop-toolkit.png" class="bp1-toolkit1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/course-training-desktop-toolkit.png')}}" class="bp1-toolkit1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp1-text2">
                     10 Eye patches, 50 microswabs, 10 spoolies, 1 measuring lash sheet, 1 purple glue, 1 flash cleanser, 1 vetus tweezer, 2 lash tape, 1 remover gel, 1 M tool, 1 jade, course book, and pouch.
@@ -473,7 +473,7 @@
                 <div class="bp1-text9">
                     …………………………………………………………$1250
                 </div>
-                <a href="successstoriesipad.html">
+                <a href="{{url_for('showSuccessStories')}}">
                     <div class="bp1-successstory">
                         <div class="bp1-rectangle2">
                         </div>
@@ -485,30 +485,30 @@
                 <div class="bp1-lashisolation">
                     <div class="bp1-mask2">
                     </div>
-                    <img anima-src="./img/course-training-desktop-lashisolation.png" class="bp1-lashisolation1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/course-training-desktop-lashisolation.png')}}" class="bp1-lashisolation1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp1-banner">
                     <div class="bp1-banner1">
                     </div>
-                    <a href="home.html">
+                    <a href="{{url_for('showHome')}}">
                         <div class="bp1-logo">
-                            <img anima-src="./img/vetustweezer-logo@2x.png" class="bp1-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-spoolie@2x.png" class="bp1-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-box@2x.png" class="bp1-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-spoolie 1@2x.png" class="bp1-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-box@2x.png" class="bp1-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text@2x.png" class="bp1-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 1@2x.png" class="bp1-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 2@2x.png" class="bp1-text12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 3@2x.png" class="bp1-text13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 4@2x.png" class="bp1-text14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 5@2x.png" class="bp1-text15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 6@2x.png" class="bp1-text16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 7@2x.png" class="bp1-text17" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 8@2x.png" class="bp1-text18" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 9@2x.png" class="bp1-text19" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 10@2x.png" class="bp1-text20" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 11@2x.png" class="bp1-text21" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-logo@2x.png')}}" class="bp1-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-spoolie@2x.png')}}" class="bp1-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-box@2x.png')}}" class="bp1-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-spoolie 1@2x.png')}}" class="bp1-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-box@2x.png')}}" class="bp1-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text@2x.png')}}" class="bp1-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 1@2x.png')}}" class="bp1-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 2@2x.png')}}" class="bp1-text12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 3@2x.png')}}" class="bp1-text13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 4@2x.png')}}" class="bp1-text14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 5@2x.png')}}" class="bp1-text15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 6@2x.png')}}" class="bp1-text16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 7@2x.png')}}" class="bp1-text17" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 8@2x.png')}}" class="bp1-text18" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 9@2x.png')}}" class="bp1-text19" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 10@2x.png')}}" class="bp1-text20" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 11@2x.png')}}" class="bp1-text21" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         </div>
                     </a>
                     <div class="bp1-text22">
@@ -519,16 +519,16 @@
                     <div class="bp1-path">
                     </div>
                     <div class="bp1-footer1">
-                        <img anima-src="./img/unsuccessful-submit-rectangle.png" class="bp1-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-rectangle.png')}}" class="bp1-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-socialicons">
                             <a href="https://www.facebook.com/Lighteyes.USA/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-facebook@2x.png" class="bp1-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-facebook@2x.png')}}" class="bp1-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.instagram.com/lighteyes.usa/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-instagram-icon@2x.png" class="bp1-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-instagram-icon@2x.png')}}" class="bp1-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.youtube.com/channel/UCDFChI-zAiMXhpJMvM1ADrw" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-youtube@2x.png" class="bp1-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-youtube@2x.png')}}" class="bp1-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                         </div>
                     </div>
@@ -562,76 +562,76 @@
                     </div>
                 </div>
                 <div class="bp1-footerlinks">
-                    <a href="home.html">
+                    <a href="{{url_for('showHome')}}">
                         <div class="bp1-home">
                             Home
                         </div>
                     </a>
-                    <a href="aboutus.html">
+                    <a href="{{url_for('showAboutUs')}}">
                         <div class="bp1-aboutus">
                             About Us
                         </div>
                     </a>
-                    <a href="services.html">
+                    <a href="{{url_for('showServices')}}">
                         <div class="bp1-services">
                             Services
                         </div>
                     </a>
-                    <a href="coursemobile.html">
+                    <a href="{{url_for('showCourse')}}">
                         <div class="bp1-coursetraining">
                             Course Training
                         </div>
                     </a>
-                    <a href="shipping.html">
+                    <a href="{{url_for('showShipping')}}">
                         <div class="bp1-shipping">
                             Shipping
                         </div>
                     </a>
-                    <a href="clientcare.html">
+                    <a href="{{url_for('showClientCare')}}">
                         <div class="bp1-clientcare">
                             Client Care
                         </div>
                     </a>
-                    <a href="educational.html">
+                    <a href="{{url_for('showEducational')}}">
                         <div class="bp1-qaeducational">
                             Q&amp;A - Educational
                         </div>
                     </a>
                 </div>
                 <div class="bp1-footerlinks2">
-                    <a href="product.html">
+                    <a href="{{url_for('showProducts')}}">
                         <div class="bp1-products">
                             Products
                         </div>
                     </a>
-                    <a href="blogipad.html">
+                    <a href="{{url_for('showBlog')}}">
                         <div class="bp1-blog">
                             Blog
                         </div>
                     </a>
-                    <a href="contactipad.html">
+                    <a href="{{url_for('showContact')}}">
                         <div class="bp1-contactus">
                             Contact Us
                         </div>
                     </a>
-                    <a href="team.html">
+                    <a href="{{url_for('showTeam')}}">
                         <div class="bp1-team">
                             Team
                         </div>
                     </a>
-                    <a href="successstoriesipad.html">
+                    <a href="{{url_for('showSuccessStories')}}">
                         <div class="bp1-successstories">
                             Success Stories
                         </div>
                     </a>
                 </div>
                 <div class="bp1-stackedgroup">
-                    <a href="home.html">
+                    <a href="{{url_for('showHome')}}">
                         <div class="bp1-linkscopy">
                             Home
                         </div>
                     </a>
-                    <a href="aboutus.html">
+                    <a href="{{url_for('showAboutUs')}}">
                         <div class="bp1-links">
                             About Us
                         </div>
@@ -646,7 +646,7 @@
                             Services
                         </div>
                     </a>
-                    <a href="blogipad.html">
+                    <a href="{{url_for('showBlog')}}">
                         <div class="bp1-blog1">
                             Blog
                         </div>
@@ -656,7 +656,7 @@
                             Course Training
                         </div>
                     </a>
-                    <a href="contactipad.html">
+                    <a href="{{url_for('showContact')}}">
                         <div class="bp1-contact">
                             Contact
                         </div>
@@ -670,35 +670,35 @@
                     <div class="bp3-banner1">
                     </div>
                     <div class="bp3-logo">
-                        <img anima-src="./img/unsuccessful-submit-ipad-logo@2x.png" class="bp3-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-spoolie@2x.png" class="bp3-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-box@2x.png" class="bp3-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-spoolie 1@2x.png" class="bp3-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-box@2x.png" class="bp3-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text@2x.png" class="bp3-text" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 1@2x.png" class="bp3-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 2@2x.png" class="bp3-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 3@2x.png" class="bp3-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 4@2x.png" class="bp3-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 5@2x.png" class="bp3-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 6@2x.png" class="bp3-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 7@2x.png" class="bp3-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 8@2x.png" class="bp3-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 9@2x.png" class="bp3-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 10@2x.png" class="bp3-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 11@2x.png" class="bp3-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-logo@2x.png')}}" class="bp3-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-spoolie@2x.png')}}" class="bp3-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-box@2x.png')}}" class="bp3-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-spoolie 1@2x.png')}}" class="bp3-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-box@2x.png')}}" class="bp3-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text@2x.png')}}" class="bp3-text" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 1@2x.png')}}" class="bp3-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 2@2x.png')}}" class="bp3-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 3@2x.png')}}" class="bp3-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 4@2x.png')}}" class="bp3-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 5@2x.png')}}" class="bp3-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 6@2x.png')}}" class="bp3-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 7@2x.png')}}" class="bp3-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 8@2x.png')}}" class="bp3-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 9@2x.png')}}" class="bp3-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 10@2x.png')}}" class="bp3-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 11@2x.png')}}" class="bp3-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                     <div class="bp3-text12">
                         LASH EXTENSIONS
                     </div>
                 </div>
                 <div class="bp3-stackedgroup">
-                    <a href="home.html">
+                    <a href="{{url_for('showHome')}}">
                         <div class="bp3-linkscopy">
                             Home
                         </div>
                     </a>
-                    <a href="aboutus.html">
+                    <a href="{{url_for('showAboutUs')}}">
                         <div class="bp3-links">
                             About Us
                         </div>
@@ -713,7 +713,7 @@
                             Services
                         </div>
                     </a>
-                    <a href="blogipad.html">
+                    <a href="{{url_for('showBlog')}}">
                         <div class="bp3-blog">
                             Blog
                         </div>
@@ -723,7 +723,7 @@
                             Course Training
                         </div>
                     </a>
-                    <a href="contactipad.html">
+                    <a href="{{url_for('showContact')}}">
                         <div class="bp3-contact">
                             Contact
                         </div>
@@ -733,16 +733,16 @@
                     <div class="bp3-path">
                     </div>
                     <div class="bp3-footer1">
-                        <img anima-src="./img/unsuccessful-submit-ipad-rectangle.png" class="bp3-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-rectangle.png')}}" class="bp3-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-socialicons">
                             <a href="https://www.facebook.com/Lighteyes.USA/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-ipad-facebook@2x.png" class="bp3-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-facebook@2x.png')}}" class="bp3-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.instagram.com/lighteyes.usa/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-ipad-instagram-icon@2x.png" class="bp3-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-instagram-icon@2x.png')}}" class="bp3-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.youtube.com/channel/UCDFChI-zAiMXhpJMvM1ADrw" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-ipad-youtube@2x.png" class="bp3-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-youtube@2x.png')}}" class="bp3-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                         </div>
                     </div>
@@ -801,64 +801,64 @@
                     </div>
                 </div>
                 <div class="bp3-footerlinks">
-                    <a href="home.html">
+                    <a href="{{url_for('showHome')}}">
                         <div class="bp3-home">
                             Home
                         </div>
                     </a>
-                    <a href="aboutus.html">
+                    <a href="{{url_for('showAboutUs')}}">
                         <div class="bp3-aboutus">
                             About Us
                         </div>
                     </a>
-                    <a href="services.html">
+                    <a href="{{url_for('showServices')}}">
                         <div class="bp3-services1">
                             Services
                         </div>
                     </a>
-                    <a href="coursemobile.html">
+                    <a href="{{url_for('showCourse')}}">
                         <div class="bp3-coursetraining1">
                             Course Training
                         </div>
                     </a>
-                    <a href="shipping.html">
+                    <a href="{{url_for('showShipping')}}">
                         <div class="bp3-shipping">
                             Shipping
                         </div>
                     </a>
-                    <a href="clientcare.html">
+                    <a href="{{url_for('showClientCare')}}">
                         <div class="bp3-clientcare">
                             Client Care
                         </div>
                     </a>
-                    <a href="educational.html">
+                    <a href="{{url_for('showEducational')}}">
                         <div class="bp3-qaeducational">
                             Q&amp;A - Educational
                         </div>
                     </a>
                 </div>
                 <div class="bp3-footerlinks2">
-                    <a href="product.html">
+                    <a href="{{url_for('showProducts')}}">
                         <div class="bp3-products">
                             Products
                         </div>
                     </a>
-                    <a href="blogipad.html">
+                    <a href="{{url_for('showBlog')}}">
                         <div class="bp3-blog1">
                             Blog
                         </div>
                     </a>
-                    <a href="contactipad.html">
+                    <a href="{{url_for('showContact')}}">
                         <div class="bp3-contactus">
                             Contact Us
                         </div>
                     </a>
-                    <a href="team.html">
+                    <a href="{{url_for('showTeam')}}">
                         <div class="bp3-team">
                             Team
                         </div>
                     </a>
-                    <a href="successstoriesipad.html">
+                    <a href="{{url_for('showSuccessStories')}}">
                         <div class="bp3-successstories">
                             Success Stories
                         </div>
@@ -867,7 +867,7 @@
                 <div class="bp3-classbanner">
                     <div class="bp3-mask">
                     </div>
-                    <img anima-src="./img/course-training-ipad-classbanner.png" class="bp3-classbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/course-training-ipad-classbanner.png')}}" class="bp3-classbanner1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp3-courseheader">
                     About Course
@@ -898,10 +898,10 @@
                     class. We offer it all here.
                     <br/>
                 </div>
-                <img anima-src="./img/course-training-ipad-line.png" class="bp3-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/course-training-ipad-line 1.png" class="bp3-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/course-training-ipad-line 2@2x.png" class="bp3-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/course-training-ipad-line 3.png" class="bp3-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-training-ipad-line.png')}}" class="bp3-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-training-ipad-line 1.png')}}" class="bp3-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-training-ipad-line 2@2x.png')}}" class="bp3-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/course-training-ipad-line 3.png')}}" class="bp3-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="bp3-coursekitheader">
                     Course Kit
                 </div>
@@ -914,7 +914,7 @@
                 <div class="bp3-toolkit">
                     <div class="bp3-mask1">
                     </div>
-                    <img anima-src="./img/course-training-ipad-toolkit.png" class="bp3-toolkit1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/course-training-ipad-toolkit.png')}}" class="bp3-toolkit1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp3-text21">
                     10 Eye patches, 50 microswabs, 10 spoolies, 1 measuring lash sheet, 1 purple glue, 1 flash cleanser, 1 vetus tweezer, 2 lash tape, 1 remover gel, 1 M tool, 1 jade, course book, and pouch.
@@ -948,7 +948,7 @@
                     <br/>
                     <br/>
                 </div>
-                <a href="successstoriesipad.html">
+                <a href="{{url_for('showSuccessStories')}}">
                     <div class="bp3-successstory">
                         <div class="bp3-rectangle2">
                         </div>
@@ -960,7 +960,7 @@
                 <div class="bp3-lashisolation">
                     <div class="bp3-mask2">
                     </div>
-                    <img anima-src="./img/course-training-ipad-lashisolation.png" class="bp3-lashisolation1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/course-training-ipad-lashisolation.png')}}" class="bp3-lashisolation1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp3-group">
                     <a href="mailto:lighteyesusa@gmail.com" target="_blank">
@@ -985,19 +985,19 @@
             <div class="anima-overlay" id="overlay-productoverlay" style="min-height:2669px;">
                 <div class="bp1-productoverlay">
                     <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/product-overlay-product.png" class="bp1-product" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/product-overlay-product.png')}}" class="bp1-product" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-rollover-layout-container">
                             <div class="bp1-rollover">
                             </div>
                         </div>
                         <div class="bp1-stackedgroup-layout-container">
                             <div class="bp1-stackedgroup">
-                                <a href="product.html">
+                                <a href="{{url_for('showProducts')}}">
                                     <div class="bp1-link">
                                         Products
                                     </div>
                                 </a>
-                                <a href="shipping.html">
+                                <a href="{{url_for('showShipping')}}">
                                     <div class="bp1-linkcopy">
                                         Shipping
                                     </div>
@@ -1008,17 +1008,17 @@
                 </div>
                 <div class="bp2-productoverlayipad">
                     <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/productoverlayipad-product-ipad.png" class="bp2-productipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/productoverlayipad-product-ipad.png')}}" class="bp2-productipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp2-rollovercopy">
                         </div>
                         <div class="bp2-stackedgroupcopy-layout-container">
                             <div class="bp2-stackedgroupcopy">
-                                <a href="product.html">
+                                <a href="{{url_for('showProducts')}}">
                                     <div class="bp2-link">
                                         Products
                                     </div>
                                 </a>
-                                <a href="shipping.html">
+                                <a href="{{url_for('showShipping')}}">
                                     <div class="bp2-linkcopy">
                                         Shipping
                                     </div>
@@ -1041,21 +1041,21 @@
             <div class="anima-overlay" id="overlay-courseoverlay" style="min-height:2669px;">
                 <div class="bp2-courseoverlayipad">
                     <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/courseoverlayipad-course-training-ipad.png" class="bp2-coursetrainingipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/courseoverlayipad-course-training-ipad.png')}}" class="bp2-coursetrainingipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp2-rollovercopy">
                         </div>
                         <div class="bp2-stackedgroupcopy">
-                            <a href="coursemobile.html">
+                            <a href="{{url_for('showCourse')}}">
                                 <div class="bp2-link">
                                     Course Training
                                 </div>
                             </a>
-                            <a href="successstoriesipad.html">
+                            <a href="{{url_for('showSuccessStories')}}">
                                 <div class="bp2-linkcopy">
                                     Success Stories
                                 </div>
                             </a>
-                            <a href="educational.html">
+                            <a href="{{url_for('showEducational')}}">
                                 <div class="bp2-linkcopy2">
                                     Q&amp;A - Educational
                                 </div>
@@ -1065,21 +1065,21 @@
                 </div>
                 <div class="bp1-courseoverlay">
                     <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/course-overlay-course-training-desktop.png" class="bp1-coursetrainingdesktop" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/course-overlay-course-training-desktop.png')}}" class="bp1-coursetrainingdesktop" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-rollover">
                         </div>
                         <div class="bp1-stackedgroup">
-                            <a href="coursemobile.html">
+                            <a href="{{url_for('showCourse')}}">
                                 <div class="bp1-link">
                                     Course Training
                                 </div>
                             </a>
-                            <a href="successstoriesipad.html">
+                            <a href="{{url_for('showSuccessStories')}}">
                                 <div class="bp1-linkcopy">
                                     Success Stories
                                 </div>
                             </a>
-                            <a href="educational.html">
+                            <a href="{{url_for('showEducational')}}">
                                 <div class="bp1-linkcopy2">
                                     Q&amp;A - Educational
                                 </div>
@@ -1101,21 +1101,21 @@
             <div class="anima-overlay" id="overlay-serviceoverlay" style="min-height:2669px;">
                 <div class="bp1-serviceoverlay">
                     <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/service-overlay-services.png" class="bp1-services" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/service-overlay-services.png')}}" class="bp1-services" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-rollover">
                         </div>
                         <div class="bp1-stackedgroup">
-                            <a href="services.html">
+                            <a href="{{url_for('showServices')}}">
                                 <div class="bp1-linkcopy2">
                                     Services
                                 </div>
                             </a>
-                            <a href="team.html">
+                            <a href="{{url_for('showTeam')}}">
                                 <div class="bp1-link">
                                     Team
                                 </div>
                             </a>
-                            <a href="clientcare.html">
+                            <a href="{{url_for('showClientCare')}}">
                                 <div class="bp1-linkcopy">
                                     Client care
                                 </div>
@@ -1125,21 +1125,21 @@
                 </div>
                 <div class="bp2-serviceoverlayipad">
                     <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/serviceoverlayipad-services-ipad.png" class="bp2-servicesipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/serviceoverlayipad-services-ipad.png')}}" class="bp2-servicesipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp2-rollovercopy">
                         </div>
                         <div class="bp2-stackedgroupcopy">
-                            <a href="services.html">
+                            <a href="{{url_for('showServices')}}">
                                 <div class="bp2-linkcopy2">
                                     Services
                                 </div>
                             </a>
-                            <a href="team.html">
+                            <a href="{{url_for('showTeam')}}">
                                 <div class="bp2-link">
                                     Team
                                 </div>
                             </a>
-                            <a href="clientcare.html">
+                            <a href="{{url_for('showClientCare')}}">
                                 <div class="bp2-linkcopy">
                                     Client care
                                 </div>
@@ -1164,22 +1164,22 @@
                         <div class="rollover">
                         </div>
                         <div class="overlaystackedlinks">
-                            <a href="shipping.html">
+                            <a href="{{url_for('showShipping')}}">
                                 <div class="shipping">
                                     Shipping
                                 </div>
                             </a>
-                            <a href="team.html">
+                            <a href="{{url_for('showTeam')}}">
                                 <div class="team">
                                     Team
                                 </div>
                             </a>
-                            <a href="clientcare.html">
+                            <a href="{{url_for('showClientCare')}}">
                                 <div class="clientcare">
                                     Client Care
                                 </div>
                             </a>
-                            <a href="successstoriesipad.html">
+                            <a href="{{url_for('showSuccessStories')}}">
                                 <div class="successstories">
                                     Success Stories
                                 </div>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <link href="{{ url_for('static', filename='img/favicon.png') }}" rel="shortcut icon"/>
         <meta charset="utf-8"/>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
-        <link href="./css/serviceoverlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/productoverlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/overlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/courseoverlay.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/clientcare.css" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='serviceoverlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='productoverlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='overlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='courseoverlay.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ url_for('static', filename='clientcare.css') }}" rel="stylesheet" type="text/css"/>
         <meta content="Launchpad by Anima" name="author">
         </meta>
     </head>
@@ -21,23 +21,23 @@
                     <div class="bp3-banner1">
                     </div>
                     <div class="bp3-logo">
-                        <img anima-src="./img/unsuccessful-submit-ipad-logo@2x.png" class="bp3-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-spoolie@2x.png" class="bp3-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-box@2x.png" class="bp3-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-spoolie 1@2x.png" class="bp3-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-box@2x.png" class="bp3-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text@2x.png" class="bp3-text" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 1@2x.png" class="bp3-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 2@2x.png" class="bp3-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 3@2x.png" class="bp3-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 4@2x.png" class="bp3-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 5@2x.png" class="bp3-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 6@2x.png" class="bp3-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 7@2x.png" class="bp3-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 8@2x.png" class="bp3-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 9@2x.png" class="bp3-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 10@2x.png" class="bp3-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/unsuccessful-submit-ipad-text 11@2x.png" class="bp3-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-logo@2x.png')}}" class="bp3-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-spoolie@2x.png')}}" class="bp3-spoolie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-box@2x.png')}}" class="bp3-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-spoolie 1@2x.png')}}" class="bp3-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-box@2x.png')}}" class="bp3-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text@2x.png')}}" class="bp3-text" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 1@2x.png')}}" class="bp3-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 2@2x.png')}}" class="bp3-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 3@2x.png')}}" class="bp3-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 4@2x.png')}}" class="bp3-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 5@2x.png')}}" class="bp3-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 6@2x.png')}}" class="bp3-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 7@2x.png')}}" class="bp3-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 8@2x.png')}}" class="bp3-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 9@2x.png')}}" class="bp3-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 10@2x.png')}}" class="bp3-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-text 11@2x.png')}}" class="bp3-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                     <div class="bp3-text12">
                         LASH EXTENSIONS
@@ -84,16 +84,16 @@
                     <div class="bp3-path">
                     </div>
                     <div class="bp3-footer1">
-                        <img anima-src="./img/unsuccessful-submit-ipad-rectangle.png" class="bp3-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-rectangle.png')}}" class="bp3-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-socialicons">
                             <a href="https://www.facebook.com/Lighteyes.USA/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-ipad-facebook@2x.png" class="bp3-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-facebook@2x.png')}}" class="bp3-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.instagram.com/lighteyes.usa/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-ipad-instagram-icon@2x.png" class="bp3-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-instagram-icon@2x.png')}}" class="bp3-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.youtube.com/channel/UCDFChI-zAiMXhpJMvM1ADrw" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-ipad-youtube@2x.png" class="bp3-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-ipad-youtube@2x.png')}}" class="bp3-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                         </div>
                     </div>
@@ -191,12 +191,12 @@
                 <div class="bp3-spoolie2">
                     <div class="bp3-mask">
                     </div>
-                    <img anima-src="./img/clientcare-ipad-spoolie 2.png" class="bp3-spoolie3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/clientcare-ipad-spoolie 2.png')}}" class="bp3-spoolie3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp3-clientcareheader">
                     For Client Care
                 </div>
-                <img anima-src="./img/clientcare-ipad-text 12.png" class="bp3-text13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-ipad-text 12.png')}}" class="bp3-text13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="bp3-quote">
                     “The less you touch the longer it stays” - Sherin Lee
                 </div>
@@ -230,45 +230,45 @@
                         <div class="bp3-text21">
                             After Care Instructions:
                         </div>
-                        <img anima-src="./img/clientcare-teardropicon@2x.png" class="bp3-teardropicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-ipad-line.png" class="bp3-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-teardropicon@2x.png')}}" class="bp3-teardropicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-ipad-line.png')}}" class="bp3-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-text22">
                             Do not get them wet after application (wait for 24 hours after application) For the lash extensions to last longer,  try to not sleep on lashes. Avoid touching with finger tips because finger tip has oil.
                         </div>
-                        <img anima-src="./img/clientcare-spoolieicond@2x.png" class="bp3-spoolieicond" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-spoolieicond@2x.png')}}" class="bp3-spoolieicond" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-text15">
                             No Mascara
                         </div>
-                        <img anima-src="./img/clientcare-ipad-line.png" class="bp3-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-mobile-fingericon@2x.png" class="bp3-fingericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-ipad-line.png')}}" class="bp3-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-mobile-fingericon@2x.png')}}" class="bp3-fingericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-text16">
                             The less you touch, the longer it stays!
                         </div>
-                        <img anima-src="./img/clientcare-ipad-line.png" class="bp3-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-ipad-brushicon@2x.png" class="bp3-brushicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-ipad-line.png')}}" class="bp3-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-ipad-brushicon@2x.png')}}" class="bp3-brushicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-text17">
                             <br/>
                             Do not use oil base Cleansers. Clean Regularly. Use Foam or Gel Cleansers(brush it with the spoolie, rinse with slow running water)
                         </div>
-                        <img anima-src="./img/clientcare-ipad-line.png" class="bp3-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-mobile-eyelinericon@2x.png" class="bp3-eyelinericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-ipad-line.png')}}" class="bp3-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-mobile-eyelinericon@2x.png')}}" class="bp3-eyelinericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-text18">
                             <br/>
                             If you need eyeliner – draw on the outer corner of your eyes
                         </div>
-                        <img anima-src="./img/clientcare-ipad-line.png" class="bp3-line4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-qtipicon@2x.png" class="bp3-qtipicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-ipad-line.png')}}" class="bp3-line4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-qtipicon@2x.png')}}" class="bp3-qtipicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-text19">
                             <br/>
                             Dry it with hair dryer after shower (warm or cold setting, blowing upwards)
                         </div>
-                        <img anima-src="./img/clientcare-ipad-line.png" class="bp3-line5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-ipad-hairdryericon@2x.png" class="bp3-hairdryericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-ipad-line.png')}}" class="bp3-line5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-ipad-hairdryericon@2x.png')}}" class="bp3-hairdryericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp3-text20">
                             <br/>
                             Dry it with hair dryer after shower (warm or cold setting, blowing upwards)
                         </div>
-                        <img anima-src="./img/clientcare-ipad-line.png" class="bp3-line6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-ipad-line.png')}}" class="bp3-line6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                 </div>
                 <div class="bp3-qaheader">
@@ -308,7 +308,7 @@
                 <div class="bp2-clientcareheader">
                     For Client Care
                 </div>
-                <img anima-src="./img/clientcare-mobile-line@2x.png" class="bp2-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line@2x.png')}}" class="bp2-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="bp2-text">
                     <br/>
                     <br/>
@@ -347,26 +347,26 @@
                     <br/>
                     Instructions
                 </div>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-line 9@2x.png" class="bp2-line16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-line 9@2x.png')}}" class="bp2-line16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="bp2-spoolie">
                     <div class="bp2-mask">
                     </div>
-                    <img anima-src="./img/clientcare-mobile-spoolie-copy.png" class="bp2-spooliecopy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/clientcare-mobile-spoolie-copy.png')}}" class="bp2-spooliecopy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp2-banner">
                 </div>
@@ -417,23 +417,23 @@
                 <a href="{{url_for('showHome')}}">
                     <div class="bp2-logo">
                         <div class="bp2-logotext">
-                            <img anima-src="./img/unsuccessful-submit-mobile-logo@2x.png" class="bp2-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-spoolie@2x.png" class="bp2-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-box@2x.png" class="bp2-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-spoolie 1@2x.png" class="bp2-spoolie2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-box@2x.png" class="bp2-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text@2x.png" class="bp2-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 1@2x.png" class="bp2-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 2@2x.png" class="bp2-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 3@2x.png" class="bp2-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 4@2x.png" class="bp2-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 5@2x.png" class="bp2-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 6@2x.png" class="bp2-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 7@2x.png" class="bp2-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 8@2x.png" class="bp2-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 9@2x.png" class="bp2-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 10@2x.png" class="bp2-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/unsuccessful-submit-mobile-text 11@2x.png" class="bp2-text12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-logo@2x.png')}}" class="bp2-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-spoolie@2x.png')}}" class="bp2-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-box@2x.png')}}" class="bp2-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-spoolie 1@2x.png')}}" class="bp2-spoolie2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-box@2x.png')}}" class="bp2-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text@2x.png')}}" class="bp2-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 1@2x.png')}}" class="bp2-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 2@2x.png')}}" class="bp2-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 3@2x.png')}}" class="bp2-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 4@2x.png')}}" class="bp2-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 5@2x.png')}}" class="bp2-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 6@2x.png')}}" class="bp2-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 7@2x.png')}}" class="bp2-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 8@2x.png')}}" class="bp2-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 9@2x.png')}}" class="bp2-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 10@2x.png')}}" class="bp2-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-text 11@2x.png')}}" class="bp2-text12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         </div>
                         <div class="bp2-text13">
                             LASH EXTENSIONS
@@ -446,9 +446,9 @@
                     - Sherin Lee
                 </div>
                 <div class="bp2-socialicon">
-                    <img anima-src="./img/success-stories-mobile-facebook@2x.png" class="bp2-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="./img/success-stories-mobile-instagram@2x.png" class="bp2-instagram" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="./img/success-stories-mobile-youtube@2x.png" class="bp2-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/success-stories-mobile-facebook@2x.png')}}" class="bp2-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/success-stories-mobile-instagram@2x.png')}}" class="bp2-instagram" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/success-stories-mobile-youtube@2x.png')}}" class="bp2-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp2-text14">
                     There are many misconceptions
@@ -482,13 +482,13 @@
                     <br/>
                     Answer
                 </div>
-                <img anima-src="./img/clientcare-spoolieicond@2x.png" class="bp2-spoolieicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-teardropicon@2x.png" class="bp2-teardropicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-fingericon@2x.png" class="bp2-fingericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-brushicon@2x.png" class="bp2-brushicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-eyelinericon@2x.png" class="bp2-eyelinericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-qtipicon@2x.png" class="bp2-qtipicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img anima-src="./img/clientcare-mobile-hairdryericon@2x.png" class="bp2-hairdryericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-spoolieicond@2x.png')}}" class="bp2-spoolieicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-teardropicon@2x.png')}}" class="bp2-teardropicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-fingericon@2x.png')}}" class="bp2-fingericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-brushicon@2x.png')}}" class="bp2-brushicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-eyelinericon@2x.png')}}" class="bp2-eyelinericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-qtipicon@2x.png')}}" class="bp2-qtipicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-mobile-hairdryericon@2x.png')}}" class="bp2-hairdryericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <div class="bp2-text15">
                     Do not get them wet after application (wait for 24 hours after application) For the lash extensions to last longer,  try to not sleep on lashes. Avoid touching with finger tips because finger tip has oil.
                 </div>
@@ -518,7 +518,7 @@
                     <div class="bp2-path">
                     </div>
                     <div class="bp2-footer1">
-                        <img anima-src="./img/unsuccessful-submit-mobile-rectangle.png" class="bp2-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-rectangle.png')}}" class="bp2-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                     <div class="bp2-box2">
                     </div>
@@ -572,13 +572,13 @@
                 </div>
                 <div class="bp2-socialicons">
                     <a href="https://www.facebook.com/Lighteyes.USA/" target="_blank">
-                        <img anima-src="./img/unsuccessful-submit-mobile-facebook@2x.png" class="bp2-facebook1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-facebook@2x.png')}}" class="bp2-facebook1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </a>
                     <a href="https://www.instagram.com/lighteyes.usa/" target="_blank">
-                        <img anima-src="./img/unsuccessful-submit-mobile-instagram-icon@2x.png" class="bp2-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-instagram-icon@2x.png')}}" class="bp2-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </a>
                     <a href="https://www.youtube.com/channel/UCDFChI-zAiMXhpJMvM1ADrw" target="_blank">
-                        <img anima-src="./img/unsuccessful-submit-mobile-youtube@2x.png" class="bp2-youtube1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-mobile-youtube@2x.png')}}" class="bp2-youtube1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </a>
                 </div>
                 <div class="bp2-sublinks2">
@@ -632,7 +632,7 @@
                 <div class="bp1-spoolie">
                     <div class="bp1-mask">
                     </div>
-                    <img anima-src="./img/clientcare-spoolie.png" class="bp1-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="{{url_for('static', filename='img/clientcare-spoolie.png')}}" class="bp1-spoolie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
                 <div class="bp1-clientcareheader">
                     For Client Care
@@ -654,7 +654,7 @@
                     <br/>
                     not touch the lash line.
                 </div>
-                <img anima-src="./img/clientcare-text.png" class="bp1-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="{{url_for('static', filename='img/clientcare-text.png')}}" class="bp1-text1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 <a href="{{url_for('showServices')}}">
                     <div class="bp1-services">
                         <div class="bp1-button-layout-container">
@@ -677,24 +677,24 @@
                     <a href="{{url_for('showHome')}}">
                         <div class="bp1-logo">
                             <a href="{{url_for('showHome')}}">
-                                <img anima-src="./img/vetustweezer-logo@2x.png" class="bp1-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/vetustweezer-logo@2x.png')}}" class="bp1-logo1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
-                            <img anima-src="./img/vetustweezer-spoolie@2x.png" class="bp1-spoolie2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-box@2x.png" class="bp1-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-spoolie 1@2x.png" class="bp1-spoolie3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-box@2x.png" class="bp1-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text@2x.png" class="bp1-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 1@2x.png" class="bp1-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 2@2x.png" class="bp1-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 3@2x.png" class="bp1-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 4@2x.png" class="bp1-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 5@2x.png" class="bp1-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 6@2x.png" class="bp1-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 7@2x.png" class="bp1-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 8@2x.png" class="bp1-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 9@2x.png" class="bp1-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 10@2x.png" class="bp1-text12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/vetustweezer-text 11@2x.png" class="bp1-text13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-spoolie@2x.png')}}" class="bp1-spoolie2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-box@2x.png')}}" class="bp1-box" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-spoolie 1@2x.png')}}" class="bp1-spoolie3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-box@2x.png')}}" class="bp1-box1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text@2x.png')}}" class="bp1-text2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 1@2x.png')}}" class="bp1-text3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 2@2x.png')}}" class="bp1-text4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 3@2x.png')}}" class="bp1-text5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 4@2x.png')}}" class="bp1-text6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 5@2x.png')}}" class="bp1-text7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 6@2x.png')}}" class="bp1-text8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 7@2x.png')}}" class="bp1-text9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 8@2x.png')}}" class="bp1-text10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 9@2x.png')}}" class="bp1-text11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 10@2x.png')}}" class="bp1-text12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="{{url_for('static', filename='img/vetustweezer-text 11@2x.png')}}" class="bp1-text13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         </div>
                     </a>
                     <div class="bp1-text14">
@@ -742,16 +742,16 @@
                     <div class="bp1-path">
                     </div>
                     <div class="bp1-footer1">
-                        <img anima-src="./img/unsuccessful-submit-rectangle.png" class="bp1-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-rectangle.png')}}" class="bp1-rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-socialicons">
                             <a href="https://www.facebook.com/Lighteyes.USA/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-facebook@2x.png" class="bp1-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-facebook@2x.png')}}" class="bp1-facebook" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.instagram.com/lighteyes.usa/" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-instagram-icon@2x.png" class="bp1-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-instagram-icon@2x.png')}}" class="bp1-instagramicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                             <a href="https://www.youtube.com/channel/UCDFChI-zAiMXhpJMvM1ADrw" target="_blank">
-                                <img anima-src="./img/unsuccessful-submit-youtube@2x.png" class="bp1-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="{{url_for('static', filename='img/unsuccessful-submit-youtube@2x.png')}}" class="bp1-youtube" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             </a>
                         </div>
                     </div>
@@ -878,43 +878,43 @@
                         <div class="bp1-text22">
                             After Care Instructions:
                         </div>
-                        <img anima-src="./img/clientcare-teardropicon@2x.png" class="bp1-teardropicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-line.png" class="bp1-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-teardropicon@2x.png')}}" class="bp1-teardropicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-line.png')}}" class="bp1-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-text23">
                             Do not get them wet after application (wait for 24 hours after application) For the lash extensions to last longer,  try to not sleep on lashes. Avoid touching with finger tips because finger tip has oil.
                         </div>
-                        <img anima-src="./img/clientcare-spoolieicond@2x.png" class="bp1-spoolieicond" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-line.png" class="bp1-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-spoolieicond@2x.png')}}" class="bp1-spoolieicond" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-line.png')}}" class="bp1-line1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-text16">
                             No Mascara
                         </div>
-                        <img anima-src="./img/clientcare-mobile-fingericon@2x.png" class="bp1-fingericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-line.png" class="bp1-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-mobile-fingericon@2x.png')}}" class="bp1-fingericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-line.png')}}" class="bp1-line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-text17">
                             The less you touch, the longer it stays!
                         </div>
-                        <img anima-src="./img/clientcare-mobile-brushicon@2x.png" class="bp1-brushicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-line.png" class="bp1-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-mobile-brushicon@2x.png')}}" class="bp1-brushicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-line.png')}}" class="bp1-line3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-text18">
                             <br/>
                             Do not use oil base Cleansers. Clean Regularly. Use Foam or Gel Cleansers(brush it with the spoolie, rinse
                             <br/>
                             with slow running water)
                         </div>
-                        <img anima-src="./img/clientcare-mobile-eyelinericon@2x.png" class="bp1-eyelinericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-line.png" class="bp1-line4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-mobile-eyelinericon@2x.png')}}" class="bp1-eyelinericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-line.png')}}" class="bp1-line4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-text19">
                             <br/>
                             If you need eyeliner – draw on the outer corner of your eyes
                         </div>
-                        <img anima-src="./img/clientcare-qtipicon@2x.png" class="bp1-qtipicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-line.png" class="bp1-line5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-qtipicon@2x.png')}}" class="bp1-qtipicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-line.png')}}" class="bp1-line5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-text20">
                             <br/>
                             Dry it with hair dryer after shower (warm or cold setting, blowing upwards)
                         </div>
-                        <img anima-src="./img/clientcare-mobile-hairdryericon@2x.png" class="bp1-hairdryericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img anima-src="./img/clientcare-line.png" class="bp1-line6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-mobile-hairdryericon@2x.png')}}" class="bp1-hairdryericon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/clientcare-line.png')}}" class="bp1-line6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-text21">
                             <br/>
                             Dry it with hair dryer after shower (warm or cold setting, blowing upwards)
@@ -935,7 +935,7 @@
             <div class="anima-overlay" id="overlay-productoverlay" style="min-height:2521px;">
                 <div class="bp1-productoverlay">
                     <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/product-overlay-product.png" class="bp1-product" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/product-overlay-product.png')}}" class="bp1-product" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-rollover-layout-container">
                             <div class="bp1-rollover">
                             </div>
@@ -958,7 +958,7 @@
                 </div>
                 <div class="bp2-productoverlayipad">
                     <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/productoverlayipad-product-ipad.png" class="bp2-productipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/productoverlayipad-product-ipad.png')}}" class="bp2-productipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp2-rollovercopy">
                         </div>
                         <div class="bp2-stackedgroupcopy-layout-container">
@@ -991,7 +991,7 @@
             <div class="anima-overlay" id="overlay-courseoverlay" style="min-height:2521px;">
                 <div class="bp2-courseoverlayipad">
                     <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/courseoverlayipad-course-training-ipad.png" class="bp2-coursetrainingipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/courseoverlayipad-course-training-ipad.png')}}" class="bp2-coursetrainingipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp2-rollovercopy">
                         </div>
                         <div class="bp2-stackedgroupcopy">
@@ -1015,7 +1015,7 @@
                 </div>
                 <div class="bp1-courseoverlay">
                     <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/course-overlay-course-training-desktop.png" class="bp1-coursetrainingdesktop" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/course-overlay-course-training-desktop.png')}}" class="bp1-coursetrainingdesktop" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-rollover">
                         </div>
                         <div class="bp1-stackedgroup">
@@ -1051,7 +1051,7 @@
             <div class="anima-overlay" id="overlay-serviceoverlay" style="min-height:2521px;">
                 <div class="bp1-serviceoverlay">
                     <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/service-overlay-services.png" class="bp1-services" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/service-overlay-services.png')}}" class="bp1-services" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp1-rollover">
                         </div>
                         <div class="bp1-stackedgroup">
@@ -1075,7 +1075,7 @@
                 </div>
                 <div class="bp2-serviceoverlayipad">
                     <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                        <img anima-src="./img/serviceoverlayipad-services-ipad.png" class="bp2-servicesipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="{{url_for('static', filename='img/serviceoverlayipad-services-ipad.png')}}" class="bp2-servicesipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <div class="bp2-rollovercopy">
                         </div>
                         <div class="bp2-stackedgroupcopy">
