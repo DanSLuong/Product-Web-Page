@@ -21,6 +21,1662 @@
   width               : 100%;
   height              : 100%;
 }
+.bp3-coursetrainingipad {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 2090px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-an-animation-enter16 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp3-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp3-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp3-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp3-an-animation-enter17 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp3-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp3-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp3-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp3-an-animation-enter18 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp3-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp3-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp3-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp3-coursetrainingipad .bp3-banner {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 114px;
+  width               : 774px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-banner1 {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : 0px;
+  height              : 114px;
+  width               : 774px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 73px;
+  width               : 165px;
+  position            : absolute;
+  margin              : 0;
+  left                : 293px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : 8px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-box {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 67px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 133px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : 8px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 67px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 13px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 11px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 13px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 11px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 49px;
+  height              : 11px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 49px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 136px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-banner .bp3-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : auto;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp3-coursetrainingipad .bp3-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 92px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-stackedgroup .bp3-linkscopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-stackedgroup .bp3-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-stackedgroup .bp3-product {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-stackedgroup .bp3-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-stackedgroup .bp3-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-stackedgroup .bp3-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-stackedgroup .bp3-contact {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  bottom              : 0%;
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : -14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-path {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 80px;
+  height              : 27px;
+  width               : 219px;
+  position            : absolute;
+  margin              : 0;
+  left                : 543px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-footer1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-footer1 .bp3-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-footer1 .bp3-socialicons {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : 21px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 318px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-facebook {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-instagramicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-rectangle2copy {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 118px;
+  height              : 28px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-rectangle2copy2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 82px;
+  height              : 28px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 121px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 555px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-textyouremailaddress {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 30px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 555px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+  border              : 0;
+}
+.bp3-coursetrainingipad .bp3-footer .bp3-textyouremailaddress::placeholder {
+  color               : rgba(122, 122, 122, 0.6);
+}
+.bp3-coursetrainingipad .bp3-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1232px;
+  height              : auto;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.bp3-coursetrainingipad .bp3-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1283px;
+  height              : auto;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.bp3-coursetrainingipad .bp3-text15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1335px;
+  height              : auto;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.bp3-coursetrainingipad .bp3-text16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1226px;
+  height              : auto;
+  width               : 358px;
+  position            : absolute;
+  margin              : 0;
+  left                : 390px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 22.0px;
+}
+.bp3-coursetrainingipad .bp3-text17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1274px;
+  height              : auto;
+  width               : 358px;
+  position            : absolute;
+  margin              : 0;
+  left                : 390px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 22.0px;
+}
+.bp3-coursetrainingipad .bp3-text18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1326px;
+  height              : auto;
+  width               : 366px;
+  position            : absolute;
+  margin              : 0;
+  left                : 390px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 22.0px;
+}
+.bp3-coursetrainingipad .bp3-address {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1926px;
+  height              : 72px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 318px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-address .bp3-a1630oaklandrdsuit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-subscribeinfo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1926px;
+  height              : 36px;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 531px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-subscribeinfo .bp3-subscribetoournew {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1923px;
+  height              : auto;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footerlinks .bp3-home {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks .bp3-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks .bp3-services1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks .bp3-coursetraining1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks .bp3-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks .bp3-clientcare {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks .bp3-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1926px;
+  height              : auto;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-footerlinks2 .bp3-products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks2 .bp3-blog1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks2 .bp3-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks2 .bp3-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-footerlinks2 .bp3-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-coursetrainingipad .bp3-classbanner {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 112px;
+  height              : 249px;
+  width               : 770px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-classbanner .bp3-mask {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 249px;
+  width               : 770px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-classbanner .bp3-classbanner1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 253px;
+  width               : 777px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-courseheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 374px;
+  height              : auto;
+  width               : 165px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 25.0px;
+}
+.bp3-coursetrainingipad .bp3-text19 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 404px;
+  height              : auto;
+  width               : 318px;
+  position            : absolute;
+  margin              : 0;
+  left                : 425px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.bp3-coursetrainingipad .bp3-courseheader1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 136px;
+  height              : auto;
+  width               : 253px;
+  position            : absolute;
+  margin              : 0;
+  left                : 502px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 38.0px;
+}
+.bp3-coursetrainingipad .bp3-text20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 209px;
+  height              : auto;
+  width               : 153px;
+  position            : absolute;
+  margin              : 0;
+  left                : 551px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-coursetrainingipad .bp3-line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 384px;
+  height              : 3px;
+  width               : 536px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1188px;
+  height              : 3px;
+  width               : 608px;
+  position            : absolute;
+  margin              : 0;
+  left                : 133px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-line2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1033px;
+  height              : 1px;
+  width               : 119px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-line3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 802px;
+  height              : 3px;
+  width               : 556px;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-coursekitheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1034px;
+  height              : auto;
+  width               : 181px;
+  position            : absolute;
+  margin              : 0;
+  left                : 182px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 25.0px;
+}
+.bp3-coursetrainingipad .bp3-breakdownheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 794px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 25.0px;
+}
+.bp3-coursetrainingipad .bp3-pricingheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1180px;
+  height              : auto;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 25.0px;
+}
+.bp3-coursetrainingipad .bp3-toolkit {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 835px;
+  height              : 278px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 408px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-toolkit .bp3-mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 278px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-toolkit .bp3-toolkit1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -5px;
+  height              : 288px;
+  width               : 346px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-text21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1076px;
+  height              : auto;
+  width               : 318px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.bp3-coursetrainingipad .bp3-text22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 846px;
+  height              : auto;
+  width               : 318px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.bp3-coursetrainingipad .bp3-successstory {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 719px;
+  height              : 39px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 154px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-successstory .bp3-rectangle2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 39px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 7px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-successstory .bp3-studentsuccessstor {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 136px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp3-coursetrainingipad .bp3-lashisolation {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 413px;
+  height              : 295px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-lashisolation .bp3-mask2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 295px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-lashisolation .bp3-lashisolation1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -12px;
+  height              : 312px;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
+  left                : -22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 294px;
+  height              : 27px;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 582px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-group .bp3-button {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 7px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-coursetrainingipad .bp3-group .bp3-registerbutton {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
 .bp2-coursemobile {
   width               : 100%;
   min-width           : 320px;
@@ -37,19 +1693,19 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp2-an-animation-enter9 {
+.bp2-an-animation-enter17 {
   opacity             : 0;
   display             : block;
-  -webkit-animation   : bp2-an-animation-enter9-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-an-animation-enter9-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-an-animation-enter9-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp2-an-animation-enter9-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp2-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp2-an-animation-enter9-frames {
+@-webkit-keyframes bp2-an-animation-enter17-frames {
   0%
    
   {
@@ -63,7 +1719,7 @@ div {
   opacity: 1;
     }
 }
-@-moz-keyframes bp2-an-animation-enter9-frames {
+@-moz-keyframes bp2-an-animation-enter17-frames {
   0%
    
   {
@@ -77,7 +1733,7 @@ div {
   opacity: 1;
     }
 }
-@-o-keyframes bp2-an-animation-enter9-frames {
+@-o-keyframes bp2-an-animation-enter17-frames {
   0%
    
   {
@@ -91,7 +1747,7 @@ div {
   opacity: 1;
     }
 }
-@keyframes bp2-an-animation-enter9-frames {
+@keyframes bp2-an-animation-enter17-frames {
   0%
    
   {
@@ -1663,20 +3319,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp1-an-animation-enter21 {
+.bp1-an-animation-enter36 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter21-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter21-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter21-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter21-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter36-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter36-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter36-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter36-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter21-frames {
+@-webkit-keyframes bp1-an-animation-enter36-frames {
   0%
    
   {
@@ -1692,7 +3348,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter21-frames {
+@-moz-keyframes bp1-an-animation-enter36-frames {
   0%
    
   {
@@ -1708,7 +3364,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter21-frames {
+@-o-keyframes bp1-an-animation-enter36-frames {
   0%
    
   {
@@ -1724,7 +3380,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter21-frames {
+@keyframes bp1-an-animation-enter36-frames {
   0%
    
   {
@@ -1740,20 +3396,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter22 {
+.bp1-an-animation-enter37 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter37-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter37-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter37-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter37-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter22-frames {
+@-webkit-keyframes bp1-an-animation-enter37-frames {
   0%
    
   {
@@ -1769,7 +3425,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter22-frames {
+@-moz-keyframes bp1-an-animation-enter37-frames {
   0%
    
   {
@@ -1785,7 +3441,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter22-frames {
+@-o-keyframes bp1-an-animation-enter37-frames {
   0%
    
   {
@@ -1801,7 +3457,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter22-frames {
+@keyframes bp1-an-animation-enter37-frames {
   0%
    
   {
@@ -1817,20 +3473,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter23 {
+.bp1-an-animation-enter38 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter38-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter38-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter38-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter38-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter23-frames {
+@-webkit-keyframes bp1-an-animation-enter38-frames {
   0%
    
   {
@@ -1846,7 +3502,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter23-frames {
+@-moz-keyframes bp1-an-animation-enter38-frames {
   0%
    
   {
@@ -1862,7 +3518,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter23-frames {
+@-o-keyframes bp1-an-animation-enter38-frames {
   0%
    
   {
@@ -1878,7 +3534,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter23-frames {
+@keyframes bp1-an-animation-enter38-frames {
   0%
    
   {
@@ -3215,1662 +4871,6 @@ div {
   color               : rgba(215, 215, 215, 1.0);
   text-align          : left;
   line-height         : 18.0px;
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-.bp3-coursetrainingipad {
-  width               : 100%;
-  min-width           : 768px;
-  height              : 100vh;
-  min-height          : 2090px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  background-color    : rgba(255, 255, 255, 1.0);
-}
-a {
-  text-decoration     : none;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp3-an-animation-enter29 {
-  opacity             : 0;
-  transform           : scale(1.1);
-  display             : block;
-  -webkit-animation   : bp3-an-animation-enter29-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter29-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter29-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter29-frames 0.2s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
-}
-@-webkit-keyframes bp3-an-animation-enter29-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-moz-keyframes bp3-an-animation-enter29-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-o-keyframes bp3-an-animation-enter29-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@keyframes bp3-an-animation-enter29-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-.bp3-an-animation-enter30 {
-  opacity             : 0;
-  transform           : scale(1.1);
-  display             : block;
-  -webkit-animation   : bp3-an-animation-enter30-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter30-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter30-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter30-frames 0.2s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
-}
-@-webkit-keyframes bp3-an-animation-enter30-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-moz-keyframes bp3-an-animation-enter30-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-o-keyframes bp3-an-animation-enter30-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@keyframes bp3-an-animation-enter30-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-.bp3-an-animation-enter31 {
-  opacity             : 0;
-  transform           : scale(1.1);
-  display             : block;
-  -webkit-animation   : bp3-an-animation-enter31-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter31-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter31-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter31-frames 0.2s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
-}
-@-webkit-keyframes bp3-an-animation-enter31-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-moz-keyframes bp3-an-animation-enter31-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-o-keyframes bp3-an-animation-enter31-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@keyframes bp3-an-animation-enter31-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-.bp3-coursetrainingipad .bp3-banner {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 114px;
-  width               : 774px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-banner1 {
-  background-color    : rgba(102, 103, 103, 1.0);
-  top                 : 0px;
-  height              : 114px;
-  width               : 774px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 15px;
-  height              : 73px;
-  width               : 165px;
-  position            : absolute;
-  margin              : 0;
-  left                : 293px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-logo1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 41px;
-  width               : 68px;
-  position            : absolute;
-  margin              : 0;
-  left                : 51px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-spoolie {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 65px;
-  height              : 8px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 140px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-box {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 67px;
-  height              : 6px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 133px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-spoolie1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 65px;
-  height              : 8px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-box1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 67px;
-  height              : 6px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 24px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 46px;
-  height              : 13px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 11px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 47px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 58px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text5 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 46px;
-  height              : 13px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 73px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text6 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 83px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text7 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text8 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 11px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 102px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text9 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 46px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text10 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 49px;
-  height              : 11px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 128px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-logo .bp3-text11 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 49px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 136px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-banner .bp3-text12 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 78px;
-  height              : auto;
-  width               : 93px;
-  position            : absolute;
-  margin              : 0;
-  left                : 328px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(254, 255, 254, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp3-coursetrainingipad .bp3-stackedgroup {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 92px;
-  height              : 15px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 121px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-stackedgroup .bp3-linkscopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-stackedgroup .bp3-links {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-stackedgroup .bp3-product {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-stackedgroup .bp3-services {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-stackedgroup .bp3-blog {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-stackedgroup .bp3-coursetraining {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-stackedgroup .bp3-contact {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footer {
-  background-color    : rgba(255, 255, 255, 0.0);
-  bottom              : 0%;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : -14px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-path {
-  background-color    : rgba(254, 255, 254, 1.0);
-  top                 : 80px;
-  height              : 27px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 543px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-footer1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-footer1 .bp3-rectangle {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-footer1 .bp3-socialicons {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 119px;
-  height              : 21px;
-  width               : 98px;
-  position            : absolute;
-  margin              : 0;
-  left                : 318px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-facebook {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-instagramicon {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-youtube {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 70px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-rectangle2copy {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 118px;
-  height              : 28px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 542px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-rectangle2copy2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 82px;
-  height              : 28px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 542px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-subscribe {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 121px;
-  height              : auto;
-  width               : 84px;
-  position            : absolute;
-  margin              : 0;
-  left                : 555px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-textyouremailaddress {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 30px;
-  width               : 168px;
-  position            : absolute;
-  margin              : 0;
-  left                : 555px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-  border              : 0;
-}
-.bp3-coursetrainingipad .bp3-footer .bp3-textyouremailaddress::placeholder {
-  color               : rgba(122, 122, 122, 0.6);
-}
-.bp3-coursetrainingipad .bp3-text13 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1232px;
-  height              : auto;
-  width               : 344px;
-  position            : absolute;
-  margin              : 0;
-  left                : 56px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 16.0px;
-}
-.bp3-coursetrainingipad .bp3-text14 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1283px;
-  height              : auto;
-  width               : 344px;
-  position            : absolute;
-  margin              : 0;
-  left                : 56px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 16.0px;
-}
-.bp3-coursetrainingipad .bp3-text15 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1335px;
-  height              : auto;
-  width               : 344px;
-  position            : absolute;
-  margin              : 0;
-  left                : 56px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 16.0px;
-}
-.bp3-coursetrainingipad .bp3-text16 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1226px;
-  height              : auto;
-  width               : 358px;
-  position            : absolute;
-  margin              : 0;
-  left                : 390px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 22.0px;
-}
-.bp3-coursetrainingipad .bp3-text17 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1274px;
-  height              : auto;
-  width               : 358px;
-  position            : absolute;
-  margin              : 0;
-  left                : 390px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 22.0px;
-}
-.bp3-coursetrainingipad .bp3-text18 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1326px;
-  height              : auto;
-  width               : 366px;
-  position            : absolute;
-  margin              : 0;
-  left                : 390px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 22.0px;
-}
-.bp3-coursetrainingipad .bp3-address {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1926px;
-  height              : 72px;
-  width               : 126px;
-  position            : absolute;
-  margin              : 0;
-  left                : 318px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-address .bp3-a1630oaklandrdsuit {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 126px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-subscribeinfo {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1926px;
-  height              : 36px;
-  width               : 186px;
-  position            : absolute;
-  margin              : 0;
-  left                : 531px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-subscribeinfo .bp3-subscribetoournew {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1923px;
-  height              : auto;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 24px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footerlinks .bp3-home {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks .bp3-aboutus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks .bp3-services1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks .bp3-coursetraining1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks .bp3-shipping {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks .bp3-clientcare {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks .bp3-qaeducational {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1926px;
-  height              : auto;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 165px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-footerlinks2 .bp3-products {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks2 .bp3-blog1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks2 .bp3-contactus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks2 .bp3-team {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-footerlinks2 .bp3-successstories {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-coursetrainingipad .bp3-classbanner {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 112px;
-  height              : 249px;
-  width               : 770px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-classbanner .bp3-mask {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 249px;
-  width               : 770px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-classbanner .bp3-classbanner1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1px;
-  height              : 253px;
-  width               : 777px;
-  position            : absolute;
-  margin              : 0;
-  left                : -8px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-courseheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 374px;
-  height              : auto;
-  width               : 165px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 25.0px;
-}
-.bp3-coursetrainingipad .bp3-text19 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 404px;
-  height              : auto;
-  width               : 318px;
-  position            : absolute;
-  margin              : 0;
-  left                : 425px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 16.0px;
-}
-.bp3-coursetrainingipad .bp3-courseheader1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 136px;
-  height              : auto;
-  width               : 253px;
-  position            : absolute;
-  margin              : 0;
-  left                : 502px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 38.0px;
-}
-.bp3-coursetrainingipad .bp3-text20 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 209px;
-  height              : auto;
-  width               : 153px;
-  position            : absolute;
-  margin              : 0;
-  left                : 551px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp3-coursetrainingipad .bp3-line {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 384px;
-  height              : 3px;
-  width               : 536px;
-  position            : absolute;
-  margin              : 0;
-  left                : 205px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-line1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1188px;
-  height              : 3px;
-  width               : 608px;
-  position            : absolute;
-  margin              : 0;
-  left                : 133px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-line2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1033px;
-  height              : 1px;
-  width               : 119px;
-  position            : absolute;
-  margin              : 0;
-  left                : 38px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-line3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 802px;
-  height              : 3px;
-  width               : 556px;
-  position            : absolute;
-  margin              : 0;
-  left                : 191px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-coursekitheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1034px;
-  height              : auto;
-  width               : 181px;
-  position            : absolute;
-  margin              : 0;
-  left                : 182px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 25.0px;
-}
-.bp3-coursetrainingipad .bp3-breakdownheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 794px;
-  height              : auto;
-  width               : 144px;
-  position            : absolute;
-  margin              : 0;
-  left                : 33px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 25.0px;
-}
-.bp3-coursetrainingipad .bp3-pricingheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1180px;
-  height              : auto;
-  width               : 99px;
-  position            : absolute;
-  margin              : 0;
-  left                : 33px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 25.0px;
-}
-.bp3-coursetrainingipad .bp3-toolkit {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 835px;
-  height              : 278px;
-  width               : 342px;
-  position            : absolute;
-  margin              : 0;
-  left                : 408px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-toolkit .bp3-mask1 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 278px;
-  width               : 342px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-toolkit .bp3-toolkit1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -5px;
-  height              : 288px;
-  width               : 346px;
-  position            : absolute;
-  margin              : 0;
-  left                : -4px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-text21 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1076px;
-  height              : auto;
-  width               : 318px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 16.0px;
-}
-.bp3-coursetrainingipad .bp3-text22 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 846px;
-  height              : auto;
-  width               : 318px;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 16.0px;
-}
-.bp3-coursetrainingipad .bp3-successstory {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 719px;
-  height              : 39px;
-  width               : 134px;
-  position            : absolute;
-  margin              : 0;
-  left                : 154px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-successstory .bp3-rectangle2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 39px;
-  width               : 134px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 7px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-successstory .bp3-studentsuccessstor {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 15px;
-  height              : auto;
-  width               : 136px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.bp3-coursetrainingipad .bp3-lashisolation {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 413px;
-  height              : 295px;
-  width               : 364px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-lashisolation .bp3-mask2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 295px;
-  width               : 364px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-lashisolation .bp3-lashisolation1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -12px;
-  height              : 312px;
-  width               : 432px;
-  position            : absolute;
-  margin              : 0;
-  left                : -22px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-group {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 294px;
-  height              : 27px;
-  width               : 86px;
-  position            : absolute;
-  margin              : 0;
-  left                : 582px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-group .bp3-button {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 27px;
-  width               : 86px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 7px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-coursetrainingipad .bp3-group .bp3-registerbutton {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 9px;
-  height              : auto;
-  width               : 54px;
-  position            : absolute;
-  margin              : 0;
-  left                : 15px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 13.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

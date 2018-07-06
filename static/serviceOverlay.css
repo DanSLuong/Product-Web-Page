@@ -13,11 +13,11 @@
   src: url('../fonts/Times New Roman Bold.ttf') format("truetype");
 }
 
-.bp1-serviceoverlay {
+.bp2-serviceoverlayipad {
   width               : 100%;
-  min-width           : 1024px;
+  min-width           : 768px;
   height              : 100vh;
-  min-height          : 2695px;
+  min-height          : 2140px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -29,26 +29,26 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp1-serviceoverlay .bp1-services {
+.bp2-serviceoverlayipad .bp2-servicesipad {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 6px;
-  height              : 2695px;
-  width               : 1024px;
+  top                 : 0px;
+  height              : 2144px;
+  width               : 781px;
   position            : absolute;
   margin              : 0;
-  left                : -1px;
+  left                : -6px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-serviceoverlay .bp1-rollover {
+.bp2-serviceoverlayipad .bp2-rollovercopy {
   background-color    : rgba(130, 125, 125, 1.0);
   top                 : -1px;
-  height              : 2695px;
-  width               : 1035px;
+  height              : 2144px;
+  width               : 773px;
   position            : absolute;
   margin              : 0;
-  left                : -6px;
+  left                : 2px;
   border-style        : solid;
   border-width        : 1px;
   border-color        : rgba(150, 150, 150, 1.0);
@@ -57,23 +57,23 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.56;
 }
-.bp1-serviceoverlay .bp1-stackedgroup {
+.bp2-serviceoverlayipad .bp2-stackedgroupcopy {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : flex-start;
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 11px;
+  top                 : 5px;
   height              : auto;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 455px;
+  left                : 334px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-serviceoverlay .bp1-stackedgroup .bp1-linkcopy2 {
+.bp2-serviceoverlayipad .bp2-stackedgroupcopy .bp2-linkcopy2 {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
@@ -88,7 +88,7 @@ div {
   text-align          : center;
   line-height         : 22.0px;
 }
-.bp1-serviceoverlay .bp1-stackedgroup .bp1-link {
+.bp2-serviceoverlayipad .bp2-stackedgroupcopy .bp2-link {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
@@ -103,7 +103,7 @@ div {
   text-align          : center;
   line-height         : 22.0px;
 }
-.bp1-serviceoverlay .bp1-stackedgroup .bp1-linkcopy {
+.bp2-serviceoverlayipad .bp2-stackedgroupcopy .bp2-linkcopy {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
@@ -197,11 +197,11 @@ div {
       opacity: 1;
     }
 }
-.bp2-serviceoverlayipad {
+.bp1-serviceoverlay {
   width               : 100%;
-  min-width           : 768px;
+  min-width           : 1024px;
   height              : 100vh;
-  min-height          : 2140px;
+  min-height          : 2695px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -213,26 +213,26 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp2-serviceoverlayipad .bp2-servicesipad {
+.bp1-serviceoverlay .bp1-services {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 2144px;
-  width               : 781px;
+  top                 : 6px;
+  height              : 2695px;
+  width               : 1024px;
   position            : absolute;
   margin              : 0;
-  left                : -6px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-serviceoverlayipad .bp2-rollovercopy {
+.bp1-serviceoverlay .bp1-rollover {
   background-color    : rgba(130, 125, 125, 1.0);
   top                 : -1px;
-  height              : 2144px;
-  width               : 773px;
+  height              : 2695px;
+  width               : 1035px;
   position            : absolute;
   margin              : 0;
-  left                : 2px;
+  left                : -6px;
   border-style        : solid;
   border-width        : 1px;
   border-color        : rgba(150, 150, 150, 1.0);
@@ -241,23 +241,23 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.56;
 }
-.bp2-serviceoverlayipad .bp2-stackedgroupcopy {
+.bp1-serviceoverlay .bp1-stackedgroup {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : flex-start;
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 5px;
+  top                 : 11px;
   height              : auto;
   width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 334px;
+  left                : 455px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-serviceoverlayipad .bp2-stackedgroupcopy .bp2-linkcopy2 {
+.bp1-serviceoverlay .bp1-stackedgroup .bp1-linkcopy2 {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
@@ -272,7 +272,7 @@ div {
   text-align          : center;
   line-height         : 22.0px;
 }
-.bp2-serviceoverlayipad .bp2-stackedgroupcopy .bp2-link {
+.bp1-serviceoverlay .bp1-stackedgroup .bp1-link {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
@@ -287,7 +287,7 @@ div {
   text-align          : center;
   line-height         : 22.0px;
 }
-.bp2-serviceoverlayipad .bp2-stackedgroupcopy .bp2-linkcopy {
+.bp1-serviceoverlay .bp1-stackedgroup .bp1-linkcopy {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;

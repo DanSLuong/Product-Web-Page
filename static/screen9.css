@@ -37,20 +37,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.an-animation-enter120 {
+.an-animation-enter126 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter120-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter120-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter120-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter120-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter126-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter126-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter126-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter126-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter120-frames {
+@-webkit-keyframes an-animation-enter126-frames {
   0%
    
   {
@@ -66,7 +66,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter120-frames {
+@-moz-keyframes an-animation-enter126-frames {
   0%
    
   {
@@ -82,7 +82,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter120-frames {
+@-o-keyframes an-animation-enter126-frames {
   0%
    
   {
@@ -98,7 +98,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter120-frames {
+@keyframes an-animation-enter126-frames {
   0%
    
   {
@@ -114,20 +114,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter121 {
+.an-animation-enter127 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter121-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter121-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter121-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter121-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter127-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter127-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter127-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter127-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter121-frames {
+@-webkit-keyframes an-animation-enter127-frames {
   0%
    
   {
@@ -143,7 +143,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter121-frames {
+@-moz-keyframes an-animation-enter127-frames {
   0%
    
   {
@@ -159,7 +159,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter121-frames {
+@-o-keyframes an-animation-enter127-frames {
   0%
    
   {
@@ -175,7 +175,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter121-frames {
+@keyframes an-animation-enter127-frames {
   0%
    
   {
@@ -191,20 +191,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter122 {
+.an-animation-enter128 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter122-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter122-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter122-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter122-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter128-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter128-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter128-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter128-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter122-frames {
+@-webkit-keyframes an-animation-enter128-frames {
   0%
    
   {
@@ -220,7 +220,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter122-frames {
+@-moz-keyframes an-animation-enter128-frames {
   0%
    
   {
@@ -236,7 +236,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter122-frames {
+@-o-keyframes an-animation-enter128-frames {
   0%
    
   {
@@ -252,7 +252,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter122-frames {
+@keyframes an-animation-enter128-frames {
   0%
    
   {
@@ -268,7 +268,7 @@ div {
   transform: scale(1);
     }
 }
-.screen9 .eyegelpatchheader {
+.screen9 .sparklashheader {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 183px;
   height              : auto;
@@ -448,6 +448,23 @@ div {
   line-height         : 13.0px;
   text-decoration     : underline;
 }
+.screen9 .type {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 361px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 499px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
 .screen9 .text4 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 409px;
@@ -465,43 +482,51 @@ div {
   text-align          : left;
   line-height         : 13.0px;
 }
-.screen9 .button {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 492px;
-  height              : 36px;
-  width               : 169px;
-  position            : absolute;
-  margin              : 0;
-  left                : 630px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen9 .button1 {
-  background-color    : rgba(250, 150, 122, 1.0);
+.screen9 .group {
+  background-color    : rgba(255, 255, 255, 0.0);
   top                 : 492px;
   height              : 36px;
   width               : 120px;
   position            : absolute;
   margin              : 0;
   left                : 500px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .group .button {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 120px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .group .button .button1 {
+  background-color    : rgba(250, 150, 122, 1.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
   border-radius       : 10px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .text5 {
+.screen9 .group .button .text5 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 504px;
+  top                 : 12px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 529px;
+  left                : 29px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -530,23 +555,6 @@ div {
 }
 .screen9 .text7 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 503px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 660px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(67, 65, 65, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
-}
-.screen9 .text8 {
-  background-color    : rgba(255, 255, 255, 0.0);
   top                 : 437px;
   height              : auto;
   width               : auto;
@@ -562,19 +570,103 @@ div {
   text-align          : left;
   line-height         : 15.0px;
 }
-.screen9 .downarrow {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 506px;
-  height              : 8px;
-  width               : 16px;
+.screen9 .scrollbox {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 359px;
+  height              : 27px;
+  width               : 199px;
   position            : absolute;
   margin              : 0;
-  left                : 754px;
+  left                : 530px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .downarrow {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 365px;
+  height              : 11px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 701px;
   -ms-transform       : rotate(180deg); /* IE 9 */
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.screen9 .button2 {
+.screen9 .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 492px;
+  height              : 36px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 630px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .group2 .button2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 169px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .group2 .button2 .button3 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .group2 .button2 .text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(67, 65, 65, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.screen9 .group2 .button2 .downarrow1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 8px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 124px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.screen9 .button4 {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 435px;
   height              : 20px;
@@ -587,7 +679,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .downarrow1 {
+.screen9 .downarrow2 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 442px;
   height              : 6px;
@@ -599,7 +691,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.screen9 .button3 {
+.screen9 .button5 {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 435px;
   height              : 20px;
@@ -651,23 +743,11 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .line1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 396px;
-  height              : 3px;
-  width               : 466px;
-  position            : absolute;
-  margin              : 0;
-  left                : 496px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen9 .singleeyepatch {
+.screen9 .sparkfront {
   background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 291px;
-  height              : 308px;
-  width               : 437px;
+  top                 : 617px;
+  height              : 105px;
+  width               : 105px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -676,11 +756,11 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .singleeyepatch .mask {
+.screen9 .sparkfront .mask {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 308px;
-  width               : 437px;
+  height              : 105px;
+  width               : 105px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -688,14 +768,87 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .singleeyepatch .singleeyepatch1 {
+.screen9 .sparkfront .sparkfront1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 35px;
-  height              : 280px;
-  width               : 350px;
+  top                 : 0px;
+  height              : 120px;
+  width               : 159px;
   position            : absolute;
   margin              : 0;
-  left                : 47px;
+  left                : -27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .sparklashfront {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 291px;
+  height              : 306px;
+  width               : 437px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .sparklashfront .sparklashfront1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 306px;
+  width               : 437px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .sparkside {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 617px;
+  height              : 105px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .sparkside .mask1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .sparkside .sparkside1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 88px;
+  width               : 183px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen9 .line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 396px;
+  height              : 3px;
+  width               : 466px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -723,23 +876,6 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-}
-.screen9 .banner .text9 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 119px;
-  height              : auto;
-  width               : 164px;
-  position            : absolute;
-  margin              : 0;
-  left                : 429px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
-  font-size           : 19.0px;
-  color               : rgba(254, 255, 254, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
 }
 .screen9 .banner .logo {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -813,7 +949,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text10 {
+.screen9 .banner .logo .text9 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 21px;
@@ -825,7 +961,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text11 {
+.screen9 .banner .logo .text10 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -837,7 +973,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text12 {
+.screen9 .banner .logo .text11 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 17px;
@@ -849,7 +985,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text13 {
+.screen9 .banner .logo .text12 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -861,7 +997,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text14 {
+.screen9 .banner .logo .text13 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -873,7 +1009,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text15 {
+.screen9 .banner .logo .text14 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 21px;
@@ -885,7 +1021,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text16 {
+.screen9 .banner .logo .text15 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -897,7 +1033,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text17 {
+.screen9 .banner .logo .text16 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -909,7 +1045,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text18 {
+.screen9 .banner .logo .text17 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 17px;
@@ -921,7 +1057,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text19 {
+.screen9 .banner .logo .text18 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 22px;
@@ -933,7 +1069,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text20 {
+.screen9 .banner .logo .text19 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 79px;
   height              : 18px;
@@ -945,7 +1081,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen9 .banner .logo .text21 {
+.screen9 .banner .logo .text20 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 79px;
   height              : 17px;
@@ -956,6 +1092,23 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+}
+.screen9 .banner .text21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 429px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
 }
 .screen9 .stackedgroup {
   display             : flex;

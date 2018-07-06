@@ -37,20 +37,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.an-animation-enter51 {
+.an-animation-enter6 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter51-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter51-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter51-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter51-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter6-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter6-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter6-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter6-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter51-frames {
+@-webkit-keyframes an-animation-enter6-frames {
   0%
    
   {
@@ -66,7 +66,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter51-frames {
+@-moz-keyframes an-animation-enter6-frames {
   0%
    
   {
@@ -82,7 +82,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter51-frames {
+@-o-keyframes an-animation-enter6-frames {
   0%
    
   {
@@ -98,7 +98,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter51-frames {
+@keyframes an-animation-enter6-frames {
   0%
    
   {
@@ -114,20 +114,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter52 {
+.an-animation-enter7 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter52-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter52-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter52-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter52-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter7-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter7-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter7-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter7-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter52-frames {
+@-webkit-keyframes an-animation-enter7-frames {
   0%
    
   {
@@ -143,7 +143,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter52-frames {
+@-moz-keyframes an-animation-enter7-frames {
   0%
    
   {
@@ -159,7 +159,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter52-frames {
+@-o-keyframes an-animation-enter7-frames {
   0%
    
   {
@@ -175,7 +175,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter52-frames {
+@keyframes an-animation-enter7-frames {
   0%
    
   {
@@ -191,20 +191,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter53 {
+.an-animation-enter8 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter53-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter53-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter53-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter53-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter53-frames {
+@-webkit-keyframes an-animation-enter8-frames {
   0%
    
   {
@@ -220,7 +220,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter53-frames {
+@-moz-keyframes an-animation-enter8-frames {
   0%
    
   {
@@ -236,7 +236,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter53-frames {
+@-o-keyframes an-animation-enter8-frames {
   0%
    
   {
@@ -252,7 +252,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter53-frames {
+@keyframes an-animation-enter8-frames {
   0%
    
   {
@@ -708,23 +708,23 @@ div {
   transform           : rotate(0deg);
 }
 .screen1 .originalfront {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 619px;
-  height              : 105px;
-  width               : 105px;
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 289px;
+  height              : 313px;
+  width               : 442px;
   position            : absolute;
   margin              : 0;
-  left                : 27px;
+  left                : 24px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .screen1 .originalfront .mask {
-  background-color    : rgba(255, 255, 255, 0.0);
+  background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 105px;
-  width               : 105px;
+  height              : 313px;
+  width               : 442px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -734,74 +734,24 @@ div {
 }
 .screen1 .originalfront .originalfront1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -7px;
-  height              : 146px;
-  width               : 197px;
+  top                 : -14px;
+  height              : 374px;
+  width               : 505px;
   position            : absolute;
   margin              : 0;
-  left                : -50px;
+  left                : -52px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .originalminkside {
-  background-color    : rgba(252, 250, 250, 1.0);
-  top                 : 288px;
-  height              : 309px;
-  width               : 439px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen1 .originalminkside .mask1 {
-  background-color    : rgba(252, 250, 250, 1.0);
-  top                 : 0px;
-  height              : 309px;
-  width               : 439px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen1 .originalminkside .originalminkside1 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 344px;
-  width               : 344px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen1 .originalminkside .originalminkside1 .mask2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 344px;
-  width               : 344px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen1 .originalminkside .originalminkside1 .originalminkside2 {
+.screen1 .originalfront .originalfront1 .originalfront2 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -7px;
-  height              : 391px;
-  width               : 560px;
-  position            : absolute;
+  top                 : 0px;
+  height              : 374px;
+  width               : 505px;
+  position            : relative;
   margin              : 0;
-  left                : -117px;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -813,13 +763,13 @@ div {
   width               : 106px;
   position            : absolute;
   margin              : 0;
-  left                : 141px;
+  left                : 153px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .originalminkfiberfront .mask3 {
+.screen1 .originalminkfiberfront .mask1 {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 105px;
@@ -866,23 +816,6 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-}
-.screen1 .banner .text9 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 119px;
-  height              : auto;
-  width               : 164px;
-  position            : absolute;
-  margin              : 0;
-  left                : 429px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
-  font-size           : 19.0px;
-  color               : rgba(254, 255, 254, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
 }
 .screen1 .banner .logo {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -956,7 +889,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text10 {
+.screen1 .banner .logo .text9 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 21px;
@@ -968,7 +901,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text11 {
+.screen1 .banner .logo .text10 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -980,7 +913,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text12 {
+.screen1 .banner .logo .text11 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 17px;
@@ -992,7 +925,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text13 {
+.screen1 .banner .logo .text12 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -1004,7 +937,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text14 {
+.screen1 .banner .logo .text13 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -1016,7 +949,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text15 {
+.screen1 .banner .logo .text14 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 21px;
@@ -1028,7 +961,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text16 {
+.screen1 .banner .logo .text15 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -1040,7 +973,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text17 {
+.screen1 .banner .logo .text16 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -1052,7 +985,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text18 {
+.screen1 .banner .logo .text17 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 17px;
@@ -1064,7 +997,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text19 {
+.screen1 .banner .logo .text18 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 22px;
@@ -1076,7 +1009,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text20 {
+.screen1 .banner .logo .text19 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 79px;
   height              : 18px;
@@ -1088,7 +1021,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen1 .banner .logo .text21 {
+.screen1 .banner .logo .text20 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 79px;
   height              : 17px;
@@ -1096,6 +1029,60 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .banner .text21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 429px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.screen1 .originalminkside {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 617px;
+  height              : 105px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .originalminkside .mask2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen1 .originalminkside .originalminkside1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -2px;
+  height              : 119px;
+  width               : 171px;
+  position            : absolute;
+  margin              : 0;
+  left                : -36px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);

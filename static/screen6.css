@@ -37,20 +37,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.an-animation-enter105 {
+.an-animation-enter45 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter105-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter105-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter105-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter105-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter45-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter45-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter45-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter45-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter105-frames {
+@-webkit-keyframes an-animation-enter45-frames {
   0%
    
   {
@@ -66,7 +66,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter105-frames {
+@-moz-keyframes an-animation-enter45-frames {
   0%
    
   {
@@ -82,7 +82,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter105-frames {
+@-o-keyframes an-animation-enter45-frames {
   0%
    
   {
@@ -98,7 +98,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter105-frames {
+@keyframes an-animation-enter45-frames {
   0%
    
   {
@@ -114,20 +114,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter106 {
+.an-animation-enter46 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter106-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter106-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter106-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter106-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter46-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter46-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter46-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter46-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter106-frames {
+@-webkit-keyframes an-animation-enter46-frames {
   0%
    
   {
@@ -143,7 +143,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter106-frames {
+@-moz-keyframes an-animation-enter46-frames {
   0%
    
   {
@@ -159,7 +159,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter106-frames {
+@-o-keyframes an-animation-enter46-frames {
   0%
    
   {
@@ -175,7 +175,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter106-frames {
+@keyframes an-animation-enter46-frames {
   0%
    
   {
@@ -191,20 +191,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter107 {
+.an-animation-enter47 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter107-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter107-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter107-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter107-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter47-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter47-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter47-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter47-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter107-frames {
+@-webkit-keyframes an-animation-enter47-frames {
   0%
    
   {
@@ -220,7 +220,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter107-frames {
+@-moz-keyframes an-animation-enter47-frames {
   0%
    
   {
@@ -236,7 +236,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter107-frames {
+@-o-keyframes an-animation-enter47-frames {
   0%
    
   {
@@ -252,7 +252,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter107-frames {
+@keyframes an-animation-enter47-frames {
   0%
    
   {
@@ -268,7 +268,7 @@ div {
   transform: scale(1);
     }
 }
-.screen6 .sparklashheader {
+.screen6 .phoenixlashheader {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 183px;
   height              : auto;
@@ -482,51 +482,43 @@ div {
   text-align          : left;
   line-height         : 13.0px;
 }
-.screen6 .group {
-  background-color    : rgba(255, 255, 255, 0.0);
+.screen6 .button {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 492px;
+  height              : 36px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 630px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .button1 {
+  background-color    : rgba(250, 150, 122, 1.0);
   top                 : 492px;
   height              : 36px;
   width               : 120px;
   position            : absolute;
   margin              : 0;
   left                : 500px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .group .button {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 120px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .group .button .button1 {
-  background-color    : rgba(250, 150, 122, 1.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 120px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
   border-radius       : 10px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen6 .group .button .text5 {
+.screen6 .text5 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 12px;
+  top                 : 504px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 29px;
+  left                : 529px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -554,6 +546,23 @@ div {
   line-height         : 16.0px;
 }
 .screen6 .text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 503px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 660px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(67, 65, 65, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.screen6 .text8 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 437px;
   height              : auto;
@@ -597,76 +606,19 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.screen6 .group2 {
+.screen6 .downarrow1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 492px;
-  height              : 36px;
-  width               : 169px;
-  position            : absolute;
-  margin              : 0;
-  left                : 630px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .group2 .button2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 169px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .group2 .button2 .button3 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 169px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .group2 .button2 .text8 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 11px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(67, 65, 65, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
-}
-.screen6 .group2 .button2 .downarrow1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 14px;
+  top                 : 506px;
   height              : 8px;
   width               : 16px;
   position            : absolute;
   margin              : 0;
-  left                : 124px;
+  left                : 754px;
   -ms-transform       : rotate(180deg); /* IE 9 */
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.screen6 .button4 {
+.screen6 .button2 {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 435px;
   height              : 20px;
@@ -691,7 +643,7 @@ div {
   -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
   transform           : rotate(180deg);
 }
-.screen6 .button5 {
+.screen6 .button3 {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 435px;
   height              : 20px;
@@ -743,104 +695,6 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen6 .sparkfront {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 617px;
-  height              : 105px;
-  width               : 105px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .sparkfront .mask {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 105px;
-  width               : 105px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .sparkfront .sparkfront1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 120px;
-  width               : 159px;
-  position            : absolute;
-  margin              : 0;
-  left                : -27px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .sparklashfront {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 291px;
-  height              : 306px;
-  width               : 437px;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .sparklashfront .sparklashfront1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 306px;
-  width               : 437px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .sparkside {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 617px;
-  height              : 105px;
-  width               : 105px;
-  position            : absolute;
-  margin              : 0;
-  left                : 142px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .sparkside .mask1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 105px;
-  width               : 105px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen6 .sparkside .sparkside1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 13px;
-  height              : 88px;
-  width               : 183px;
-  position            : absolute;
-  margin              : 0;
-  left                : -8px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
 .screen6 .line1 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 396px;
@@ -849,6 +703,141 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 496px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .phoenixlashfront {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 618px;
+  height              : 105px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .phoenixlashfront .mask {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .phoenixlashfront .phoenixlashfront1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -4px;
+  height              : 113px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : -33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .phoenixlashfront .phoenixlashfront1 .phoenixlashfront2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 113px;
+  width               : 168px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .pheonixside {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 618px;
+  height              : 105px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .pheonixside .mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .pheonixside .pheonixside1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -13px;
+  height              : 127px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : -10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .pheonixfront {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 293px;
+  height              : 307px;
+  width               : 441px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .pheonixfront .mask2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 307px;
+  width               : 441px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .pheonixfront .pheonixfront1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 283px;
+  width               : 356px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen6 .pheonixfront .pheonixfront1 .pheonixfront2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 283px;
+  width               : 356px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);

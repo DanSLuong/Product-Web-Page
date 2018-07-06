@@ -21,1466 +21,6 @@
   width               : 100%;
   height              : 100%;
 }
-.bp2-teammobile {
-  width               : 100%;
-  min-width           : 320px;
-  height              : 100vh;
-  min-height          : 3773px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  background-color    : rgba(255, 255, 255, 1.0);
-}
-a {
-  text-decoration     : none;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp2-an-animation-enter8 {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : bp2-an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp2-an-animation-enter8-frames 0.2s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
-}
-@-webkit-keyframes bp2-an-animation-enter8-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@-moz-keyframes bp2-an-animation-enter8-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@-o-keyframes bp2-an-animation-enter8-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@keyframes bp2-an-animation-enter8-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-.bp2-teammobile .bp2-teamheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 406px;
-  height              : auto;
-  width               : 309px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 36.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 43.0px;
-}
-.bp2-teammobile .bp2-text {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 751px;
-  height              : auto;
-  width               : 273px;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 18.0px;
-}
-.bp2-teammobile .bp2-text1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1183px;
-  height              : auto;
-  width               : 273px;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 18.0px;
-}
-.bp2-teammobile .bp2-text2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1629px;
-  height              : auto;
-  width               : 275px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-teammobile .bp2-text3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  right               : calc(0.00% + 23px);
-  bottom              : calc(0.00% + 843px);
-  height              : auto;
-  width               : 273px;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-teammobile .bp2-subhead {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 452px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 49px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 29.0px;
-}
-.bp2-teammobile .bp2-lashing2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 187px;
-  height              : 214px;
-  width               : 322px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-lashing2 .bp2-mask {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 214px;
-  width               : 322px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-lashing2 .bp2-lashing2copy {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : -16px;
-  height              : 245px;
-  width               : 787px;
-  position            : absolute;
-  margin              : 0;
-  left                : -272px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-lashing2 .bp2-lashing2copy .bp2-mask1 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 245px;
-  width               : 787px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-lashing2 .bp2-lashing2copy .bp2-lashing21 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -274px;
-  height              : 621px;
-  width               : 921px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-sherinportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 516px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 68px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-sherinportrait .bp2-mask2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-sherinportrait .bp2-sherinportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -6px;
-  height              : 240px;
-  width               : 345px;
-  position            : absolute;
-  margin              : 0;
-  left                : -114px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-linaportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 915px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 72px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-linaportrait .bp2-mask3 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-linaportrait .bp2-linaportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -2px;
-  height              : 247px;
-  width               : 186px;
-  position            : absolute;
-  margin              : 0;
-  left                : -3px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-cynthiaportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 1373px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 70px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-cynthiaportrait .bp2-mask4 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-cynthiaportrait .bp2-cynthiaportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -7px;
-  height              : 246px;
-  width               : 195px;
-  position            : absolute;
-  margin              : 0;
-  left                : -13px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-text4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2150px;
-  height              : auto;
-  width               : 275px;
-  position            : absolute;
-  margin              : 0;
-  left                : 25px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-teammobile .bp2-textcopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 3141px;
-  height              : auto;
-  width               : 275px;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-teammobile .bp2-barryportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 2337px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 77px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-barryportrait .bp2-mask5 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-barryportrait .bp2-barryportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -16px;
-  height              : 295px;
-  width               : 234px;
-  position            : absolute;
-  margin              : 0;
-  left                : -41px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-christineportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 1886px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 78px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-christineportrait .bp2-mask6 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-christineportrait .bp2-christineportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -7px;
-  height              : 255px;
-  width               : 202px;
-  position            : absolute;
-  margin              : 0;
-  left                : -14px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-banner {
-  background-color    : rgba(102, 103, 103, 1.0);
-  top                 : calc(0.00% - 8px);
-  height              : 199px;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-stackedgroup {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 152px;
-  height              : 15px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-stackedgroup .bp2-linkscopy7 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-teammobile .bp2-stackedgroup .bp2-links {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 27px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-teammobile .bp2-stackedgroup .bp2-linkscopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 27px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-teammobile .bp2-stackedgroup .bp2-linkscopy2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 27px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-teammobile .bp2-stackedgroup2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 170px;
-  height              : 15px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-stackedgroup2 .bp2-linkscopy8 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-teammobile .bp2-stackedgroup2 .bp2-linkscopy4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-teammobile .bp2-stackedgroup2 .bp2-linkscopy5 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-teammobile .bp2-stackedgroup2 .bp2-linkscopy6 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-teammobile .bp2-logo {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 16px;
-  height              : 130px;
-  width               : 262px;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 117px;
-  width               : 262px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-logo1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 66px;
-  width               : 107px;
-  position            : absolute;
-  margin              : 0;
-  left                : 81px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-spoolie {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 104px;
-  height              : 13px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 222px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-box {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 107px;
-  height              : 9px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-spoolie1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 104px;
-  height              : 13px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-box1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 107px;
-  height              : 9px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 38px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text5 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 21px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text6 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 48px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text7 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 17px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text8 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 74px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text9 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 92px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text10 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 21px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 115px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text11 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 132px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text12 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 148px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text13 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 17px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text14 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text15 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 18px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 203px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text16 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 17px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 215px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-logo .bp2-text17 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 103px;
-  height              : auto;
-  width               : 164px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
-  font-size           : 19.0px;
-  color               : rgba(254, 255, 254, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.bp2-teammobile .bp2-ceoportraitcopy {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 2913px;
-  height              : 200px;
-  width               : 150px;
-  position            : absolute;
-  margin              : 0;
-  left                : 87px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-ceoportraitcopy .bp2-mask7 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 200px;
-  width               : 150px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-ceoportraitcopy .bp2-ceoportrait {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -9px;
-  height              : 219px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-footer {
-  background-color    : rgba(255, 255, 255, 0.0);
-  bottom              : 0%;
-  height              : 198px;
-  width               : 329px;
-  position            : absolute;
-  margin              : 0;
-  left                : -4px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-footer .bp2-path {
-  background-color    : rgba(254, 255, 254, 1.0);
-  top                 : 59px;
-  height              : 18px;
-  width               : 141px;
-  position            : absolute;
-  margin              : 0;
-  left                : 130px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-footer .bp2-footer1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 198px;
-  width               : 329px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-footer .bp2-footer1 .bp2-rectangle {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 198px;
-  width               : 329px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-footer .bp2-box2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 165px;
-  height              : 18px;
-  width               : 141px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-footer .bp2-box3 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 138px;
-  height              : 18px;
-  width               : 141px;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-footer .bp2-textyouremail {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 133px;
-  height              : 30px;
-  width               : 124px;
-  position            : absolute;
-  margin              : 0;
-  left                : 42px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-  border              : 0;
-}
-.bp2-teammobile .bp2-footer .bp2-textyouremail::placeholder {
-  color               : rgba(122, 122, 122, 0.6);
-}
-.bp2-teammobile .bp2-footer .bp2-subscribe {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 169px;
-  height              : auto;
-  width               : 76px;
-  position            : absolute;
-  margin              : 0;
-  left                : 42px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-teammobile .bp2-socialicons {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 3730px;
-  height              : 25px;
-  width               : 115px;
-  position            : absolute;
-  margin              : 0;
-  left                : 195px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-socialicons .bp2-facebook {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-socialicons .bp2-instagramicon {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-socialicons .bp2-youtube {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 81px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-sublinks2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 3586px;
-  height              : auto;
-  width               : 72px;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-sublinks2 .bp2-products {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-sublinks2 .bp2-blog {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-sublinks2 .bp2-contactus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-sublinks2 .bp2-team {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-sublinks2 .bp2-successstories {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-address {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 3586px;
-  height              : auto;
-  width               : 92px;
-  position            : absolute;
-  margin              : 0;
-  left                : 207px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-address .bp2-a1630oaklandrdsuit {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-subscribeinformation {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 3680px;
-  height              : auto;
-  width               : 124px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-subscribeinformation .bp2-text18 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-sublinks1 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 3585px;
-  height              : auto;
-  width               : 82px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 82px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-home {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 69px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-aboutus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : 69px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-services {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-coursetraining {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-shipping {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-clientcare {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-teammobile .bp2-sublinks1 .bp2-stackedgroup1 .bp2-qaeducational {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
 .bp3-teamipad {
   width               : 100%;
   min-width           : 768px;
@@ -1497,20 +37,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp3-an-animation-enter17 {
+.bp3-an-animation-enter22 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp3-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp3-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp3-an-animation-enter17-frames {
+@-webkit-keyframes bp3-an-animation-enter22-frames {
   0%
    
   {
@@ -1526,7 +66,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp3-an-animation-enter17-frames {
+@-moz-keyframes bp3-an-animation-enter22-frames {
   0%
    
   {
@@ -1542,7 +82,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp3-an-animation-enter17-frames {
+@-o-keyframes bp3-an-animation-enter22-frames {
   0%
    
   {
@@ -1558,7 +98,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp3-an-animation-enter17-frames {
+@keyframes bp3-an-animation-enter22-frames {
   0%
    
   {
@@ -1574,20 +114,20 @@ div {
   transform: scale(1);
     }
 }
-.bp3-an-animation-enter18 {
+.bp3-an-animation-enter23 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp3-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter18-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp3-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp3-an-animation-enter18-frames {
+@-webkit-keyframes bp3-an-animation-enter23-frames {
   0%
    
   {
@@ -1603,7 +143,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp3-an-animation-enter18-frames {
+@-moz-keyframes bp3-an-animation-enter23-frames {
   0%
    
   {
@@ -1619,7 +159,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp3-an-animation-enter18-frames {
+@-o-keyframes bp3-an-animation-enter23-frames {
   0%
    
   {
@@ -1635,7 +175,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp3-an-animation-enter18-frames {
+@keyframes bp3-an-animation-enter23-frames {
   0%
    
   {
@@ -1651,20 +191,20 @@ div {
   transform: scale(1);
     }
 }
-.bp3-an-animation-enter19 {
+.bp3-an-animation-enter24 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp3-an-animation-enter19-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter19-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter19-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter19-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp3-an-animation-enter24-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter24-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter24-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter24-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp3-an-animation-enter19-frames {
+@-webkit-keyframes bp3-an-animation-enter24-frames {
   0%
    
   {
@@ -1680,7 +220,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp3-an-animation-enter19-frames {
+@-moz-keyframes bp3-an-animation-enter24-frames {
   0%
    
   {
@@ -1696,7 +236,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp3-an-animation-enter19-frames {
+@-o-keyframes bp3-an-animation-enter24-frames {
   0%
    
   {
@@ -1712,7 +252,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp3-an-animation-enter19-frames {
+@keyframes bp3-an-animation-enter24-frames {
   0%
    
   {
@@ -1985,89 +525,6 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.bp3-teamipad .bp3-line {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 395px;
-  height              : 3px;
-  width               : 483px;
-  position            : absolute;
-  margin              : 0;
-  left                : 259px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-teamheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 376px;
-  height              : auto;
-  width               : 261px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 36.0px;
-}
-.bp3-teamipad .bp3-lashing2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 113px;
-  height              : 246px;
-  width               : 774px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-lashing2 .bp3-mask {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 246px;
-  width               : 774px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-lashing2 .bp3-lashing21 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -275px;
-  height              : 623px;
-  width               : 907px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-subheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 414px;
-  height              : auto;
-  width               : 188px;
-  position            : absolute;
-  margin              : 0;
-  left                : 15px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
 .bp3-teamipad .bp3-stackedgroup {
   display             : flex;
   justify-content     : flex-start;
@@ -2203,458 +660,366 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.bp3-teamipad .bp3-footer {
-  background-color    : rgba(255, 255, 255, 0.0);
-  bottom              : 0%;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : -12px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
 }
-.bp3-teamipad .bp3-footer .bp3-path {
-  background-color    : rgba(254, 255, 254, 1.0);
-  top                 : 80px;
-  height              : 27px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 543px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
 }
-.bp3-teamipad .bp3-footer .bp3-footer1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
 }
-.bp3-teamipad .bp3-footer .bp3-footer1 .bp3-rectangle {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
 }
-.bp3-teamipad .bp3-footer .bp3-footer1 .bp3-socialicons {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 119px;
-  height              : 21px;
-  width               : 98px;
-  position            : absolute;
-  margin              : 0;
-  left                : 318px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
 }
-.bp3-teamipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-facebook {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
 }
-.bp3-teamipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-instagramicon {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
 }
-.bp3-teamipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-youtube {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 70px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.bp2-teammobile {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 3773px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
 }
-.bp3-teamipad .bp3-footer .bp3-rectangle2copy {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 118px;
-  height              : 28px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 542px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+a {
+  text-decoration     : none;
 }
-.bp3-teamipad .bp3-footer .bp3-rectangle2copy2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 82px;
-  height              : 28px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 542px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+div {
+  -webkit-text-size-adjust: none;
 }
-.bp3-teamipad .bp3-footer .bp3-subscribe {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 121px;
-  height              : auto;
-  width               : 84px;
-  position            : absolute;
-  margin              : 0;
-  left                : 555px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
+.bp2-an-animation-enter16 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
 }
-.bp3-teamipad .bp3-footer .bp3-textyouremailaddress {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 30px;
-  width               : 168px;
-  position            : absolute;
-  margin              : 0;
-  left                : 555px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-  border              : 0;
+@-webkit-keyframes bp2-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
 }
-.bp3-teamipad .bp3-footer .bp3-textyouremailaddress::placeholder {
-  color               : rgba(122, 122, 122, 0.6);
+@-moz-keyframes bp2-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
 }
-.bp3-teamipad .bp3-address {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2281px;
-  height              : 72px;
-  width               : 126px;
-  position            : absolute;
-  margin              : 0;
-  left                : 320px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+@-o-keyframes bp2-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
 }
-.bp3-teamipad .bp3-address .bp3-a1630oaklandrdsuit {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 126px;
+@keyframes bp2-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.bp2-teammobile .bp2-banner {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : calc(0.00% - 8px);
+  height              : 199px;
+  width               : 325px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
 }
-.bp3-teamipad .bp3-subscribeinfo {
+.bp2-teammobile .bp2-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2281px;
-  height              : 36px;
-  width               : 186px;
-  position            : absolute;
-  margin              : 0;
-  left                : 533px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-subscribeinfo .bp3-subscribetoournew {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
+  top                 : 152px;
+  height              : 15px;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-teamipad .bp3-footerlinks {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2278px;
-  height              : auto;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
+  left                : 23px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp3-teamipad .bp3-footerlinks .bp3-home {
+.bp2-teammobile .bp2-stackedgroup .bp2-linkscopy7 {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
   margin              : 0;
-  width               : 122px;
+  width               : auto;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
 }
-.bp3-teamipad .bp3-footerlinks .bp3-aboutus {
+.bp2-teammobile .bp2-stackedgroup .bp2-links {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
+  margin              : 0 0 0 27px;
+  width               : auto;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
 }
-.bp3-teamipad .bp3-footerlinks .bp3-services1 {
+.bp2-teammobile .bp2-stackedgroup .bp2-linkscopy {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
+  margin              : 0 0 0 27px;
+  width               : auto;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
 }
-.bp3-teamipad .bp3-footerlinks .bp3-coursetraining1 {
+.bp2-teammobile .bp2-stackedgroup .bp2-linkscopy2 {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
+  margin              : 0 0 0 27px;
+  width               : auto;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
 }
-.bp3-teamipad .bp3-footerlinks .bp3-shipping {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-teamipad .bp3-footerlinks .bp3-clientcare {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-teamipad .bp3-footerlinks .bp3-qaeducational {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-teamipad .bp3-footerlinks2 {
+.bp2-teammobile .bp2-stackedgroup2 {
   display             : flex;
   justify-content     : flex-start;
-  flex-direction      : column;
+  flex-direction      : row;
   align-items         : center;
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2281px;
-  height              : auto;
-  width               : 122px;
+  top                 : 170px;
+  height              : 15px;
+  width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 167px;
+  left                : 29px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp3-teamipad .bp3-footerlinks2 .bp3-products {
+.bp2-teammobile .bp2-stackedgroup2 .bp2-linkscopy8 {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
   margin              : 0;
-  width               : 122px;
+  width               : auto;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
 }
-.bp3-teamipad .bp3-footerlinks2 .bp3-blog1 {
+.bp2-teammobile .bp2-stackedgroup2 .bp2-linkscopy4 {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
+  margin              : 0 0 0 20px;
+  width               : auto;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
 }
-.bp3-teamipad .bp3-footerlinks2 .bp3-contactus {
+.bp2-teammobile .bp2-stackedgroup2 .bp2-linkscopy5 {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
+  margin              : 0 0 0 20px;
+  width               : auto;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
 }
-.bp3-teamipad .bp3-footerlinks2 .bp3-team {
+.bp2-teammobile .bp2-stackedgroup2 .bp2-linkscopy6 {
   background-color    : rgba(255, 255, 255, 0.0);
   position            : relative;
   height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
+  margin              : 0 0 0 20px;
+  width               : auto;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
 }
-.bp3-teamipad .bp3-footerlinks2 .bp3-successstories {
+.bp2-teammobile .bp2-logo {
   background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-teamipad .bp3-sherin {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 478px;
-  height              : 200px;
-  width               : 152px;
+  top                 : 16px;
+  height              : 130px;
+  width               : 262px;
   position            : absolute;
   margin              : 0;
-  left                : 15px;
-  overflow            : hidden;
+  left                : 29px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp3-teamipad .bp3-sherin .bp3-mask1 {
-  background-color    : rgba(215, 215, 215, 1.0);
+.bp2-teammobile .bp2-logo .bp2-logotext {
+  background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 200px;
-  width               : 152px;
+  height              : 117px;
+  width               : 262px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2662,36 +1027,47 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp3-teamipad .bp3-sherin .bp3-sherinportrait {
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-logo1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -5px;
-  height              : 203px;
-  width               : 293px;
-  position            : absolute;
-  margin              : 0;
-  left                : -97px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-linaportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 701px;
-  height              : 200px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : 17px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-linaportrait .bp3-mask2 {
-  background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 200px;
-  width               : 152px;
+  height              : 66px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-box {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2699,267 +1075,178 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp3-teamipad .bp3-linaportrait .bp3-lina1 {
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-box1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -2px;
-  height              : 209px;
-  width               : 158px;
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
   position            : absolute;
   margin              : 0;
-  left                : -3px;
+  left                : 38px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp3-teamipad .bp3-text13 {
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 485px;
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-logotext .bp2-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-teammobile .bp2-logo .bp2-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 103px;
   height              : auto;
-  width               : 548px;
+  width               : 164px;
   position            : absolute;
   margin              : 0;
-  left                : 192px;
+  left                : 57px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(54, 46, 46, 1.0);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
   text-align          : left;
-  line-height         : 14.0px;
-}
-.bp3-teamipad .bp3-text14 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 709px;
-  height              : auto;
-  width               : 548px;
-  position            : absolute;
-  margin              : 0;
-  left                : 192px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp3-teamipad .bp3-text15 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1164px;
-  height              : auto;
-  width               : 548px;
-  position            : absolute;
-  margin              : 0;
-  left                : 192px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp3-teamipad .bp3-textcopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1628px;
-  height              : auto;
-  width               : 548px;
-  position            : absolute;
-  margin              : 0;
-  left                : 205px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp3-teamipad .bp3-text16 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 938px;
-  height              : auto;
-  width               : 548px;
-  position            : absolute;
-  margin              : 0;
-  left                : 191px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp3-teamipad .bp3-text17 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1395px;
-  height              : auto;
-  width               : 547px;
-  position            : absolute;
-  margin              : 0;
-  left                : 205px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp3-teamipad .bp3-barryportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 1386px;
-  height              : 200px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-barryportrait .bp3-mask3 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 200px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-barryportrait .bp3-barryportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -14px;
-  height              : 250px;
-  width               : 199px;
-  position            : absolute;
-  margin              : 0;
-  left                : -35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-cynthiaportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 929px;
-  height              : 200px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-cynthiaportrait .bp3-mask4 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 200px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-cynthiaportrait .bp3-cynthiaportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -6px;
-  height              : 208px;
-  width               : 166px;
-  position            : absolute;
-  margin              : 0;
-  left                : -11px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-christineportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 1156px;
-  height              : 200px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-christineportrait .bp3-mask5 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 200px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-christineportrait .bp3-christineportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -8px;
-  height              : 207px;
-  width               : 165px;
-  position            : absolute;
-  margin              : 0;
-  left                : -7px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-ceoportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 1621px;
-  height              : 200px;
-  width               : 150px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-ceoportrait .bp3-mask6 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 200px;
-  width               : 150px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-teamipad .bp3-ceoportrait .bp3-ceoportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -9px;
-  height              : 219px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  line-height         : 23.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
@@ -3056,20 +1343,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp1-an-animation-enter39 {
+.bp1-an-animation-enter33 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter33-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter33-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter33-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter33-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter39-frames {
+@-webkit-keyframes bp1-an-animation-enter33-frames {
   0%
    
   {
@@ -3085,7 +1372,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter39-frames {
+@-moz-keyframes bp1-an-animation-enter33-frames {
   0%
    
   {
@@ -3101,7 +1388,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter39-frames {
+@-o-keyframes bp1-an-animation-enter33-frames {
   0%
    
   {
@@ -3117,7 +1404,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter39-frames {
+@keyframes bp1-an-animation-enter33-frames {
   0%
    
   {
@@ -3133,20 +1420,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter40 {
+.bp1-an-animation-enter34 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter34-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter34-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter34-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter34-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter40-frames {
+@-webkit-keyframes bp1-an-animation-enter34-frames {
   0%
    
   {
@@ -3162,7 +1449,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter40-frames {
+@-moz-keyframes bp1-an-animation-enter34-frames {
   0%
    
   {
@@ -3178,7 +1465,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter40-frames {
+@-o-keyframes bp1-an-animation-enter34-frames {
   0%
    
   {
@@ -3194,7 +1481,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter40-frames {
+@keyframes bp1-an-animation-enter34-frames {
   0%
    
   {
@@ -3210,20 +1497,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter41 {
+.bp1-an-animation-enter35 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter35-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter35-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter35-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter35-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter41-frames {
+@-webkit-keyframes bp1-an-animation-enter35-frames {
   0%
    
   {
@@ -3239,7 +1526,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter41-frames {
+@-moz-keyframes bp1-an-animation-enter35-frames {
   0%
    
   {
@@ -3255,7 +1542,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter41-frames {
+@-o-keyframes bp1-an-animation-enter35-frames {
   0%
    
   {
@@ -3271,7 +1558,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter41-frames {
+@keyframes bp1-an-animation-enter35-frames {
   0%
    
   {
@@ -3286,376 +1573,6 @@ div {
   opacity: 1;
   transform: scale(1);
     }
-}
-.bp1-team .bp1-line {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 526px;
-  height              : 3px;
-  width               : 556px;
-  position            : absolute;
-  margin              : 0;
-  left                : 425px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-teamheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 496px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 54px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 48.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 58.0px;
-}
-.bp1-team .bp1-lashing2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 159px;
-  height              : 320px;
-  width               : 1027px;
-  position            : absolute;
-  margin              : 0;
-  left                : -3px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-lashing2 .bp1-mask {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 320px;
-  width               : 1027px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-lashing2 .bp1-lashing21 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -358px;
-  height              : 811px;
-  width               : 1203px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-subheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 560px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 54px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 29.0px;
-}
-.bp1-team .bp1-sherin {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 618px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 56px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-sherin .bp1-mask1 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-sherin .bp1-sherinportrait {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -6px;
-  height              : 240px;
-  width               : 345px;
-  position            : absolute;
-  margin              : 0;
-  left                : -114px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-linaportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 881px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 58px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-linaportrait .bp1-mask2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-linaportrait .bp1-lina1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -2px;
-  height              : 247px;
-  width               : 186px;
-  position            : absolute;
-  margin              : 0;
-  left                : -3px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-text {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 618px;
-  height              : auto;
-  width               : 644px;
-  position            : absolute;
-  margin              : 0;
-  left                : 265px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-text1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 882px;
-  height              : auto;
-  width               : 644px;
-  position            : absolute;
-  margin              : 0;
-  left                : 265px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-text2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1419px;
-  height              : auto;
-  width               : 644px;
-  position            : absolute;
-  margin              : 0;
-  left                : 265px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-textcopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1966px;
-  height              : auto;
-  width               : 646px;
-  position            : absolute;
-  margin              : 0;
-  left                : 280px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-text3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1152px;
-  height              : auto;
-  width               : 644px;
-  position            : absolute;
-  margin              : 0;
-  left                : 264px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-text4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1691px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 280px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-barryportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 1689px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-barryportrait .bp1-mask3 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-barryportrait .bp1-barryportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -16px;
-  height              : 295px;
-  width               : 234px;
-  position            : absolute;
-  margin              : 0;
-  left                : -41px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-cynthiaportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 1150px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-cynthiaportrait .bp1-mask4 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-cynthiaportrait .bp1-cynthiaportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -7px;
-  height              : 246px;
-  width               : 195px;
-  position            : absolute;
-  margin              : 0;
-  left                : -13px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-christineportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 1418px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-christineportrait .bp1-mask5 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 236px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-christineportrait .bp1-christineportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -9px;
-  height              : 244px;
-  width               : 194px;
-  position            : absolute;
-  margin              : 0;
-  left                : -8px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .bp1-team .bp1-banner {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -3753,7 +1670,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text5 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 21px;
@@ -3765,7 +1682,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text6 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text1 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -3777,7 +1694,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text7 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text2 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 17px;
@@ -3789,7 +1706,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text8 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text3 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -3801,7 +1718,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text9 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text4 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -3813,7 +1730,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text10 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text5 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 21px;
@@ -3825,7 +1742,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text11 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text6 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -3837,7 +1754,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text12 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text7 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -3849,7 +1766,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text13 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text8 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 17px;
@@ -3861,7 +1778,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text14 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text9 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 22px;
@@ -3873,7 +1790,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text15 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text10 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 79px;
   height              : 18px;
@@ -3885,7 +1802,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-logo .bp1-text16 {
+.bp1-team .bp1-banner .bp1-logo .bp1-text11 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 79px;
   height              : 17px;
@@ -3897,7 +1814,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-team .bp1-banner .bp1-text17 {
+.bp1-team .bp1-banner .bp1-text12 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 119px;
   height              : auto;
@@ -4048,481 +1965,6 @@ div {
   color               : rgba(215, 215, 215, 1.0);
   text-align          : left;
   line-height         : 18.0px;
-}
-.bp1-team .bp1-footer {
-  background-color    : rgba(255, 255, 255, 0.0);
-  bottom              : 0%;
-  height              : 244px;
-  width               : 1052px;
-  position            : absolute;
-  margin              : 0;
-  left                : -16px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-path {
-  background-color    : rgba(254, 255, 254, 1.0);
-  top                 : 109px;
-  height              : 37px;
-  width               : 290px;
-  position            : absolute;
-  margin              : 0;
-  left                : 719px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-footer1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 244px;
-  width               : 1052px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-footer1 .bp1-rectangle {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 244px;
-  width               : 1052px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-footer1 .bp1-socialicons {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 163px;
-  height              : 28px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 422px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-facebook {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 27px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-instagramicon {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 40px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-youtube {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 27px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 91px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-rectangle2copy {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 161px;
-  height              : 37px;
-  width               : 290px;
-  position            : absolute;
-  margin              : 0;
-  left                : 719px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-rectangle2copy2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 112px;
-  height              : 37px;
-  width               : 290px;
-  position            : absolute;
-  margin              : 0;
-  left                : 719px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-subscribe {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 164px;
-  height              : auto;
-  width               : 81px;
-  position            : absolute;
-  margin              : 0;
-  left                : 735px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footer .bp1-textyouremailaddress {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 113px;
-  height              : 30px;
-  width               : 223px;
-  position            : absolute;
-  margin              : 0;
-  left                : 735px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-  border              : 0;
-}
-.bp1-team .bp1-footer .bp1-textyouremailaddress::placeholder {
-  color               : rgba(122, 122, 122, 0.6);
-}
-.bp1-team .bp1-footer .bp1-address {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 29px;
-  height              : auto;
-  width               : 166px;
-  position            : absolute;
-  margin              : 0;
-  left                : 469px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-address .bp1-a1630oaklandrdsuit {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 168px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footer .bp1-subscribeinfo {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 31px;
-  height              : auto;
-  width               : 278px;
-  position            : absolute;
-  margin              : 0;
-  left                : 721px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footer .bp1-subscribeinfo .bp1-subscribetoournew {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 280px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2263px;
-  height              : auto;
-  width               : 162px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footerlinks .bp1-home {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks .bp1-aboutus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks .bp1-services1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks .bp1-coursetraining1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks .bp1-shipping {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks .bp1-clientcare {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks .bp1-qaeducational {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2263px;
-  height              : auto;
-  width               : 162px;
-  position            : absolute;
-  margin              : 0;
-  left                : 216px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-footerlinks2 .bp1-products {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks2 .bp1-blog1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks2 .bp1-contactus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks2 .bp1-team1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-footerlinks2 .bp1-successstories {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-team .bp1-ceoportrait {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 1966px;
-  height              : 236px;
-  width               : 177px;
-  position            : absolute;
-  margin              : 0;
-  left                : 59px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-ceoportrait .bp1-mask6 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 236px;
-  width               : 177px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-team .bp1-ceoportrait .bp1-ceoportrait1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -11px;
-  height              : 258px;
-  width               : 179px;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

@@ -21,1536 +21,6 @@
   width               : 100%;
   height              : 100%;
 }
-.bp2-successstoriesmobile {
-  width               : 100%;
-  min-width           : 320px;
-  height              : 100vh;
-  min-height          : 2726px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  background-color    : rgba(255, 255, 255, 1.0);
-}
-a {
-  text-decoration     : none;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp2-an-animation-enter7 {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : bp2-an-animation-enter7-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-an-animation-enter7-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-an-animation-enter7-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp2-an-animation-enter7-frames 0.2s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
-}
-@-webkit-keyframes bp2-an-animation-enter7-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@-moz-keyframes bp2-an-animation-enter7-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@-o-keyframes bp2-an-animation-enter7-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-@keyframes bp2-an-animation-enter7-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
-.bp2-successstoriesmobile .bp2-successstoriesheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 404px;
-  height              : auto;
-  width               : 309px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 36.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 45.0px;
-}
-.bp2-successstoriesmobile .bp2-text {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 485px;
-  height              : auto;
-  width               : 309px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.bp2-successstoriesmobile .bp2-studentreviewheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 667px;
-  height              : auto;
-  width               : 228px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 30.0px;
-}
-.bp2-successstoriesmobile .bp2-line {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 679px;
-  height              : 3px;
-  width               : 83px;
-  position            : absolute;
-  margin              : 0;
-  left                : 239px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-registerbutton {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 626px;
-  height              : 30px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 102px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-registerbutton .bp2-button {
-  background-color    : rgba(215, 215, 215, 1.0);
-  width               : 130px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-registerbutton .bp2-button-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 0px;
-  align-items         : center;
-  height              : 30px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp2-successstoriesmobile .bp2-registerbutton .bp2-registerbutton1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 10px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-successstoriesmobile .bp2-socialicons {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2978px;
-  height              : 25px;
-  width               : 105px;
-  position            : absolute;
-  margin              : 0;
-  left                : 197px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-socialicons .bp2-facebook {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-socialicons .bp2-instagram {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 23px;
-  position            : absolute;
-  margin              : 0;
-  left                : 33px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-socialicons .bp2-youtube {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 31px;
-  position            : absolute;
-  margin              : 0;
-  left                : 74px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-glassesbanner {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 189px;
-  height              : 203px;
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-glassesbanner .bp2-mask {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
-  height              : 203px;
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-glassesbanner .bp2-glassesbanner1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : -23px;
-  height              : 242px;
-  width               : 653px;
-  position            : absolute;
-  margin              : 0;
-  left                : -30px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-glassesbanner .bp2-glassesbanner1 .bp2-mask1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 242px;
-  width               : 653px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-glassesbanner .bp2-glassesbanner1 .bp2-glassesfinal {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -8px;
-  height              : 326px;
-  width               : 622px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-banner {
-  background-color    : rgba(102, 103, 103, 1.0);
-  top                 : calc(0.00% - 8px);
-  height              : 199px;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-stackedgroup {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 152px;
-  height              : 15px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 23px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-stackedgroup .bp2-linkscopy7 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-successstoriesmobile .bp2-stackedgroup .bp2-links {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 27px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-successstoriesmobile .bp2-stackedgroup .bp2-linkscopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 27px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-successstoriesmobile .bp2-stackedgroup .bp2-linkscopy2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 27px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-successstoriesmobile .bp2-stackedgroup2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 170px;
-  height              : 15px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-stackedgroup2 .bp2-linkscopy8 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-successstoriesmobile .bp2-stackedgroup2 .bp2-linkscopy4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-successstoriesmobile .bp2-stackedgroup2 .bp2-linkscopy5 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-successstoriesmobile .bp2-stackedgroup2 .bp2-linkscopy6 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 13.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : center;
-  line-height         : 15.0px;
-}
-.bp2-successstoriesmobile .bp2-logo {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 16px;
-  height              : 130px;
-  width               : 262px;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 117px;
-  width               : 262px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-logo1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 66px;
-  width               : 107px;
-  position            : absolute;
-  margin              : 0;
-  left                : 81px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-spoolie {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 104px;
-  height              : 13px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 222px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-box {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 107px;
-  height              : 9px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-spoolie1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 104px;
-  height              : 13px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-box1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 107px;
-  height              : 9px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 38px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 21px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 48px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 17px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 74px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text5 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 92px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text6 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 21px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 115px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text7 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 132px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text8 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 148px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text9 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 17px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text10 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text11 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 18px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 203px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text12 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 17px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 215px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-logo .bp2-text13 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 103px;
-  height              : auto;
-  width               : 164px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
-  font-size           : 19.0px;
-  color               : rgba(254, 255, 254, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.bp2-successstoriesmobile .bp2-toptext {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 332px;
-  height              : auto;
-  width               : 266px;
-  position            : absolute;
-  margin              : 0;
-  left                : 194px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-successstoriesmobile .bp2-dalenasuccessstory {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 712px;
-  height              : 308px;
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-line1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1033px;
-  height              : 3px;
-  width               : 248px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-line2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1294px;
-  height              : 3px;
-  width               : 248px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-line3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1578px;
-  height              : 3px;
-  width               : 248px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-line4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1873px;
-  height              : 3px;
-  width               : 248px;
-  position            : absolute;
-  margin              : 0;
-  left                : 37px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-line5 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2144px;
-  height              : 3px;
-  width               : 248px;
-  position            : absolute;
-  margin              : 0;
-  left                : 41px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-dalenaheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 704px;
-  height              : auto;
-  width               : 136px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-successstoriesmobile .bp2-dalenacustomerheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1046px;
-  height              : auto;
-  width               : 329px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-successstoriesmobile .bp2-lilianheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1328px;
-  height              : auto;
-  width               : 55px;
-  position            : absolute;
-  margin              : 0;
-  left                : 10px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-successstoriesmobile .bp2-florenceheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1586px;
-  height              : auto;
-  width               : 77px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-successstoriesmobile .bp2-tianaheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1891px;
-  height              : auto;
-  width               : 55px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-successstoriesmobile .bp2-tianasuccess {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2173px;
-  height              : auto;
-  width               : 99px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-successstoriesmobile .bp2-dreamalitycustomer {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1063px;
-  height              : 217px;
-  width               : 309px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-lilian {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1340px;
-  height              : 233px;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-florence {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1609px;
-  height              : 232px;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-tianac {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1905px;
-  height              : 228px;
-  width               : 324px;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-titianasuccess {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2185px;
-  height              : 208px;
-  width               : 324px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-footer {
-  background-color    : rgba(255, 255, 255, 0.0);
-  bottom              : calc(0.00% - 2px);
-  height              : 260px;
-  width               : 771px;
-  position            : absolute;
-  margin              : 0;
-  left                : -5px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-path {
-  background-color    : rgba(254, 255, 254, 1.0);
-  top                 : 58px;
-  height              : 18px;
-  width               : 139px;
-  position            : absolute;
-  margin              : 0;
-  left                : 128px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-footer1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 194px;
-  width               : 325px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-footer1 .bp2-rectangle {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 194px;
-  width               : 325px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 8px;
-  height              : auto;
-  width               : 82px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 82px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-home {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 69px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-aboutus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : 69px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-services {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-coursetraining {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-shipping {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-clientcare {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-qaeducational {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-subscribeinformation {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 103px;
-  height              : auto;
-  width               : 124px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-subscribeinformation .bp2-text14 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-box2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 162px;
-  height              : 18px;
-  width               : 139px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-box3 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 135px;
-  height              : 18px;
-  width               : 139px;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-textyouremail {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 130px;
-  height              : 30px;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 41px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-  border              : 0;
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-textyouremail::placeholder {
-  color               : rgba(122, 122, 122, 0.6);
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-subscribe {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 165px;
-  height              : auto;
-  width               : 75px;
-  position            : absolute;
-  margin              : 0;
-  left                : 41px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-successstoriesmobile .bp2-footer .bp2-subscribeinformation1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 236px;
-  height              : 24px;
-  width               : 124px;
-  position            : absolute;
-  margin              : 0;
-  left                : 647px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-socialicons1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2685px;
-  height              : 25px;
-  width               : 115px;
-  position            : absolute;
-  margin              : 0;
-  left                : 190px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-socialicons1 .bp2-facebook1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-socialicons1 .bp2-instagramicon {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-socialicons1 .bp2-youtube1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 81px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-sublinks2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2541px;
-  height              : auto;
-  width               : 72px;
-  position            : absolute;
-  margin              : 0;
-  left                : 118px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-sublinks2 .bp2-products {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-sublinks2 .bp2-blog {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-sublinks2 .bp2-contactus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-sublinks2 .bp2-team {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-sublinks2 .bp2-successstories {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 1px 0 0 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-.bp2-successstoriesmobile .bp2-address {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2541px;
-  height              : auto;
-  width               : 92px;
-  position            : absolute;
-  margin              : 0;
-  left                : 202px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-successstoriesmobile .bp2-address .bp2-a1630oaklandrdsuit {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 12.0px;
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
 .bp3-successstoriesipad {
   width               : 100%;
   min-width           : 768px;
@@ -3134,6 +1604,1536 @@ div {
       opacity: 1;
     }
 }
+.bp2-successstoriesmobile {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 2726px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-an-animation-enter12 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp2-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes bp2-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes bp2-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+@keyframes bp2-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.bp2-successstoriesmobile .bp2-successstoriesheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 404px;
+  height              : auto;
+  width               : 309px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 45.0px;
+}
+.bp2-successstoriesmobile .bp2-text {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 485px;
+  height              : auto;
+  width               : 309px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp2-successstoriesmobile .bp2-studentreviewheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 667px;
+  height              : auto;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.bp2-successstoriesmobile .bp2-line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 679px;
+  height              : 3px;
+  width               : 83px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-registerbutton {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 626px;
+  height              : 30px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-registerbutton .bp2-button {
+  background-color    : rgba(215, 215, 215, 1.0);
+  width               : 130px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-registerbutton .bp2-button-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 30px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-successstoriesmobile .bp2-registerbutton .bp2-registerbutton1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-successstoriesmobile .bp2-socialicons {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2978px;
+  height              : 25px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 197px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-socialicons .bp2-facebook {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-socialicons .bp2-instagram {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-socialicons .bp2-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-glassesbanner {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 189px;
+  height              : 203px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-glassesbanner .bp2-mask {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 203px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-glassesbanner .bp2-glassesbanner1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : -23px;
+  height              : 242px;
+  width               : 653px;
+  position            : absolute;
+  margin              : 0;
+  left                : -30px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-glassesbanner .bp2-glassesbanner1 .bp2-mask1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 242px;
+  width               : 653px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-glassesbanner .bp2-glassesbanner1 .bp2-glassesfinal {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -8px;
+  height              : 326px;
+  width               : 622px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-banner {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : calc(0.00% - 8px);
+  height              : 199px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 152px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-stackedgroup .bp2-linkscopy7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-successstoriesmobile .bp2-stackedgroup .bp2-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 27px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-successstoriesmobile .bp2-stackedgroup .bp2-linkscopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 27px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-successstoriesmobile .bp2-stackedgroup .bp2-linkscopy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 27px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-successstoriesmobile .bp2-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 170px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-stackedgroup2 .bp2-linkscopy8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-successstoriesmobile .bp2-stackedgroup2 .bp2-linkscopy4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-successstoriesmobile .bp2-stackedgroup2 .bp2-linkscopy5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-successstoriesmobile .bp2-stackedgroup2 .bp2-linkscopy6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-successstoriesmobile .bp2-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 130px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 117px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-box {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-logotext .bp2-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-logo .bp2-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 103px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-successstoriesmobile .bp2-toptext {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 332px;
+  height              : auto;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 194px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-successstoriesmobile .bp2-dalenasuccessstory {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 712px;
+  height              : 308px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1033px;
+  height              : 3px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-line2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1294px;
+  height              : 3px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-line3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1578px;
+  height              : 3px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-line4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1873px;
+  height              : 3px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-line5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2144px;
+  height              : 3px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-dalenaheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 704px;
+  height              : auto;
+  width               : 136px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-successstoriesmobile .bp2-dalenacustomerheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1046px;
+  height              : auto;
+  width               : 329px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-successstoriesmobile .bp2-lilianheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1328px;
+  height              : auto;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-successstoriesmobile .bp2-florenceheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1586px;
+  height              : auto;
+  width               : 77px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-successstoriesmobile .bp2-tianaheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1891px;
+  height              : auto;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-successstoriesmobile .bp2-tianasuccess {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2173px;
+  height              : auto;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-successstoriesmobile .bp2-dreamalitycustomer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1063px;
+  height              : 217px;
+  width               : 309px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-lilian {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1340px;
+  height              : 233px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-florence {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1609px;
+  height              : 232px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-tianac {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1905px;
+  height              : 228px;
+  width               : 324px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-titianasuccess {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2185px;
+  height              : 208px;
+  width               : 324px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-footer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  bottom              : calc(0.00% - 2px);
+  height              : 260px;
+  width               : 771px;
+  position            : absolute;
+  margin              : 0;
+  left                : -5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-path {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 58px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-footer1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 325px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-footer1 .bp2-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 325px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : auto;
+  width               : 82px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 82px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-home {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 69px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : 69px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-clientcare {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-sublinks1 .bp2-stackedgroup1 .bp2-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-subscribeinformation {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 103px;
+  height              : auto;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-subscribeinformation .bp2-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-box2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 162px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-box3 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 135px;
+  height              : 18px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-textyouremail {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 130px;
+  height              : 30px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+  border              : 0;
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-textyouremail::placeholder {
+  color               : rgba(122, 122, 122, 0.6);
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 165px;
+  height              : auto;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-successstoriesmobile .bp2-footer .bp2-subscribeinformation1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 236px;
+  height              : 24px;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 647px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-socialicons1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2685px;
+  height              : 25px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 190px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-socialicons1 .bp2-facebook1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-socialicons1 .bp2-instagramicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-socialicons1 .bp2-youtube1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-sublinks2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2541px;
+  height              : auto;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 118px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-sublinks2 .bp2-products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-sublinks2 .bp2-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-sublinks2 .bp2-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-sublinks2 .bp2-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-sublinks2 .bp2-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 1px 0 0 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.bp2-successstoriesmobile .bp2-address {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2541px;
+  height              : auto;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 202px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-successstoriesmobile .bp2-address .bp2-a1630oaklandrdsuit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
 .bp1-successstoriesdesktop {
   width               : 100%;
   min-width           : 1024px;
@@ -3150,20 +3150,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp1-an-animation-enter45 {
+.bp1-an-animation-enter21 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter45-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter45-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter45-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter45-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter21-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter21-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter21-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter21-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter45-frames {
+@-webkit-keyframes bp1-an-animation-enter21-frames {
   0%
    
   {
@@ -3179,7 +3179,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter45-frames {
+@-moz-keyframes bp1-an-animation-enter21-frames {
   0%
    
   {
@@ -3195,7 +3195,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter45-frames {
+@-o-keyframes bp1-an-animation-enter21-frames {
   0%
    
   {
@@ -3211,7 +3211,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter45-frames {
+@keyframes bp1-an-animation-enter21-frames {
   0%
    
   {
@@ -3227,20 +3227,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter46 {
+.bp1-an-animation-enter22 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter46-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter46-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter46-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter46-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter22-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter46-frames {
+@-webkit-keyframes bp1-an-animation-enter22-frames {
   0%
    
   {
@@ -3256,7 +3256,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter46-frames {
+@-moz-keyframes bp1-an-animation-enter22-frames {
   0%
    
   {
@@ -3272,7 +3272,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter46-frames {
+@-o-keyframes bp1-an-animation-enter22-frames {
   0%
    
   {
@@ -3288,7 +3288,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter46-frames {
+@keyframes bp1-an-animation-enter22-frames {
   0%
    
   {
@@ -3304,20 +3304,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter47 {
+.bp1-an-animation-enter23 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter47-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter47-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter47-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter47-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter23-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter47-frames {
+@-webkit-keyframes bp1-an-animation-enter23-frames {
   0%
    
   {
@@ -3333,7 +3333,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter47-frames {
+@-moz-keyframes bp1-an-animation-enter23-frames {
   0%
    
   {
@@ -3349,7 +3349,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter47-frames {
+@-o-keyframes bp1-an-animation-enter23-frames {
   0%
    
   {
@@ -3365,7 +3365,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter47-frames {
+@keyframes bp1-an-animation-enter23-frames {
   0%
    
   {

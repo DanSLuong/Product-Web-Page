@@ -40,6 +40,36 @@ class Employee(Base):
         }
 
 
+class Customer(Base):
+    __tablename__ = 'team'
+
+    id = Column(Integer, primary_key=True)
+    first_name = Column(String(250), nullable=False)
+    last_name = Column(String(250), nullable=False)
+    customer_email = Column(String(250), nullable=False)
+    address_line_1 = Column(String(250), nullable=False)
+    address_line_2 = Column(String(250), nullable=False)
+    city = Column(String(250), nullable=False)
+    state = Column(String(250), nullable=False)
+    zip_code = Column(String(250), nullable=False)
+
+
+    @property
+    def serialize(self):
+        """Return object data in easily serializeable format"""
+        return{
+            'first_name': self.first_name,
+            'last_name': self.last_name,
+            'customer_email': self.customer_email,
+            'address_line_1': self.address_line_1,
+            'address_line_2': self.address_line_2,
+            'city': self.city,
+            'state': self.state,
+            'zip_code': self.zip_code,
+            'id': self.id,
+        }
+
+        
 class Blog(Base):
     __tablename__ = 'blog'
 

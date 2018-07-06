@@ -37,20 +37,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.an-animation-enter93 {
+.an-animation-enter39 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter93-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter93-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter93-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter93-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter93-frames {
+@-webkit-keyframes an-animation-enter39-frames {
   0%
    
   {
@@ -66,7 +66,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter93-frames {
+@-moz-keyframes an-animation-enter39-frames {
   0%
    
   {
@@ -82,7 +82,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter93-frames {
+@-o-keyframes an-animation-enter39-frames {
   0%
    
   {
@@ -98,7 +98,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter93-frames {
+@keyframes an-animation-enter39-frames {
   0%
    
   {
@@ -114,20 +114,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter94 {
+.an-animation-enter40 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter94-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter94-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter94-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter94-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter94-frames {
+@-webkit-keyframes an-animation-enter40-frames {
   0%
    
   {
@@ -143,7 +143,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter94-frames {
+@-moz-keyframes an-animation-enter40-frames {
   0%
    
   {
@@ -159,7 +159,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter94-frames {
+@-o-keyframes an-animation-enter40-frames {
   0%
    
   {
@@ -175,7 +175,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter94-frames {
+@keyframes an-animation-enter40-frames {
   0%
    
   {
@@ -191,20 +191,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter95 {
+.an-animation-enter41 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter95-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter95-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter95-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter95-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter95-frames {
+@-webkit-keyframes an-animation-enter41-frames {
   0%
    
   {
@@ -220,7 +220,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter95-frames {
+@-moz-keyframes an-animation-enter41-frames {
   0%
    
   {
@@ -236,7 +236,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter95-frames {
+@-o-keyframes an-animation-enter41-frames {
   0%
    
   {
@@ -252,7 +252,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter95-frames {
+@keyframes an-animation-enter41-frames {
   0%
    
   {
@@ -707,24 +707,24 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen5 .pheonixfront {
+.screen5 .purplefront {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 617px;
   height              : 105px;
-  width               : 107px;
+  width               : 100px;
   position            : absolute;
   margin              : 0;
-  left                : 18px;
+  left                : 23px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen5 .pheonixfront .mask {
+.screen5 .purplefront .mask {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
   height              : 105px;
-  width               : 107px;
+  width               : 100px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -732,98 +732,48 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen5 .pheonixfront .pheonixfront1 {
+.screen5 .purplefront .purplefront1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -11px;
-  height              : 121px;
-  width               : 152px;
+  top                 : -3px;
+  height              : 110px;
+  width               : 146px;
   position            : absolute;
   margin              : 0;
-  left                : -20px;
+  left                : -23px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen5 .pheonixside {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 282px;
-  height              : 313px;
-  width               : 439px;
+.screen5 .colorpurplelashfrontcopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 255px;
+  height              : 345px;
+  width               : 443px;
   position            : absolute;
   margin              : 0;
-  left                : 19px;
-  overflow            : hidden;
+  left                : 23px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen5 .pheonixside .mask1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 313px;
-  width               : 439px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .pheonixside .pheonixside1 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 29px;
-  height              : 256px;
-  width               : 258px;
-  position            : absolute;
-  margin              : 0;
-  left                : 80px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .pheonixside .pheonixside1 .mask2 {
+.screen5 .colorpurplelashfrontcopy .colorpurplelashfront {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 256px;
-  width               : 258px;
-  position            : absolute;
+  height              : 345px;
+  width               : 443px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .pheonixside .pheonixside1 .pheonixside2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -32px;
-  height              : 310px;
-  width               : 321px;
-  position            : absolute;
-  margin              : 0;
-  left                : -24px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .phoenixfront {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 617px;
-  height              : 105px;
-  width               : 102px;
-  position            : absolute;
-  margin              : 0;
-  left                : 144px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen5 .phoenixfront .mask3 {
-  background-color    : rgba(255, 255, 255, 0.0);
+.screen5 .colorpurplelashfrontcopy .colorpurplelashfront .mask1 {
+  background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 105px;
-  width               : 102px;
+  height              : 345px;
+  width               : 443px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -831,14 +781,14 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen5 .phoenixfront .phoenixlashfront {
+.screen5 .colorpurplelashfrontcopy .colorpurplelashfront .colorpurplelashfront1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -4px;
-  height              : 113px;
-  width               : 168px;
+  top                 : 0px;
+  height              : 392px;
+  width               : 585px;
   position            : absolute;
   margin              : 0;
-  left                : -33px;
+  left                : -56px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -867,7 +817,223 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.screen5 .banner .text9 {
+.screen5 .banner .logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 117px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 372px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .box2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text19 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .logo .text20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.screen5 .banner .text21 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 119px;
   height              : auto;
@@ -883,222 +1049,6 @@ div {
   color               : rgba(254, 255, 254, 1.0);
   text-align          : left;
   line-height         : 23.0px;
-}
-.screen5 .logo {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 12px;
-  height              : 117px;
-  width               : 262px;
-  position            : absolute;
-  margin              : 0;
-  left                : 372px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .logo1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 66px;
-  width               : 107px;
-  position            : absolute;
-  margin              : 0;
-  left                : 81px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .spoolie {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 104px;
-  height              : 13px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 222px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .box1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 107px;
-  height              : 9px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .spoolie1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 104px;
-  height              : 13px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .box2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 107px;
-  height              : 9px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 38px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text10 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 21px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text11 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 48px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text12 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 17px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text13 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 74px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text14 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 92px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text15 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 21px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 115px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text16 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 132px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text17 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 148px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text18 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 17px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text19 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text20 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 18px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 203px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.screen5 .logo .text21 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 17px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 215px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 .screen5 .stackedgroup {
   display             : flex;

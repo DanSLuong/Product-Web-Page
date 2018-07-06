@@ -37,20 +37,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.an-animation-enter3 {
+.an-animation-enter105 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter105-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter105-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter105-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter105-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter3-frames {
+@-webkit-keyframes an-animation-enter105-frames {
   0%
    
   {
@@ -66,7 +66,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter3-frames {
+@-moz-keyframes an-animation-enter105-frames {
   0%
    
   {
@@ -82,7 +82,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter3-frames {
+@-o-keyframes an-animation-enter105-frames {
   0%
    
   {
@@ -98,7 +98,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter3-frames {
+@keyframes an-animation-enter105-frames {
   0%
    
   {
@@ -114,20 +114,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter4 {
+.an-animation-enter106 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter106-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter106-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter106-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter106-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter4-frames {
+@-webkit-keyframes an-animation-enter106-frames {
   0%
    
   {
@@ -143,7 +143,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter4-frames {
+@-moz-keyframes an-animation-enter106-frames {
   0%
    
   {
@@ -159,7 +159,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter4-frames {
+@-o-keyframes an-animation-enter106-frames {
   0%
    
   {
@@ -175,7 +175,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter4-frames {
+@keyframes an-animation-enter106-frames {
   0%
    
   {
@@ -191,20 +191,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter5 {
+.an-animation-enter107 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter107-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter107-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter107-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter107-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter5-frames {
+@-webkit-keyframes an-animation-enter107-frames {
   0%
    
   {
@@ -220,7 +220,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter5-frames {
+@-moz-keyframes an-animation-enter107-frames {
   0%
    
   {
@@ -236,7 +236,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter5-frames {
+@-o-keyframes an-animation-enter107-frames {
   0%
    
   {
@@ -252,7 +252,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter5-frames {
+@keyframes an-animation-enter107-frames {
   0%
    
   {
@@ -663,38 +663,39 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.eyepatch .box1 {
-  background-color    : rgba(250, 250, 250, 1.0);
+.eyepatch .singleeyepatch {
+  background-color    : rgba(255, 255, 255, 1.0);
   top                 : 291px;
   height              : 308px;
   width               : 437px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
+  overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.eyepatch .eyepatchbox {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 308px;
-  height              : 279px;
-  width               : 339px;
+.eyepatch .singleeyepatch .mask {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 308px;
+  width               : 437px;
   position            : absolute;
   margin              : 0;
-  left                : 69px;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.eyepatch .eyepatchbox .eyepatchbox1 {
+.eyepatch .singleeyepatch .singleeyepatch1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 279px;
-  width               : 339px;
-  position            : relative;
+  top                 : 35px;
+  height              : 280px;
+  width               : 350px;
+  position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 47px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -776,7 +777,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.eyepatch .banner .logo .box2 {
+.eyepatch .banner .logo .box1 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 107px;
   height              : 9px;
@@ -800,7 +801,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.eyepatch .banner .logo .box3 {
+.eyepatch .banner .logo .box2 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 107px;
   height              : 9px;

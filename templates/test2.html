@@ -1,18 +1,14 @@
-{% extends "main.html" %}
-{% block content %}
-{% include "header.html" %}
+<!--{% block content %} {% include "header.html" %}-->
 <div class='pane infoPages'>
-   <h1> Products </h1>
-   {% for product in products %}
-   {% if product.id %}
-   <div>
-       <img anima-src="{{url_for('static', filename='img/educational-line.png')}}" class="bp1-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-       <h1>{{product.name}}</h1>
-       {{product.sku}}
-       {{product.category}}
-       {{product.story}}
-   </div>
-   {% endif %}
-   {% endfor %}
+    <h1> Products </h1>
+    {% for product in products %}
+    <div>
+        <img anima-src="{{url_for('static', filename='img/educational-line.png')}}" class="bp1-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+        />
+        <h2> {{product}}</h2>
+
+        {{product.name}} {{product.product_sku}} {{product.category}} {{product.story}}
+    </div>
+    {% endfor %}
 </div>
-{% endblock %}
+<!--{% include "footer.html" %} {% endblock %}-->

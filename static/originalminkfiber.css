@@ -37,20 +37,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.an-animation-enter30 {
+.an-animation-enter3 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter30-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter30-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter30-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter30-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter30-frames {
+@-webkit-keyframes an-animation-enter3-frames {
   0%
    
   {
@@ -66,7 +66,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter30-frames {
+@-moz-keyframes an-animation-enter3-frames {
   0%
    
   {
@@ -82,7 +82,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter30-frames {
+@-o-keyframes an-animation-enter3-frames {
   0%
    
   {
@@ -98,7 +98,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter30-frames {
+@keyframes an-animation-enter3-frames {
   0%
    
   {
@@ -114,20 +114,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter31 {
+.an-animation-enter4 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter31-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter31-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter31-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter31-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter31-frames {
+@-webkit-keyframes an-animation-enter4-frames {
   0%
    
   {
@@ -143,7 +143,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter31-frames {
+@-moz-keyframes an-animation-enter4-frames {
   0%
    
   {
@@ -159,7 +159,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter31-frames {
+@-o-keyframes an-animation-enter4-frames {
   0%
    
   {
@@ -175,7 +175,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter31-frames {
+@keyframes an-animation-enter4-frames {
   0%
    
   {
@@ -191,20 +191,20 @@ div {
   transform: scale(1);
     }
 }
-.an-animation-enter32 {
+.an-animation-enter5 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : an-animation-enter32-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : an-animation-enter32-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : an-animation-enter32-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : an-animation-enter32-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes an-animation-enter32-frames {
+@-webkit-keyframes an-animation-enter5-frames {
   0%
    
   {
@@ -220,7 +220,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes an-animation-enter32-frames {
+@-moz-keyframes an-animation-enter5-frames {
   0%
    
   {
@@ -236,7 +236,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes an-animation-enter32-frames {
+@-o-keyframes an-animation-enter5-frames {
   0%
    
   {
@@ -252,7 +252,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes an-animation-enter32-frames {
+@keyframes an-animation-enter5-frames {
   0%
    
   {
@@ -707,69 +707,20 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .originalminkfiberfrontcopy {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 289px;
-  height              : 311px;
-  width               : 441px;
-  position            : absolute;
-  margin              : 0;
-  left                : 19px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.originalminkfiber .originalminkfiberfrontcopy .mask {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 311px;
-  width               : 441px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.originalminkfiber .originalminkfiberfrontcopy .originalminkfiberfront {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 312px;
-  width               : 468px;
-  position            : absolute;
-  margin              : 0;
-  left                : -27px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.originalminkfiber .originalminkfiberfrontcopy .originalminkfiberfront .originalminkfiberfront1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 312px;
-  width               : 468px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
 .originalminkfiber .originalfront {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 616px;
+  top                 : 619px;
   height              : 105px;
   width               : 105px;
   position            : absolute;
   margin              : 0;
-  left                : 19px;
+  left                : 27px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .originalfront .mask1 {
+.originalminkfiber .originalfront .mask {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 105px;
@@ -794,23 +745,23 @@ div {
   transform           : rotate(0deg);
 }
 .originalminkfiber .originalminkside {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 619px;
-  height              : 105px;
-  width               : 105px;
+  background-color    : rgba(252, 250, 250, 1.0);
+  top                 : 288px;
+  height              : 309px;
+  width               : 439px;
   position            : absolute;
   margin              : 0;
-  left                : 145px;
+  left                : 18px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .originalminkside .mask2 {
-  background-color    : rgba(255, 255, 255, 0.0);
+.originalminkfiber .originalminkside .mask1 {
+  background-color    : rgba(252, 250, 250, 1.0);
   top                 : 0px;
-  height              : 105px;
-  width               : 105px;
+  height              : 309px;
+  width               : 439px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -819,13 +770,75 @@ div {
   transform           : rotate(0deg);
 }
 .originalminkfiber .originalminkside .originalminkside1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -2px;
-  height              : 119px;
-  width               : 171px;
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 344px;
+  width               : 344px;
   position            : absolute;
   margin              : 0;
-  left                : -36px;
+  left                : 1px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.originalminkfiber .originalminkside .originalminkside1 .mask2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 344px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.originalminkfiber .originalminkside .originalminkside1 .originalminkside2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -7px;
+  height              : 391px;
+  width               : 560px;
+  position            : absolute;
+  margin              : 0;
+  left                : -117px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.originalminkfiber .originalminkfiberfront {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 618px;
+  height              : 105px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.originalminkfiber .originalminkfiberfront .mask3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 105px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.originalminkfiber .originalminkfiberfront .originalminkfiberfront1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 101px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : -23px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -853,6 +866,23 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+}
+.originalminkfiber .banner .text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 429px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
 }
 .originalminkfiber .banner .logo {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -926,7 +956,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text9 {
+.originalminkfiber .banner .logo .text10 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 21px;
@@ -938,7 +968,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text10 {
+.originalminkfiber .banner .logo .text11 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -950,7 +980,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text11 {
+.originalminkfiber .banner .logo .text12 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 17px;
@@ -962,7 +992,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text12 {
+.originalminkfiber .banner .logo .text13 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -974,7 +1004,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text13 {
+.originalminkfiber .banner .logo .text14 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -986,7 +1016,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text14 {
+.originalminkfiber .banner .logo .text15 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 21px;
@@ -998,7 +1028,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text15 {
+.originalminkfiber .banner .logo .text16 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -1010,7 +1040,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text16 {
+.originalminkfiber .banner .logo .text17 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 16px;
@@ -1022,7 +1052,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text17 {
+.originalminkfiber .banner .logo .text18 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 80px;
   height              : 17px;
@@ -1034,7 +1064,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text18 {
+.originalminkfiber .banner .logo .text19 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 74px;
   height              : 22px;
@@ -1046,7 +1076,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text19 {
+.originalminkfiber .banner .logo .text20 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 79px;
   height              : 18px;
@@ -1058,7 +1088,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.originalminkfiber .banner .logo .text20 {
+.originalminkfiber .banner .logo .text21 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 79px;
   height              : 17px;
@@ -1069,23 +1099,6 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-}
-.originalminkfiber .banner .text21 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 119px;
-  height              : auto;
-  width               : 164px;
-  position            : absolute;
-  margin              : 0;
-  left                : 429px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
-  font-size           : 19.0px;
-  color               : rgba(254, 255, 254, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
 }
 .originalminkfiber .stackedgroup {
   display             : flex;

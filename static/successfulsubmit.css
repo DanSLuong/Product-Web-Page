@@ -21,6 +21,1520 @@
   width               : 100%;
   height              : 100%;
 }
+.bp3-successfulsubmitipad {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1850px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-an-animation-enter1 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter1-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter1-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter1-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter1-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp3-an-animation-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp3-an-animation-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp3-an-animation-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp3-an-animation-enter2 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter2-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter2-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter2-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter2-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp3-an-animation-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp3-an-animation-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp3-an-animation-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp3-an-animation-enter3 {
+  opacity             : 0;
+  transform           : scale(1.1);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes bp3-an-animation-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@-o-keyframes bp3-an-animation-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+@keyframes bp3-an-animation-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: scale(1.1);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: scale(1);
+    }
+}
+.bp3-successfulsubmitipad .bp3-footer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  bottom              : 0%;
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : -18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-path {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 80px;
+  height              : 27px;
+  width               : 219px;
+  position            : absolute;
+  margin              : 0;
+  left                : 543px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 .bp3-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 .bp3-socialicons {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : 21px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 318px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-facebook {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-instagramicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-rectangle2copy {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 118px;
+  height              : 28px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-rectangle2copy2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 82px;
+  height              : 28px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 121px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 555px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-textyouremailaddress {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 30px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 555px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+  border              : 0;
+}
+.bp3-successfulsubmitipad .bp3-footer .bp3-textyouremailaddress::placeholder {
+  color               : rgba(122, 122, 122, 0.6);
+}
+.bp3-successfulsubmitipad .bp3-address {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1681px;
+  height              : 72px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 329px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-address .bp3-a1630oaklandrdsuit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-subscribeinfo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1681px;
+  height              : 36px;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-subscribeinfo .bp3-subscribetoournew {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1678px;
+  height              : auto;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footerlinks .bp3-home {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks .bp3-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks .bp3-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks .bp3-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks .bp3-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks .bp3-clientcare {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks .bp3-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1681px;
+  height              : auto;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 176px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-footerlinks2 .bp3-products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks2 .bp3-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks2 .bp3-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks2 .bp3-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-footerlinks2 .bp3-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-mapheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 523px;
+  height              : auto;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.bp3-successfulsubmitipad .bp3-banner {
+  background-color    : rgba(144, 146, 147, 1.0);
+  top                 : 872px;
+  height              : 402px;
+  width               : 336px;
+  position            : absolute;
+  margin              : 0;
+  left                : 111px;
+  border-radius       : 60px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-parachute {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 897px;
+  height              : 285px;
+  width               : 372px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(21deg); /* IE 9 */
+  -webkit-transform   : rotate(21deg); /* Chrome, Safari, Opera */
+  transform           : rotate(21deg);
+}
+.bp3-successfulsubmitipad .bp3-text {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1137px;
+  height              : auto;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  left                : 125px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp3-successfulsubmitipad .bp3-contactheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 362px;
+  height              : auto;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 38.0px;
+}
+.bp3-successfulsubmitipad .bp3-map {
+  background-color    : rgba(110, 103, 103, 1.0);
+  top                 : 359px;
+  height              : 40px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 287px;
+  border-radius       : 7px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-productbutton {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 370px;
+  height              : auto;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 289px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.bp3-successfulsubmitipad .bp3-map1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 514px;
+  height              : 350px;
+  width               : 584px;
+  position            : absolute;
+  margin              : 0;
+  left                : 94px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 644px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 448px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-group .bp3-oval4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 26px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-group .bp3-oval3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
+  height              : 2px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-group .bp3-rectangle1 {
+  background-color    : rgba(170, 171, 174, 1.0);
+  top                 : 13px;
+  height              : 23px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-group .bp3-oval1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-group .bp3-oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-box {
+  background-color    : rgba(94, 91, 91, 1.0);
+  top                 : 513px;
+  height              : 41px;
+  width               : 583px;
+  position            : absolute;
+  margin              : 0;
+  left                : 94px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-mapheader1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 529px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.bp3-successfulsubmitipad .bp3-boxcopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 893px;
+  height              : 416px;
+  width               : 350px;
+  position            : absolute;
+  margin              : 0;
+  left                : 314px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-textcopy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1156px;
+  height              : auto;
+  width               : 297px;
+  position            : absolute;
+  margin              : 0;
+  left                : 340px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp3-successfulsubmitipad .bp3-mailenvelopecopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 936px;
+  height              : 166px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 413px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-thankyouheadercopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1025px;
+  height              : auto;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  left                : 403px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : left;
+  line-height         : 50.0px;
+}
+.bp3-successfulsubmitipad .bp3-banner1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 114px;
+  width               : 774px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-banner2 {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : 0px;
+  height              : 114px;
+  width               : 774px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 73px;
+  width               : 165px;
+  position            : absolute;
+  margin              : 0;
+  left                : 293px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : 8px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 67px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 133px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : 8px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-box2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 67px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 13px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 11px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 13px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 11px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 49px;
+  height              : 11px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 127px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 49px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 136px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-banner1 .bp3-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : auto;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp3-successfulsubmitipad .bp3-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 92px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-linkscopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-product {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-services1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-blog1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-coursetraining1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-contact {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp3-successfulsubmitipad .bp3-girl {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 113px;
+  height              : 238px;
+  width               : 771px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-girl .bp3-mask {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 237px;
+  width               : 771px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-girl .bp3-girl1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -9px;
+  height              : 252px;
+  width               : 788px;
+  position            : absolute;
+  margin              : 0;
+  left                : -13px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-girl .bp3-girl1 .bp3-mask1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 252px;
+  width               : 788px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-girl .bp3-girl1 .bp3-girl2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -227px;
+  height              : 1155px;
+  width               : 788px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-successfulsubmitipad .bp3-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 394px;
+  height              : auto;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 88px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
 .bp2-successfulsubmitmobile {
   width               : 100%;
   min-width           : 320px;
@@ -37,19 +1551,19 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp2-an-animation-enter13 {
+.bp2-an-animation-enter10 {
   opacity             : 0;
   display             : block;
-  -webkit-animation   : bp2-an-animation-enter13-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-an-animation-enter13-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-an-animation-enter13-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp2-an-animation-enter13-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp2-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp2-an-animation-enter13-frames {
+@-webkit-keyframes bp2-an-animation-enter10-frames {
   0%
    
   {
@@ -63,7 +1577,7 @@ div {
   opacity: 1;
     }
 }
-@-moz-keyframes bp2-an-animation-enter13-frames {
+@-moz-keyframes bp2-an-animation-enter10-frames {
   0%
    
   {
@@ -77,7 +1591,7 @@ div {
   opacity: 1;
     }
 }
-@-o-keyframes bp2-an-animation-enter13-frames {
+@-o-keyframes bp2-an-animation-enter10-frames {
   0%
    
   {
@@ -91,7 +1605,7 @@ div {
   opacity: 1;
     }
 }
-@keyframes bp2-an-animation-enter13-frames {
+@keyframes bp2-an-animation-enter10-frames {
   0%
    
   {
@@ -1605,20 +3119,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp1-an-animation-enter33 {
+.bp1-an-animation-enter9 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter33-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter33-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter33-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter33-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter9-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter9-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter9-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter9-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter33-frames {
+@-webkit-keyframes bp1-an-animation-enter9-frames {
   0%
    
   {
@@ -1634,7 +3148,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter33-frames {
+@-moz-keyframes bp1-an-animation-enter9-frames {
   0%
    
   {
@@ -1650,7 +3164,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter33-frames {
+@-o-keyframes bp1-an-animation-enter9-frames {
   0%
    
   {
@@ -1666,7 +3180,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter33-frames {
+@keyframes bp1-an-animation-enter9-frames {
   0%
    
   {
@@ -1682,20 +3196,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter34 {
+.bp1-an-animation-enter10 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter34-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter34-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter34-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter34-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter10-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter34-frames {
+@-webkit-keyframes bp1-an-animation-enter10-frames {
   0%
    
   {
@@ -1711,7 +3225,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter34-frames {
+@-moz-keyframes bp1-an-animation-enter10-frames {
   0%
    
   {
@@ -1727,7 +3241,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter34-frames {
+@-o-keyframes bp1-an-animation-enter10-frames {
   0%
    
   {
@@ -1743,7 +3257,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter34-frames {
+@keyframes bp1-an-animation-enter10-frames {
   0%
    
   {
@@ -1759,20 +3273,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter35 {
+.bp1-an-animation-enter11 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter35-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter35-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter35-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter35-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter11-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter35-frames {
+@-webkit-keyframes bp1-an-animation-enter11-frames {
   0%
    
   {
@@ -1788,7 +3302,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter35-frames {
+@-moz-keyframes bp1-an-animation-enter11-frames {
   0%
    
   {
@@ -1804,7 +3318,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter35-frames {
+@-o-keyframes bp1-an-animation-enter11-frames {
   0%
    
   {
@@ -1820,7 +3334,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter35-frames {
+@keyframes bp1-an-animation-enter11-frames {
   0%
    
   {
@@ -1836,20 +3350,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter36 {
+.bp1-an-animation-enter12 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter36-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter36-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter36-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter36-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter12-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter36-frames {
+@-webkit-keyframes bp1-an-animation-enter12-frames {
   0%
    
   {
@@ -1865,7 +3379,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter36-frames {
+@-moz-keyframes bp1-an-animation-enter12-frames {
   0%
    
   {
@@ -1881,7 +3395,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter36-frames {
+@-o-keyframes bp1-an-animation-enter12-frames {
   0%
    
   {
@@ -1897,7 +3411,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter36-frames {
+@keyframes bp1-an-animation-enter12-frames {
   0%
    
   {
@@ -1913,20 +3427,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter37 {
+.bp1-an-animation-enter13 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter37-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter37-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter37-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter37-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter13-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter13-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter13-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter13-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter37-frames {
+@-webkit-keyframes bp1-an-animation-enter13-frames {
   0%
    
   {
@@ -1942,7 +3456,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter37-frames {
+@-moz-keyframes bp1-an-animation-enter13-frames {
   0%
    
   {
@@ -1958,7 +3472,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter37-frames {
+@-o-keyframes bp1-an-animation-enter13-frames {
   0%
    
   {
@@ -1974,7 +3488,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter37-frames {
+@keyframes bp1-an-animation-enter13-frames {
   0%
    
   {
@@ -1990,20 +3504,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter38 {
+.bp1-an-animation-enter14 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter38-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter38-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter38-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter38-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter14-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter14-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter14-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter14-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter38-frames {
+@-webkit-keyframes bp1-an-animation-enter14-frames {
   0%
    
   {
@@ -2019,7 +3533,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter38-frames {
+@-moz-keyframes bp1-an-animation-enter14-frames {
   0%
    
   {
@@ -2035,7 +3549,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter38-frames {
+@-o-keyframes bp1-an-animation-enter14-frames {
   0%
    
   {
@@ -2051,7 +3565,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter38-frames {
+@keyframes bp1-an-animation-enter14-frames {
   0%
    
   {
@@ -3597,1520 +5111,6 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-.bp3-successfulsubmitipad {
-  width               : 100%;
-  min-width           : 768px;
-  height              : 100vh;
-  min-height          : 1850px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  background-color    : rgba(255, 255, 255, 1.0);
-}
-a {
-  text-decoration     : none;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp3-an-animation-enter26 {
-  opacity             : 0;
-  transform           : scale(1.1);
-  display             : block;
-  -webkit-animation   : bp3-an-animation-enter26-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter26-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter26-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter26-frames 0.2s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
-}
-@-webkit-keyframes bp3-an-animation-enter26-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-moz-keyframes bp3-an-animation-enter26-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-o-keyframes bp3-an-animation-enter26-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@keyframes bp3-an-animation-enter26-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-.bp3-an-animation-enter27 {
-  opacity             : 0;
-  transform           : scale(1.1);
-  display             : block;
-  -webkit-animation   : bp3-an-animation-enter27-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter27-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter27-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter27-frames 0.2s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
-}
-@-webkit-keyframes bp3-an-animation-enter27-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-moz-keyframes bp3-an-animation-enter27-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-o-keyframes bp3-an-animation-enter27-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@keyframes bp3-an-animation-enter27-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-.bp3-an-animation-enter28 {
-  opacity             : 0;
-  transform           : scale(1.1);
-  display             : block;
-  -webkit-animation   : bp3-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-  -o-animation-delay  : 0s;
-  animation-delay     : 0s;
-}
-@-webkit-keyframes bp3-an-animation-enter28-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-moz-keyframes bp3-an-animation-enter28-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@-o-keyframes bp3-an-animation-enter28-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-@keyframes bp3-an-animation-enter28-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: scale(1.1);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: scale(1);
-    }
-}
-.bp3-successfulsubmitipad .bp3-footer {
-  background-color    : rgba(255, 255, 255, 0.0);
-  bottom              : 0%;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : -18px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-path {
-  background-color    : rgba(254, 255, 254, 1.0);
-  top                 : 80px;
-  height              : 27px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 543px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 .bp3-rectangle {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 .bp3-socialicons {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 119px;
-  height              : 21px;
-  width               : 98px;
-  position            : absolute;
-  margin              : 0;
-  left                : 318px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-facebook {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-instagramicon {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-footer1 .bp3-socialicons .bp3-youtube {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 70px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-rectangle2copy {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 118px;
-  height              : 28px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 542px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-rectangle2copy2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 82px;
-  height              : 28px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 542px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-subscribe {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 121px;
-  height              : auto;
-  width               : 84px;
-  position            : absolute;
-  margin              : 0;
-  left                : 555px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-textyouremailaddress {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 30px;
-  width               : 168px;
-  position            : absolute;
-  margin              : 0;
-  left                : 555px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-  border              : 0;
-}
-.bp3-successfulsubmitipad .bp3-footer .bp3-textyouremailaddress::placeholder {
-  color               : rgba(122, 122, 122, 0.6);
-}
-.bp3-successfulsubmitipad .bp3-address {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1681px;
-  height              : 72px;
-  width               : 126px;
-  position            : absolute;
-  margin              : 0;
-  left                : 329px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-address .bp3-a1630oaklandrdsuit {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 126px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-subscribeinfo {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1681px;
-  height              : 36px;
-  width               : 186px;
-  position            : absolute;
-  margin              : 0;
-  left                : 542px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-subscribeinfo .bp3-subscribetoournew {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1678px;
-  height              : auto;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footerlinks .bp3-home {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks .bp3-aboutus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks .bp3-services {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks .bp3-coursetraining {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks .bp3-shipping {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks .bp3-clientcare {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks .bp3-qaeducational {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1681px;
-  height              : auto;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 176px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-footerlinks2 .bp3-products {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks2 .bp3-blog {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks2 .bp3-contactus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks2 .bp3-team {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-footerlinks2 .bp3-successstories {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-mapheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 523px;
-  height              : auto;
-  width               : 108px;
-  position            : absolute;
-  margin              : 0;
-  left                : 116px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : justify;
-  line-height         : 24.0px;
-}
-.bp3-successfulsubmitipad .bp3-banner {
-  background-color    : rgba(144, 146, 147, 1.0);
-  top                 : 872px;
-  height              : 402px;
-  width               : 336px;
-  position            : absolute;
-  margin              : 0;
-  left                : 111px;
-  border-radius       : 60px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-parachute {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 897px;
-  height              : 285px;
-  width               : 372px;
-  position            : absolute;
-  margin              : 0;
-  left                : 51px;
-  -ms-transform       : rotate(21deg); /* IE 9 */
-  -webkit-transform   : rotate(21deg); /* Chrome, Safari, Opera */
-  transform           : rotate(21deg);
-}
-.bp3-successfulsubmitipad .bp3-text {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1137px;
-  height              : auto;
-  width               : 194px;
-  position            : absolute;
-  margin              : 0;
-  left                : 125px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.bp3-successfulsubmitipad .bp3-contactheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 362px;
-  height              : auto;
-  width               : 188px;
-  position            : absolute;
-  margin              : 0;
-  left                : 75px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 38.0px;
-}
-.bp3-successfulsubmitipad .bp3-map {
-  background-color    : rgba(110, 103, 103, 1.0);
-  top                 : 359px;
-  height              : 40px;
-  width               : 106px;
-  position            : absolute;
-  margin              : 0;
-  left                : 287px;
-  border-radius       : 7px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-productbutton {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 370px;
-  height              : auto;
-  width               : 102px;
-  position            : absolute;
-  margin              : 0;
-  left                : 289px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 13.0px;
-}
-.bp3-successfulsubmitipad .bp3-map1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 514px;
-  height              : 350px;
-  width               : 584px;
-  position            : absolute;
-  margin              : 0;
-  left                : 94px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-group {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 644px;
-  height              : 37px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 448px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-group .bp3-oval4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 11px;
-  height              : 26px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-group .bp3-oval3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 35px;
-  height              : 2px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-group .bp3-rectangle1 {
-  background-color    : rgba(170, 171, 174, 1.0);
-  top                 : 13px;
-  height              : 23px;
-  width               : 2px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-group .bp3-oval1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-group .bp3-oval2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 3px;
-  height              : 3px;
-  width               : 3px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-box {
-  background-color    : rgba(94, 91, 91, 1.0);
-  top                 : 513px;
-  height              : 41px;
-  width               : 583px;
-  position            : absolute;
-  margin              : 0;
-  left                : 94px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-mapheader1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 529px;
-  height              : auto;
-  width               : 89px;
-  position            : absolute;
-  margin              : 0;
-  left                : 112px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : justify;
-  line-height         : 16.0px;
-}
-.bp3-successfulsubmitipad .bp3-boxcopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 893px;
-  height              : 416px;
-  width               : 350px;
-  position            : absolute;
-  margin              : 0;
-  left                : 314px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-textcopy2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1156px;
-  height              : auto;
-  width               : 297px;
-  position            : absolute;
-  margin              : 0;
-  left                : 340px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.bp3-successfulsubmitipad .bp3-mailenvelopecopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 936px;
-  height              : 166px;
-  width               : 161px;
-  position            : absolute;
-  margin              : 0;
-  left                : 413px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-thankyouheadercopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1025px;
-  height              : auto;
-  width               : 194px;
-  position            : absolute;
-  margin              : 0;
-  left                : 403px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 40.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : left;
-  line-height         : 50.0px;
-}
-.bp3-successfulsubmitipad .bp3-banner1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 114px;
-  width               : 774px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-banner2 {
-  background-color    : rgba(102, 103, 103, 1.0);
-  top                 : 0px;
-  height              : 114px;
-  width               : 774px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 15px;
-  height              : 73px;
-  width               : 165px;
-  position            : absolute;
-  margin              : 0;
-  left                : 293px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-logo1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 41px;
-  width               : 68px;
-  position            : absolute;
-  margin              : 0;
-  left                : 51px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-spoolie {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 65px;
-  height              : 8px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 140px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-box1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 67px;
-  height              : 6px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 133px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-spoolie1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 65px;
-  height              : 8px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-box2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 67px;
-  height              : 6px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 24px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 46px;
-  height              : 13px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 11px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 47px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text5 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 58px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text6 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 46px;
-  height              : 13px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 73px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text7 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 83px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text8 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text9 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 11px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 102px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text10 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 46px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text11 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 49px;
-  height              : 11px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 127px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-logo .bp3-text12 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 49px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 136px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-banner1 .bp3-text13 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 78px;
-  height              : auto;
-  width               : 93px;
-  position            : absolute;
-  margin              : 0;
-  left                : 328px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(254, 255, 254, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp3-successfulsubmitipad .bp3-stackedgroup {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 92px;
-  height              : 15px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-linkscopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-links {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-product {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-services1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-blog1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-coursetraining1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-stackedgroup .bp3-contact {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp3-successfulsubmitipad .bp3-girl {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 113px;
-  height              : 238px;
-  width               : 771px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-girl .bp3-mask {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 237px;
-  width               : 771px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-girl .bp3-girl1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -9px;
-  height              : 252px;
-  width               : 788px;
-  position            : absolute;
-  margin              : 0;
-  left                : -13px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-girl .bp3-girl1 .bp3-mask1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 252px;
-  width               : 788px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-girl .bp3-girl1 .bp3-girl2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -227px;
-  height              : 1155px;
-  width               : 788px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp3-successfulsubmitipad .bp3-text14 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 394px;
-  height              : auto;
-  width               : 139px;
-  position            : absolute;
-  margin              : 0;
-  left                : 88px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : justify;
-  line-height         : 23.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

@@ -1,0 +1,14 @@
+<!--{% block content %} {% include "header.html" %}-->
+<div class='pane infoPages'>
+        <h1> Product Info </h1>
+        {% for product in product %}
+        <div>
+            <img anima-src="{{url_for('static', filename='img/educational-line.png')}}" class="bp1-line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            />
+            <h2> {{product}}</h2>
+    
+            {{product.name}} {{product.product_sku}} {{product.category}} {{product.story}}
+        </div>
+        {% endfor %}
+    </div>
+    <!--{% include "footer.html" %} {% endblock %}-->

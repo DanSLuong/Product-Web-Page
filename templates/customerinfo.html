@@ -1,0 +1,15 @@
+<div>
+    {% for i in customers %}
+    <div>
+        {{i.first_name}}
+        <br> {{i.last_name}}
+        <br> {{i.customer_email}}
+        <br> {{i.address_line_1}}
+        <br> {{i.address_line_2}}
+        <br> {{i.state}}
+        <br> {{i.city}}
+        <br> {{i.zip_code}}
+        <br>
+    </div>
+    {% endfor %}
+</div>

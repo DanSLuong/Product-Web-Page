@@ -1,15 +1,14 @@
 from __future__ import print_function
 from flask import (Flask,
-                   render_template,
-                   request, redirect,
-                   jsonify,
-                   url_for,
-                   flash,
-                   g)
+                    render_template,
+                    request, redirect,
+                    jsonify,
+                    url_for,
+                    flash,
+                    g)
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
-# Product, Inventory, Sale, SaleItem, Employee
-from database_setup import Base, Blog, User
+from database_setup import Base, Blog, User, Customer, Product, Inventory, Sale, SaleItem, Employee
 from flask import session as login_session
 import squareconnect
 from squareconnect.rest import ApiException
@@ -27,13 +26,12 @@ from functools import wraps
 
 
 # setup authorization
-squareconnect.configuration.access_token = 'Key goes here'
+squareconnect.configuration.access_token = 'Token Key'
 # create an instance of the Catalog API class
 api_instance = CatalogApi()
 
 
 api_instances = []
-api_instances2 = []
 try:
     # ListLocations
     # api_response = api_instance.list_locations()
@@ -47,33 +45,31 @@ try:
 except ApiException as e:
     print ('Exception when calling CatalogApi->list_catalog: %s\n' % e)
 
+
 # Pull product values
 value = 1
-squaredata = []
-while value < len(api_instances[0]):
-    if api_instances[0][value].item_data:
-        if api_instances[0][value].item_data.variations[0].item_variation_data.sku:
-            cost = float(
-                api_instances[0][value].item_data.variations[0].item_variation_data.price_money.amount)
-
-            squaredata.append([api_instances[0][value].item_data.name,
-                               api_instances[0][value].item_data.description,
-                               api_instances[0][value].item_data.category_id,
-                               api_instances[0][value].item_data.product_type,
-                               api_instances[0][value].item_data.variations[0].id,
-                               api_instances[0][value].item_data.variations[0].item_variation_data.item_id,
-                               api_instances[0][value].item_data.image_url,
-                               api_instances[0][value].item_data.variations[0].item_variation_data.sku,
-                               cost/100,
-                               api_instances[0][value].item_data.variations[0].item_variation_data.inventory_alert_type])
-    value += 1
-"""
-for i in range(len(squaredata)):
-      #for j in range(len(squaredata[i])):
-      #      print (squaredata[i][j])
-      print (squaredata[i][0], '|', squaredata[i][7])    
-      print ('')
-      """
+count = 0
+products = {}
+squaredata = {}
+for value in range(len(api_instances[0])):
+      if api_instances[0][value].item_data:
+            if api_instances[0][value].item_data.variations[0].item_variation_data.sku:
+                  cost = float(
+                          api_instances[0][value].item_data.variations[0].item_variation_data.price_money.amount)
+                  
+                  squaredata = {'name': api_instances[0][value].item_data.name,
+                                'description': api_instances[0][value].item_data.description,
+                                'category_id': api_instances[0][value].item_data.category_id,
+                                'product_type': api_instances[0][value].item_data.product_type,
+                                'product_id': api_instances[0][value].item_data.variations[0].id,
+                                'other_id': api_instances[0][value].item_data.variations[0].item_variation_data.item_id,
+                                'image_url': api_instances[0][value].item_data.image_url,
+                                'product_sku': api_instances[0][value].item_data.variations[0].item_variation_data.sku,
+                                'cost': cost/100,
+                                'stock_count_alert': api_instances[0][value].item_data.variations[0].item_variation_data.inventory_alert_type}
+                  products[count] = squaredata
+                  count+=1
+      value+=1
 
 
 app = Flask(__name__)
@@ -168,8 +164,6 @@ def showEducational():
     return render_template('screen1.html')
 
 # Blog
-
-
 @app.route('/blog')
 def showBlog():
     blogs = session.query(Blog).all()
@@ -222,10 +216,55 @@ def deleteBlogPost(blog_id):
 
 @app.route('/test')
 def showTest():
-    products = []
-    for i in range(len(squaredata)):
-        products.append(squaredata[i][0])
     return render_template('test2.html', products=products)
+
+
+product_id = products[0]['product_id']
+@app.route('/products/<int:product_id>/product')
+@app.route('/products/<int:product_id>/')
+def showProductInfo(product_id):
+    product=products[product_id]
+    return render_template('productinfo.html', product=product)
+
+
+# Customer Info Stuff
+@app.route('/customerinfo/<int:customer_id>/')
+def showCustomerInfo(customer_id):
+    customer = session.query(Customer).filter_by(id=customer_id).one()
+    return render_template('showcustomerinfo.hmtl', customer=customer)
+
+
+@app.route('/customerinfo/new', methods=['GET', 'POST'])
+def newCustomer():
+    if request.method == 'POST':
+        newCustomerInfo = Customer(first_name=request.form['first_name'],
+                                    last_name=request.form['last_name'],
+                                    customer_email=request.form['customer_email'],
+                                    address_line_1=request.form['address_line_1'],
+                                    address_line_2=request.form['address_line_2'],
+                                    state=request.form['state'],
+                                    city=request.form['city'],
+                                    zip_code=request.form['zip_code']
+                                    )
+        session.add(newCustomerInfo)
+        session.commit()
+        return redirect(url_for('showCustomerInfo'))
+    else:
+        return render_template('newcustomer.hmtl')
+
+
+@app.route('/customerinfo/<int:customer_id>/edit/', methods=['GET', 'POST'])
+def editCustomer(customer_id):
+    editCustomer = session.query(Customer).filter_by(id=customer_id).one()
+    if request.method == 'POST':
+        if request.form['first_name']:
+            editCustomer.first_name = request.form['first_name']
+        session.add(editCustomer)
+        session.commit()
+        return redirect(url_for('showCustomerInfo'))
+    else:
+        return render_template('editcustomer.html', customer=editCustomer)
+
 
 
 if __name__ == '__main__':
