@@ -121,6 +121,30 @@ class Product(Base):
         }
 
 
+
+class Cart(Base):
+    __tablename__ = 'cart'
+
+    id = Column(Integer, primary_key=True)
+    sku = Column(FLOAT, nullable=False)
+    name = Column(String(250), nullable=False)
+    cost = Column(NUMERIC(12,2), nullable=False)
+    quantity = Column(Integer, nullable=False)
+
+    
+    @property
+    def serialize(self):
+        # Return object data in easily serializable format
+        return{
+            'sku': self.sku,
+            'name': self.name,
+            'cost': self.cost,
+            'stockCount': self.stockCount,
+            'quantity': self.quantity,
+            'id': self.id,
+        }
+
+
 class Inventory(Base):
     __tablename__ = 'inventory'
 
@@ -136,21 +160,6 @@ class Inventory(Base):
         # Return object data in easily serializable format
         return{
             'stockCount': self.stockCount,
-            'id': self.id,
-        }
-
-
-class ProductReviews(Base):
-    __tablename__ = 'productReviews'
-
-    id = Column(Integer, primary_key=True)
-    rating = Column(Integer, nullable=False)
-
-    @property
-    def serialize(self):
-        # Return object data in easily serializable format
-        return{
-            'rating': self.rating,
             'id': self.id,
         }
 

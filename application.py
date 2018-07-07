@@ -8,7 +8,7 @@ from flask import (Flask,
                     g)
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
-from database_setup import Base, Blog, User, Customer, Product, Inventory, Sale, SaleItem, Employee
+from database_setup import Base, Blog, Cart, User, Customer, Product, Inventory, Sale, SaleItem, Employee
 from flask import session as login_session
 import squareconnect
 from squareconnect.rest import ApiException
@@ -26,7 +26,7 @@ from functools import wraps
 
 
 # setup authorization
-squareconnect.configuration.access_token = 'Token Key'
+squareconnect.configuration.access_token = 
 # create an instance of the Catalog API class
 api_instance = CatalogApi()
 
@@ -56,7 +56,7 @@ for value in range(len(api_instances[0])):
             if api_instances[0][value].item_data.variations[0].item_variation_data.sku:
                   cost = float(
                           api_instances[0][value].item_data.variations[0].item_variation_data.price_money.amount)
-                  
+                  sku = int(api_instances[0][value].item_data.variations[0].item_variation_data.sku)
                   squaredata = {'name': api_instances[0][value].item_data.name,
                                 'description': api_instances[0][value].item_data.description,
                                 'category_id': api_instances[0][value].item_data.category_id,
@@ -64,7 +64,7 @@ for value in range(len(api_instances[0])):
                                 'product_id': api_instances[0][value].item_data.variations[0].id,
                                 'other_id': api_instances[0][value].item_data.variations[0].item_variation_data.item_id,
                                 'image_url': api_instances[0][value].item_data.image_url,
-                                'product_sku': api_instances[0][value].item_data.variations[0].item_variation_data.sku,
+                                'product_sku': sku,
                                 'cost': cost/100,
                                 'stock_count_alert': api_instances[0][value].item_data.variations[0].item_variation_data.inventory_alert_type}
                   products[count] = squaredata
@@ -90,22 +90,18 @@ def showHome():
     return render_template('home.html')
 
 # Aboutus page
-
-
 @app.route('/aboutus')
 def showAboutUs():
     return render_template('aboutus.html')
 
+
 # Contact page
-
-
 @app.route('/contact')
 def showContact():
     return render_template('contactipad.html')
 
+
 # Product pages
-
-
 @app.route('/product/products')
 def showProducts():
     return render_template('product.html')
@@ -129,9 +125,8 @@ def showProductInfo(team_id, player_id):
 def showShipping():
     return render_template('shipping.html')
 
+
 # Under the services tab.
-
-
 @app.route('/services/services')
 def showServices():
     return render_template('services.html')
@@ -147,8 +142,6 @@ def showClientCare():
     return render_template('clientcare.html')
 
 # Course pages
-
-
 @app.route('/course_training/course')
 def showCourse():
     return render_template('coursemobile.html')
@@ -162,6 +155,7 @@ def showSuccessStories():
 @app.route('/course_training/educational')
 def showEducational():
     return render_template('screen1.html')
+
 
 # Blog
 @app.route('/blog')
@@ -219,21 +213,35 @@ def showTest():
     return render_template('test2.html', products=products)
 
 
-product_id = products[0]['product_id']
 @app.route('/products/<int:product_id>/product')
 @app.route('/products/<int:product_id>/')
 def showProductInfo(product_id):
-    product=products[product_id]
-    return render_template('productinfo.html', product=product)
+    if request.method == 'POST':
+        product=products[product_id]
+        newCart = Cart(name=request.form['name'],
+                        sku=request.form['sku'],
+                        quantity=request.form['quantity'],
+                        cost=request.form['cost'])
+        session.add(newCart)
+        session.commit()
+        return render_template('productinfo.html', product=product)
+    else:
+        return render_template('productinfo.html', product=product)
 
 
-# Customer Info Stuff
+@app.route('/cart')
+def showCart():
+    cart = session.query(Cart).all()
+    return render_template('cart.html', cart=cart)
+
+
 @app.route('/customerinfo/<int:customer_id>/')
 def showCustomerInfo(customer_id):
     customer = session.query(Customer).filter_by(id=customer_id).one()
-    return render_template('showcustomerinfo.hmtl', customer=customer)
+    return render_template('customerinfo.html', customer=customer)
 
 
+# Create Customer Information
 @app.route('/customerinfo/new', methods=['GET', 'POST'])
 def newCustomer():
     if request.method == 'POST':
@@ -248,9 +256,9 @@ def newCustomer():
                                     )
         session.add(newCustomerInfo)
         session.commit()
-        return redirect(url_for('showCustomerInfo'))
+        return redirect(url_for('showCustomerInfo', customer=newCustomer))
     else:
-        return render_template('newcustomer.hmtl')
+        return render_template('newcustomer.html')
 
 
 @app.route('/customerinfo/<int:customer_id>/edit/', methods=['GET', 'POST'])
@@ -259,6 +267,20 @@ def editCustomer(customer_id):
     if request.method == 'POST':
         if request.form['first_name']:
             editCustomer.first_name = request.form['first_name']
+        if request.form['last_name']:
+            editCustomer.last_name = request.form['last_name']
+        if request.form['customer_email']:
+            editCustomer.customer_email = request.form['customer_email']
+        if request.form['address_line_1']:
+            editCustomer.address_line_1 = request.form['address_line_1']
+        if request.form['address_line_2']:
+            editCustomer.address_line_2 = request.form['address_line_2']
+        if request.form['state']:
+            editCustomer.state = request.form['state']
+        if request.form['city']:
+            editCustomer.city = request.form['city']
+        if request.form['zip_code']:
+            editCustomer.zip_code = request.form['zip_code']
         session.add(editCustomer)
         session.commit()
         return redirect(url_for('showCustomerInfo'))
