@@ -1,5 +1,17 @@
+import squareconnect
+from squareconnect.models.create_order_request import CreateOrderRequest
+from squareconnect.models.money import Money
+from squareconnect.models.address import Address
+from squareconnect.models.create_checkout_request import CreateCheckoutRequest
+from squareconnect.models.create_order_request_line_item import CreateOrderRequestLineItem
+from squareconnect.models.create_order_request_discount import CreateOrderRequestDiscount
+from squareconnect.models.create_order_request_tax import CreateOrderRequestTax
+from squareconnect.models.create_checkout_request_additional_recipient import CreateCheckoutRequestAdditionalRecipient
+
+
 api = squareconnect.apis.checkout_api.CheckoutApi()
-result = api.create_checkout(LOCATION_ID, CreateCheckoutRequest(
+#result = api.create_checkout(LOCATION_ID, CreateCheckoutRequest(
+result = api.create_checkout('CBASEI4zih64SK-qL0L7qDKKCDkgAQ', CreateCheckoutRequest(
   idempotency_key='74ae1696-b1e3-4328-af6d-f1e04d947a13',
   order=CreateOrderRequest(
     reference_id='reference_id',
@@ -44,7 +56,7 @@ result = api.create_checkout(LOCATION_ID, CreateCheckoutRequest(
     ],
     discounts=[
       CreateOrderRequestDiscount(
-        name='Father's day 12% OFF',
+        name="Father's day 12% OFF",
         percentage='12'
       ),
       CreateOrderRequestDiscount(
@@ -82,91 +94,3 @@ result = api.create_checkout(LOCATION_ID, CreateCheckoutRequest(
   redirect_url='https://merchant.website.com/order-confirm'
 ))
 checkout = result.checkout()
-
-
-
-"""
-# TEMPLATE
-{
-  "redirect_url": "{{URL TO CONFIRMATION PAGE}}",
-  "idempotency_key": "{{UNIQUE STRING FOR THIS TRANSACTION}}",
-  "ask_for_shipping_address": {{true or false}},
-  "merchant_support_email": "{{SUPPORT EMAIL ADDRESS}}",
-
-  "order": {
-    "reference_id": "{{STORE ORDER ID}}",
-    "line_items": [
-
-      // List each item in the order as an individual line item
-      {
-        "name": "{{ITEM_1 NAME}}",
-        "quantity": "{{ITEM_1 QUANTITY}}",
-        "base_price_money": {
-          "amount": {{ITEM_1 COST IN BASE MONETARY UNIT}},
-          "currency": "{{ITEM_1 CURRENCY USED}}"
-        },
-        discounts: [
-          {
-            "name": "{{ITEM_1_DISCOUNT NAME}}",
-            "amount_money": {
-              "amount": {{ITEM_1_DISCOUNT AMOUNT}},
-              "currency": "{{ITEM_1_DISCOUNT CURRENCY USED}}"
-            }
-          }
-        ],
-        "taxes": [
-          {
-           "name": "{{ITEM_1_TAX NAME}}",
-           "percentage": "{{ITEM_1_TAX PERCENTAGE}}",
-           "type": "{{ITEM_1_TAX TYPE}}"
-         }
-        ]
-      },
-      {
-        "name": "{{ITEM_2 NAME}}",
-        "quantity": "{{ITEM_2 QUANTITY}}",
-        "base_price_money": {
-          "amount": {{ITEM_2 COST IN BASE MONETARY UNIT}},
-          "currency": "{{ITEM_2 CURRENCY USED}}"
-        }
-      },
-      . . .
-      {
-        "name": "{{ITEM_N NAME}}",
-        "quantity": "{{ITEM_N QUANTITY}}",
-        "base_price_money": {
-          "amount": {{ITEM_N COST IN BASE MONETARY UNIT}},
-          "currency": "{{ITEM_N CURRENCY USED}}"
-        },
-        discounts: [
-         {
-           "name": "{{ITEM_N_DISCOUNT NAME}}",
-           "percentage": "{{ITEM_N PERCENTAGE USED}}"
-         }
-       ]
-      },
-    ]
-  },
-  "pre_populate_buyer_email": "{{CUSTOMER CONTACT INFORMATION: EMAIL}}",
-  "pre_populate_shipping_address": {
-    "address_line_1": "{{SHIPPING ADDRESS, LINE 1}}",
-    "address_line_2": "{{SHIPPING ADDRESS, LINE 2}}",
-    "locality": "{{SHIPPING CITY/TOWNSHIP/ETC}}",
-    "administrative_district_level_1": "{{SHIPPING STATE/PROVINCE/ETC}}",
-    "postal_code": "{{SHIPPING POSTAL CODE}}",
-    "country": "{{SHIPPING COUNTRY}}",
-    "first_name": "{{CUSTOMER FIRST NAME}}",
-    "last_name": "{{CUSTOMER LAST NAME}}"
-  },
-  "additional_recipients":[
-    {
-      "location_id":  "{{RECIPIENT_LOCATION_ID}}",
-      "description":  "{{DESCRIPTION}}",
-        "amount_money" : {
-          "amount": {{SPLIT AMOUNT IN BASE MONETARY UNIT}},
-          "currency": "{{CURRENCY USED}}"
-      }
-    }
-  ]
-}
-"""

@@ -1,3 +1,32 @@
+{% block content %} {% include "header.html" %}
+<style>
+    .pane .infoPages {
+        width: 100%;
+        min-width: 768px;
+        position: relative;
+        overflow: hidden;
+        margin: 0px;
+        background-color: rgba(255, 255, 255, 1.0);
+    }
+
+    .pane .infoPages {
+        width: 100%;
+        min-width: 320px;
+        position: relative;
+        overflow: hidden;
+        margin: 0px;
+        background-color: rgba(255, 255, 255, 1.0);
+    }
+
+    .pane .infoPages {
+        width: 100%;
+        min-width: 1024px;
+        position: relative;
+        overflow: hidden;
+        margin: 0px;
+        background-color: rgba(255, 255, 255, 1.0);
+    }
+</style>
 <div class='pane infoPages'>
     <h1> Products </h1>
     <div>
@@ -34,3 +63,4 @@
     </div>
 
 </div>
+{% include "footer.html" %} {% endblock %}
