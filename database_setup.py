@@ -9,6 +9,7 @@ from sqlalchemy.dialects.postgresql import *
 
 Base = declarative_base()
 
+
 class User(Base):
     __tablename__ = 'user'
 
@@ -39,36 +40,6 @@ class Employee(Base):
             'id': self.id,
         }
 
-
-class Customer(Base):
-    __tablename__ = 'team'
-
-    id = Column(Integer, primary_key=True)
-    first_name = Column(String(250), nullable=False)
-    last_name = Column(String(250), nullable=False)
-    customer_email = Column(String(250), nullable=False)
-    address_line_1 = Column(String(250), nullable=False)
-    address_line_2 = Column(String(250), nullable=False)
-    city = Column(String(250), nullable=False)
-    state = Column(String(250), nullable=False)
-    zip_code = Column(String(250), nullable=False)
-
-
-    @property
-    def serialize(self):
-        """Return object data in easily serializeable format"""
-        return{
-            'first_name': self.first_name,
-            'last_name': self.last_name,
-            'customer_email': self.customer_email,
-            'address_line_1': self.address_line_1,
-            'address_line_2': self.address_line_2,
-            'city': self.city,
-            'state': self.state,
-            'zip_code': self.zip_code,
-            'id': self.id,
-        }
-
         
 class Blog(Base):
     __tablename__ = 'blog'
@@ -79,8 +50,8 @@ class Blog(Base):
     pictureURL = Column(String(250), nullable=False)
     story = Column(String(750), nullable=False)
     
-    #user_id = Column(Integer, ForeignKey('user.id'))
-    #user = relationship(User, backref='blog')
+    user_id = Column(Integer, ForeignKey('user.id'))
+    user = relationship(User, backref='blog')
 
 
     @property
@@ -93,126 +64,6 @@ class Blog(Base):
             'pictureURL': self.pictureURL,
             'story': self.story,
         }
-
-
-class Product(Base):
-    __tablename__ = 'product'
-
-    id = Column(Integer, primary_key=True)
-    sku = Column(FLOAT, nullable=False)
-    name = Column(String(250), nullable=False)
-    URL = Column(String(250), nullable=False)
-    cost = Column(NUMERIC(12,2), nullable=False)
-    category = Column(String(250), nullable=False)
-
-    
-    @property
-    def serialize(self):
-        # Return object data in easily serializable format
-        return{
-            'sku': self.sku,
-            'name': self.name,
-            'URL': self.URL,
-            'cost': self.cost,
-            'reviews': self.reviews,
-            'stockCount': self.stockCount,
-            'category': self.category,
-            'id': self.id,
-        }
-
-
-
-class Cart(Base):
-    __tablename__ = 'cart'
-
-    id = Column(Integer, primary_key=True)
-    sku = Column(FLOAT, nullable=False)
-    name = Column(String(250), nullable=False)
-    cost = Column(NUMERIC(12,2), nullable=False)
-    quantity = Column(Integer, nullable=False)
-
-    
-    @property
-    def serialize(self):
-        # Return object data in easily serializable format
-        return{
-            'sku': self.sku,
-            'name': self.name,
-            'cost': self.cost,
-            'stockCount': self.stockCount,
-            'quantity': self.quantity,
-            'id': self.id,
-        }
-
-
-class Inventory(Base):
-    __tablename__ = 'inventory'
-
-    id = Column(Integer, primary_key=True)
-    stockCount = Column(Integer, nullable=False)
-
-    product_id = Column(Integer, ForeignKey('product.id'))
-    product = relationship(Product, backref=backref('inventory', cascade='all, delete'))
-    
-
-    @property
-    def serialize(self):
-        # Return object data in easily serializable format
-        return{
-            'stockCount': self.stockCount,
-            'id': self.id,
-        }
-
-
-class Sale(Base):
-    __tablename__ = 'sale'
-
-    # SaleTransactionId
-    id = Column(Integer, primary_key=True)
-    # dateTime = Column(datetime(), nullable=False)
-    totalSale = Column(Integer, nullable=False)
-    
-    user_id = Column(Integer, ForeignKey('user.id'))
-    user = relationship(User, backref='sale')
-
-
-    @property
-    def serialize(self):
-        # Return object data in easily serializable format
-        return{
-            'id': self.id,
-            'dateTime': self.dateTime,
-            'totalSale': self.totalSale,
-        }
-
-
-class SaleItem(Base):
-    __tablename__ = 'saleItem'
-
-    id = Column(Integer, primary_key=True)
-    itemSold = Column(String(250), nullable=False)
-    quantity = Column(Integer, nullable=False)
-    
-    # SaleTransactionId
-    sale_id = Column(Integer, ForeignKey('sale.id'))
-    sale = relationship(Sale, backref=backref('saleItem', cascade='all, delete'))
-    # ProductID
-    product_id = Column(Integer, ForeignKey('product.id'))
-    product = relationship(Product, backref=backref('saleItem', cascade='all, delete'))
-    
-    user_id = Column(Integer, ForeignKey('user.id'))
-    user = relationship(User, backref='saleItem')
-
-
-    @property
-    def serialize(self):
-        # Return object data in easily serializable format
-        return{
-            'id': self.id,
-            'itemSold': self.itemSold,
-            'quantity': self.quantity,
-        }
-
 
 
 # engine = create_engine('sqlite:///products.db')

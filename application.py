@@ -8,13 +8,8 @@ from flask import (Flask,
                     g)
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
-from database_setup import Base, Blog, Cart, User, Customer, Product, Inventory, Sale, SaleItem, Employee
+from database_setup import Base, Blog, User
 from flask import session as login_session
-import squareconnect
-from squareconnect.rest import ApiException
-from squareconnect.apis.catalog_api import CatalogApi
-from squareconnect.apis.locations_api import LocationsApi
-import random
 import string
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.client import FlowExchangeError
@@ -23,53 +18,6 @@ import json
 from flask import make_response
 import requests
 from functools import wraps
-
-
-# setup authorization
-squareconnect.configuration.access_token = 
-# create an instance of the Catalog API class
-api_instance = CatalogApi()
-
-
-api_instances = []
-try:
-    # ListLocations
-    # api_response = api_instance.list_locations()
-    # print (api_response.locations)
-    # api_instances.append(api_response.locations)
-    # List catalog list
-    api_response = api_instance.list_catalog()
-    api_instances.append(api_response.objects)
-    # print (api_instances[0][90])
-
-except ApiException as e:
-    print ('Exception when calling CatalogApi->list_catalog: %s\n' % e)
-
-
-# Pull product values
-value = 1
-count = 0
-products = {}
-squaredata = {}
-for value in range(len(api_instances[0])):
-      if api_instances[0][value].item_data:
-            if api_instances[0][value].item_data.variations[0].item_variation_data.sku:
-                  cost = float(
-                          api_instances[0][value].item_data.variations[0].item_variation_data.price_money.amount)
-                  sku = int(api_instances[0][value].item_data.variations[0].item_variation_data.sku)
-                  squaredata = {'name': api_instances[0][value].item_data.name,
-                                'description': api_instances[0][value].item_data.description,
-                                'category_id': api_instances[0][value].item_data.category_id,
-                                'product_type': api_instances[0][value].item_data.product_type,
-                                'product_id': api_instances[0][value].item_data.variations[0].id,
-                                'other_id': api_instances[0][value].item_data.variations[0].item_variation_data.item_id,
-                                'image_url': api_instances[0][value].item_data.image_url,
-                                'product_sku': sku,
-                                'cost': cost/100,
-                                'stock_count_alert': api_instances[0][value].item_data.variations[0].item_variation_data.inventory_alert_type}
-                  products[count] = squaredata
-                  count+=1
-      value+=1
 
 
 app = Flask(__name__)
@@ -101,24 +49,10 @@ def showContact():
     return render_template('contactipad.html')
 
 
-# Product pages
+# Redirect to square product page
 @app.route('/product/products')
 def showProducts():
-    return render_template('product.html')
-
-
-"""
-@app.route('/product/products')
-def showProducts():
-    return render_template('products.html')
-
-# Shows infromation about the selected player
-@app.route('/product/products/<int:product_id>/productinfo/')
-@app.route('/product/products/<int:product_id>/')
-def showProductInfo(team_id, player_id):
-    product = session.query(Product).filter_by(id=product_id).one()
-    return render_template('product.html', product=product)
-"""
+    return redirect('https://squareup.com/store/light-eyes-usa', code=302)
 
 
 @app.route('/product/shipping')
@@ -206,87 +140,6 @@ def deleteBlogPost(blog_id):
         return redirect(url_for('showBlog'))
     else:
         return render_template('deleteblogpost.html', blog=blogPostToDelete)
-
-
-@app.route('/test')
-def showTest():
-    return render_template('test2.html', products=products)
-
-
-@app.route('/products/<int:product_id>/product')
-@app.route('/products/<int:product_id>/')
-def showProductInfo(product_id):
-    if request.method == 'POST':
-        product=products[product_id]
-        newCart = Cart(name=request.form['name'],
-                        sku=request.form['sku'],
-                        quantity=request.form['quantity'],
-                        cost=request.form['cost'])
-        session.add(newCart)
-        session.commit()
-        return render_template('productinfo.html', product=product)
-    else:
-        return render_template('productinfo.html', product=product)
-
-
-@app.route('/cart')
-def showCart():
-    cart = session.query(Cart).all()
-    return render_template('cart.html', cart=cart)
-
-
-@app.route('/customerinfo/<int:customer_id>/')
-def showCustomerInfo(customer_id):
-    customer = session.query(Customer).filter_by(id=customer_id).one()
-    return render_template('customerinfo.html', customer=customer)
-
-
-# Create Customer Information
-@app.route('/customerinfo/new', methods=['GET', 'POST'])
-def newCustomer():
-    if request.method == 'POST':
-        newCustomerInfo = Customer(first_name=request.form['first_name'],
-                                    last_name=request.form['last_name'],
-                                    customer_email=request.form['customer_email'],
-                                    address_line_1=request.form['address_line_1'],
-                                    address_line_2=request.form['address_line_2'],
-                                    state=request.form['state'],
-                                    city=request.form['city'],
-                                    zip_code=request.form['zip_code']
-                                    )
-        session.add(newCustomerInfo)
-        session.commit()
-        return redirect(url_for('showCustomerInfo', customer=newCustomer))
-    else:
-        return render_template('newcustomer.html')
-
-
-@app.route('/customerinfo/<int:customer_id>/edit/', methods=['GET', 'POST'])
-def editCustomer(customer_id):
-    editCustomer = session.query(Customer).filter_by(id=customer_id).one()
-    if request.method == 'POST':
-        if request.form['first_name']:
-            editCustomer.first_name = request.form['first_name']
-        if request.form['last_name']:
-            editCustomer.last_name = request.form['last_name']
-        if request.form['customer_email']:
-            editCustomer.customer_email = request.form['customer_email']
-        if request.form['address_line_1']:
-            editCustomer.address_line_1 = request.form['address_line_1']
-        if request.form['address_line_2']:
-            editCustomer.address_line_2 = request.form['address_line_2']
-        if request.form['state']:
-            editCustomer.state = request.form['state']
-        if request.form['city']:
-            editCustomer.city = request.form['city']
-        if request.form['zip_code']:
-            editCustomer.zip_code = request.form['zip_code']
-        session.add(editCustomer)
-        session.commit()
-        return redirect(url_for('showCustomerInfo'))
-    else:
-        return render_template('editcustomer.html', customer=editCustomer)
-
 
 
 if __name__ == '__main__':
