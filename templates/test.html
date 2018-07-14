@@ -2,28 +2,35 @@
 <div class='pane infoPages'>
     <h1> Blog Posts </h1>
     <div>
-        {% for i in blogs %} {% if i==1 %}
-        <div style="border-style: dotted;">
-            <h2>Latest Story</h2>
-            <img anima-src="{{url_for('static', filename='img/educational-line.png')}}" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-            />
+        {% for i in blogs %} {% if i==0 %}
+        <div style="width: 65%;">
+            <div>
+                <h2 style="float: left"> Latest Story </h2>
+                <img style="float: left" anima-src="{{url_for('static', filename='img/educational-line.png')}}" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                />
+            </div>
             <br>
-            <img src="{{i.pictureURL}}" style="width:20%; height:20%" />
             <h2> {{i.title}} </h2>
-            <br> {{i.dataValue}}
+            <h3> - {{i.dateValue}} - </h3> 
             <br>
-            <p>{{i.story}}</p>
+            <div>
+                <img src="{{i.pictureURL}}" style="width:40%; height:40%; float: left;" />
+                <p style="width:40%; height:40%; float: right;">{{i.story}}</p>
+            </div>
         </div>
         {% else %}
-        <div style="border-style: dotted;">
+        <div style="width: 65%;">
+            <br>
             <img anima-src="{{url_for('static', filename='img/blog-desktop-line-.png')}}" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
             />
             <br>
-            <img src="{{i.pictureURL}}" style="width:20%; height:20%" />
             <h2> {{i.title}} </h2>
-            <br> {{i.dataValue}}
+            <h3> - {{i.dateValue}} - </h3> 
             <br>
-            <p>{{i.story}}</p>
+            <div>
+                <img src="{{i.pictureURL}}" style="widows: 40%; height:40%; float: left;" />
+                <p style="width:40%; height:40%; float: right;">{{i.story}}</p>
+            </div>
         </div>
         {% endif %} {% endfor %}
     </div>
