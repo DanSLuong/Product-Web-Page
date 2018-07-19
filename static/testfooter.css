@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@font-face {
+    font-family: "Myriad-Pro";
+    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+
+/* black-han-sans-regular - latin */
+
+@font-face {
+    font-family: 'Black Han Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/black-han-sans-v3-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Black Han Sans Regular'), local('BlackHanSans-Regular'), url('../fonts/black-han-sans-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/black-han-sans-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/black-han-sans-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/black-han-sans-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/black-han-sans-v3-latin-regular.svg#BlackHanSans') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'TimesNewRomanPS-BoldMT';
+    src: url('/css/webfont/TimesNewRomanPS-BoldMT.eot?#iefix') format('embedded-opentype'), url('/css/webfont/TimesNewRomanPS-BoldMT.woff') format('woff'), url('/css/webfont/TimesNewRomanPS-BoldMT.ttf') format('truetype'), url('/css/webfont/TimesNewRomanPS-BoldMT.svg#TimesNewRomanPS-BoldMT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    top: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer-rectangle {
+        background-image: url('footer-background.png');
+        background-color: rgba(255, 255, 255, 0.0);
+        color: white;
+        height: 178px;
+        width: 788px;
+        top: 100%;
+        bottom: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Helvetica", Helvetica, Arial, serif;
+        position: relative;
+    }
+    .social_media_btn {
+        width: 200px;
+        bottom: 25px;
+        left: 45%;
+        position: absolute;
+    }
+    .social_media_btn a {
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-right: 25px;
+    }
+    .social_media_btn a:hover,
+    a:focus {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .social_media_btn i {
+        font-size: 25px;
+        margin-right: 2%;
+    }
+    .links .links1 {
+        left: 32px;
+        font-size: 16.0px;
+        position: absolute;
+        width: 140px;
+        height: 100%;
+    }
+    .links .links2 {
+        font-size: 16.0px;
+        left: 207px;
+        position: absolute;
+        width: 130px;
+        height: 100%;
+    }
+    .links a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .links a:hover,
+    a:focus {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .company_address {
+        font-size: 16.0px;
+        width: 120px;
+        top: 10px;
+        left: 382px;
+        margin-right: 130px;
+        position: absolute;
+        line-height: 18.0px;
+    }
+    .subscribe {
+        font-size: 16.0px;
+        width: 230px;
+        height: 100%;
+        right: 20px;
+        bottom: 0px;
+        position: absolute;
+    }
+    .subscribe_text {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .subscribe_form {
+        width: 230px;
+        position: absolute;
+    }
+    .email_subscribe_text {
+        width: 220px;
+        height: 30px;
+        background-color: rgb(197, 194, 194);
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    .email_subscribe {
+        width: 220px;
+        height: 30px;
+        background-color: rgb(197, 194, 194);
+        margin-bottom: 35px;
+        text-align: left;
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-rectangle {
+        background-image: url('footer-background.png');
+        background-color: rgba(255, 255, 255, 0.0);
+        color: white;
+        height: 244px;
+        width: 1050px;
+        top: 100%;
+        bottom: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Helvetica", Helvetica, Arial, serif;
+        position: relative;
+    }
+    .social_media_btn {
+        width: 200px;
+        bottom: 25px;
+        left: 45%;
+        position: absolute;
+    }
+    .social_media_btn a {
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-right: 25px;
+    }
+    .social_media_btn a:hover,
+    a:focus {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .social_media_btn i {
+        font-size: 40px;
+        margin-right: 2%;
+    }
+    .links .links1 {
+        top: 15px;
+        left: 50px;
+        font-size: 17.0px;
+        position: absolute;
+        width: 140px;
+        height: 100%;
+    }
+    .links .links2 {
+        font-size: 17.0px;
+        top: 15px;
+        left: 257px;
+        position: absolute;
+        width: 130px;
+        height: 100%;
+    }
+    .links a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .links a:hover,
+    a:focus {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .company_address {
+        font-size: 17.0px;
+        width: 160px;
+        top: 20px;
+        left: 472px;
+        margin-right: 130px;
+        position: absolute;
+        line-height: 18.0px;
+    }
+    .subscribe {
+        font-size: 17.0px;
+        width: 350px;
+        height: 100%;
+        top: 10px;
+        left: 702px;
+        bottom: 0px;
+        position: absolute;
+    }
+    .subscribe_text {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .subscribe_form {
+        width: 350px;
+        position: absolute;
+    }
+    .email_subscribe_text {
+        width: 300px;
+        height: 50px;
+        background-color: rgb(197, 194, 194);
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    .email_subscribe {
+        width: 300px;
+        height: 50px;
+        background-color: rgb(197, 194, 194);
+        margin-bottom: 35px;
+        text-align: left;
+        position: absolute;
+    }
+}

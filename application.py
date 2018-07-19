@@ -9,8 +9,7 @@ from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Blog, User
 from flask import session as login_session
-import random
-import string
+import random, string
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.client import FlowExchangeError
 import httplib2
@@ -220,7 +219,8 @@ def login_required(f):
 @app.route('/')
 @app.route('/home/')
 def showHome():
-    return render_template('home.html')
+    # return render_template('home.html')
+    return render_template('testhome.html')
 
 # Aboutus page
 @app.route('/aboutus')
@@ -342,7 +342,12 @@ def deleteBlogPost(blog_id):
     else:
         return render_template('deleteblogpost.html', blog=blogPostToDelete)
 
+@app.route('/test')
+def showTest():
+    return render_template('testfooter.html')
+
 
 if __name__ == '__main__':
+    app.secret_key = 'super_secret_key'
     app.debug = True
     app.run(host='0.0.0.0', port=8000)

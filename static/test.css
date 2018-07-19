@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+}
+
+.blogHeader {
+    width: 1024px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pane {
+    width: 100%;
+}
+
+.blogInfo {
+    width: 1024px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.blogBanner {
+    width: 60%;
+    float: left;
+}
+
+.blogData {
+    font-size: 18px;
+    width: 30%;
+    margin-left: 5%;
+    text-align: center;
+    float: left;
+}
+
+.productsButton {
+    border-radius: 5px;
+}
+
+.blog {
+    width: 1024px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.block1 {
+    width: 90%;
+    display: block;
+}
+
+.postHeader {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.blogPost {
+    width: 100%;
+    height: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.blogImg {
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 5%;
+    float: left;
+}
+
+.story {
+    text-align: left;
+    font-size: 18px;
+    width: 40%;
+    vertical-align: middle;
+    float: right;
+}
