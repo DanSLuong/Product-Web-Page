@@ -9,7 +9,6 @@ from flask_mail import Mail, Message
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Blog, User
-from mail import mail
 from flask import session as login_session
 import random, string
 from oauth2client.client import flow_from_clientsecrets
@@ -25,15 +24,27 @@ import os
 app = Flask(__name__)
 
 APPLICATION_NAME = "Light Eyes USA"
-CLIENT_ID = json.loads(open('client_secrets.json', 'r').read())['web']['client_id']
+# CLIENT_ID = json.loads(open('client_secrets.json', 'r').read())['web']['client_id']
+CLIENT_ID = json.loads(open('/var/www/FlaskApp/FlaskApp/client_secrets.json', 'r').read())['web']['client_id']
 
 # Connect to the Database and creates a session
-# engine = create_engine('postgresql://catalog:password@localhost/catalog')
-engine = create_engine('sqlite:///lighteyesusa.db')
+engine = create_engine('postgresql://catalog:password@localhost/catalog')
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
 session = DBSession()
+
+mail_settings = {
+    "MAIL_SERVER": 'smtp.gmail.com',
+    "MAIL_PORT": 465,
+    "MAIL_USE_TLS": False,
+    "MAIL_USE_SSL": True,
+    "MAIL_USERNAME": os.environ.get('EMAIL_USER'),
+    "MAIL_PASSWORD": os.environ.get('EMAIL_PASSWORD')
+}
+
+app.config.update(mail_settings)
+mail = Mail(app)
 
 
 # Create anti-forgery state token
@@ -222,7 +233,7 @@ def login_required(f):
 def sendMailCustomer(mail_recipients, email_body):
     with mail.app.app_context():
         msg = Message(subject="Hello",
-                      sender=mail.app.config.get("MAIL_USERNAME"),
+                      sender=app.config.get("MAIL_USERNAME"),
                       recipients=[mail_recipients],
                       body=email_body)
         mail.send(msg)
@@ -231,11 +242,10 @@ def sendMailCustomer(mail_recipients, email_body):
 def sendMailCompany(subject, mail_recipients, email_body):
     with mail.app.app_context():
         msg = Message(subject=subject,
-                      sender=mail.app.config.get("MAIL_USERNAME"),
+                      sender=app.config.get("MAIL_USERNAME"),
                       recipients=[mail_recipients],
                       body=email_body)
         mail.send(msg)
-
 
 # JSON Serialized result
 @app.route('/blog/JSON')
@@ -250,6 +260,7 @@ def blogJSON():
 @app.route('/home/', methods=['GET', 'POST'])
 def showHome():
     if request.method == 'POST':
+
         subject="Email Subscribe Request"
         mail_recipients=request.form['ClientEmail']
         email_body= "Thank you for joining our mailing list!"
@@ -436,14 +447,12 @@ def showBlog():
 
 
 @app.route('/blog/new/', methods=['GET', 'POST'])
-# @login_required
+@login_required
 def newBlogPost():
-    """
     if login_session['email'] != 'lighteyesusa@gmail.com':
         return "<script>function myFunction()" \
                "{alert('You are not allowed access to this page!');}" \
                "</script><body onload='myFunction()'>"
-    """
     if request.method == 'POST':
         newBlogPost = Blog(title=request.form['title'],
                            dateValue=request.form['dateValue'],
@@ -457,15 +466,13 @@ def newBlogPost():
 
 
 @app.route('/blog/<int:blog_id>/edit/', methods=['GET', 'POST'])
-# @login_required
+@login_required
 def editBlogPost(blog_id):
     editBlogPost = session.query(Blog).filter_by(id=blog_id).one()
-    """
     if login_session['email'] != 'lighteyesusa@gmail.com':
         return "<script>function myFunction()" \
                "{alert('You are not allowed access to this page!');}" \
                "</script><body onload='myFunction()'>"
-    """
     if request.method == 'POST':
         if request.form['title']:
             editBlogPost.title = request.form['title']
@@ -483,15 +490,13 @@ def editBlogPost(blog_id):
 
 
 @app.route('/blog/<int:blog_id>/delete/', methods=['GET', 'POST'])
-# @login_required
+@login_required
 def deleteBlogPost(blog_id):
     blogPostToDelete = session.query(Blog).filter_by(id=blog_id).one()
-    """
     if login_session['email'] != 'lighteyesusa@gmail.com':
         return "<script>function myFunction()" \
                "{alert('You are not allowed access to this page!');}" \
                "</script><body onload='myFunction()'>"
-    """
     if request.method == 'POST':
         session.delete(blogPostToDelete)
         session.commit()
