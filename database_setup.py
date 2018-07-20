@@ -66,6 +66,6 @@ class Blog(Base):
         }
 
 
-# engine = create_engine('sqlite:///products.db')
-engine = create_engine('postgresql://catalog:password@localhost/catalog')
+engine = create_engine('sqlite:///lighteyesusa.db')
+# engine = create_engine('postgresql://catalog:password@localhost/catalog')
 Base.metadata.create_all(engine)

@@ -19,15 +19,17 @@ import json
 from flask import make_response
 import requests
 from functools import wraps
+import os
 
 
 app = Flask(__name__)
 
-APPLICATION_NAME = "Website for a client"
+APPLICATION_NAME = "Light Eyes USA"
 CLIENT_ID = json.loads(open('client_secrets.json', 'r').read())['web']['client_id']
 
 # Connect to the Database and creates a session
-engine = create_engine('postgresql://catalog:password@localhost/catalog')
+# engine = create_engine('postgresql://catalog:password@localhost/catalog')
+engine = create_engine('sqlite:///lighteyesusa.db')
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
@@ -44,7 +46,6 @@ def showLogin():
     return render_template('login.html', STATE=state)
 
 
-# Google Login
 @app.route('/gconnect', methods=['POST'])
 def gconnect():
     # Validate state token
@@ -201,10 +202,10 @@ def disconnect():
         del login_session['user_id']
         del login_session['provider']
         flash("You have successfully been logged out.")
-        return redirect(url_for('showTeams'))
+        return redirect(url_for('showBlog'))
     else:
         flash("You were not logged in")
-        return redirect(url_for('showTeams'))
+        return redirect(url_for('showBlog'))
 
 
 # Require Login
@@ -250,7 +251,7 @@ def showHome():
 
         return redirect(url_for('showHome'))
     else:
-        return render_template('testhome.html')
+        return render_template('home.html')
 
 
 # Aboutus page
@@ -423,19 +424,22 @@ def showBlog():
     blogs = session.query(Blog).order_by(Blog.id.desc()).all()
     # return render_template('test.html', blogs=blogs)
     return render_template('blogipad.html', blogs=blogs)
+    # return render_template('home.html')
 
 
 @app.route('/blog/new/', methods=['GET', 'POST'])
-@login_required
+# @login_required
 def newBlogPost():
+    """
     if login_session['email'] != 'lighteyesusa@gmail.com':
         return "<script>function myFunction()" \
                "{alert('You are not allowed access to this page!');}" \
                "</script><body onload='myFunction()'>"
+    """
     if request.method == 'POST':
         newBlogPost = Blog(title=request.form['title'],
                            dateValue=request.form['dateValue'],
-                           pictureURL=request.form['pictureURL'],
+                           pictureURL="img/" + request.form['pictureURL'],
                            story=request.form['story'])
         session.add(newBlogPost)
         session.commit()
@@ -445,13 +449,15 @@ def newBlogPost():
 
 
 @app.route('/blog/<int:blog_id>/edit/', methods=['GET', 'POST'])
-@login_required
+# @login_required
 def editBlogPost(blog_id):
     editBlogPost = session.query(Blog).filter_by(id=blog_id).one()
+    """
     if login_session['email'] != 'lighteyesusa@gmail.com':
         return "<script>function myFunction()" \
                "{alert('You are not allowed access to this page!');}" \
                "</script><body onload='myFunction()'>"
+    """
     if request.method == 'POST':
         if request.form['title']:
             editBlogPost.title = request.form['title']
@@ -460,7 +466,7 @@ def editBlogPost(blog_id):
         if request.form['pictureURL']:
             editBlogPost.pictureURL = request.form['pictureURL']
         if request.form['story']:
-            editBlogPost.pictureURL = request.form['story']
+            editBlogPost.story = request.form['story']
         session.add(editBlogPost)
         session.comment()
         return redirect(url_for('showBlog'))
@@ -469,13 +475,15 @@ def editBlogPost(blog_id):
 
 
 @app.route('/blog/<int:blog_id>/delete/', methods=['GET', 'POST'])
-@login_required
+# @login_required
 def deleteBlogPost(blog_id):
     blogPostToDelete = session.query(Blog).filter_by(id=blog_id).one()
+    """
     if login_session['email'] != 'lighteyesusa@gmail.com':
         return "<script>function myFunction()" \
                "{alert('You are not allowed access to this page!');}" \
                "</script><body onload='myFunction()'>"
+    """
     if request.method == 'POST':
         session.delete(blogPostToDelete)
         session.commit()
@@ -487,4 +495,4 @@ def deleteBlogPost(blog_id):
 if __name__ == '__main__':
     app.secret_key = 'super_secret_key'
     app.debug = True
-    app.run(host='0.0.0.0', port=8000)
+    app.run(host='0.0.0.0', port=5000)

@@ -1,17 +1,51 @@
+.productlinks {
+    position: relative;
+}
 .product-buttons {
     display: none;
     color: white;
-    background-color: gray;
     border: solid;
-    position: absolute;
+    border-color: darkgray;
+    position: relative;
+    margin-top: -20px;
+    background-color:gray;
 }
-
+.product-buttons a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.serviceslinks {
+    position: relative;
+}
 .services-buttons {
     display: none;
     color: white;
+    border: solid;
+    border-color: darkgray;
+    position: relative;
+    margin-top: -20px;
+    background-color:gray;
 }
-
+.services-buttons a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.courselinks {
+    position: relative;
+}
 .course-training-buttons {
     display: none;
     color: white;
+    border: solid;
+    border-color: darkgray;
+    position: relative;
+    margin-top: -20px;
+    background-color:gray;
+}
+.course-training-buttons a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
 }

@@ -2,11 +2,14 @@
     <body>
         <form action="{{url_for('editBlogPost', blog_id = blog.id)}}" method='post'>
             <p> Post Title: </p>
-            <input type='text' size='30' name='title' placeholder='{{blog.title}}'>
-            <input type='text' size='30' name='dateValue' placeholder='{{blog.dateValue}}'>
-            <input type='text' size='30' name='pictureURL' placeholder='{{blog.pictureURL}}'>
-            <input type='text' size='30' name='story' placeholder='{{blog.story}}'>
-            <input type='submit' value='Edit'>
+            <input type='text' size='30' name='title' placeholder='{{blog.title}}'><br>
+            <p> Date: </p>
+            <input type='text' size='30' name='dateValue' placeholder='{{blog.dateValue}}'><br>
+            <p> Picture: </p>
+            <input type='text' size='30' name='pictureURL' placeholder='{{blog.pictureURL}}'><br>
+            <p> Post Story: </p>
+            <input type='text' size='30' name='story' placeholder='{{blog.story}}'><br><br>
+            <input type='submit' value='Edit'><br>
             <a href="{{url_for('showBlog')}}"> Cancel </a>
         </form>
     </body>
