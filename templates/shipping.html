@@ -16,7 +16,7 @@
 <body style="margin: 0;
  background: rgba(255, 255, 255, 1.0);">
     <input id="anPageName" name="page" type="hidden" value="shipping" />
-    <form action="form5" class="bp2-shippingmobile" method="post" name="form5">
+    <form action="#" class="bp2-shippingmobile" method="post" name="form5">
         <div style="width: 320px; height: 100%; position:relative; margin:auto;">
             <img anima-src="{{url_for('static', filename='img/shipping-mobile-shippingtruck@2x.png')}}" class="bp2-shippingtruck" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
             />
@@ -212,12 +212,11 @@
                 </div>
                 <div class="bp2-box5">
                 </div>
+
                 <input class="bp2-textyouremail" name="ClientEmail" placeholder="Your email " />
-                <a href="#" onclick="document.getElementsByName('form5')[0].submit(); if (window.submitted) window.submitted();">
-                    <div class="bp2-subscribe1">
-                        Subscribe
-                    </div>
-                </a>
+
+                <input class="bp2-subscribe1" type="submit" value='Subscribe' style="width: 10%; border: none;">
+
             </div>
             <div class="bp2-socialicons1">
                 <a href="https://www.facebook.com/Lighteyes.USA/" target="_blank">
@@ -315,7 +314,7 @@
             </div>
         </div>
     </form>
-    <form action="form25" class="bp1-shipping" method="post" name="form25">
+    <form action="#" class="bp1-shipping" method="post" name="form25">
         <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
             <img anima-src="{{url_for('static', filename='img/shipping-gluesetbanner.png')}}" class="bp1-gluesetbanner" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
             />
@@ -526,12 +525,11 @@
                 </div>
                 <div class="bp1-rectangle2copy2">
                 </div>
-                <a href="#" onclick="document.getElementsByName('form25')[0].submit(); if (window.submitted) window.submitted();">
-                    <div class="bp1-subscribe">
-                        Subscribe
-                    </div>
-                </a>
+
+                <input class="bp1-subscribe" type="submit" value='Subscribe' style="width: 10%; border: none;">
+
                 <input class="bp1-textyouremailaddress" name="ClientEmail" placeholder="Your email address" />
+
             </div>
             <div class="bp1-footerlinks">
                 <a href="{{url_for('showHome')}}">
@@ -615,7 +613,7 @@
             </div>
         </div>
     </form>
-    <form action="form40" class="bp3-shippingipad" method="post" name="form40">
+    <form action="#" class="bp3-shippingipad" method="post" name="form40">
         <div style="width: 768px; height: 100%; position:relative; margin:auto;">
             <div class="bp3-footer">
                 <div class="bp3-path">
@@ -647,7 +645,11 @@
                         Subscribe
                     </div>
                 </a>
+
+                <input class="bp3-subscribe" type="submit" value='Subscribe' style="width: 10%; border: none;">
+
                 <input class="bp3-textyouremailaddress" name="ClientEmail" placeholder="Your email address" />
+
             </div>
             <div class="bp3-address">
                 <div class="bp3-a1630oaklandrdsuit">

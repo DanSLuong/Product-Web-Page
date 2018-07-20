@@ -16,7 +16,7 @@
 <body style="margin: 0;
  background: rgba(255, 255, 255, 1.0);">
     <input id="anPageName" name="page" type="hidden" value="aboutus" />
-    <form action="form1" class="bp1-aboutusipad" method="post" name="form1">
+    <form action="#" class="bp1-aboutusipad" method="post" name="form1">
         <div style="width: 768px; height: 100%; position:relative; margin:auto;">
             <div class="bp1-footer">
                 <div class="bp1-path">
@@ -43,11 +43,9 @@
                 </div>
                 <div class="bp1-rectangle2copy2">
                 </div>
-                <a href="#" onclick="document.getElementsByName('form1')[0].submit(); if (window.submitted) window.submitted();">
-                    <div class="bp1-subscribe">
-                        Subscribe
-                    </div>
-                </a>
+
+                <input class="bp1-subscribe" type="submit" value='Subscribe' style="width: 10%; border: none;">
+
                 <input class="bp1-textyouremailaddress" name="ClientEmail" placeholder="Your email address" />
             </div>
             <div class="bp1-address">
@@ -386,7 +384,7 @@
             </div>
         </div>
     </form>
-    <form action="form12" class="bp2-aboutusmobile" method="post" name="form12">
+    <form action="#" class="bp2-aboutusmobile" method="post" name="form12">
         <div style="width: 320px; height: 100%; position:relative; margin:auto;">
             <div class="bp2-lashextensionheader">
                 Lash
@@ -615,12 +613,11 @@
                 </div>
                 <div class="bp2-box4">
                 </div>
+
                 <input class="bp2-textyouremail" name="ClientEmail" placeholder="Your email " />
-                <a href="#" onclick="document.getElementsByName('form12')[0].submit(); if (window.submitted) window.submitted();">
-                    <div class="bp2-subscribe">
-                        Subscribe
-                    </div>
-                </a>
+
+                <input class="bp2-subscribe" type="submit" value='Subscribe' style="width: 10%; border: none;">
+
                 <div class="bp2-subscribeinformation">
                     <div class="bp2-text14">
                         Subscribe to our newsletter!
@@ -719,7 +716,7 @@
             </div>
         </div>
     </form>
-    <form action="form23" class="bp3-aboutus" method="post" name="form23">
+    <form action="#" class="bp3-aboutus" method="post" name="form23">
         <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
             <div class="bp3-storyheader">
                 Our Story
@@ -1145,11 +1142,9 @@
                 </div>
                 <div class="bp3-rectangle2copy2">
                 </div>
-                <a href="#" onclick="document.getElementsByName('form23')[0].submit(); if (window.submitted) window.submitted();">
-                    <div class="bp3-subscribe">
-                        Subscribe
-                    </div>
-                </a>
+
+                <input class="bp3-subscribe" type="submit" value='Subscribe' style="width: 10%; border: none;">
+
                 <input class="bp3-textyouremailaddress" name="ClientEmail" placeholder="Your email address" />
             </div>
             <a href="{{url_for('showAboutUs')}}">

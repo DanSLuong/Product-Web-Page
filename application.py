@@ -236,23 +236,6 @@ def sendMailCompany(subject, mail_recipients, email_body):
         mail.send(msg)
 
 
-# Email Test
-@app.route('/emailtest', methods=['GET', 'POST'])
-@app.route('/emailtest/', methods=['GET', 'POST'])
-def showEmailTest():
-    if request.method == 'POST':
-        subject="Email Subscribe Request"
-        mail_recipients=request.form['ClientEmail']
-        email_body= "Thank you for joining our mailing list!"
-
-        sendMailCustomer(mail_recipients, email_body)
-        sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
-
-        return redirect(url_for('testhome.html'))
-    else:
-        return render_template('testemail.html')
-
-
 # Homepage
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/home/', methods=['GET', 'POST'])
@@ -265,20 +248,57 @@ def showHome():
         sendMailCustomer(mail_recipients, email_body)
         sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
 
-        return redirect(url_for('testhome.html'))
+        return redirect(url_for('showHome'))
     else:
         return render_template('testhome.html')
 
+
 # Aboutus page
-@app.route('/aboutus')
+@app.route('/aboutus', methods=['GET', 'POST'])
+@app.route('/aboutus/', methods=['GET', 'POST'])
 def showAboutUs():
-    return render_template('aboutus.html')
+    if request.method == 'POST':
+        subject="Email Subscribe Request"
+        mail_recipients=request.form['ClientEmail']
+        email_body= "Thank you for joining our mailing list!"
+
+        sendMailCustomer(mail_recipients, email_body)
+        sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+
+        return redirect(url_for('showAboutUs'))
+    else:
+        return render_template('aboutus.html')
 
 
 # Contact page
-@app.route('/contact')
+@app.route('/contact', methods=['GET', 'POST'])
 def showContact():
-    return render_template('contactipad.html')
+    if request.method == 'POST':
+        if request.form['customerEmail']:
+            full_name=request.form['Full_Name']
+            email=request.form['customerEmail']
+            phone=request.form['Phone']
+            message=request.form['Message']
+            message_body="Customer Name: " + full_name + "  |  Customer Phone: " + phone + "  |  Message: " + message
+            subject="Customer Inquery"
+            email_body= "Thank you for contacting us. Our team will get back to you as soon as we can!"
+
+            sendMailCustomer(email, email_body)
+            sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), message_body)
+            return render_template('successfulsubmit.html')
+        elif request.form['ClientEmail']:
+            subject="Email Subscribe Request"
+            mail_recipients=request.form['ClientEmail']
+            email_body= "Thank you for joining our mailing list!"
+
+            sendMailCustomer(mail_recipients, email_body)
+            sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+
+            return render_template('successfulsubmit.html')
+        else:
+            return render_template('unsuccessfulsubmit.html')
+    else:
+        return render_template('contactipad.html')
 
 
 # Redirect to square product page
@@ -287,40 +307,114 @@ def showProducts():
     return redirect('https://squareup.com/store/light-eyes-usa', code=302)
 
 
-@app.route('/product/shipping')
+@app.route('/product/shipping', methods=['GET', 'POST'])
 def showShipping():
-    return render_template('shipping.html')
+    if request.method == 'POST':
+        subject="Email Subscribe Request"
+        mail_recipients=request.form['ClientEmail']
+        email_body= "Thank you for joining our mailing list!"
+
+        sendMailCustomer(mail_recipients, email_body)
+        sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+
+        return redirect(url_for('showShipping'))
+    else:
+        return render_template('shipping.html')
 
 
 # Under the services tab.
-@app.route('/services/services')
+@app.route('/services/services', methods=['GET', 'POST'])
 def showServices():
-    return render_template('services.html')
+    if request.method == 'POST':
+        subject="Email Subscribe Request"
+        mail_recipients=request.form['ClientEmail']
+        email_body= "Thank you for joining our mailing list!"
+
+        sendMailCustomer(mail_recipients, email_body)
+        sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+        
+        return redirect(url_for('showServices'))
+    else:
+        return render_template('services.html')
 
 
-@app.route('/services/team')
+@app.route('/services/team', methods=['GET', 'POST'])
 def showTeam():
-    return render_template('team.html')
+    if request.method == 'POST':
+        subject="Email Subscribe Request"
+        mail_recipients=request.form['ClientEmail']
+        email_body= "Thank you for joining our mailing list!"
+
+        sendMailCustomer(mail_recipients, email_body)
+        sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+        
+        return redirect(url_for('showTeam'))
+    else:
+        return render_template('team.html')
 
 
-@app.route('/services/clientcare')
+@app.route('/services/clientcare', methods=['GET', 'POST'])
+@app.route('/services/clientcare/', methods=['GET', 'POST'])
 def showClientCare():
-    return render_template('clientcare.html')
+    if request.method == 'POST':
+        subject="Email Subscribe Request"
+        mail_recipients=request.form['ClientEmail']
+        email_body= "Thank you for joining our mailing list!"
+
+        sendMailCustomer(mail_recipients, email_body)
+        sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+        
+        return redirect(url_for('showClientCare'))
+    else:
+        return render_template('clientcare.html')
 
 # Course pages
-@app.route('/course_training/course')
+@app.route('/course_training/course', methods=['GET', 'POST'])
+@app.route('/course_training/course/', methods=['GET', 'POST'])
 def showCourse():
-    return render_template('coursemobile.html')
+    if request.method == 'POST':
+        subject="Email Subscribe Request"
+        mail_recipients=request.form['ClientEmail']
+        email_body= "Thank you for joining our mailing list!"
+
+        sendMailCustomer(mail_recipients, email_body)
+        sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+        
+        return redirect(url_for('showCourse'))
+    else:
+        return render_template('coursemobile.html')
 
 
-@app.route('/course_training/success_stories')
+@app.route('/course_training/success_stories', methods=['GET', 'POST'])
+@app.route('/course_training/success_stories/', methods=['GET', 'POST'])
 def showSuccessStories():
-    return render_template('successstoriesipad.html')
+    if request.method == 'POST':
+        subject="Email Subscribe Request"
+        mail_recipients=request.form['ClientEmail']
+        email_body= "Thank you for joining our mailing list!"
+
+        sendMailCustomer(mail_recipients, email_body)
+        sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+        
+        return redirect(url_for('showSuccessStories'))
+    else:
+        return render_template('successstoriesipad.html')
 
 
-@app.route('/course_training/educational')
+@app.route('/course_training/educational', methods=['GET', 'POST'])
+@app.route('/course_training/educational/', methods=['GET', 'POST'])
 def showEducational():
-    return render_template('screen1.html')
+    if request.method == 'POST':
+        subject="Email Subscribe Request"
+        mail_recipients=request.form['ClientEmail']
+        email_body= "Thank you for joining our mailing list!"
+
+        sendMailCustomer(mail_recipients, email_body)
+        sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+        
+        return redirect(url_for('showEducational'))
+    else:
+        return render_template('educational.html')
 
 
 # Blog
@@ -388,10 +482,6 @@ def deleteBlogPost(blog_id):
         return redirect(url_for('showBlog'))
     else:
         return render_template('deleteblogpost.html', blog=blogPostToDelete)
-
-@app.route('/test')
-def showTest():
-    return render_template('testfooter.html')
 
 
 if __name__ == '__main__':
