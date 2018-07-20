@@ -1,0 +1,17 @@
+.product-buttons {
+    display: none;
+    color: white;
+    background-color: gray;
+    border: solid;
+    position: absolute;
+}
+
+.services-buttons {
+    display: none;
+    color: white;
+}
+
+.course-training-buttons {
+    display: none;
+    color: white;
+}

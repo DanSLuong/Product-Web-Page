@@ -5,9 +5,11 @@ from flask import (Flask,
                     url_for,
                     flash,
                     g)
+from flask_mail import Mail, Message
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Blog, User
+from mail import mail
 from flask import session as login_session
 import random, string
 from oauth2client.client import flow_from_clientsecrets
@@ -215,12 +217,57 @@ def login_required(f):
     return decorated_function
 
 
+# Mail info
+def sendMailCustomer(mail_recipients, email_body):
+    with mail.app.app_context():
+        msg = Message(subject="Hello",
+                      sender=mail.app.config.get("MAIL_USERNAME"),
+                      recipients=[mail_recipients],
+                      body=email_body)
+        mail.send(msg)
+
+
+def sendMailCompany(subject, mail_recipients, email_body):
+    with mail.app.app_context():
+        msg = Message(subject=subject,
+                      sender=mail.app.config.get("MAIL_USERNAME"),
+                      recipients=[mail_recipients],
+                      body=email_body)
+        mail.send(msg)
+
+
+# Email Test
+@app.route('/emailtest', methods=['GET', 'POST'])
+@app.route('/emailtest/', methods=['GET', 'POST'])
+def showEmailTest():
+    if request.method == 'POST':
+        subject="Email Subscribe Request"
+        mail_recipients=request.form['ClientEmail']
+        email_body= "Thank you for joining our mailing list!"
+
+        sendMailCustomer(mail_recipients, email_body)
+        sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+
+        return redirect(url_for('testhome.html'))
+    else:
+        return render_template('testemail.html')
+
+
 # Homepage
-@app.route('/')
-@app.route('/home/')
+@app.route('/', methods=['GET', 'POST'])
+@app.route('/home/', methods=['GET', 'POST'])
 def showHome():
-    # return render_template('home.html')
-    return render_template('testhome.html')
+    if request.method == 'POST':
+        subject="Email Subscribe Request"
+        mail_recipients=request.form['ClientEmail']
+        email_body= "Thank you for joining our mailing list!"
+
+        sendMailCustomer(mail_recipients, email_body)
+        sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+
+        return redirect(url_for('testhome.html'))
+    else:
+        return render_template('testhome.html')
 
 # Aboutus page
 @app.route('/aboutus')
@@ -280,8 +327,8 @@ def showEducational():
 @app.route('/blog')
 def showBlog():
     blogs = session.query(Blog).order_by(Blog.id.desc()).all()
-    return render_template('test.html', blogs=blogs)
-    # return render_template('blogipad.html', blogs=blogs)
+    # return render_template('test.html', blogs=blogs)
+    return render_template('blogipad.html', blogs=blogs)
 
 
 @app.route('/blog/new/', methods=['GET', 'POST'])

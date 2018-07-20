@@ -5,11 +5,8 @@
     <link href="{{ url_for('static', filename='img/favicon.png') }}" rel="shortcut icon" />
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
-    <link href="{{ url_for('static', filename='serviceoverlay.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ url_for('static', filename='productoverlay.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ url_for('static', filename='overlay.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ url_for('static', filename='courseoverlay.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ url_for('static', filename='home.css') }}" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
     </script>
     <script src="https://animaapp.s3.amazonaws.com/launchpad-static/launchpad.js">
@@ -287,7 +284,7 @@
                     />
                 </div>
                 <div class="bp2-text17">
-                    LASH EXTENSIONS
+                    Lash Extensions
                 </div>
             </div>
             <div class="bp2-stackedgroup">
@@ -299,26 +296,65 @@
                         About Us
                     </div>
                 </a>
-                <a href="javascript:animaShowOverlay('productoverlay', 'bp2-an-animation-enter3'); anima_loadAsyncSrc(); ">
+
+                <div class="productlinks">
                     <div class="bp2-product">
                         Product
                     </div>
-                </a>
-                <a href="javascript:animaShowOverlay('serviceoverlay', 'bp2-an-animation-enter4'); anima_loadAsyncSrc(); ">
+
+                    <div class="product-buttons" style="display: none; color: white; border: solid; background-color: blue;">
+                        <a href="{{url_for('showProducts')}}">
+                            Products
+                        </a>
+                        <a href="{{url_for('showShipping')}}">
+                            Shipping
+                        </a>
+                    </div>
+                </div>
+
+                <div class="serviceslinks">
                     <div class="bp2-services2">
                         Services
                     </div>
-                </a>
+                    <div class="services-buttons" style="display: none; color: white;">
+                        <a href="{{url_for('showServices')}}">
+                            Services
+                        </a>
+                        <a href="{{url_for('showTeam')}}">
+                            Team
+                        </a>
+                        <a href="{{url_for('showClientCare')}}">
+                            Client Care
+                        </a>
+                    </div>
+                </div>
+
+
                 <a href="{{url_for('showBlog')}}">
                     <div class="bp2-blog1">
                         Blog
                     </div>
                 </a>
-                <a href="javascript:animaShowOverlay('courseoverlay', 'bp2-an-animation-enter5'); anima_loadAsyncSrc(); ">
+
+                <div class="courselinks">
                     <div class="bp2-coursetraining1">
                         Course Training
                     </div>
-                </a>
+
+                    <div class="course-training-buttons" style="display: none; color: white;">
+                        <a href="{{url_for('showCourse')}}">
+                            Course Training
+                        </a>
+                        <a href="{{url_for('showSuccessStories')}}">
+                            Success Stories
+                        </a>
+                        <a href="{{url_for('showEducational')}}">
+                            Q&A - Educational
+                        </a>
+                    </div>
+                </div>
+
+
                 <a href="{{url_for('showContact')}}">
                     <div class="bp2-contact">
                         Contact
@@ -593,11 +629,7 @@
                         Contact
                     </div>
                 </a>
-                <a href="javascript:animaShowOverlay('overlay', 'bp3-an-animation-enter6'); anima_loadAsyncSrc(); ">
-                    <div class="bp3-linkscopy6">
-                        Other
-                    </div>
-                </a>
+
             </div>
             <div class="bp3-logo">
                 <div class="bp3-logotext">
@@ -637,7 +669,7 @@
                     />
                 </div>
                 <div class="bp3-text20">
-                    LASH EXTENSIONS
+                    Lash Extensions
                 </div>
             </div>
             <div class="bp3-footer">
@@ -975,7 +1007,7 @@
                     />
                 </div>
                 <div class="bp1-text20">
-                    LASH EXTENSIONS
+                    Lash Extensions
                 </div>
             </div>
             <div class="bp1-stackedgroup">
@@ -987,26 +1019,64 @@
                         About Us
                     </div>
                 </a>
-                <a href="javascript:animaShowOverlay('productoverlay', 'bp1-an-animation-enter18'); anima_loadAsyncSrc(); ">
+
+                <div class="productlinks">
                     <div class="bp1-product">
                         Product
                     </div>
-                </a>
-                <a href="javascript:animaShowOverlay('serviceoverlay', 'bp1-an-animation-enter19'); anima_loadAsyncSrc(); ">
+
+                    <div class="product-buttons" style="display: none; color: white;">
+                        <a href="{{url_for('showProducts')}}">
+                            Products
+                        </a>
+                        <a href="{{url_for('showShipping')}}">
+                            Shipping
+                        </a>
+                    </div>
+                </div>
+
+                <div class="serviceslinks">
                     <div class="bp1-services1">
                         Services
                     </div>
-                </a>
+                    <div class="services-buttons" style="display: none; color: white;">
+                        <a href="{{url_for('showServices')}}">
+                            Services
+                        </a>
+                        <a href="{{url_for('showTeam')}}">
+                            Team
+                        </a>
+                        <a href="{{url_for('showClientCare')}}">
+                            Client Care
+                        </a>
+                    </div>
+                </div>
+
                 <a href="{{url_for('showBlog')}}">
                     <div class="bp1-blog">
                         Blog
                     </div>
                 </a>
-                <a href="javascript:animaShowOverlay('courseoverlay', 'bp1-an-animation-enter20'); anima_loadAsyncSrc(); ">
+
+                <div class="courselinks">
                     <div class="bp1-coursetraining">
                         Course Training
                     </div>
-                </a>
+
+                    <div class="course-training-buttons" style="display: none; color: white;">
+                        <a href="{{url_for('showCourse')}}">
+                            Course Training
+                        </a>
+                        <a href="{{url_for('showSuccessStories')}}">
+                            Success Stories
+                        </a>
+                        <a href="{{url_for('showEducational')}}">
+                            Q&A - Educational
+                        </a>
+                    </div>
+                </div>
+
+
                 <a href="{{url_for('showContact')}}">
                     <div class="bp1-contact">
                         Contact
@@ -1114,248 +1184,35 @@
             </div>
         </div>
     </form>
+    
     <script>
-        function processClick(e) {
-            var evt = e || window.event;
-            if ((evt.target || evt.srcElement).parentElement == evt.target) {
-                animaHideOverlay('productoverlay', 'anima-animate-disappear');
-            }
-        }
+
+        $(document).ready(function () {
+            $(".productlinks").click(function () {
+                $(".product-buttons").toggle();
+            });
+            $(".productlinks").hover(function () {
+                $(".product-buttons").toggle();
+            });
+        });
+        $(document).ready(function () {
+            $(".serviceslinks").click(function () {
+                $(".services-buttons").toggle();
+            });
+            $(".serviceslinks").hover(function () {
+                $(".services-buttons").toggle();
+            });
+        });
+        $(document).ready(function () {
+            $(".courselinks").click(function () {
+                $(".course-training-buttons").toggle();
+            });
+            $(".courselinks").hover(function () {
+                $(".course-training-buttons").toggle();
+            });
+        });
+
     </script>
-
-
-    <a href="#" onclick="processClick(this);">
-        <div class="anima-overlay" id="overlay-productoverlay" style="min-height:2028px;">
-
-            <div class="bp1-productoverlay">
-                <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                    <img anima-src="{{url_for('static', filename='img/product-overlay-product.png')}}" class="bp1-product" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                    />
-                    <div class="bp1-rollover-layout-container">
-                        <div class="bp1-rollover">
-                        </div>
-                    </div>
-                    <div class="bp1-stackedgroup-layout-container">
-                        <div class="bp1-stackedgroup">
-                            <a href="{{url_for('showProducts')}}">
-                                <div class="bp1-link">
-                                    Products
-                                </div>
-                            </a>
-                            <a href="{{url_for('showShipping')}}">
-                                <div class="bp1-linkcopy">
-                                    Shipping
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bp2-productoverlayipad">
-                <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                    <img anima-src="{{url_for('static', filename='img/productoverlayipad-product-ipad.png')}}" class="bp2-productipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                    />
-                    <div class="bp2-rollovercopy">
-                    </div>
-                    <div class="bp2-stackedgroupcopy-layout-container">
-                        <div class="bp2-stackedgroupcopy">
-                            <a href="{{url_for('showProducts')}}">
-                                <div class="bp2-link">
-                                    Products
-                                </div>
-                            </a>
-                            <a href="{{url_for('showShipping')}}">
-                                <div class="bp2-linkcopy">
-                                    Shipping
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-
-
-    <script>
-        function processClick(e) {
-            var evt = e || window.event;
-            if ((evt.target || evt.srcElement).parentElement == evt.target) {
-                animaHideOverlay('courseoverlay', 'anima-animate-disappear');
-            }
-        }
-    </script>
-
-
-    <a href="#" onclick="processClick(this);">
-        <div class="anima-overlay" id="overlay-courseoverlay" style="min-height:2028px;">
-            <div class="bp2-courseoverlayipad">
-                <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                    <img anima-src="{{url_for('static', filename='img/courseoverlayipad-course-training-ipad.png')}}" class="bp2-coursetrainingipad"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <div class="bp2-rollovercopy">
-                    </div>
-                    <div class="bp2-stackedgroupcopy">
-                        <a href="{{url_for('showCourse')}}">
-                            <div class="bp2-link">
-                                Course Training
-                            </div>
-                        </a>
-                        <a href="{{url_for('showSuccessStories')}}">
-                            <div class="bp2-linkcopy">
-                                Success Stories
-                            </div>
-                        </a>
-                        <a href="{{url_for('showEducational')}}">
-                            <div class="bp2-linkcopy2">
-                                Q&amp;A - Educational
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="bp1-courseoverlay">
-                <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                    <img anima-src="{{url_for('static', filename='img/course-overlay-course-training-desktop.png')}}" class="bp1-coursetrainingdesktop"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-                    <div class="bp1-rollover">
-                    </div>
-                    <div class="bp1-stackedgroup">
-                        <a href="{{url_for('showCourse')}}">
-                            <div class="bp1-link">
-                                Course Training
-                            </div>
-                        </a>
-                        <a href="{{url_for('showSuccessStories')}}">
-                            <div class="bp1-linkcopy">
-                                Success Stories
-                            </div>
-                        </a>
-                        <a href="{{url_for('showEducational')}}">
-                            <div class="bp1-linkcopy2">
-                                Q&amp;A - Educational
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-
-
-    <script>
-        function processClick(e) {
-            var evt = e || window.event;
-            if ((evt.target || evt.srcElement).parentElement == evt.target) {
-                animaHideOverlay('serviceoverlay', 'anima-animate-disappear');
-            }
-        }
-    </script>
-
-
-    <a href="#" onclick="processClick(this);">
-        <div class="anima-overlay" id="overlay-serviceoverlay" style="min-height:2028px;">
-            <div class="bp1-serviceoverlay">
-                <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
-                    <img anima-src="{{url_for('static', filename='img/service-overlay-services.png')}}" class="bp1-services" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                    />
-                    <div class="bp1-rollover">
-                    </div>
-                    <div class="bp1-stackedgroup">
-                        <a href="{{url_for('showServices')}}">
-                            <div class="bp1-linkcopy2">
-                                Services
-                            </div>
-                        </a>
-                        <a href="{{url_for('showTeam')}}">
-                            <div class="bp1-link">
-                                Team
-                            </div>
-                        </a>
-                        <a href="{{url_for('showClientCare')}}">
-                            <div class="bp1-linkcopy">
-                                Client care
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="bp2-serviceoverlayipad">
-                <div style="width: 768px; height: 100%; position:relative; margin:auto;">
-                    <img anima-src="{{url_for('static', filename='img/serviceoverlayipad-services-ipad.png')}}" class="bp2-servicesipad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                    />
-                    <div class="bp2-rollovercopy">
-                    </div>
-                    <div class="bp2-stackedgroupcopy">
-                        <a href="{{url_for('showServices')}}">
-                            <div class="bp2-linkcopy2">
-                                Services
-                            </div>
-                        </a>
-                        <a href="{{url_for('showTeam')}}">
-                            <div class="bp2-link">
-                                Team
-                            </div>
-                        </a>
-                        <a href="{{url_for('showClientCare')}}">
-                            <div class="bp2-linkcopy">
-                                Client care
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-
-
-    <script>
-        function processClick(e) {
-            var evt = e || window.event;
-            if ((evt.target || evt.srcElement).parentElement == evt.target) {
-                animaHideOverlay('overlay', 'anima-animate-disappear');
-            }
-        }
-    </script>
-
-
-    <a href="#" onclick="processClick(this);">
-        <div class="anima-overlay" id="overlay-overlay" style="min-height:2028px;">
-            <div class="overlay">
-                <div style="width: 320px; height: 100%; position:relative; margin:auto;">
-                    <div class="rollover">
-                    </div>
-                    <div class="overlaystackedlinks">
-                        <a href="{{url_for('showShipping')}}">
-                            <div class="shipping">
-                                Shipping
-                            </div>
-                        </a>
-                        <a href="{{url_for('showTeam')}}">
-                            <div class="team">
-                                Team
-                            </div>
-                        </a>
-                        <a href="{{url_for('showClientCare')}}">
-                            <div class="clientcare">
-                                Client Care
-                            </div>
-                        </a>
-                        <a href="{{url_for('showSuccessStories')}}">
-                            <div class="successstories">
-                                Success Stories
-                            </div>
-                        </a>
-                        <div class="qaeducation">
-                            Q&amp;A-Education
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-
 
     <!-- Scripts -->
     <script>
@@ -1523,30 +1380,7 @@
             animaShowOnScroll.init();
         }, 250);
     </script>
-    <script>
-        animaShowOverlay = function (overlayName, animationName) {
-            overlayName = 'overlay-' + overlayName;
-            var cssClasses = document.getElementById(overlayName).className.split(' ');
-            var last = cssClasses.slice(-1)[0];
-            if (last.lastIndexOf('an-animation-') == -1) {
-                document.getElementById(overlayName).className = document.getElementById(overlayName).className + " " + animationName;
-            }
-        };
-        animaHideOverlay = function (overlayName, animationName) {
-            overlayName = 'overlay-' + overlayName;
-            var cssClasses = document.getElementById(overlayName).className.split(' ');
-            var last = cssClasses.slice(-1)[0];
-            if (last.lastIndexOf('an-animation-') != -1) {
-                cssClasses.splice(-1);
-                cssClasses.push(animationName);
-                document.getElementById(overlayName).className = cssClasses.join(' ');
-                cssClasses.splice(-1);
-                setTimeout(function () {
-                    document.getElementById(overlayName).className = cssClasses.join(' ');
-                }, 1100);
-            }
-        };
-    </script>
+
     <!-- End of Scripts -->
 </body>
 
