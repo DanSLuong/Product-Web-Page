@@ -9,6 +9,8 @@ from flask_mail import Mail, Message
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Blog, User
+from mail import sendMailCustomer as sendMailCustomer
+from mail import sendMailCompany as sendMailCompany
 from flask import session as login_session
 import random, string
 from oauth2client.client import flow_from_clientsecrets
@@ -23,6 +25,7 @@ import os
 
 app = Flask(__name__)
 
+
 APPLICATION_NAME = "Light Eyes USA"
 # CLIENT_ID = json.loads(open('client_secrets.json', 'r').read())['web']['client_id']
 CLIENT_ID = json.loads(open('/var/www/FlaskApp/FlaskApp/client_secrets.json', 'r').read())['web']['client_id']
@@ -33,18 +36,6 @@ Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
 session = DBSession()
-
-mail_settings = {
-    "MAIL_SERVER": 'smtp.gmail.com',
-    "MAIL_PORT": 465,
-    "MAIL_USE_TLS": False,
-    "MAIL_USE_SSL": True,
-    "MAIL_USERNAME": os.environ.get('EMAIL_USER'),
-    "MAIL_PASSWORD": os.environ.get('EMAIL_PASSWORD')
-}
-
-app.config.update(mail_settings)
-mail = Mail(app)
 
 
 # Create anti-forgery state token
@@ -228,24 +219,6 @@ def login_required(f):
         return f(*args, **kwargs)
     return decorated_function
 
-
-# Mail info
-def sendMailCustomer(mail_recipients, email_body):
-    with mail.app.app_context():
-        msg = Message(subject="Hello",
-                      sender=app.config.get("MAIL_USERNAME"),
-                      recipients=[mail_recipients],
-                      body=email_body)
-        mail.send(msg)
-
-
-def sendMailCompany(subject, mail_recipients, email_body):
-    with mail.app.app_context():
-        msg = Message(subject=subject,
-                      sender=app.config.get("MAIL_USERNAME"),
-                      recipients=[mail_recipients],
-                      body=email_body)
-        mail.send(msg)
 
 # JSON Serialized result
 @app.route('/blog/JSON')
