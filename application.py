@@ -237,6 +237,14 @@ def sendMailCompany(subject, mail_recipients, email_body):
         mail.send(msg)
 
 
+# JSON Serialized result
+@app.route('/blog/JSON')
+def blogJSON():
+    blogs = session.query(Blog).all()
+    return jsonify(blogs=[i.serialize for i in blogs])
+
+
+
 # Homepage
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/home/', methods=['GET', 'POST'])
