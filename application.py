@@ -268,6 +268,13 @@ def showAboutUs():
 def showContact():
     if request.method == 'POST':
         if request.form['customerEmail']:
+            if request.form['ClientEmail']:
+                subject="Email Subscribe Request"
+                mail_recipients=request.form['ClientEmail']
+                email_body= "Thank you for joining our mailing list!"
+
+                sendMailCustomer(mail_recipients, email_body)
+                sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
             full_name=request.form['Full_Name']
             email=request.form['customerEmail']
             phone=request.form['Phone']
@@ -411,12 +418,24 @@ def showEducational():
 
 
 # Blog
-@app.route('/blog')
+@app.route('/blog', methods=['GET', 'POST'])
 def showBlog():
     blogs = session.query(Blog).order_by(Blog.id.desc()).all()
-    # return render_template('test.html', blogs=blogs)
-    return render_template('blogipad.html', blogs=blogs)
-    # return render_template('home.html')
+    if blogs is None:
+        return render_template('blogipad.html')
+    else:
+        if request.method == 'POST':
+            subject="Email Subscribe Request"
+            mail_recipients=request.form['ClientEmail']
+            email_body= "Thank you for joining our mailing list!"
+
+            sendMailCustomer(mail_recipients, email_body)
+            sendMailCompany(subject, mail.app.config.get("MAIL_USERNAME"), mail_recipients)
+            
+            return redirect(url_for('showBlog'))
+        else:
+            return render_template('blogipad.html', blogs=blogs)
+
 
 
 @app.route('/blog/new/', methods=['GET', 'POST'])
@@ -429,7 +448,7 @@ def newBlogPost():
     if request.method == 'POST':
         newBlogPost = Blog(title=request.form['title'],
                            dateValue=request.form['dateValue'],
-                           pictureURL="img/" + request.form['pictureURL'],
+                           pictureURL="static/img/" + request.form['pictureURL'],
                            story=request.form['story'])
         session.add(newBlogPost)
         session.commit()
