@@ -21,11 +21,11 @@
   width               : 100%;
   height              : 100%;
 }
-.bp2-blogipad {
+.bp1-blogdesktop {
   width               : 100%;
-  min-width           : 768px;
+  min-width           : 1024px;
   height              : 100vh;
-  min-height          : 1691px;
+  min-height          : 2475px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -37,20 +37,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp2-an-animation-enter3 {
+.bp1-an-animation-enter15 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp2-an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp2-an-animation-enter3-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter15-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter15-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter15-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter15-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp2-an-animation-enter3-frames {
+@-webkit-keyframes bp1-an-animation-enter15-frames {
   0%
    
   {
@@ -66,7 +66,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp2-an-animation-enter3-frames {
+@-moz-keyframes bp1-an-animation-enter15-frames {
   0%
    
   {
@@ -82,7 +82,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp2-an-animation-enter3-frames {
+@-o-keyframes bp1-an-animation-enter15-frames {
   0%
    
   {
@@ -98,7 +98,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp2-an-animation-enter3-frames {
+@keyframes bp1-an-animation-enter15-frames {
   0%
    
   {
@@ -114,20 +114,20 @@ div {
   transform: scale(1);
     }
 }
-.bp2-an-animation-enter4 {
+.bp1-an-animation-enter16 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp2-an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp2-an-animation-enter4-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp2-an-animation-enter4-frames {
+@-webkit-keyframes bp1-an-animation-enter16-frames {
   0%
    
   {
@@ -143,7 +143,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp2-an-animation-enter4-frames {
+@-moz-keyframes bp1-an-animation-enter16-frames {
   0%
    
   {
@@ -159,7 +159,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp2-an-animation-enter4-frames {
+@-o-keyframes bp1-an-animation-enter16-frames {
   0%
    
   {
@@ -175,7 +175,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp2-an-animation-enter4-frames {
+@keyframes bp1-an-animation-enter16-frames {
   0%
    
   {
@@ -191,20 +191,20 @@ div {
   transform: scale(1);
     }
 }
-.bp2-an-animation-enter5 {
+.bp1-an-animation-enter17 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp2-an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp2-an-animation-enter5-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp1-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter17-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp2-an-animation-enter5-frames {
+@-webkit-keyframes bp1-an-animation-enter17-frames {
   0%
    
   {
@@ -220,7 +220,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp2-an-animation-enter5-frames {
+@-moz-keyframes bp1-an-animation-enter17-frames {
   0%
    
   {
@@ -236,7 +236,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp2-an-animation-enter5-frames {
+@-o-keyframes bp1-an-animation-enter17-frames {
   0%
    
   {
@@ -252,7 +252,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp2-an-animation-enter5-frames {
+@keyframes bp1-an-animation-enter17-frames {
   0%
    
   {
@@ -268,912 +268,86 @@ div {
   transform: scale(1);
     }
 }
-.bp2-blogipad .bp2-banner {
+.bp1-blogdesktop .bp1-lateststoryheader {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 114px;
-  width               : 774px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-banner1 {
-  background-color    : rgba(102, 103, 103, 1.0);
-  top                 : 0px;
-  height              : 114px;
-  width               : 774px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 15px;
-  height              : 73px;
-  width               : 165px;
-  position            : absolute;
-  margin              : 0;
-  left                : 293px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-logo1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 41px;
-  width               : 68px;
-  position            : absolute;
-  margin              : 0;
-  left                : 51px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-spoolie {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 65px;
-  height              : 8px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 140px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-box {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 67px;
-  height              : 6px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 133px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-spoolie1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 65px;
-  height              : 8px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-box1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 67px;
-  height              : 6px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 24px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 46px;
-  height              : 13px;
-  width               : 9px;
+  top                 : 530px;
+  height              : auto;
+  width               : 347px;
   position            : absolute;
   margin              : 0;
   left                : 18px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 60.0px;
 }
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text1 {
+.bp1-blogdesktop .bp1-text {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 4px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 11px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 47px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 58px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text5 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 46px;
-  height              : 13px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 73px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text6 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 83px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text7 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 10px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 93px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text8 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 50px;
-  height              : 11px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 102px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text9 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 46px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text10 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 49px;
-  height              : 11px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 128px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-logo .bp2-text11 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 49px;
-  height              : 11px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 136px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-banner .bp2-text12 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 78px;
+  top                 : 224px;
   height              : auto;
-  width               : 93px;
+  width               : 167px;
   position            : absolute;
   margin              : 0;
-  left                : 328px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
-  font-size           : 12.0px;
-  color               : rgba(254, 255, 254, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp2-blogipad .bp2-stackedgroup {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 92px;
-  height              : 15px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 121px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-stackedgroup .bp2-linkscopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-stackedgroup .bp2-links {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-stackedgroup .bp2-product {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-stackedgroup .bp2-services {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-stackedgroup .bp2-blog {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-stackedgroup .bp2-coursetraining {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-stackedgroup .bp2-contact {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footer {
-  background-color    : rgba(255, 255, 255, 0.0);
-  bottom              : 0%;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : -13px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footer .bp2-path {
-  background-color    : rgba(254, 255, 254, 1.0);
-  top                 : 80px;
-  height              : 27px;
-  width               : 219px;
-  position            : absolute;
-  margin              : 0;
-  left                : 543px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footer .bp2-footer1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footer .bp2-footer1 .bp2-rectangle {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 179px;
-  width               : 794px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footer .bp2-footer1 .bp2-socialicons {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 119px;
-  height              : 21px;
-  width               : 98px;
-  position            : absolute;
-  margin              : 0;
-  left                : 318px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footer .bp2-footer1 .bp2-socialicons .bp2-facebook {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footer .bp2-footer1 .bp2-socialicons .bp2-instagramicon {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footer .bp2-footer1 .bp2-socialicons .bp2-youtube {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 70px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footer .bp2-rectangle2copy {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 118px;
-  height              : 28px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 542px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footer .bp2-rectangle2copy2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 82px;
-  height              : 28px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 542px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footer .bp2-subscribe {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 121px;
-  height              : auto;
-  width               : 84px;
-  position            : absolute;
-  margin              : 0;
-  left                : 555px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footer .bp2-textyouremailaddress {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 30px;
-  width               : 168px;
-  position            : absolute;
-  margin              : 0;
-  left                : 555px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(122, 122, 122, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-  border              : 0;
-}
-.bp2-blogipad .bp2-footer .bp2-textyouremailaddress::placeholder {
-  color               : rgba(122, 122, 122, 0.6);
-}
-.bp2-blogipad .bp2-address {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1526px;
-  height              : 72px;
-  width               : 126px;
-  position            : absolute;
-  margin              : 0;
-  left                : 319px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-address .bp2-a1630oaklandrdsuit {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 126px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-subscribeinfo {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1526px;
-  height              : 36px;
-  width               : 186px;
-  position            : absolute;
-  margin              : 0;
-  left                : 532px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-subscribeinfo .bp2-subscribetoournew {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1523px;
-  height              : auto;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 25px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footerlinks .bp2-home {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks .bp2-aboutus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks .bp2-services1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks .bp2-coursetraining1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks .bp2-shipping {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks .bp2-clientcare {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks .bp2-qaeducational {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1526px;
-  height              : auto;
-  width               : 122px;
-  position            : absolute;
-  margin              : 0;
-  left                : 166px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-footerlinks2 .bp2-products {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks2 .bp2-blog1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks2 .bp2-contactus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks2 .bp2-team {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-footerlinks2 .bp2-successstories {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 122px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp2-blogipad .bp2-lateststoryheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 413px;
-  height              : auto;
-  width               : 154px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
+  left                : 717px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 20.0px;
+  font-size           : 48.0px;
   color               : rgba(54, 46, 46, 1.0);
   text-align          : center;
-  line-height         : 25.0px;
+  line-height         : 60.0px;
 }
-.bp2-blogipad .bp2-text13 {
+.bp1-blogdesktop .bp1-text1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 173px;
+  top                 : 283px;
   height              : auto;
-  width               : 134px;
+  width               : 288px;
   position            : absolute;
   margin              : 0;
-  left                : 565px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 38.0px;
-}
-.bp2-blogipad .bp2-text14 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 215px;
-  height              : auto;
-  width               : 228px;
-  position            : absolute;
-  margin              : 0;
-  left                : 524px;
+  left                : 664px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 10.0px;
+  font-size           : 18.0px;
   color               : rgba(122, 122, 122, 1.0);
   text-align          : center;
-  line-height         : 15.0px;
+  line-height         : 22.0px;
 }
-.bp2-blogipad .bp2-line {
+.bp1-blogdesktop .bp1-line {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 423px;
+  top                 : 555px;
   height              : 3px;
-  width               : 601px;
+  width               : 590px;
   position            : absolute;
   margin              : 0;
-  left                : 173px;
+  left                : 391px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-group {
+.bp1-blogdesktop .bp1-group {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 358px;
-  height              : 28px;
-  width               : 91px;
+  top                 : 471px;
+  height              : 36px;
+  width               : 115px;
   position            : absolute;
   margin              : 0;
-  left                : 588px;
+  left                : 745px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-group .bp2-box2 {
+.bp1-blogdesktop .bp1-group .bp1-box {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 28px;
-  width               : 91px;
+  height              : 36px;
+  width               : 115px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1185,28 +359,28 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-group .bp2-productbutton {
+.bp1-blogdesktop .bp1-group .bp1-productbutton {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 10px;
+  top                 : 13px;
   height              : auto;
-  width               : 82px;
+  width               : 103px;
   position            : absolute;
   margin              : 0;
-  left                : 5px;
+  left                : 6px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 10.0px;
+  font-size           : 12.0px;
   color               : rgba(54, 46, 46, 1.0);
   text-align          : center;
-  line-height         : 13.0px;
+  line-height         : 15.0px;
 }
-.bp2-blogipad .bp2-blogbanner {
+.bp1-blogdesktop .bp1-blogbanner {
   background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 113px;
-  height              : 264px;
-  width               : 500px;
+  top                 : 160px;
+  height              : 335px;
+  width               : 634px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1215,11 +389,11 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-blogbanner .bp2-mask {
+.bp1-blogdesktop .bp1-blogbanner .bp1-mask {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 264px;
-  width               : 500px;
+  height              : 335px;
+  width               : 634px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1227,23 +401,131 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-blogbanner .bp2-blogbanner1 {
+.bp1-blogdesktop .bp1-blogbanner .bp1-blogbanner1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -41px;
-  height              : 366px;
-  width               : 550px;
+  top                 : -52px;
+  height              : 464px;
+  width               : 697px;
   position            : absolute;
   margin              : 0;
-  left                : -21px;
+  left                : -26px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-blogdatecopy {
+.bp1-blogdesktop .bp1-banner {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 818px;
+  top                 : -4px;
+  height              : 165px;
+  width               : 1044px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-banner1 {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : 0px;
+  height              : 165px;
+  width               : 1044px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : 117px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 372px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 104px;
+  height              : 13px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-box2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
   height              : 16px;
-  width               : 94px;
+  width               : 6px;
   position            : absolute;
   margin              : 0;
   left                : 48px;
@@ -1251,181 +533,729 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-blogdatecopy .bp2-date {
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 16px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 17px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 18px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 79px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-banner .bp1-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 429px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-blogdesktop .bp1-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 139px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-stackedgroup .bp1-linkscopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-blogdesktop .bp1-stackedgroup .bp1-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-blogdesktop .bp1-stackedgroup .bp1-product {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-blogdesktop .bp1-stackedgroup .bp1-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-blogdesktop .bp1-stackedgroup .bp1-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-blogdesktop .bp1-stackedgroup .bp1-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-blogdesktop .bp1-stackedgroup .bp1-contact {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-blogdesktop .bp1-footer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  bottom              : calc(0.00% - 2px);
+  height              : 244px;
+  width               : 1052px;
+  position            : absolute;
+  margin              : 0;
+  left                : -14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-footer .bp1-path {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 109px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-footer .bp1-footer1 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : auto;
-  width               : 94px;
+  height              : 244px;
+  width               : 1052px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
 }
-.bp2-blogipad .bp2-blogdatecopy2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 490px;
-  height              : 16px;
-  width               : 102px;
-  position            : absolute;
-  margin              : 0;
-  left                : 42px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp2-blogipad .bp2-blogdatecopy2 .bp2-date1 {
+.bp1-blogdesktop .bp1-footer .bp1-footer1 .bp1-rectangle {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : auto;
-  width               : 102px;
+  height              : 244px;
+  width               : 1052px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
 }
-.bp2-blogipad .bp2-blogheadercopy {
+.bp1-blogdesktop .bp1-footer .bp1-footer1 .bp1-socialicons {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 790px;
-  height              : auto;
-  width               : 252px;
+  top                 : 163px;
+  height              : 28px;
+  width               : 130px;
   position            : absolute;
   margin              : 0;
-  left                : 48px;
+  left                : 422px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
 }
-.bp2-blogipad .bp2-blogheadercopy2 {
+.bp1-blogdesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-facebook {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 462px;
-  height              : auto;
-  width               : 252px;
+  top                 : 0px;
+  height              : 27px;
+  width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 42px;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
 }
-.bp2-blogipad .bp2-thankyouforthose {
+.bp1-blogdesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-instagramicon {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 563px;
-  height              : auto;
-  width               : 252px;
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
   position            : absolute;
   margin              : 0;
-  left                : 352px;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-footer .bp1-rectangle2copy {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 161px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-footer .bp1-rectangle2copy2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 112px;
+  height              : 37px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-footer .bp1-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 164px;
+  height              : auto;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 735px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
   text-align          : left;
-  line-height         : 16.0px;
+  line-height         : 22.0px;
 }
-.bp2-blogipad .bp2-markonyourcalenda {
+.bp1-blogdesktop .bp1-footer .bp1-textyouremailaddress {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 856px;
-  height              : auto;
-  width               : 252px;
+  top                 : 113px;
+  height              : 30px;
+  width               : 223px;
   position            : absolute;
   margin              : 0;
-  left                : 352px;
+  left                : 735px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
+  font-size           : 18.0px;
+  color               : rgba(122, 122, 122, 1.0);
   text-align          : left;
-  line-height         : 16.0px;
+  line-height         : 22.0px;
+  border              : 0;
 }
-.bp2-blogipad .bp2-line2 {
+.bp1-blogdesktop .bp1-footer .bp1-textyouremailaddress::placeholder {
+  color               : rgba(122, 122, 122, 0.6);
+}
+.bp1-blogdesktop .bp1-footer .bp1-address {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1137px;
-  height              : 1px;
-  width               : 598px;
+  top                 : 29px;
+  height              : auto;
+  width               : 166px;
   position            : absolute;
   margin              : 0;
-  left                : 41px;
+  left                : 469px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-line2copy {
+.bp1-blogdesktop .bp1-footer .bp1-address .bp1-a1630oaklandrdsuit {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 755px;
-  height              : 1px;
-  width               : 598px;
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 166px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footer .bp1-subscribeinfo {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 31px;
+  height              : auto;
+  width               : 278px;
   position            : absolute;
   margin              : 0;
-  left                : 41px;
+  left                : 721px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-vegas {
+.bp1-blogdesktop .bp1-footer .bp1-subscribeinfo .bp1-subscribetoournew {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 874px;
-  height              : 227px;
-  width               : 251px;
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 280px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2264px;
+  height              : auto;
+  width               : 162px;
   position            : absolute;
   margin              : 0;
-  left                : 51px;
+  left                : 34px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-vegasbooth {
+.bp1-blogdesktop .bp1-footerlinks .bp1-home {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 517px;
-  height              : 181px;
-  width               : 242px;
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks .bp1-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks .bp1-services1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks .bp1-coursetraining1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks .bp1-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks .bp1-clientcare {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks .bp1-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2264px;
+  height              : auto;
+  width               : 162px;
   position            : absolute;
   margin              : 0;
-  left                : 41px;
+  left                : 218px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-blogdate {
+.bp1-blogdesktop .bp1-footerlinks2 .bp1-products {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1192px;
-  height              : 16px;
-  width               : 92px;
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks2 .bp1-blog1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks2 .bp1-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks2 .bp1-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-footerlinks2 .bp1-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 162px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-blogdate {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1739px;
+  height              : 29px;
+  width               : 169px;
   position            : absolute;
   margin              : 0;
-  left                : 42px;
+  left                : 52px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-blogdate .bp2-date2 {
+.bp1-blogdesktop .bp1-blogdate .bp1-date {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : auto;
@@ -1437,56 +1267,230 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 13.0px;
+  font-size           : 24.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : center;
-  line-height         : 16.0px;
+  line-height         : 29.0px;
 }
-.bp2-blogipad .bp2-blogheader {
+.bp1-blogdesktop .bp1-blogdate1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1166px;
-  height              : auto;
-  width               : 174px;
+  top                 : 1178px;
+  height              : 29px;
+  width               : 173px;
   position            : absolute;
   margin              : 0;
-  left                : 42px;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-blogdate1 .bp1-date1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 20.0px;
+  font-size           : 24.0px;
   color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
+  text-align          : center;
+  line-height         : 29.0px;
 }
-.bp2-blogipad .bp2-lashessential {
+.bp1-blogdesktop .bp1-blogdate2 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1222px;
-  height              : 259px;
-  width               : 285px;
+  top                 : 646px;
+  height              : 29px;
+  width               : 173px;
   position            : absolute;
   margin              : 0;
-  left                : 37px;
+  left                : 52px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp2-blogipad .bp2-howlashextensions {
+.bp1-blogdesktop .bp1-blogdate2 .bp1-date2 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1304px;
+  top                 : 0px;
   height              : auto;
-  width               : 278px;
+  width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 352px;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-blogdesktop .bp1-blogheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1694px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp1-blogdesktop .bp1-blogheader1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1133px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp1-blogdesktop .bp1-blogheader2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 601px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp1-blogdesktop .bp1-howlashextensions {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1904px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 531px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 13.0px;
+  font-size           : 18.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 16.0px;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-thankyouforthose {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 773px;
+  height              : auto;
+  width               : 389px;
+  position            : absolute;
+  margin              : 0;
+  left                : 531px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-markonyourcalenda {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1247px;
+  height              : auto;
+  width               : 387px;
+  position            : absolute;
+  margin              : 0;
+  left                : 531px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-blogdesktop .bp1-lashessential {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1805px;
+  height              : 402px;
+  width               : 442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1674px;
+  height              : 3px;
+  width               : 924px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-line2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1080px;
+  height              : 3px;
+  width               : 924px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-vegas {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1264px;
+  height              : 353px;
+  width               : 389px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-blogdesktop .bp1-vegasbooth {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 710px;
+  height              : 282px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
@@ -1583,19 +1587,19 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp3-an-animation-enter28 {
+.bp3-an-animation-enter16 {
   opacity             : 0;
   display             : block;
-  -webkit-animation   : bp3-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter28-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp3-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp3-an-animation-enter28-frames {
+@-webkit-keyframes bp3-an-animation-enter16-frames {
   0%
    
   {
@@ -1609,7 +1613,7 @@ div {
   opacity: 1;
     }
 }
-@-moz-keyframes bp3-an-animation-enter28-frames {
+@-moz-keyframes bp3-an-animation-enter16-frames {
   0%
    
   {
@@ -1623,7 +1627,7 @@ div {
   opacity: 1;
     }
 }
-@-o-keyframes bp3-an-animation-enter28-frames {
+@-o-keyframes bp3-an-animation-enter16-frames {
   0%
    
   {
@@ -1637,7 +1641,7 @@ div {
   opacity: 1;
     }
 }
-@keyframes bp3-an-animation-enter28-frames {
+@keyframes bp3-an-animation-enter16-frames {
   0%
    
   {
@@ -3048,11 +3052,11 @@ div {
       opacity: 1;
     }
 }
-.bp1-blogdesktop {
+.bp2-blogipad {
   width               : 100%;
-  min-width           : 1024px;
+  min-width           : 768px;
   height              : 100vh;
-  min-height          : 2475px;
+  min-height          : 1691px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -3064,20 +3068,20 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp1-an-animation-enter39 {
+.bp2-an-animation-enter14 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter39-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp2-an-animation-enter14-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter14-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter14-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter14-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter39-frames {
+@-webkit-keyframes bp2-an-animation-enter14-frames {
   0%
    
   {
@@ -3093,7 +3097,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter39-frames {
+@-moz-keyframes bp2-an-animation-enter14-frames {
   0%
    
   {
@@ -3109,7 +3113,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter39-frames {
+@-o-keyframes bp2-an-animation-enter14-frames {
   0%
    
   {
@@ -3125,7 +3129,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter39-frames {
+@keyframes bp2-an-animation-enter14-frames {
   0%
    
   {
@@ -3141,20 +3145,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter40 {
+.bp2-an-animation-enter15 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter40-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp2-an-animation-enter15-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter15-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter15-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter15-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter40-frames {
+@-webkit-keyframes bp2-an-animation-enter15-frames {
   0%
    
   {
@@ -3170,7 +3174,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter40-frames {
+@-moz-keyframes bp2-an-animation-enter15-frames {
   0%
    
   {
@@ -3186,7 +3190,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter40-frames {
+@-o-keyframes bp2-an-animation-enter15-frames {
   0%
    
   {
@@ -3202,7 +3206,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter40-frames {
+@keyframes bp2-an-animation-enter15-frames {
   0%
    
   {
@@ -3218,20 +3222,20 @@ div {
   transform: scale(1);
     }
 }
-.bp1-an-animation-enter41 {
+.bp2-an-animation-enter16 {
   opacity             : 0;
   transform           : scale(1.1);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter41-frames 0.2s ease-in-out 1 normal forwards;
+  -webkit-animation   : bp2-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter16-frames 0.2s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes bp1-an-animation-enter41-frames {
+@-webkit-keyframes bp2-an-animation-enter16-frames {
   0%
    
   {
@@ -3247,7 +3251,7 @@ div {
   transform: scale(1);
     }
 }
-@-moz-keyframes bp1-an-animation-enter41-frames {
+@-moz-keyframes bp2-an-animation-enter16-frames {
   0%
    
   {
@@ -3263,7 +3267,7 @@ div {
   transform: scale(1);
     }
 }
-@-o-keyframes bp1-an-animation-enter41-frames {
+@-o-keyframes bp2-an-animation-enter16-frames {
   0%
    
   {
@@ -3279,7 +3283,7 @@ div {
   transform: scale(1);
     }
 }
-@keyframes bp1-an-animation-enter41-frames {
+@keyframes bp2-an-animation-enter16-frames {
   0%
    
   {
@@ -3295,86 +3299,912 @@ div {
   transform: scale(1);
     }
 }
-.bp1-blogdesktop .bp1-lateststoryheader {
+.bp2-blogipad .bp2-banner {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 530px;
-  height              : auto;
-  width               : 347px;
+  top                 : 0px;
+  height              : 114px;
+  width               : 774px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-banner1 {
+  background-color    : rgba(102, 103, 103, 1.0);
+  top                 : 0px;
+  height              : 114px;
+  width               : 774px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 73px;
+  width               : 165px;
+  position            : absolute;
+  margin              : 0;
+  left                : 293px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 41px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-spoolie {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : 8px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-box {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 67px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 133px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-spoolie1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : 8px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-box1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 67px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 13px;
+  width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 18px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 48.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 60.0px;
 }
-.bp1-blogdesktop .bp1-text {
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 224px;
-  height              : auto;
-  width               : 167px;
+  top                 : 50px;
+  height              : 10px;
+  width               : 4px;
   position            : absolute;
   margin              : 0;
-  left                : 717px;
+  left                : 30px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 48.0px;
-  color               : rgba(54, 46, 46, 1.0);
-  text-align          : center;
-  line-height         : 60.0px;
 }
-.bp1-blogdesktop .bp1-text1 {
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text2 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 283px;
-  height              : auto;
-  width               : 288px;
+  top                 : 50px;
+  height              : 11px;
+  width               : 9px;
   position            : absolute;
   margin              : 0;
-  left                : 664px;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 13px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 10px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 50px;
+  height              : 11px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 46px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 113px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 49px;
+  height              : 11px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-logo .bp2-text11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 49px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 136px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-banner .bp2-text12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 78px;
+  height              : auto;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp2-blogipad .bp2-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 92px;
+  height              : 15px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-stackedgroup .bp2-linkscopy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-stackedgroup .bp2-links {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-stackedgroup .bp2-product {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-stackedgroup .bp2-services {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-stackedgroup .bp2-blog {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-stackedgroup .bp2-coursetraining {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-stackedgroup .bp2-contact {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 20px;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(215, 215, 215, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footer {
+  background-color    : rgba(255, 255, 255, 0.0);
+  bottom              : 0%;
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : -13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footer .bp2-path {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 80px;
+  height              : 27px;
+  width               : 219px;
+  position            : absolute;
+  margin              : 0;
+  left                : 543px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footer .bp2-footer1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footer .bp2-footer1 .bp2-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 179px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footer .bp2-footer1 .bp2-socialicons {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : 21px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 318px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footer .bp2-footer1 .bp2-socialicons .bp2-facebook {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footer .bp2-footer1 .bp2-socialicons .bp2-instagramicon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footer .bp2-footer1 .bp2-socialicons .bp2-youtube {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footer .bp2-rectangle2copy {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 118px;
+  height              : 28px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footer .bp2-rectangle2copy2 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 82px;
+  height              : 28px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footer .bp2-subscribe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 121px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 555px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
+  font-size           : 15.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footer .bp2-textyouremailaddress {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 30px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 555px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(122, 122, 122, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+  border              : 0;
+}
+.bp2-blogipad .bp2-footer .bp2-textyouremailaddress::placeholder {
+  color               : rgba(122, 122, 122, 0.6);
+}
+.bp2-blogipad .bp2-address {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1526px;
+  height              : 72px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 319px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-address .bp2-a1630oaklandrdsuit {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-subscribeinfo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1526px;
+  height              : 36px;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 532px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-subscribeinfo .bp2-subscribetoournew {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1523px;
+  height              : auto;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footerlinks .bp2-home {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks .bp2-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks .bp2-services1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks .bp2-coursetraining1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks .bp2-shipping {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks .bp2-clientcare {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks .bp2-qaeducational {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1526px;
+  height              : auto;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 166px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-footerlinks2 .bp2-products {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks2 .bp2-blog1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks2 .bp2-contactus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks2 .bp2-team {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-footerlinks2 .bp2-successstories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 2px 0 0 0;
+  width               : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp2-blogipad .bp2-lateststoryheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 413px;
+  height              : auto;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 25.0px;
+}
+.bp2-blogipad .bp2-text13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 173px;
+  height              : auto;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 565px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(54, 46, 46, 1.0);
+  text-align          : center;
+  line-height         : 38.0px;
+}
+.bp2-blogipad .bp2-text14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 215px;
+  height              : auto;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 524px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 10.0px;
   color               : rgba(122, 122, 122, 1.0);
   text-align          : center;
-  line-height         : 22.0px;
+  line-height         : 15.0px;
 }
-.bp1-blogdesktop .bp1-line {
+.bp2-blogipad .bp2-line {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 555px;
+  top                 : 423px;
   height              : 3px;
-  width               : 590px;
+  width               : 601px;
   position            : absolute;
   margin              : 0;
-  left                : 391px;
+  left                : 173px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-blogdesktop .bp1-group {
+.bp2-blogipad .bp2-group {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 471px;
-  height              : 36px;
-  width               : 115px;
+  top                 : 358px;
+  height              : 28px;
+  width               : 91px;
   position            : absolute;
   margin              : 0;
-  left                : 745px;
+  left                : 588px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-blogdesktop .bp1-group .bp1-box {
+.bp2-blogipad .bp2-group .bp2-box2 {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 36px;
-  width               : 115px;
+  height              : 28px;
+  width               : 91px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3386,28 +4216,28 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-blogdesktop .bp1-group .bp1-productbutton {
+.bp2-blogipad .bp2-group .bp2-productbutton {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 13px;
+  top                 : 10px;
   height              : auto;
-  width               : 103px;
+  width               : 82px;
   position            : absolute;
   margin              : 0;
-  left                : 6px;
+  left                : 5px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "BlackHanSans-Regular", Helvetica, Arial, serif;
-  font-size           : 12.0px;
+  font-size           : 10.0px;
   color               : rgba(54, 46, 46, 1.0);
   text-align          : center;
-  line-height         : 15.0px;
+  line-height         : 13.0px;
 }
-.bp1-blogdesktop .bp1-blogbanner {
+.bp2-blogipad .bp2-blogbanner {
   background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 160px;
-  height              : 335px;
-  width               : 634px;
+  top                 : 113px;
+  height              : 264px;
+  width               : 500px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3416,11 +4246,11 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-blogdesktop .bp1-blogbanner .bp1-mask {
+.bp2-blogipad .bp2-blogbanner .bp2-mask {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 335px;
-  width               : 634px;
+  height              : 264px;
+  width               : 500px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3428,131 +4258,23 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-blogdesktop .bp1-blogbanner .bp1-blogbanner1 {
+.bp2-blogipad .bp2-blogbanner .bp2-blogbanner1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -52px;
-  height              : 464px;
-  width               : 697px;
+  top                 : -41px;
+  height              : 366px;
+  width               : 550px;
   position            : absolute;
   margin              : 0;
-  left                : -26px;
+  left                : -21px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-blogdesktop .bp1-banner {
+.bp2-blogipad .bp2-blogdatecopy {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : -4px;
-  height              : 165px;
-  width               : 1044px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-banner1 {
-  background-color    : rgba(102, 103, 103, 1.0);
-  top                 : 0px;
-  height              : 165px;
-  width               : 1044px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 16px;
-  height              : 117px;
-  width               : 262px;
-  position            : absolute;
-  margin              : 0;
-  left                : 372px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-logo1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 66px;
-  width               : 107px;
-  position            : absolute;
-  margin              : 0;
-  left                : 81px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-spoolie {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 104px;
-  height              : 13px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 222px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-box1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 107px;
-  height              : 9px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 211px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-spoolie1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 104px;
-  height              : 13px;
-  width               : 40px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-box2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 107px;
-  height              : 9px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 38px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 21px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text3 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
+  top                 : 818px;
   height              : 16px;
-  width               : 6px;
+  width               : 94px;
   position            : absolute;
   margin              : 0;
   left                : 48px;
@@ -3560,964 +4282,242 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text4 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 17px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text5 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 74px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text6 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 92px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text7 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 21px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 115px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text8 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 132px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text9 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 16px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 148px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text10 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 80px;
-  height              : 17px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text11 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 74px;
-  height              : 22px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 180px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text12 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 18px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 203px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-logo .bp1-text13 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 79px;
-  height              : 17px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 215px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-banner .bp1-text14 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 119px;
-  height              : auto;
-  width               : 164px;
-  position            : absolute;
-  margin              : 0;
-  left                : 429px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "MyriadPro-Regular", Helvetica, Arial, serif;
-  font-size           : 19.0px;
-  color               : rgba(254, 255, 254, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.bp1-blogdesktop .bp1-stackedgroup {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 139px;
-  height              : 15px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 251px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-stackedgroup .bp1-linkscopy {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp1-blogdesktop .bp1-stackedgroup .bp1-links {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp1-blogdesktop .bp1-stackedgroup .bp1-product {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp1-blogdesktop .bp1-stackedgroup .bp1-services {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp1-blogdesktop .bp1-stackedgroup .bp1-blog {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp1-blogdesktop .bp1-stackedgroup .bp1-coursetraining {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp1-blogdesktop .bp1-stackedgroup .bp1-contact {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0 0 0 20px;
-  width               : auto;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 18.0px;
-}
-.bp1-blogdesktop .bp1-footer {
-  background-color    : rgba(255, 255, 255, 0.0);
-  bottom              : calc(0.00% - 2px);
-  height              : 244px;
-  width               : 1052px;
-  position            : absolute;
-  margin              : 0;
-  left                : -14px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-footer .bp1-path {
-  background-color    : rgba(254, 255, 254, 1.0);
-  top                 : 109px;
-  height              : 37px;
-  width               : 290px;
-  position            : absolute;
-  margin              : 0;
-  left                : 719px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-footer .bp1-footer1 {
+.bp2-blogipad .bp2-blogdatecopy .bp2-date {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 244px;
-  width               : 1052px;
+  height              : auto;
+  width               : 94px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
 }
-.bp1-blogdesktop .bp1-footer .bp1-footer1 .bp1-rectangle {
+.bp2-blogipad .bp2-blogdatecopy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 490px;
+  height              : 16px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-blogdatecopy2 .bp2-date1 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 244px;
-  width               : 1052px;
+  height              : auto;
+  width               : 102px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
 }
-.bp1-blogdesktop .bp1-footer .bp1-footer1 .bp1-socialicons {
+.bp2-blogipad .bp2-blogheadercopy {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 163px;
-  height              : 28px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 422px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-facebook {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 27px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-instagramicon {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 40px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-footer .bp1-footer1 .bp1-socialicons .bp1-youtube {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 27px;
-  width               : 38px;
-  position            : absolute;
-  margin              : 0;
-  left                : 91px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-footer .bp1-rectangle2copy {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 161px;
-  height              : 37px;
-  width               : 290px;
-  position            : absolute;
-  margin              : 0;
-  left                : 719px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-footer .bp1-rectangle2copy2 {
-  background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 112px;
-  height              : 37px;
-  width               : 290px;
-  position            : absolute;
-  margin              : 0;
-  left                : 719px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-footer .bp1-subscribe {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 164px;
+  top                 : 790px;
   height              : auto;
-  width               : 81px;
+  width               : 252px;
   position            : absolute;
   margin              : 0;
-  left                : 735px;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-blogipad .bp2-blogheadercopy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 462px;
+  height              : auto;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-blogipad .bp2-thankyouforthose {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 563px;
+  height              : auto;
+  width               : 252px;
+  position            : absolute;
+  margin              : 0;
+  left                : 352px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(122, 122, 122, 1.0);
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 22.0px;
+  line-height         : 16.0px;
 }
-.bp1-blogdesktop .bp1-footer .bp1-textyouremailaddress {
+.bp2-blogipad .bp2-markonyourcalenda {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 113px;
-  height              : 30px;
-  width               : 223px;
+  top                 : 856px;
+  height              : auto;
+  width               : 252px;
   position            : absolute;
   margin              : 0;
-  left                : 735px;
+  left                : 352px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(122, 122, 122, 1.0);
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 22.0px;
-  border              : 0;
+  line-height         : 16.0px;
 }
-.bp1-blogdesktop .bp1-footer .bp1-textyouremailaddress::placeholder {
-  color               : rgba(122, 122, 122, 0.6);
-}
-.bp1-blogdesktop .bp1-footer .bp1-address {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
+.bp2-blogipad .bp2-line2 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 29px;
-  height              : auto;
-  width               : 166px;
+  top                 : 1137px;
+  height              : 1px;
+  width               : 598px;
   position            : absolute;
   margin              : 0;
-  left                : 469px;
+  left                : 41px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.bp1-blogdesktop .bp1-footer .bp1-address .bp1-a1630oaklandrdsuit {
+.bp2-blogipad .bp2-line2copy {
   background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
+  top                 : 755px;
+  height              : 1px;
+  width               : 598px;
+  position            : absolute;
   margin              : 0;
-  width               : 166px;
+  left                : 41px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
 }
-.bp1-blogdesktop .bp1-footer .bp1-subscribeinfo {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
+.bp2-blogipad .bp2-vegas {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 31px;
+  top                 : 874px;
+  height              : 227px;
+  width               : 251px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-vegasbooth {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 517px;
+  height              : 181px;
+  width               : 242px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-blogdate {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1192px;
+  height              : 16px;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-blogdate .bp2-date2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp2-blogipad .bp2-blogheader {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1166px;
+  height              : auto;
+  width               : 174px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-blogipad .bp2-lashessential {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1222px;
+  height              : 259px;
+  width               : 285px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-blogipad .bp2-howlashextensions {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1304px;
   height              : auto;
   width               : 278px;
   position            : absolute;
   margin              : 0;
-  left                : 721px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-footer .bp1-subscribeinfo .bp1-subscribetoournew {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 280px;
+  left                : 352px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
   font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : flex-start;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2264px;
-  height              : auto;
-  width               : 162px;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-footerlinks .bp1-home {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks .bp1-aboutus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks .bp1-services1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks .bp1-coursetraining1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks .bp1-shipping {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks .bp1-clientcare {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks .bp1-qaeducational {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : center;
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 2264px;
-  height              : auto;
-  width               : 162px;
-  position            : absolute;
-  margin              : 0;
-  left                : 218px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-footerlinks2 .bp1-products {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks2 .bp1-blog1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks2 .bp1-contactus {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks2 .bp1-team {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-footerlinks2 .bp1-successstories {
-  background-color    : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 2px 0 0 0;
-  width               : 162px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-blogdate {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1739px;
-  height              : 29px;
-  width               : 169px;
-  position            : absolute;
-  margin              : 0;
-  left                : 52px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-blogdate .bp1-date {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 29.0px;
-}
-.bp1-blogdesktop .bp1-blogdate1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1178px;
-  height              : 29px;
-  width               : 173px;
-  position            : absolute;
-  margin              : 0;
-  left                : 52px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-blogdate1 .bp1-date1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 29.0px;
-}
-.bp1-blogdesktop .bp1-blogdate2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 646px;
-  height              : 29px;
-  width               : 173px;
-  position            : absolute;
-  margin              : 0;
-  left                : 52px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-blogdate2 .bp1-date2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 29.0px;
-}
-.bp1-blogdesktop .bp1-blogheader {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1694px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 51px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 36.0px;
+  font-size           : 13.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 43.0px;
-}
-.bp1-blogdesktop .bp1-blogheader1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1133px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 51px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 36.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 43.0px;
-}
-.bp1-blogdesktop .bp1-blogheader2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 601px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 51px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
-  font-size           : 36.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 43.0px;
-}
-.bp1-blogdesktop .bp1-howlashextensions {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1904px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 531px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-thankyouforthose {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 773px;
-  height              : auto;
-  width               : 389px;
-  position            : absolute;
-  margin              : 0;
-  left                : 531px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-markonyourcalenda {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1247px;
-  height              : auto;
-  width               : 387px;
-  position            : absolute;
-  margin              : 0;
-  left                : 531px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.bp1-blogdesktop .bp1-lashessential {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1805px;
-  height              : 402px;
-  width               : 442px;
-  position            : absolute;
-  margin              : 0;
-  left                : 43px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-line1 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1674px;
-  height              : 3px;
-  width               : 924px;
-  position            : absolute;
-  margin              : 0;
-  left                : 51px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-line2 {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1080px;
-  height              : 3px;
-  width               : 924px;
-  position            : absolute;
-  margin              : 0;
-  left                : 51px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-vegas {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 1264px;
-  height              : 353px;
-  width               : 389px;
-  position            : absolute;
-  margin              : 0;
-  left                : 64px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-blogdesktop .bp1-vegasbooth {
-  background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 710px;
-  height              : 282px;
-  width               : 375px;
-  position            : absolute;
-  margin              : 0;
-  left                : 49px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  line-height         : 16.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
