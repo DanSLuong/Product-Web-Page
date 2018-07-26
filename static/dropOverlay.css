@@ -1,0 +1,102 @@
+.product-buttons a {
+    color: white;
+    text-decoration: none;
+}
+
+.services-buttons a {
+    color: white;
+    text-decoration: none;
+}
+
+.course-training-buttons a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #productOverlay {
+        position: absolute;
+        display: none;
+        top: 20px;
+        left: 27%;
+        right: 0;
+        bottom: 0;
+        height: 250%;
+        width: 12%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        cursor: pointer;
+    }
+    
+    #servicesOverlay {
+        position: absolute;
+        display: none;
+        top: 20px;
+        left: 41%;
+        right: 0;
+        bottom: 0;
+        height: 350%;
+        width: 15%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        cursor: pointer;
+    }
+    
+    #courseOverlay {
+        position: absolute;
+        display: none;
+        top: 20px;
+        left: 66%;
+        right: 0;
+        bottom: 0;
+        height: 350%;
+        width: 25%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #productOverlay1 {
+        position: absolute;
+        display: none;
+        top: 20px;
+        left: 27%;
+        right: 0;
+        bottom: 0;
+        height: 250%;
+        width: 12%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        cursor: pointer;
+    }
+    
+    #servicesOverlay1 {
+        position: absolute;
+        display: none;
+        top: 20px;
+        left: 41%;
+        right: 0;
+        bottom: 0;
+        height: 350%;
+        width: 15%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        cursor: pointer;
+    }
+    
+    #courseOverlay1 {
+        position: absolute;
+        display: none;
+        top: 20px;
+        left: 66%;
+        right: 0;
+        bottom: 0;
+        height: 350%;
+        width: 25%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        cursor: pointer;
+    }
+}
